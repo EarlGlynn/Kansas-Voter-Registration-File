@@ -145,6 +145,8 @@ Note:
 * `004-text_name_first.csv` shows 8 people without first names.
 * `020-cde_res_state.csv` shows 17 Kansas voters have a zip code split with Nebraska
 
+<hr>
+
 # 2. Age-Gender-Party breakdown
 
 Parametric RStudio report files to create graphics for each geography (GEONAME).
@@ -175,7 +177,9 @@ Currently charts are only available for Kansas statewide and four counties (Doug
 
 Eventually all 105 counties will have separate directories.
 
-# Active-Inactive Voters
+<hr>
+
+# 3. Active-Inactive Voters
 
 `Map-Kansas-Inactive-Voters.html` (results of processing)
 
