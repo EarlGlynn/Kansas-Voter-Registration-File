@@ -177,12 +177,19 @@ Eventually all 105 counties will have separate directories.
 
 # Active-Inactive Voters
 
-Map-Kansas-Inactive-Voters.html (results of processing)
+`Map-Kansas-Inactive-Voters.html` (results of processing)
+
+List of 105 counties with total voters and active and inactive counts:
+
+`Kansas-Active-Inactive-Voters.xlsx`
+
+County Map
 
 ![alt text](2025-05-02/3-Active-Inactive/Kansas-State-1.png "Kansas: Percent 'Inactive' Voters by County")
 
 Recent article: [Kansas had over 140,000 inactive voters in Jan. 2024 but only 113,000 in Jan. 2025. Inactive rates in some counties are still fairly high.](https://watchdoglab.substack.com/p/kansas-has-27000-fewer-inactive-voters)
 
+<hr>
 
 Notes:
 
