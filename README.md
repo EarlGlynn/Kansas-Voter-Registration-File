@@ -90,7 +90,7 @@ Birth years before ~1915 are suspect (e.g., 1054 should be 1954).
 
 * `Kansas-Crosstab-RegisterYear-by-RegisterMonth-yyyy-mm-dd.xlsx`
 
-Registration years before 1960 are suspect. One registration in the future is an errors.
+Registration years before 1960 are suspect. One registration in the future is an error.
 
 ## Household issues
 
@@ -106,17 +106,18 @@ Top 10
 
 ![alt text](2025-05-02/1-First-Look/Top-10-Household-Street-Addresses.PNG "Top 10 Kansas Voter Street Households")
 
-"1501 N Ford St" is the address of the Hutchinson Community College.
+"1501 N Ford St" is the address of the Hutchinson Community College, where at least 385 students no longer reside.
 
 ### Mailing Addresses
 
 * `Kansas-Households-Mail-to-Explore-for-Many-Voters-yyyy-mm-dd.xlsx`
 
-"PO Box 340" in Liberal is the Seward County Community College.
-
 Top 10
 
 ![alt text](2025-05-02/1-First-Look/Top-10-Household-Mailing-Addresses.PNG "Top 10 Kansas Voter Mailing Households")
+
+"PO Box 340" in Liberal is the Seward County Community College.
+
 
 ## Election Codes
 
