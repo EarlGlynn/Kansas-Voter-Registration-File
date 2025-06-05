@@ -6,7 +6,7 @@
 
 An RStudio computational notebook shows results of analyzing a voter registration file from Kansas Secretary of State:
 
-File:  **Kansas-First-Look-Edited.html** (results of processing)
+File:  `Kansas-First-Look-Edited.html` (results of processing)
 
 Shows
 
@@ -26,7 +26,7 @@ Shows
 
 ## Metadata
 
-File:  **Kansas-Field-Length-Summary-yyyy-mm-dd-Edited.xlsx**
+File:  `Kansas-Field-Length-Summary-yyyy-mm-dd-Edited.xlsx`
 
 Descriptive stats about each data field (treated as character strings), including:
 
@@ -49,11 +49,11 @@ School district `district_sd` is not defined for 332 voters.
 
 **Files**
 
-* State:  Kansas-Counts-State-yyyy-mm-dd.xlsx
+* State:  `Kansas-Counts-State-yyyy-mm-dd.xlsx`
 
-* County:  Kansas-Counts-County-yyyy-mm-dd.xlsx
+* County:  `Kansas-Counts-County-yyyy-mm-dd.xlsx`
 
-* Precinct: Kansas-Counts-Precinct-yyyy-mm-dd.xlsx
+* Precinct: `Kansas-Counts-Precinct-yyyy-mm-dd.xlsx`
 
 Stats include
 
@@ -80,35 +80,39 @@ Stats include
 
 ## Age issues
 
-* $$\lt$$ 18 years old:  Kansas-Age-Too-Young-yyyy-mm-dd-Edited.xlsx
+* $$\lt$$ 18 years old:  `Kansas-Age-Too-Young-yyyy-mm-dd-Edited.xlsx`
 
-* $$\ge$$ 105 years old:  Kansas-Age-Too-Old-yyyy-mm-dd-Edited.xlsx
+* $$\ge$$ 105 years old:  `Kansas-Age-Too-Old-yyyy-mm-dd-Edited.xlsx`
 
-* Kansas-Crosstab-BirthYear-by-BirthMonth-yyyy-mm-dd.xlsx
+* `Kansas-Crosstab-BirthYear-by-BirthMonth-yyyy-mm-dd.xlsx`
 
 Birth years before ~1915 are suspect (e.g., 1054 should be 1954).
 
-* Kansas-Crosstab-RegisterYear-by-RegisterMonth-yyyy-mm-dd.xlsx
+* `Kansas-Crosstab-RegisterYear-by-RegisterMonth-yyyy-mm-dd.xlsx`
 
 Registration years before 1960 are suspect. One registration in the future is an errors.
 
 ## Household issues
 
-A "household" is a common address shared by a group of voters, often families.
+A "household" is a common address shared by a group of voters, often families but sometimes dormitories.
 
 Lists below show households with the top 0.1% number of voters (descending sort).
 
 ### Street Addresses
 
-* Kansas-Households-Address-to-Explore-for-Many-Voters-yyyy-mm-dd.xlsx
+* `Kansas-Households-Address-to-Explore-for-Many-Voters-yyyy-mm-dd.xlsx`
 
 Top 10
 
 ![alt text](2025-05-02/1-First-Look/Top-10-Household-Street-Addresses.PNG "Top 10 Kansas Voter Street Households")
 
+"1501 N Ford St" is the address of the Hutchinson Community College.
+
 ### Mailing Addresses
 
-* Kansas-Households-Mail-to-Explore-for-Many-Voters-yyyy-mm-dd.xlsx
+* `Kansas-Households-Mail-to-Explore-for-Many-Voters-yyyy-mm-dd.xlsx`
+
+"PO Box 340" in Liberal is the Seward County Community College.
 
 Top 10
 
@@ -120,7 +124,7 @@ Voter history is recorded with a code
 
 Counts of numbers of voters and counties using election codes (sorted in descending order):
 
-File:  Kansas-Election-Code-Summary-yyyy-mm-dd.xlsx
+File:  `Kansas-Election-Code-Summary-yyyy-mm-dd.xlsx`
 
 Top 10
 
@@ -144,11 +148,11 @@ Note:
 
 Parametric RStudio report files to create graphics for each geography (GEONAME).
 
-* Age-Gender-Party-Driver.html (results of processing)
+* `Age-Gender-Party-Driver.html` (results of processing)
 
-* Age-Gender-Party-Driver.Rmd
+* `Age-Gender-Party-Driver.Rmd`
 
-* Age-Gender-Party-Template.Rmd
+* `Age-Gender-Party-Template.Rmd`
 
 ## Kansas statewide
 
