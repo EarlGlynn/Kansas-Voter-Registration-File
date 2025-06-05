@@ -1,0 +1,211 @@
+---
+title: "Reformat Census"
+author: "Earl F Glynn<br><small>watchdoglab.substack.com/</small>"
+date: "<small>`r Sys.Date()`</small>"
+output:
+  html_document:
+    code_download: true
+    theme: cerulean
+    toc: yes
+    toc_depth:  3
+    toc_float:
+      collapsed:  yes
+      smooth_scroll: yes
+    number_sections: yes
+    code_folding:  show
+---
+
+```{r setup, echo = FALSE}
+# http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHtmlTemplate
+require(Hmisc)    # provides knitrSet and other functions
+knitrSet(lang = 'markdown',   # If using blogdown: knitrSet(lang='blogdown')
+         fig.align = 'left',
+         w = 6.5,
+         h = 4.5,
+         cache = FALSE)
+```
+
+`r hidingTOC(buttonLabel = "Outline")`
+
+```{r startYourEngines, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  comment = NA)
+
+time.1 <- Sys.time()
+```
+
+# Setup {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Constants
+
+```{r Constants}
+FILE_PREFIX   <- "x"    # no spaces
+```
+
+```{r}
+EXCEL_LIMIT <- 2^20
+```
+
+```{r}
+plotCaptionLeft  <- "IRS 527"
+plotCaptionRight <- paste("watchdoglab.substack.com", format(Sys.time(), "%Y-%m-%d"))
+```
+
+## Packages
+
+```{r Packages}
+library(tidyverse)
+library(lubridate)
+```
+
+Display formatting
+
+```{r Display}
+library(kableExtra)  # kable_styling
+#library(IRdisplay)   # display_html (needed in Jupyter notebooks)
+```
+
+I/O
+
+```{r IO}
+library(readxl)      # read_xlsx
+library(readr)       # write_csv
+library(writexl)     # write_xlsx
+```
+
+ Graphics
+
+```{r Graphics}
+library(scales)      # comma, comma_format
+```
+
+Utilities
+
+```{r Utilities}
+library(downloader)  # download
+library(tools)       # md5sum
+```
+
+## ggplot theme
+
+[ggplot Themes Gallery](https://www.datanovia.com/en/blog/ggplot-themes-gallery/)
+
+```{r ggplotTheme}
+theme_set(theme_minimal() +
+
+          theme(axis.text             = element_text(size = 10),
+                axis.title            = element_text(size = 14),
+
+                legend.position       = "bottom",
+
+                plot.caption          = element_text(hjust = c(0.0,1.0),
+                                                     size = 10),
+                plot.caption.position = "plot",
+
+                plot.title.position   = "plot",
+
+                strip.background      = element_rect(fill = "aliceblue"),
+                strip.text            = element_text(size = 14),
+
+                title                 = element_text(size = 14)))
+
+COLOR_BAR     <- "skyblue"
+COLOR_OUTLINE <- "grey80"
+```
+
+## Helper functions
+
+```{r Helpers}
+Show <- function(data, caption="", bigMark="",
+                 height = NULL, width = NULL, ...)
+{
+  data                                       %>%
+  kable("html", caption=caption,
+        format.args=list(big.mark=bigMark))  %>%
+  kable_styling(bootstrap_options=c("striped", "bordered", "condensed"),
+                position="left",
+                full_width=FALSE, ...)       %>%
+  scroll_box(height = height, width = width) 
+}
+```
+
+# Read Census File Headers
+
+```{r StartHere}
+meta <- 
+  read_csv("ACSST5Y2022.S0101-Column-Metadata.csv",
+           show_col_types = FALSE)                        |>
+  separate(`Column Name`, c("Table", "Set", "Variable"),
+           sep = "_", remove = FALSE)                     |>
+  separate(Variable, c("Number", "Suffix"), sep = 3)      |>
+  separate(Label, c("Type", "Grouping", "Product", "Age", "Interval"),
+           sep = "!!", remove = FALSE)                    |>
+  relocate(Table, Set, Number, Suffix, 
+           Type, Grouping, Product, Age, Interval)        |>
+  mutate(index = row_number())                            |>
+  relocate(index)
+  
+dim(meta)
+```
+```{r}
+head(meta, 10) |> Show()
+```
+
+
+```{r}
+write_xlsx(meta, "Census-Meta-Data.xlsx")
+```
+
+Set:  C01, C03, C05, ID, blanks
+Suffix:  E, blanks
+Interval:  under 5 years, 5 to 9, 10 to 14, 15 to 19, 20 to 24, 25 to 29, 30 to 34, 35 to 39, 40 to 44, 
+           45 to 49, 50 to 54, 55 to 59, 60 to 64, 45 to 69, 70 to 74, 75 to 79, 80 to 84, 85 and over,
+           under 18, 18 and over,
+           blanks
+
+
+
+
+# Extract Estimates
+
+```{r}
+estimate <- 
+  d |>
+  select(NAME = `Geographic Area Name`,
+         starts_with("Estimate!!Total"),
+         starts_with("Estimate!!Male"),
+         starts_with("Estimate!!Female"))
+
+dim(estimate)
+```
+
+```{r}
+glimpse(estimate)
+```
+
+
+# Epilog {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Session Info
+
+```{r devtoolsSessionInfo}
+devtools::session_info()
+```
+
+</div>
+
+```{r epilogDeltaTime, echo=FALSE}
+time.2 <- Sys.time()
+processingTime <- paste("Processing time:", sprintf("%.1f",
+                        as.numeric(difftime(time.2,
+                                            time.1, units="secs"))), "secs\n")
+```
+
+`r processingTime`
+`r format(time.2, "%Y-%m-%d %H%M")`
+

@@ -1,0 +1,1553 @@
+---
+output:
+  html_document:
+    code_download: true
+    theme: cerulean
+    toc: yes
+    toc_depth:  3
+    toc_float:
+      collapsed:  yes
+      smooth_scroll: yes
+    number_sections: yes
+    code_folding:  show
+
+params:
+  STATE:              "Kansas"
+  ELECTION_DATE:      "2025-08-05"    # "2025-11-04
+  VOTER_FILE_DATE:    "2025-05-02"
+  RAW_VOTER_FILE:     "Statewide_Emails_Addl_Fields_5.2.25.txt"
+  FIXED_VOTER_FILE:   "Kansas-Fixed.txt"
+  UPDATED_VOTER_FILE: "Kansas-Updated.txt"
+  COUNTS_DIR:         "Counts"
+
+title:  "Kansas Voter Registration File - `r params$VOTER_FILE_DATE`"
+author: "Earl F Glynn"
+date:   "<small>`r Sys.Date()`</small>"
+---
+
+```{r setup, echo = FALSE}
+# http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHtmlTemplate
+require(Hmisc)    # provides knitrSet and other functions
+knitrSet(lang = 'markdown',   # If using blogdown: knitrSet(lang='blogdown')
+         fig.align = 'left',
+         w = 6.5,
+         h = 4.5,
+         cache = FALSE)
+```
+
+`r hidingTOC(buttonLabel = "Outline")`
+
+```{r setup2, include = FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  comment    = NA)
+
+time.1 <- Sys.time()
+```
+
+Script to perform quality checks and to produce frequency counts of fields in the Kansas voter registration file.
+
+**History**
+
+* Convert very old R script to markdown and tidyverse | 2019-01-26
+
+**Output Files**
+
+**State**
+
+* `Kansas-Fixed.txt`   - fix tab problem, header consistency
+
+* `Kansas-Updated.txt` - add additional useful variables for analysis
+
+
+* `Kansas-Counts-Age-yyyy-mm-dd.xlsx`
+
+* `Kansas-Counts-State-yyyy-mm-dd.xlsx`
+
+* `Kansas-Crosstab-BirthYear-by-BirthMonth-yyyy-mm-dd.xlsx`
+
+* `Kansas-Crosstab-RegisterYear-by-RegisterMonth-yyyy-mm-dd.xlsx`
+
+* `Kansas-Registrations-By-Year-and-Month-yyyy-mm-dd.svg`
+
+* `Kansas-Election-Code-Summary-yyyy-mm-dd.xlsx`
+
+
+* `Kansas-Explore-Name-Duplicates-yyyy-mm-dd.xlsx`
+
+* `Kansas-Households-Address-to-Explore-for-Many-Voters-yyyy-mm-dd.xlsx`
+
+* `Kansas-Households-Mail-to-Explore-for-Many-Voters-yyyy-mm-dd.xlsx`
+
+
+**County**
+
+* `Kansas-Counts-County-yyyy-mm-dd.xlsx`
+
+* `Kansas-County-Voter-Election-Code-Summary-yyyy-mm-dd.xlsx`
+
+
+**Precinct**
+
+* `Kansas-Counts-Precinct-yyyy-mm-dd.xlsx`
+
+
+**Voter**
+
+* `Kansas-Election-Codes-by-Voter-yyyy-mm-dd.txt`
+
+* `Kansas-Explore-Name-Duplicates-yyyy-mm-dd.xlsx`
+
+* `Kansas-Voters-Missing-District-Info-yyyy-mm-dd.xlsx`
+
+
+**Election Code**
+
+* `Kansas-Election-Code-Summary-yyyy-mm-dd.xlsx`
+
+
+**Data Fields**
+
+* `Kansas-Field-Length-Summary-yyyy-mm-dd.xlsx`
+
+* `Counts` folder with CSV file of frequency counts for each of ~90 fields
+
+# Backstage {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Constants
+
+```{r}
+EXCEL_LIMIT <- 2^20
+```
+
+Use 5-year census intervals (except for interval 18-19)
+
+```{r}
+ageBreaks <- 5 * 3:17
+ageBreaks[1] <- 18
+```
+
+ [1]  18  20  25  30  35  40  45  50  55  60  65  70  75  80  85
+
+```{r}
+ageIntervals <-
+  c(paste(ageBreaks[-length(ageBreaks)], ageBreaks[-1]-1, sep = "-"),
+    paste0(ageBreaks[length(ageBreaks)], "+"))
+ageIntervals[1] <- "18-19"
+```
+
+ [1] "18-19" "20-24" "25-29" "30-34" "35-39" "40-44" "45-49" "50-54" "55-59" "60-64"
+[11] "65-69" "70-74" "75-79" "80-84" "85+"
+
+
+## Packages
+
+```{r}
+library(tidyverse)
+library(writexl)
+library(kableExtra)
+```
+
+```{r}
+library(lubridate)   # date/time functions
+library(gplots)      # heatmap.2
+library(scales)      # comma
+```
+
+## Helper Function
+
+```{r Helpers}
+Show <- function(data, caption="", bigMark="",
+                 height = NULL, width = NULL, ...)
+{
+  data                                       |>
+  kable("html", caption=caption,
+        format.args=list(big.mark=bigMark))  |>
+  kable_styling(bootstrap_options=c("striped", "bordered", "condensed"),
+                position="left",
+                full_width=FALSE, ...)       |>
+  scroll_box(height = height, width = width)
+}
+```
+
+# Character Quality Check
+
+Check for unusual characters using `CharCount` utility from [github](https://github.com/EarlGlynn/CharacterCount).  This shows the count of the 256 possible 8-bit bytes in the file.  Look for changes from recent files.
+
+The `CharCount` table will confirm whether the field separator is a tab (x09) vs a comma (x2C), and identify possible problem characters
+
+Screen shot of running CharCount is saved to file `CharCount.png` for inclusion here.
+
+```{r, out.width="1500px", echo=FALSE}
+knitr::include_graphics("CharCount.png")
+```
+
+The number of problem characters is now fairly low compared to past years.
+
+Problems can include x'E1' and x'F1'.  Failure to fix these characters can cause problems.
+
+See use of `iconv` below.
+
+# Raw data file
+
+## Parameters
+
+```{r}
+cat("Raw Data: ",       params$RAW_VOTER_FILE,
+    "\nFixed File: ",   params$FIXED_VOTER_FILE,
+    "\nUpdated File: ", params$UPDATED_VOTER_FILE,
+    "\nElection Date (for age computations): ", params$ELECTION_DATE, "\n")
+```
+
+The Kansas statewide file has had problems in the parsability of records for various reasons. So, let's check for such  problems.
+
+## Fix problems in file programmatically
+
+Records with too many tabs are from Geary County since 2006.
+
+Fix encoding issue, since text is not interpreted as a valid string because it contains non-ASCII characters.
+
+```{r}
+rawLines <-
+  read_lines(params$RAW_VOTER_FILE)       |>
+  iconv(from = "ISO-8859-1", to = "UTF-8")
+
+length(rawLines)
+```
+
+### Make header like rest of data records.
+
+Kansas-specific problem since 2006!
+
+Add tab to end of header row to make it like other data lines with final tab.
+ 
+Maybe someday the Kansas Secretary of State's Office could fix this anomaly?
+
+This makes the header row tab terminated, like the rest of the data.
+
+BUT, there will be a blank last column that needs to be deleted.
+
+```{r}
+rawLines[1] <- paste(rawLines[1], "\t", sep="")
+```
+
+### Fix problem Geary County record
+
+[Problem started in 2006!!]
+
+See `C:\Data\Kansas\RawData\2020s\2023\2023-02-13\Geary-County-Parse-Problem.docx`
+
+```{r}
+verify1 <- grep("778 TC CO\t\t5302 ASHBY AVE\t", rawLines)
+length(verify1)
+```
+
+This Geary County problem was finally resolved in May 2025.  Continue making this check until 2026.
+
+### Create `Fixed` data
+
+```{r}
+write_lines(rawLines, params$FIXED_VOTER_FILE)
+```
+
+## Delimiter Check
+
+* With fixes above, all records should parse consistently.  Let's check.
+
+* Without `comment.char` override, records with # characters are problems.
+
+* Without `quote` override, records with apostrophes or quotation marks are problems.
+
+```{r}
+counts <- tibble(fieldCounts = count.fields(params$FIXED_VOTER_FILE,
+                                            sep="\t",
+                                            comment.char="",
+                                            quote=""))
+```
+
+```{r}
+freqCounts <-
+  counts                                |>
+  group_by(fieldCounts)                 |>
+  summarize(n = n(), .groups = "drop")  |>
+  ungroup()
+
+freqCounts |>
+    Show(bigMark = ",")
+```
+
+All records should have the same number of fields.
+
+## Read fixed file
+
+```{r}
+voters <- read_delim(params$FIXED_VOTER_FILE, "\t",
+                     quote = "",
+                     comment = "",
+                     na = character(),  # some people might have names of "NA"
+                     col_types = cols(.default = "c"),
+                     progress = FALSE)
+
+dim(voters)
+```
+
+There is an extra column R created because of the tab at the end of
+each line.  (Tabs are "separators" not "terminators".)
+
+Verify final unwanted column has no info.
+
+```{r}
+table(voters[,ncol(voters)], useNA="ifany")
+```
+
+Get rid of unwanted column
+
+```{r}
+voters <- voters[,-ncol(voters)]
+```
+
+```{r}
+glimpse(voters)
+```
+
+### Parties
+
+Verify current political parties (new ones added in 2024):
+
+Recode missing party to `Unaffiliated`
+
+```{r}
+table(voters$desc_party, useNA = "ifany")
+```
+
+### Genders
+
+Recode missing gender to `U`in cleanup below.
+
+```{r}
+table(voters$cde_gender, useNA = "ifany")
+```
+
+# Cleanup / Fixups / Add new variables
+
+## Osage County Congressional District Fix
+
+Assign Osage County CG0002 Congressional District
+
+[Resource to confirm Osage is in 2nd Congressional District](https://www2.census.gov/geo/maps/cong_dist/cd117/cd_based/ST20/CD117_KS02.pdf)
+
+```{r}
+table(voters$district_cg, useNA = "ifany")
+```
+
+Fix this problem below.
+
+```{r}
+cgProblem <- 
+  voters |>
+  filter(district_cg == " ")
+
+nrow(cgProblem)
+```
+
+```{r}
+table(cgProblem$db_logid, useNA = "ifany")
+```
+
+```{r}
+missingCG <- 
+  voters |>
+  filter(district_cg == " ")
+
+nrow(missingCG)
+```
+
+```{r}
+ write_xlsx(missingCG,
+             paste0("Osage-County-Missing-Congressional-Field-", params$VOTER_FILE_DATE, ".xlsx"))
+```
+
+```{r}
+target <- which(voters$district_cg == " ")
+voters$district_cg[target] <- "CG0002"
+length(target)
+```
+
+```{r}
+table(voters$district_cg, useNA = "ifany")
+```
+
+## Wrong State Senate Districts
+
+* Scott County  KS0033 → KS0039
+
+* Wilson County KS0014 → KS0012
+
+```{r}
+voters |>
+  filter(db_logid %in% c("Scott", "Wilson")) |>
+  group_by(db_logid)   |>
+  count(district_ks )  |> 
+  Show()
+```
+
+### Scott County
+
+[Senate District 33](https://kslegislature.gov/li/s/pdf/district_maps/district_map_s_033.pdf) does not contain Scott County.
+
+[Senate District 39](https://kslegislature.gov/li/s/pdf/district_maps/district_map_s_039.pdf)  map shows it contains Scott County
+
+```{r}
+target <- which(voters$db_logid == "Scott")
+voters$district_ks[target] <- "KS0039"
+length(target)
+```
+
+### Wilson County
+
+[Senate District 14](https://kslegislature.gov/li/s/pdf/district_maps/district_map_s_014.pdf) does not contain Wilson County.
+
+[Senate District 12](https://kslegislature.gov/li/s/pdf/district_maps/district_map_s_012.pdf) map shows it contains Wilson County]
+
+```{r}
+target <- which(voters$db_logid == "Wilson")
+voters$district_ks[target] <- "KS0012"
+length(target)
+```
+
+Verify fix
+
+```{r}
+voters |>
+  filter(db_logid %in% c("Scott", "Wilson")) |>
+  group_by(db_logid)   |>
+  count(district_ks )  |> 
+  Show()
+```
+
+## Other cleanup
+
+Get rid of leading/trailing blanks in many fields.  Should be fixed in state file.
+
+```{r}
+votersModified <-
+  voters                              |>
+  rename(County = db_logid)           |>   # `County` should never have been `db_logid`
+  mutate(
+          cde_registrant_status       = str_trim(cde_registrant_status) |>
+                                        str_to_upper(),  # Lower case happened once
+
+          # many fields have leading blanks to trim -- should probably trim all fields
+          cde_name_title              = str_trim(cde_name_title),
+          text_name_first             = str_trim(text_name_first),
+          text_name_middle            = str_trim(text_name_middle),
+          text_name_last              = str_trim(text_name_last),
+          cde_name_suffix             = str_trim(cde_name_suffix),
+          
+          registrant_text_email       = str_trim(registrant_text_email),
+          
+          text_res_address_nbr        = str_trim(text_res_address_nbr),
+          text_res_address_nbr_suffix = str_trim(text_res_address_nbr_suffix),
+          cde_street_dir_prefix       = str_trim(cde_street_dir_prefix),
+          text_street_name,
+          cde_street_type             = str_trim(cde_street_type),
+          cde_street_dir_suffix       = str_trim(cde_street_dir_suffix),
+          cde_res_unit_type           = str_trim(cde_res_unit_type),
+          text_res_unit_nbr           = str_trim(text_res_unit_nbr),
+          text_res_zip5               = str_trim(text_res_zip5),
+          text_res_zip4               = str_trim(text_res_zip4),
+          
+          text_mail_address1          = str_squish(text_mail_address1),  # also remove extra internal spaces
+          text_mail_address2          = str_squish(text_mail_address2),
+          text_mail_address3          = str_squish(text_mail_address3),
+          text_mail_address4          = str_squish(text_mail_address4),
+          text_mail_city              = str_trim(text_mail_city),
+          cde_mail_state              = str_trim(cde_mail_state),
+          text_mail_zip5              = str_trim(text_mail_zip5),
+          text_mail_zip4              = str_trim(text_mail_zip4),
+          
+          text_res_carrier_rte        = str_trim(text_res_carrier_rte),
+          text_mail_carrier_rte       = str_trim(text_mail_carrier_rte),
+          
+          text_phone_exchange         = str_trim(text_phone_exchange),
+          text_phone_last_four        = str_trim(text_phone_last_four),
+          
+          text_election_code_1        = str_trim(text_election_code_1),
+          text_election_code_2        = str_trim(text_election_code_2),
+          text_election_code_3        = str_trim(text_election_code_3),
+          text_election_code_4        = str_trim(text_election_code_4),
+          text_election_code_5        = str_trim(text_election_code_5),
+          text_election_code_6        = str_trim(text_election_code_6),
+          text_election_code_7        = str_trim(text_election_code_7),
+          text_election_code_8        = str_trim(text_election_code_8),
+          text_election_code_9        = str_trim(text_election_code_9),
+          text_election_code_10       = str_trim(text_election_code_10),
+          polling_place_text_zip5     = str_trim(polling_place_text_zip5),
+          polling_place_text_zip4     = str_trim(polling_place_text_zip4),
+          district_jd                 = str_trim(district_jd),
+          district_sd                 = str_trim(district_sd),
+
+          text_res_physical_address = str_trim(text_res_physical_address),
+
+          phone                     = paste(text_phone_area_code,
+                                            text_phone_exchange,
+                                            text_phone_last_four, sep = "-"),
+
+          cde_gender                = if_else(cde_gender == "", "U", str_trim(cde_gender)),  # Missing -> "U"
+          cde_gender                = recode(cde_gender,
+                                             .missing = "U"),
+
+          desc_party                = if_else(desc_party  == "",    # Missing -> "Unaffilated"
+                                              "Unaffiliated",
+                                              str_trim(desc_party)),
+          desc_party                = recode(desc_party,
+                                             .missing = "Unaffiliated"),
+
+          Party                     = case_match(desc_party,
+                                                  "Democratic"       ~ "D",
+                                                  "Libertarian"      ~ "L",
+                                                  "No Labels Kansas" ~ "N",   # new in 2024
+                                                  "Republican"       ~ "R",
+                                                  "Unaffiliated"     ~ "U",
+                                                  "United Kansas"    ~ "K"    # new in 2024
+                                                ),
+
+          commissioner =paste0(County, "-", district_cc),   # Make unique statewide
+          
+          precinct_text_designation = str_trim(precinct_text_designation),
+          precinct_text_name        = str_trim(precinct_text_name),  # needed for some counties
+          precinct                  = paste(County,         # Make unique statewide
+                                            precinct_text_name, precinct_text_designation,
+                                            sep = "|"),
+
+          precinct_part_text_designation = str_trim(precinct_part_text_designation),
+          precinct_part_text_name        = str_trim(precinct_part_text_name),
+          precinctPart                   = paste(County, precinct_part_text_name,
+                                                 precinct_part_text_designation, sep = "|"),
+
+          # Kansas voter roll often has 100+ near-duplicate name entries, often at the same address.
+          nameHash = paste(   # used to be hash, but now let's use verbose string
+                            County,
+                            text_name_last,
+                            text_name_first,
+                            text_name_middle,
+                            cde_name_suffix,
+                            cde_gender,
+                            mdy(date_of_birth),
+                            sep = "|"
+                           ),
+
+          # Households
+          addressHousehold = paste(County,
+                                   text_res_city,
+                                   text_res_zip5,
+                                   text_res_address_nbr,
+                                   text_res_address_nbr_suffix,
+                                   cde_street_dir_prefix, text_street_name, cde_street_type,
+                                   cde_res_unit_type, text_res_unit_nbr,
+                                   text_res_zip4,
+                                   sep = "|"),
+          mailHousehold    = paste(
+                                   text_mail_city,
+                                   text_mail_zip5,
+                                   text_mail_address1,
+                                   text_mail_address2,
+                                   text_mail_address3,
+                                   text_mail_address4,
+                                   cde_mail_state,
+                                   text_mail_zip4,
+                                   sep = "|"),
+
+          # Registration
+          RegisterDate     = mdy(date_of_registration),
+          RegisterYear     = lubridate::year(RegisterDate),       # Use for cleanup
+          RegisterMonth    = lubridate::month(RegisterDate),
+          Registered       = (RegisterDate %--% lubridate::ymd(params$ELECTION_DATE)) / years(1),
+
+          # Birthdate / Age
+          BirthDate        = mdy(date_of_birth),
+          BirthYear        = lubridate::year(BirthDate),          # Use for cleanup
+          BirthMonth       = lubridate::month(BirthDate),
+          Age              = round((BirthDate %--% lubridate::ymd(params$ELECTION_DATE)) / years(1)),
+          AgeInterval      = cut(Age,
+                                 breaks = c(ageBreaks, Inf),
+                                 right = FALSE,
+                                 labels = ageIntervals),
+          AgeRegistered    = round( as.numeric( mdy(date_of_registration)  -
+                                                mdy(date_of_birth) ) / 365.25, 2),
+
+          DayOfLeapYear    = paste0( str_sub(date_of_birth, 1, 6),  "2024" ) |> mdy() |>  yday()  # Fairly random distribution?
+        )
+
+dim(votersModified)
+write_tsv(votersModified, params$UPDATED_VOTER_FILE)
+```
+
+# Stats for State
+
+## Status
+
+```{r}
+table(votersModified$cde_registrant_status, useNA = "ifany")
+```
+
+## Party
+
+```{r}
+table(votersModified$desc_party, useNA = "ifany")
+```
+
+```{r}
+table(votersModified$Party, useNA = "ifany")
+```
+
+## Gender
+
+```{r}
+table(votersModified$cde_gender, useNA = "ifany")
+```
+
+## Age
+
+### Too young?
+
+BirthDate needed to be 18 on election day
+
+```{r}
+ymd(params$ELECTION_DATE) - years(18)
+```
+
+```{r}
+tooYoung <- 
+  votersModified |>
+  filter(BirthDate > ymd(params$ELECTION_DATE) - years(18))
+
+if (nrow(tooYoung) > 0)
+{
+  write_xlsx(tooYoung,
+             paste0(params$STATE, "-Age-Too-Young-", params$VOTER_FILE_DATE, ".xlsx"))
+}
+
+dim(tooYoung)
+```
+
+BirthDate range for too young
+
+```{r}
+c( min(tooYoung$BirthDate), min(tooYoung$BirthDate))
+```
+
+### Stats
+
+```{r}
+fivenum(votersModified$Age)
+```
+
+```{r}
+table(votersModified$Age, useNA = "ifany")
+```
+
+```{r}
+ageCounts <-
+  votersModified |>
+  count(Age)
+```
+
+```{r}
+write_xlsx(ageCounts,
+           paste0(params$STATE, "-Counts-Age-", params$VOTER_FILE_DATE, ".xlsx"))
+```
+
+### Too old?
+
+```{r}
+TOO_OLD <- 105
+
+ageCounts |>
+  filter(Age >= TOO_OLD)  |>
+  Show(height = "300px")
+```
+
+```{r}
+tooOld <- 
+  votersModified |>
+  filter(Age >= TOO_OLD)
+
+if (nrow(tooOld) > 0)
+{
+  write_xlsx(tooOld,
+             paste0(params$STATE, "-Age-Too-Old-", params$VOTER_FILE_DATE, ".xlsx"))
+}
+
+dim(tooOld)
+```
+
+Breakdown by County
+
+```{r}
+tooOldByCounty <- 
+  tooOld            |>
+  group_by(County)  |>
+  count()          
+
+nrow(tooOldByCounty)
+```
+
+```{r}
+tooOldByCounty |> Show()
+```
+
+```{r}
+if (nrow(tooOldByCounty) > 0)
+{
+  write_xlsx(tooOldByCounty,
+             paste0(params$STATE, "-Age-Too-Old-By-County", params$VOTER_FILE_DATE, ".xlsx"))
+}
+```
+
+## Summary
+
+```{r}
+countsState <-
+  votersModified  |>
+  summarize(
+             n             = n(),
+             Voters        = n_distinct(text_registrant_id),
+             
+             AgeMin         = min(Age, na.rm = TRUE),                      # Age
+             AgeQ25         = quantile(Age, 0.25, na.rm = TRUE),
+             AgeMedian      = median(Age, na.rm = TRUE),
+             AgeQ75         = quantile(Age, 0.75, na.rm = TRUE),
+             AgeQ999        = quantile(Age, 0.999, na.rm = TRUE),
+             AgeMax         = max(Age, na.rm = TRUE),                  
+             
+             nCounty       = n_distinct(County),                           # Districts
+             nCommissioner = n_distinct(commissioner),
+
+             nCongress      = n_distinct(district_cg),
+             nKSSenate      = n_distinct(district_ks),
+             nKSHouse       = n_distinct(district_kr),
+             nKSStateBoard  = n_distinct(district_sb),
+             nKSSchoolBoard = n_distinct(district_sd),
+
+             City           = n_distinct(text_res_city),
+             Zip            = n_distinct(text_res_zip5),
+             
+             Precinct       = n_distinct(precinct),
+             PrecinctPart   = n_distinct(precinctPart),
+
+             Email          = n_distinct(registrant_text_email),
+             Phone          = n_distinct(phone),
+             
+             AddressHousehold = n_distinct(addressHousehold),
+             MailHousehold    = n_distinct(mailHousehold),
+
+             Female         = sum(cde_gender == "F", na.rm = TRUE),        # Gender     
+             Male           = sum(cde_gender == "M", na.rm = TRUE),
+             Unknown        = sum(cde_gender == "U", na.rm = TRUE),
+             PercentFemale     = round(100 * Female / Voters, 2),
+             PercentMale       = round(100 * Male / Voters, 2),
+                                                                           # Party    
+             Democratic     = sum(desc_party == "Democratic",       na.rm = TRUE),
+             Republican     = sum(desc_party == "Republican",       na.rm = TRUE),
+             Libertarian    = sum(desc_party == "Libertarian",      na.rm = TRUE),
+             NoLabels       = sum(desc_party == "No Labels Kansas", na.rm = TRUE),
+             UnitedKansas   = sum(desc_party == "United Kansas",    na.rm = TRUE),
+             Unaffilated    = sum(desc_party == "Unaffiliated"    , na.rm = TRUE),
+             PercentDemocratic = round(100 * Democratic / Voters, 2),
+             PercentRepublican = round(100 * Republican / Voters, 2),        
+
+             Active            = sum(cde_registrant_status == "A"),        # Status
+             Inactive          = sum(cde_registrant_status == "I"),
+             PercentInactive   = round(100 * Inactive / (Active + Inactive), 2)
+           )
+
+countsState |> Show(bigMark = ",")
+write_xlsx(countsState, paste0(params$STATE, "-Counts-State-", params$VOTER_FILE_DATE, ".xlsx"))
+```
+
+## Crosstabs
+
+### `date_of_registration`:  Year by Month
+
+```{r}
+byYearMonth <-
+  votersModified                         |>
+  select(RegisterYear, RegisterMonth)    |>
+  group_by(RegisterYear, RegisterMonth)  |>
+  count()                                |>
+  arrange(RegisterYear, RegisterMonth)   |>
+  collect()                              |>
+  spread(RegisterMonth, n, fill = 0)     |>
+  ungroup()
+
+dim(byYearMonth)
+```
+
+```{r}
+write_xlsx(byYearMonth, paste0(params$STATE, "-Crosstab-RegisterYear-by-RegisterMonth-", params$VOTER_FILE_DATE, ".xlsx"))
+```
+
+```{r}
+byYearMonth |> Show(height = "400px")
+```
+
+Graphic
+
+```{r}
+startYear <- 2012
+endYear   <- 2025            #####
+
+byYearMonthRegister <-
+  byYearMonth |>
+  select(RegisterYear, `1`:`12`)   |>
+  filter(RegisterYear >= startYear,
+         RegisterYear <= endYear)
+```
+
+```{r}
+colorPalette <- colorRampPalette(c("lemonchiffon", "yellow2", "yellow1", "gold"))
+lmat <- rbind( c(0, 3, 3),  # layout matrix
+               c(2, 1, 1),
+               c(0, 0, 4))
+lwid <- c(0.5, 4, 4)        # entry fo r each column in layout matrix
+lhei <- c(1, 5, 1)          # entry for each row in layout matrix
+yearMonthMatrix <- as.matrix(data.frame(byYearMonthRegister, row.names=1))
+```
+
+```{r Registrations-By-Year-and-Month, fig.width = 10, fig.height = 8}
+svg(paste0(params$STATE,
+           "-Registrations-By-Year-and-Month-", 
+           params$VOTER_FILE_DATE,
+           ".svg"),
+    width = 10, height =8, pointsize = 14)
+
+options(scipen=999)  # suppress scientific notation in legend
+
+heatmap.2(yearMonthMatrix,  # must be matrix
+          cellnote = yearMonthMatrix,   # same data for cell labels
+          main = paste0("Counts of Kansas Voter Registrations by Month (",
+                        startYear, " - ", endYear, ")\n",
+                        "For Registered Voters in ",
+                         strftime(ymd(params$VOTER_FILE_DATE), "%B %Y")),
+          notecol = "black",        # change font color of cell labels to black
+          density.info = "none",    # turns off density plot inside color legend
+          trace = "none",           # turns off trace lines inside the heat map
+          dendrogram = "none",      # suppress row and column dendrograms
+          Colv = NA,                # suppress reordering
+          Rowv = NA,                # suppress reordering
+          key.title = NA,           # suppress title
+          key.xlab = NA,            # suppress key x-axis label
+          cexRow  = 1.75,
+          cexCol  = 2,
+          notecex = 1.4,
+          col = colorPalette,
+          labCol = month.abb, srtCol=0, adjCol=0.5,
+          lmat = lmat, lwid = lwid, lhei = lhei
+)
+
+mtext(paste0("Source:  Kansas Secretary of State voter file, ", params$VOTER_FILE_DATE), 1,
+        adj = 0.12, col = "blue", outer = TRUE, cex = 1.0, line = -2)
+mtext(paste0("Based on Registration Dates of ", comma(nrow(voters)), " voters"), 1,
+        adj = 0.21, col = "blue", outer = TRUE, cex = 0.8, line = -1)
+
+dev.off()
+```
+
+### `date_of_birth`:  Year by Month
+
+```{r}
+byYearMonthAge <-
+  votersModified                   |>
+  select(BirthYear, BirthMonth)    |>
+  group_by(BirthYear, BirthMonth)  |>
+  count()                          |>
+  arrange(BirthYear, BirthMonth)   |>
+  collect()                        |>
+  spread(BirthMonth, n, fill = 0)  |>
+  ungroup()
+
+dim(byYearMonthAge)
+```
+
+```{r}
+write_xlsx(byYearMonthAge, paste0(params$STATE, "-Crosstab-BirthYear-by-BirthMonth-", params$VOTER_FILE_DATE, ".xlsx"))
+```
+
+```{r}
+byYearMonthAge |> Show(height = "400px")
+```
+
+# Stats by County
+
+```{r}
+countsCounty <-
+  votersModified   |>
+  group_by(County) |>
+  summarize(
+             Voters           = n_distinct(text_registrant_id),
+             
+             AgeMin         = min(Age, na.rm = TRUE),                      # Age
+             AgeQ25         = quantile(Age, 0.25, na.rm = TRUE),
+             AgeMedian      = median(Age, na.rm = TRUE),
+             AgeQ75         = quantile(Age, 0.75, na.rm = TRUE),
+             AgeQ999        = quantile(Age, 0.999, na.rm = TRUE),
+             AgeMax         = max(Age, na.rm = TRUE),
+                                                                           # Districts
+             Commissioner     = district_cc |> unique() |> sort() |> str_flatten(collapse  = " | "),
+             Congress         = district_cg |> unique() |> sort() |> str_flatten(collapse  = " | "),
+             KSSenate         = district_ks |> unique() |> sort() |> str_flatten(collapse  = " | "),
+             KSHouse          = district_kr |> unique() |> sort() |> str_flatten(collapse  = " | "),
+             KSStateBoard     = district_sb |> unique() |> sort() |> str_flatten(collapse  = " | "),
+             KSSchoolDistrict = district_sd |> unique() |> sort() |> str_flatten(collapse  = " | "),
+
+             City             = n_distinct(text_res_city),
+             Zip              = n_distinct(text_res_zip5),
+
+             Precinct         = n_distinct(precinct),
+             PrecinctPart     = n_distinct(precinctPart),
+
+             Email            = n_distinct(registrant_text_email),
+             Phone            = n_distinct(phone),
+             
+             AddressHousehold = n_distinct(addressHousehold),
+             MailHousehold    = n_distinct(mailHousehold),
+
+             Female           = sum(cde_gender == "F", na.rm = TRUE),    # Gender
+             Male             = sum(cde_gender == "M", na.rm = TRUE),
+             Unknown          = sum(cde_gender == "U", na.rm = TRUE),
+             PercentFemale    = round(100 * Female / Voters, 2),
+             PercentMale      = round(100 * Male / Voters, 2),
+            
+                                                                         # Party
+             Democratic   = sum(desc_party == "Democratic",       na.rm = TRUE),
+             Republican   = sum(desc_party == "Republican",       na.rm = TRUE),
+             Libertarian  = sum(desc_party == "Libertarian",      na.rm = TRUE),
+             NoLabels     = sum(desc_party == "No Labels Kansas", na.rm = TRUE),
+             UnitedKansas = sum(desc_party == "United Kansas",    na.rm = TRUE),
+             Unaffilated  = sum(desc_party == "Unaffiliated",     na.rm = TRUE),
+             PercentDemocratic = round(100 * Democratic / Voters, 2),
+             PercentRepublican = round(100 * Republican / Voters, 2),
+
+             Active      = sum(cde_registrant_status == "A"),            # Status
+             Inactive    = sum(cde_registrant_status == "I"),
+             PercentInactive = round(100 * Inactive / Voters, 2)
+           )
+
+nrow(countsCounty)
+```
+
+```{r}
+countsCounty  |>
+  Show(bigMark = ",", height = "300px")
+```
+
+```{r}
+write_xlsx(countsCounty, paste0(params$STATE, "-Counts-County-", params$VOTER_FILE_DATE, ".xlsx"))
+```
+
+## Missing district info by County
+
+Use original, unmodified `voters` data here
+
+```{r}
+missingCommissionerDistrict  <- voters$district_cg < "CC"
+missingCongressionalDistrict <- voters$district_cg < "CG"
+missingKansasRepresentative  <- voters$district_kr < "KR"
+missingKansasSenate          <- voters$district_ks < "KS"
+missingSchoolBoard           <- voters$district_sb < "SB"
+
+missingDistricts <-
+  missingCommissionerDistrict  |
+  missingCongressionalDistrict |
+  missingKansasRepresentative  |
+  missingKansasSenate          |
+  missingSchoolBoard
+```
+
+```{r}
+table(votersModified$County[missingDistricts])
+```
+
+```{r}
+votersMissingDistrictInfo <- voters[missingDistricts, ]
+dim(votersMissingDistrictInfo)
+
+if (nrow(votersMissingDistrictInfo) > 0)
+{
+  write_xlsx(votersMissingDistrictInfo, paste0(params$STATE, "-Voters-Missing-District-Info-", params$VOTER_FILE_DATE, ".xlsx"))
+}
+```
+
+# Stats by Precinct
+
+```{r}
+countsPrecinct <-
+  votersModified   |>
+  group_by(County, precinct_text_name, precinct_text_designation) |>
+  summarize(
+             Voters           = n_distinct(text_registrant_id),
+             
+             AgeMin         = min(Age, na.rm = TRUE),                           # Age
+             AgeQ25         = quantile(Age, 0.25, na.rm = TRUE),
+             AgeMedian      = median(Age, na.rm = TRUE),
+             AgeQ75         = quantile(Age, 0.75, na.rm = TRUE),
+             AgeQ999        = quantile(Age, 0.999, na.rm = TRUE),
+             AgeMax         = max(Age, na.rm = TRUE),                         
+                                                                                # Districts   
+             Commissioner     = district_cc |> unique() |> sort() |> str_flatten(collapse  = " | "),
+             Congress         = district_cg |> unique() |> sort() |> str_flatten(collapse  = " | "),
+             KSSenate         = district_ks |> unique() |> sort() |> str_flatten(collapse  = " | "),
+             KSHouse          = district_kr |> unique() |> sort() |> str_flatten(collapse  = " | "),
+             KSStateBoard     = district_sb |> unique() |> sort() |> str_flatten(collapse  = " | "),
+             KSSchoolDistrict = district_sd |> unique() |> sort() |> str_flatten(collapse  = " | "),
+
+             City             = n_distinct(text_res_city),
+             Zip              = n_distinct(text_res_zip5),
+
+             Precinct         = n_distinct(precinct),
+             PrecinctPart     = n_distinct(precinctPart),
+
+             Email            = n_distinct(registrant_text_email),
+             Phone            = n_distinct(phone),
+
+             AddressHousehold = n_distinct(addressHousehold),
+             MailHousehold    = n_distinct(mailHousehold),
+
+             Female       = sum(cde_gender == "F", na.rm = TRUE),               # Gender  
+             Male         = sum(cde_gender == "M", na.rm = TRUE),
+             Unknown      = sum(cde_gender == "U", na.rm = TRUE),
+             PercentFemale     = round(100 * Female / Voters, 2),
+             PercentMale       = round(100 * Male   / Voters, 2),
+
+             Democratic   = sum(desc_party == "Democratic",   na.rm = TRUE),    # Party    
+             Republican   = sum(desc_party == "Republican",   na.rm = TRUE),
+             Libertarian  = sum(desc_party == "Libertarian",  na.rm = TRUE),
+             NoLabels     = sum(desc_party == "No Labels Kansas", na.rm = TRUE),
+             Unaffilated  = sum(desc_party == "Unaffiliated", na.rm = TRUE),
+             PercentDemocratic = round(100 * Democratic / Voters, 2),
+             PercentRepublican = round(100 * Republican / Voters, 2),
+                                                                             
+             Active       = sum(cde_registrant_status == "A"),                  # Status
+             Inactive     = sum(cde_registrant_status == "I"),
+             PercentInactive = round(100 * Inactive / (Active + Inactive), 2),
+             .groups = "drop"
+           )
+
+nrow(countsPrecinct)
+write_xlsx(countsPrecinct, paste0(params$STATE, "-Counts-Precinct-", params$VOTER_FILE_DATE, ".xlsx"))
+```
+
+```{r}
+countsPrecinct  |>
+  head(10)      |>
+  Show(bigMark = ",", height = "300px")
+```
+
+# Field Metastats
+
+"metadata" is "data about data".   Here "metastats" are statistics on metadata.
+
+Create COUNTS directory if it does not exist.
+
+Explore counts files for unexpected problems, often at top and bottom of file.
+
+```{r}
+if (! file.exists(params$COUNTS_DIR))
+{
+  dir.create(params$COUNTS_DIR)
+}
+```
+
+Look at each column and create descriptive stats of data
+
+```{r}
+nFields <- length(colnames(votersModified))
+
+fieldSummary <-
+  tibble(Index   = 1:nFields,
+         Field   = rep("", nFields),
+         Min     = rep(0, nFields),   # field length stats
+         Q1      = rep(0, nFields),
+         Median  = rep(0, nFields),
+         Mean    = rep(0, nFields),
+         Q3      = rep(0, nFields),
+         Max     = rep(0, nFields),
+         NAs     = rep(0, nFields),
+         N       = rep(0, nFields),
+         Missing = rep(0, nFields),
+         NUnique = rep(0, nFields),
+         NCounty = rep(0, nFields))
+```
+
+`tidyverse` doesn't work well (for me) in the following, so not used.
+
+```{r}
+for (i in 1 :nFields)
+{
+  column <- colnames(votersModified)[i]
+  field  <- pull(votersModified, i)
+
+  cat(i, column, "\n")
+
+  counts <- table(field)
+  counts <-  data.frame(as.table(counts))
+  colnames(counts) <- c(column,"Count")
+
+  COUNTSfilename <- paste0(params$COUNTS_DIR, "/",
+                           sprintf("%03d",i),"-", column)
+
+
+   # Excel file are easier to view, but often unusual values better found in a CSV.
+   write_csv(counts,  paste0(COUNTSfilename, ".csv"))
+
+  fieldSummary$N[i]       <- length(field) - fieldSummary$Missing[i]
+  fieldSummary$NUnique[i] <- length(unique(field))
+
+  if (class(field) == "character")
+  {
+    zeroLengthField <- (nchar(field) == 0)  # should trim char strings?
+
+    # Field width stats
+    fieldSummary$NCounty[i] <- length( na.omit( unique(votersModified$County[!zeroLengthField]) ))
+
+    fieldSummary$Missing[i] <- sum(nchar(field) == 0, na.rm=TRUE)
+
+    fieldStats <- as.vector(summary( nchar(field[!zeroLengthField]) ) )
+    if (length(fieldStats) == 6)   # Make sure length with be 7
+    {
+      fieldStats <- c(fieldStats, 0)   # 0 NAs
+    }
+
+    fieldSummary$Index[i]   <- i
+    fieldSummary$Field[i]   <- column
+    fieldSummary$Min[i]     <- fieldStats[1]
+    fieldSummary$Q1[i]      <- fieldStats[2]
+    fieldSummary$Median[i]  <- fieldStats[3]
+    fieldSummary$Mean[i]    <- fieldStats[4]
+    fieldSummary$Q3[i]      <- fieldStats[5]
+    fieldSummary$Max[i]     <- fieldStats[6]
+    fieldSummary$NAs[i]     <- fieldStats[7]
+  }
+}
+```
+
+```{r}
+fieldSummary |>
+  Show(bigMark = ",", height = "400px")
+```
+
+```{r}
+write_xlsx(fieldSummary, paste0(params$STATE, "-Field-Length-Summary-", params$VOTER_FILE_DATE, ".xlsx"))
+```
+
+# Household Summary
+
+The voters at any single household should be scrutinized if the number of voters is "large" at a household.
+
+What is "large" is defined by looking at the distribution of the number of voters at a household.
+
+Previous County and Precinct summaries show counts of households two different ways.  Each household definition has its strengths and weaknesses.
+
+* `AdressHousehold` is simply a string containing the street address, any apartment or unit number, city and zip.  The problem with this household type is many areas can be missing apartment numbers, which would automatically split into different households. [Another options is is add a last name to the `AddressHousehold` but that can split households when relatives have different last names.]
+
+* `maileHousehold` is like `addressHousehold` but is for the mailing address instead of the residential address
+
+The `Counts` folder already shows frequency counts for each household type.  Let's look at the count stats and create lists of households of concern.
+
+## Address Households
+
+```{r}
+filename <- list.files(path = params$COUNTS_DIR,
+                       pattern = glob2rx("*-addressHousehold.csv"),
+                       full.names = TRUE)
+filename
+```
+
+```{r}
+addressHousehold <- read_csv(filename, show_col_types = FALSE)
+dim(addressHousehold)
+```
+
+```{r}
+Qaddress <- quantile(addressHousehold$Count,
+                     probs = c(0, 0.25, 0.50, 0.75, 0.90, 0.95, 0.99, 0.999, 0.9999, 1.0))
+Qaddress
+```
+
+Let's go with higher than the top 0.1% 
+
+```{r}
+Qaddress["99.9%"]
+```
+
+```{r}
+bigHouseholds <- 
+  addressHousehold                  |>
+  filter(Count > Qaddress["99.9%"]) |>
+  unique()
+
+nrow(bigHouseholds)
+```
+
+Stats of households with many voters
+
+```{r}
+statsAddressHousehold <- 
+  votersModified                                         |>
+  rename(City = text_res_city, Zip5 = text_res_zip5)     |>
+  inner_join(bigHouseholds, by = "addressHousehold")     |>
+  group_by(County, City, Zip5, addressHousehold)         |>
+  summarize(
+             Voters         = n_distinct(text_registrant_id),
+             LastNames      = length(unique(text_name_last)),
+
+             AgeMin         = min(Age,             na.rm = TRUE),              # Age
+             AgeMedian      = median(Age,          na.rm = TRUE),
+             AgeQ999        = quantile(Age, 0.999, na.rm = TRUE),
+             AgeMax         = max(Age,             na.rm = TRUE),
+
+             Female         = sum(cde_gender == "F", na.rm = TRUE),            # Gender  
+             Male           = sum(cde_gender == "M", na.rm = TRUE),
+             Unknown        = sum(cde_gender == "U", na.rm = TRUE),
+             PercentFemale  = round(100 * Female / Voters, 2),
+             PercentMale    = round(100 * Male   / Voters, 2),
+
+             Democratic   = sum(desc_party == "Democratic",   na.rm = TRUE),   # Party    
+             Republican   = sum(desc_party == "Republican",   na.rm = TRUE),
+             Libertarian  = sum(desc_party == "Libertarian",  na.rm = TRUE),
+             NoLabels     = sum(desc_party == "No Labels Kansas", na.rm = TRUE),
+             Unaffilated  = sum(desc_party == "Unaffiliated", na.rm = TRUE),
+             PercentDemocratic = round(100 * Democratic / Voters, 2),
+             PercentRepublican = round(100 * Republican / Voters, 2),
+                                                                             
+             Active          = sum(cde_registrant_status == "A"),              # Status
+             Inactive        = sum(cde_registrant_status == "I"),
+             PercentInactive = round(100 * Inactive / (Active + Inactive), 2),
+
+            .groups = "drop"
+           )                  |>
+  arrange(-Voters)            |>
+  mutate(householdRaw = addressHousehold) |>
+  separate(householdRaw, 
+           sep = "\\|",
+           c(
+               NA,              # County,
+               NA,              # text_res_city,
+               NA,              # text_res_zip5,
+               "House",         # text_res_address_nbr,
+               "HouseSuffix",   # text_res_address_nbr_suffix,
+               "StreetPrefix",  # cde_street_dir_prefix,+
+               "StreetName",    # text_street_name,
+               "StreetType",    # cde_street_type,
+               "Unit",          # cde_res_unit_type,
+               "UnitNumber",    # text_res_unit_nbr,
+               NA               # text_res_zip4  
+            )
+          )                                                                   |>
+  mutate(Address = str_squish( 
+                               paste(
+                                      House, HouseSuffix,
+                                      StreetPrefix, StreetName, StreetType, 
+                                      Unit, UnitNumber
+                                    )
+                             )
+        )                                           |>
+  select(-House, -HouseSuffix, 
+         -StreetPrefix, -StreetName, -StreetType, 
+         -Unit, -UnitNumber)                        |>
+  relocate(addressHousehold, .after = "Address")    |>
+  relocate(Address, .after = "Zip5")                
+
+nrow(statsAddressHousehold)
+```
+
+```{r}
+statsAddressHousehold |> head() |> Show()
+```
+
+```{r}
+write_xlsx(statsAddressHousehold , 
+           paste0(params$STATE, 
+                  "-Households-Address-to-Explore-for-Many-Voters-", 
+                  params$VOTER_FILE_DATE, ".xlsx"))
+```
+
+Counts by zip code
+
+```{r}
+counts <- table(statsAddressHousehold$Zip5)
+sort(counts[counts > 3], decreasing = TRUE)
+```
+
+## Mail Households
+
+```{r}
+filename <- list.files(path = params$COUNTS_DIR,
+                       pattern = glob2rx("*-mailHousehold.csv"),
+                       full.names = TRUE)
+filename
+```
+
+```{r}
+mailHousehold <- read_csv(filename, show_col_types = FALSE)
+dim(mailHousehold)
+```
+
+```{r}
+Qmail <- quantile(mailHousehold$Count,
+                     probs = c(0, 0.25, 0.50, 0.75, 0.90, 0.95, 0.99, 0.995, 0.999, 1.0))
+Qmail
+```
+
+Let’s go with the top 0.1%
+
+But delete the 100% limit since that is for a blank mail address
+
+```{r}
+Qmail["99.9%"]
+```
+
+```{r}
+bigMailHouseholds <-
+  mailHousehold   |>
+  filter(Count >= Qmail["99.9%"],
+         Count < Qmail["100%"]) |>
+  unique()
+
+nrow(bigMailHouseholds)
+```                  
+
+Stats of mail households with many voters 
+
+```{r}
+statsMailAddressHousehold <-
+  votersModified                                          |>
+  rename(State = cde_mail_state,
+         City  = text_mail_city, 
+         Zip5  = text_mail_zip5)                          |>
+  inner_join(bigMailHouseholds, by = "mailHousehold")     |>
+  group_by(State, City, Zip5, mailHousehold)      |>
+  summarize(
+             Voters         = n_distinct(text_registrant_id),
+             LastNames      = length(unique(text_name_last)),
+
+             AgeMin         = min(Age,             na.rm = TRUE),              # Age
+             AgeMedian      = median(Age,          na.rm = TRUE),
+             AgeQ999        = quantile(Age, 0.999, na.rm = TRUE),
+             AgeMax         = max(Age,             na.rm = TRUE),
+
+             Female         = sum(cde_gender == "F", na.rm = TRUE),            # Gender
+             Male           = sum(cde_gender == "M", na.rm = TRUE),
+             Unknown        = sum(cde_gender == "U", na.rm = TRUE),
+             PercentFemale  = round(100 * Female / Voters, 2),
+             PercentMale    = round(100 * Male   / Voters, 2),
+
+             Democratic   = sum(desc_party == "Democratic",   na.rm = TRUE),   # Party
+             Republican   = sum(desc_party == "Republican",   na.rm = TRUE),
+             Libertarian  = sum(desc_party == "Libertarian",  na.rm = TRUE),
+             NoLabels     = sum(desc_party == "No Labels Kansas", na.rm = TRUE),
+             Unaffilated  = sum(desc_party == "Unaffiliated", na.rm = TRUE),
+             PercentDemocratic = round(100 * Democratic / Voters, 2),
+             PercentRepublican = round(100 * Republican / Voters, 2),
+
+             Active          = sum(cde_registrant_status == "A"),              # Status
+             Inactive        = sum(cde_registrant_status == "I"),
+             PercentInactive = round(100 * Inactive / Voters, 2),
+
+            .groups = "drop"
+           )                            |>
+  arrange(State, City, Zip5)            |>
+  mutate(householdRaw = mailHousehold)  |>
+  separate(householdRaw,
+           sep = "\\|",
+           c(
+              NA,           # text_mail_city,
+              NA,           # text_mail_zip5,
+              "address1",   # text_mail_address1,
+              "address2",   # text_mail_address2,
+              "address3",   # text_mail_address3,
+              NA,           # text_mail_address4,
+              NA,           # cde_mail_state
+              NA            # text_mail_zip4
+            )
+          )                                       |>
+  relocate(address1, address2, .after = "Zip5")   |>
+  relocate(mailHousehold,      .after = "address3")
+
+nrow(statsMailAddressHousehold)
+```                                                                          
+
+```{r}
+statsMailAddressHousehold |> head() |> Show()
+```
+
+```{r}
+write_xlsx(statsMailAddressHousehold, 
+           paste0(params$STATE,
+                  "-Households-Mail-to-Explore-for-Many-Voters-",
+                  params$VOTER_FILE_DATE,
+                  ".xlsx"))
+```
+
+# Voter History:  Election Codes
+
+Will summarize these codes combined with earlier voter files separately.
+
+Often more than one voter file is needed for complete voter history since County Clerks are not bound by deadlines for completing this information being added to ELVIS after an election. Voter files for months after an election may not have complete voter history for all counties.
+
+```{r}
+electionCodes <-
+  votersModified  |>
+  select(County, text_registrant_id, starts_with("text_election_code_")) |>
+  mutate(across(where(is.character), ~na_if(.,"")))                      |>
+  pivot_longer(cols         = starts_with("text_election_code_"),
+               names_to     = "historyIndex",
+               names_prefix = "index_",
+               values_to    = "ElectionCode",
+               values_drop_na = TRUE)                                    |>
+  mutate(historyIndex = str_replace(historyIndex,
+                                    "text_election_code", "index")       |>
+                        str_trim())                                      |>
+  select(-historyIndex)                 |>  # don't need this
+  unique()
+
+dim(electionCodes)
+```
+
+So (rarely) some voters have the same code repeated.
+
+```{r}
+glimpse(electionCodes)
+```
+
+```{r}
+write_tsv(electionCodes, paste0(params$STATE,
+                                "-Election-Codes-by-Voter-",
+                                params$VOTER_FILE_DATE,
+                                ".txt"))
+```
+
+## Summary by Election Code
+
+```{r}
+codeSummary <-
+  electionCodes           |>
+  group_by(ElectionCode)  |>
+  summarize(
+             nVoter  = n_distinct(text_registrant_id),
+             nCounty = n_distinct(County),
+           )         |>
+
+  arrange(-nVoter, ElectionCode)
+
+dim(codeSummary)
+```
+
+The number of voters with history for any given election slowly declines over time as voters move or die.
+
+```{r}
+codeSummary |> Show(bigMark = ",", height = "400px")
+```
+
+```{r}
+write_xlsx(codeSummary, paste0(params$STATE,
+                               "-Election-Code-Summary-",
+                               params$VOTER_FILE_DATE,
+                               ".xlsx"))
+```
+
+## Summary by County
+
+```{r}
+countySummary <-
+  electionCodes      |>
+  group_by(County)   |>
+  summarize(
+             nVoter        = n_distinct(text_registrant_id),
+             nElectionCode = n_distinct(ElectionCode),
+           )         |>
+
+  arrange(-nVoter, County)
+
+dim(countySummary)
+```
+
+```{r}
+countySummary |> Show(bigMark = ",", height = "400px")
+```
+
+```{r}
+write_xlsx(countySummary, paste0(params$STATE,
+                                 "-County-Voter-Election-Code-Summary-",
+                                 params$VOTER_FILE_DATE,
+                                 ".xlsx"))
+```
+
+# Other inspections
+
+## Possible duplicate name registrations
+
+At any given time the Kansas voter roll has 100 to 250 near-duplicate name entries using a name "hash".
+
+There is at least one case in Johnson County where this "hash" represents two different voters, but so far, in other cases a duplicate hash appears to show multiple voter registations by the same person, often at the same, or nearly the same, address.
+
+These near duplicates should be scutinized. 
+
+```{r}
+filename <- list.files(path = params$COUNTS_DIR,
+                       pattern = glob2rx("*-nameHash.csv"),
+                       full.names = TRUE)
+filename
+```
+
+```{r}
+nameInfo <- read_csv(filename, show_col_types = FALSE)
+nrow(nameInfo)
+```
+
+```{r}
+dupList <-
+  nameInfo             |>
+  filter(Count > 1)    |>
+  inner_join(votersModified,
+             by = "nameHash")
+
+dim(dupList)
+
+write_xlsx(dupList, paste0(params$STATE,
+                           "-Explore-Name-Duplicates-",
+                           params$VOTER_FILE_DATE,
+                           ".xlsx"))
+```
+
+```{r}
+table(dupList$County)
+```
+
+-----
+
+# Epilog {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Session Info
+
+```{r}
+sessionInfo()
+```
+
+</div>
+
+```{r ThatsAll, echo = FALSE}
+time.2 <- Sys.time()
+processingTime <- paste("Processing time:", sprintf("%.1f",
+                        as.numeric(difftime(time.2,
+                                            time.1, units="secs"))), "secs\n")
+```
+
+`r processingTime`
+`r format(time.2, "%Y-%m-%d %H%M")`
+

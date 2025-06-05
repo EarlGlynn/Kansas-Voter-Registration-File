@@ -1,0 +1,353 @@
+---
+title: "Kansas Active/Inactive Voter Map"
+author: "Earl F Glynn<br>"
+date: "<small>`r Sys.Date()`</small>"
+output:
+  html_document:
+    theme: cerulean
+    toc: yes
+    toc_depth:  3
+    toc_float:
+      collapsed:  yes
+      smooth_scroll: yes
+    number_sections: yes
+    code_folding:  show
+
+params:
+  FILE_DATE:  "2025-05-02"     
+---
+
+```{r setup, echo = FALSE}
+# http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHtmlTemplate
+require(Hmisc)    # provides knitrSet and other functions
+knitrSet(lang = 'markdown',   # If using blogdown: knitrSet(lang='blogdown')
+         fig.align = 'left',
+         w = 6.5,
+         h = 4.5,
+         cache = FALSE)
+```
+
+`r hidingTOC(buttonLabel = "Outline")`
+
+```{r startYourEngines, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  comment = NA)
+
+time.1 <- Sys.time()
+```
+
+# Setup {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Constants
+
+```{r}
+EXCEL_LIMIT <- 2^20
+stamp <- paste("watchdoglab.substack.com", format(time.1, "%Y-%m-%d"))
+```
+
+## Packages
+
+```{r Packages}
+library(tidyverse)
+```
+
+Display formatting
+
+```{r Display}
+library(kableExtra)  # kable_styling
+```
+
+I/O
+
+```{r IO}
+library(readxl)      # read_xlsx
+library(readr)       # write_csv
+library(writexl)     # write_xlsx
+```
+
+ Graphics
+
+```{r Graphics}
+library(scales)      # comma, comma_format
+```
+
+## ggplot theme
+
+[ggplot Themes Gallery](https://www.datanovia.com/en/blog/ggplot-themes-gallery/)
+
+```{r ggplotTheme}
+theme_set(theme_minimal() +
+
+          theme(axis.text             = element_text(size = 10),
+                axis.title            = element_text(size = 14),
+
+                plot.caption          = element_text(hjust = c(0.0,1.0)),
+                plot.caption.position = "plot",   # R 4.0.0
+
+                plot.title.position   = "plot",
+                title                 = element_text(size = 14))
+           )
+
+COLOR_BAR     <- "skyblue"
+COLOR_OUTLINE <- "grey80"
+```
+
+## Helper functions
+
+```{r Helpers}
+Show <- function(data, caption="", bigMark="",
+                 height = NULL, width = NULL, ...)
+{
+  data                                       |>
+  kable("html", caption=caption,
+        format.args=list(big.mark=bigMark))  |>
+  kable_styling(bootstrap_options=c("striped", "bordered", "condensed"),
+                position="left",
+                full_width=FALSE, ...)       |>
+  scroll_box(height = height, width = width) 
+}
+```
+
+# Map packages
+
+```{r}
+library(maps)
+library(mapdata)
+library(RColorBrewer)
+```
+
+# Kansas map data
+
+```{r}
+kansas <- 
+  map_data("state") |>
+  filter(region == "kansas")
+
+kansasCounties <- 
+  map_data("county") |>
+  filter(region == "kansas")
+
+dim(kansasCounties)
+```
+
+# Approximate county centroids for labels
+
+https://stackoverflow.com/questions/9441436/ggplot-centered-names-on-a-map
+
+Use mean of the range of x and y to approximate centroid
+
+```{r}
+centroids <-
+  aggregate(cbind(long, lat) ~ subregion, data = kansasCounties, FUN = function(x) mean(range(x)) ) |>
+  rename(txtLong = long, txtLat = lat)
+```
+
+# County Info Data
+
+In alphabetical order by full county name
+
+```{r}
+countyAbbr <- c(
+  "AL","AN","AT","BA","BT","BB","BR","BU","CS","CQ","CK","CN","CA","CY",
+  "CD","CF","CM","CL","CR","DC","DK","DP","DG","ED","EK","EL","EW","FI",
+  "FO","FR","GE","GO","GH","GT","GY","GL","GW","HM","HP","HV","HS","HG",
+  "JA","JF","JW","JO","KE","KM","KW","LB","LE","LV","LC","LN","LG","LY",
+  "MN","MS","MP","ME","MI","MC","MG","MR","MT","NM","NO","NS","NT","OS",
+  "OB","OT","PN","PL","PT","PR","RA","RN","RP","RC","RL","RO","RH","RS",
+  "SA","SC","SG","SW","SN","SD","SH","SM","SF","ST","SV","SU","TH","TR",
+  "WB","WA","WS","WH","WL","WO","WY")
+```
+
+```{r}
+countyInfo <- 
+  read_xlsx(paste0("../1-First-Look/Kansas-Counts-County-",
+                    params$FILE_DATE, ".xlsx"))
+
+dim(countyInfo)
+```
+
+```{r}
+stateTotal <- read_xlsx(paste0("../1-First-Look/Kansas-Counts-State-",
+                        params$FILE_DATE, ".xlsx"))
+```
+
+```{r}
+countyInfo <- 
+  countyInfo                                                  |>
+  mutate(subregion = str_to_lower(County))                    |>
+  filter(subregion != "kansas")                               |>
+  arrange(County)                                             |> 
+  mutate(PercentInactive = round(PercentInactive, 1),
+         Abbr = countyAbbr)                                   |>
+  inner_join(centroids, by = "subregion")                     |>               
+  relocate(subregion, Abbr)                              
+
+countyInfo$group <- names(table(kansasCounties$group))
+
+dim(countyInfo)
+```
+
+Kludge fixes to approximate centroids
+
+```{r}
+i <- which(countyInfo$Abbr == "DP")
+countyInfo$txtLat[i] <- countyInfo$txtLat[i]   - 0.025   # south
+
+i <- which(countyInfo$Abbr == "ED")
+countyInfo$txtLat[i] <- countyInfo$txtLat[i]   - 0.05    # south
+
+i <- which(countyInfo$Abbr == "FI")
+countyInfo$txtLong[i] <- countyInfo$txtLong[i] - 0.2     # west
+
+i <- which(countyInfo$Abbr == "GE")
+countyInfo$txtLat[i] <- countyInfo$txtLat[i]   - 0.05    # south
+
+i <- which(countyInfo$Abbr == "LV")
+countyInfo$txtLat[i]  <- countyInfo$txtLat[i]  + 0.075   # north
+
+i <- which(countyInfo$Abbr == "PT")
+countyInfo$txtLong[i] <- countyInfo$txtLong[i] + 0.05    # east
+countyInfo$txtLat[i]  <- countyInfo$txtLat[i]  + 0.05    # north
+
+i <- which(countyInfo$Abbr == "RL")
+countyInfo$txtLong[i] <- countyInfo$txtLong[i] - 0.125   # west
+countyInfo$txtLat[i]  <- countyInfo$txtLat[i]  + 0.05    # north
+```
+
+## Percent inactive quantiles
+
+```{r}
+breaks <-  quantile( 
+                     countyInfo$PercentInactive, 
+                     c(0, 0.20, 0.40, 0.60,0.80, 1.00)   # probabilities
+                    ) |> as.numeric()
+breaks
+```
+
+```{r}
+breakLabels <- paste0("up to ", breaks[-1], "%")
+```
+
+Assign quantile index for county fill color
+
+```{r}
+cuts <- cut(countyInfo$PercentInactive, breaks, include.lowest = TRUE) |> as.numeric()
+cuts
+```
+
+```{r}
+table(cuts)
+```
+
+```{r}
+sum(table(cuts))
+```
+
+```{r}
+countyInfo$cuts <- as.factor(cuts)
+```
+
+The way colors are set in geom_text does not make sense IMHO. I want to sent them directly.
+
+Kludge here is to define a factor, and the use `scale_color_manual`
+
+```{r}
+countyInfo$txtColor <- ifelse(countyInfo$PercentInactive > breaks[5],
+                              "yellow",
+                              "black")
+countyInfo$txtColor <- as.factor(countyInfo$txtColor)
+```
+
+This seems clumsy.  Why add info to every point?
+
+```{r}
+kansasCounties <- 
+  kansasCounties |>
+  inner_join(select(countyInfo, subregion, PercentInactive, cuts), by = "subregion")
+```
+
+# Plot Kansas map
+
+```{r Kansas-State, fig.width = 10, fig.height = 6}
+kansasMap <- 
+  ggplot(data = kansas, 
+         aes(x = long, y = lat, group=group))       +
+  coord_fixed(ratio = 1.3) +
+  
+  geom_polygon(data = kansasCounties, 
+               aes(fill = cuts),
+               color = "black")                     +
+  scale_fill_manual(
+                     name = "Inactive %",
+                     labels = breakLabels,
+                     values = brewer.pal(8,"Blues")[2:6]
+                   )                                +
+  geom_text(data = countyInfo, 
+            aes(txtLong, txtLat, 
+                lineheight = 0.8,
+                label = paste0(Abbr, "\n", PercentInactive, "%"),
+                color = txtColor), 
+            size = 3.25)                            +
+  scale_colour_manual(values=c("black", "yellow"),     
+                      guide = "none")               +
+  labs(
+         title = 'Kansas:  Percent "Inactive" Voters by County',
+         subtitle = paste0(comma(stateTotal$Voters), 
+                           " voters statewide; ", 
+                           comma(stateTotal$Inactive), " Inactive [",
+                           round(stateTotal$PercentInactive, 1), "%]"),
+         caption = c(paste("Source:  Kansas Secretary of State Voter File,", params$FILE_DATE), 
+                     stamp)                           
+      )                                             +
+  theme(axis.title = element_blank(), 
+        axis.text  = element_blank(), 
+        axis.line  = element_blank(),
+        axis.ticks = element_blank(),
+        panel.grid = element_blank(),
+        plot.title    = element_text(hjust = 0.5),  # center title
+        plot.subtitle = element_text(hjust = 0.5),  # center title
+        legend.position      = "bottom")  
+
+kansasMap
+```
+
+```{r Kansas-Active-Inactive-Rate-by-County, fig.width = 16, fig.height = 6}
+svg( paste0("Kansas-Registered-Voters-by-Age-", params$FILE_DATE, ".svg"), width = 10, height = 6, pointsize = 12)
+print(kansasMap)
+dev.off()
+```         
+
+```{r}
+chartData <- 
+  countyInfo |>
+  select(County, Abbr, Voters, Active, Inactive, `Percent Inactive` = PercentInactive)
+
+dim(chartData)
+
+write_xlsx(chartData,"Kansas-Active-Inactive-Voters.xlsx")
+```
+
+# Epilog {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Session Info
+
+```{r devtoolsSessionInfo}
+devtools::session_info()
+```
+
+</div>
+
+```{r epilogDeltaTime, echo=FALSE}
+time.2 <- Sys.time()
+processingTime <- paste("Processing time:", sprintf("%.1f",
+                        as.numeric(difftime(time.2,
+                                            time.1, units="secs"))), "secs\n")
+```
+
+`r processingTime`
+`r format(time.2, "%Y-%m-%d %H%M")`

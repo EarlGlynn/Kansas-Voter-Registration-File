@@ -1,0 +1,301 @@
+---
+title: "Process Census Metadata"
+author: "Earl F Glynn<br><small>watchdoglab.substack.com/</small>"
+date: "<small>`r Sys.Date()`</small>"
+output:
+  html_document:
+    code_download: true
+    theme: cerulean
+    toc: yes
+    toc_depth:  3
+    toc_float:
+      collapsed:  yes
+      smooth_scroll: yes
+    number_sections: yes
+    code_folding:  show
+---
+
+```{r setup, echo = FALSE}
+# http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHtmlTemplate
+require(Hmisc)    # provides knitrSet and other functions
+knitrSet(lang = 'markdown',   # If using blogdown: knitrSet(lang='blogdown')
+         fig.align = 'left',
+         w = 6.5,
+         h = 4.5,
+         cache = FALSE)
+```
+
+`r hidingTOC(buttonLabel = "Outline")`
+
+```{r startYourEngines, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  comment = NA)
+
+time.1 <- Sys.time()
+```
+
+# Setup {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Packages
+
+```{r Packages}
+library(tidyverse)
+library(lubridate)
+```
+
+Display formatting
+
+```{r Display}
+library(kableExtra)  # kable_styling
+#library(IRdisplay)   # display_html (needed in Jupyter notebooks)
+```
+
+I/O
+
+```{r IO}
+library(readxl)      # read_xlsx
+library(readr)       # write_csv
+library(writexl)     # write_xlsx
+```
+
+ Graphics
+
+```{r Graphics}
+library(scales)      # comma, comma_format
+```
+
+## Helper functions
+
+```{r Helpers}
+Show <- function(data, caption="", bigMark="",
+                 height = NULL, width = NULL, ...)
+{
+  data                                       %>%
+  kable("html", caption=caption,
+        format.args=list(big.mark=bigMark))  %>%
+  kable_styling(bootstrap_options=c("striped", "bordered", "condensed"),
+                position="left",
+                full_width=FALSE, ...)       %>%
+  scroll_box(height = height, width = width) 
+}
+```
+
+# Census Data
+
+## Raw Data
+
+```{r RawData}
+raw <- 
+  read_csv("ACSST5Y2022.S0101-Data.csv",
+           show_col_types = FALSE)         |>
+  slice(-1)                                |>   # remove verbose metadata in row 1
+  mutate(NAME = str_replace(NAME, " County, Kansas", ""))
+
+dim(raw)
+```
+
+## Metadata
+
+Census Mdatadata
+
+create subfields to understand patterns in metadata
+
+```{r Metadata}
+meta <- 
+  read_csv("ACSST5Y2022.S0101-Column-Metadata.csv",
+           show_col_types = FALSE)                        |>
+  separate(`Column Name`, c("Table", "Set", "Variable"),
+           sep = "_", remove = FALSE)                     |>
+  separate(Variable, c("Number", "Suffix"), sep = 3)      |>
+  separate(Label, c("Type", "Grouping", "Product", "Age", "Interval"),
+           sep = "!!", remove = FALSE)                    |>
+  relocate(Table, Set, Number, Suffix, 
+           Type, Grouping, Product, Age, Interval)        |>
+  mutate(index = row_number())                            |>
+  relocate(index)
+  
+dim(meta)
+```
+```{r}
+head(meta, 10) |> Show()
+```
+
+
+```{r}
+write_xlsx(meta, "Census-Meta-Data-All.xlsx")
+```
+
+# Metadata by Sex and Age
+
+```{r}
+desired <- 
+  meta  |>
+  filter(
+          is.na(Set)    | Set %in% c("C01", "C03", "C05"),  # raw data, not percentages
+          is.na(Suffix) | Suffix == "E",     # estimated 
+          is.na(Interval) | Interval %in% 
+                          c("Under 5 years",   "5 to 9 years",  "10 to 14 years",
+                              "15 to 19 years", "20 to 24 years", "25 to 29 years",
+                              "30 to 34 years", "35 to 39 years", "40 to 44 years",
+                              "45 to 49 years", "50 to 54 years", "55 to 59 years",
+                              "60 to 64 years", "65 to 69 years", "70 to 74 years",
+                              "75 to 79 years", "80 to 84 years", "85 years and over",
+                              "Under 18 years", "18 years and over")
+        ) |>
+  mutate(
+          varName = case_when(
+                              Table == "NAME"                   ~ "GEONAME",
+                              Age == "SELECTED AGE CATEGORIES"  ~ paste0("Age_",Interval),
+                              Age == "AGE"                      ~ paste0("Age_",Interval),
+                              is.na(Interval)                   ~ "Total",         
+                              .default =                        "not assigned"
+                             ),
+         varName = str_replace(varName, " and over", "_and_over") |>
+                   str_replace("Under ",    "Under_")    |>
+                   str_replace(" to ",      "_")         |>
+                   str_replace(" years",    "")          |>
+                   str_replace("Under ",    "Under_")    |>
+                   str_replace(" and over", "_and_over")
+        )
+
+dim(desired)
+```
+
+```{r}
+write_xlsx(desired, "Census-Meta-Data-Desired.xlsx")
+```
+
+# Split into Subsets
+
+# Total 
+
+Select Columns
+
+```{r}
+subsetTotalColumns <-
+  desired  |>
+  filter(is.na(Number) | Set == "C01")   #####
+
+dim(subsetTotalColumns)
+```
+
+Read Columns
+
+```{r}
+ageWideTotal <-
+  raw |>
+  select(all_of(subsetTotalColumns$`Column Name`)) |>
+  rename_with(~ subsetTotalColumns$varName)        |> # here "~" means "function"
+  mutate(across(-GEONAME, as.numeric),
+         Set = "Total")                            |>
+  relocate(Set)                                    |>
+  mutate(Age_18_19 = Age_18_and_over -
+                     Age_20_24 - Age_25_29 - Age_30_34 - Age_35_39 - Age_40_44 -
+                     Age_45_49 - Age_50_54 - Age_55_59 - Age_60_64 - Age_65_69 -
+                     Age_70_74 - Age_75_79 - Age_80_84 - Age_85_and_over)         |>
+  relocate(Age_18_19, .after = Age_15_19)
+
+dim(ageWideTotal)
+```
+
+```{r}
+write_xlsx(ageWideTotal, "Census-Kansas-Total-Wide-S0101-ACS-5yr-2022.xlsx")
+```
+
+
+# Male
+
+Select Columns
+
+```{r}
+subsetMaleColumns <-
+  desired  |>
+  filter(is.na(Number) | Set == "C03")   #####
+
+dim(subsetMaleColumns)
+```
+
+Read Columns
+
+```{r}
+ageWideMale <-
+  raw |>
+  select(all_of(subsetMaleColumns$`Column Name`)) |>
+  rename_with(~ subsetMaleColumns$varName)        |> # here "~" means "function"
+  mutate(across(-GEONAME, as.numeric),
+         Set = "Male")                            |>
+  relocate(Set)                                   |>
+  mutate(Age_18_19 = Age_18_and_over -
+                     Age_20_24 - Age_25_29 - Age_30_34 - Age_35_39 - Age_40_44 -
+                     Age_45_49 - Age_50_54 - Age_55_59 - Age_60_64 - Age_65_69 -
+                     Age_70_74 - Age_75_79 - Age_80_84 - Age_85_and_over)         |>
+  relocate(Age_18_19, .after = Age_15_19)
+
+dim(ageWideMale)
+```
+
+```{r}
+write_xlsx(ageWideMale, "Census-Kansas-Male-Wide-S0101-ACS-5yr-2022.xlsx")
+```
+                                 
+# Female
+
+Select Columns
+
+```{r}
+subsetFemaleColumns <-
+  desired  |>
+  filter(is.na(Number) | Set == "C05")   #####
+
+dim(subsetFemaleColumns)
+```
+
+Read Columns
+
+```{r}
+ageWideFemale <-
+  raw |>
+  select(all_of(subsetFemaleColumns$`Column Name`)) |>
+  rename_with(~ subsetFemaleColumns$varName)        |> # here "~" means "function"
+  mutate(across(-GEONAME, as.numeric),
+         Set = "Female")                            |>
+  relocate(Set)                                     |>
+  mutate(Age_18_19 = Age_18_and_over -
+                     Age_20_24 - Age_25_29 - Age_30_34 - Age_35_39 - Age_40_44 -
+                     Age_45_49 - Age_50_54 - Age_55_59 - Age_60_64 - Age_65_69 -
+                     Age_70_74 - Age_75_79 - Age_80_84 - Age_85_and_over)         |>
+  relocate(Age_18_19, .after = Age_15_19)
+
+dim(ageWideFemale)
+```
+
+```{r}
+write_xlsx(ageWideFemale, "Census-Kansas-Female-Wide-S0101-ACS-5yr-2022.xlsx")
+```
+
+
+# Epilog {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Session Info
+
+```{r devtoolsSessionInfo}
+devtools::session_info()
+```
+
+</div>
+
+```{r epilogDeltaTime, echo=FALSE}
+time.2 <- Sys.time()
+processingTime <- paste("Processing time:", sprintf("%.1f",
+                        as.numeric(difftime(time.2,
+                                            time.1, units="secs"))), "secs\n")
+```
+
+`r processingTime`
+`r format(time.2, "%Y-%m-%d %H%M")`
+

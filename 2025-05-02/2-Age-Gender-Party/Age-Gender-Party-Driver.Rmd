@@ -1,0 +1,203 @@
+---
+title:  "Age/Gender/Party Barplots - Statewide and by County"
+author: "Earl F Glynn"
+date: "<small>`r Sys.Date()`</small>"
+output:
+  html_document:
+    theme: cerulean
+    toc: yes
+    toc_depth:  3
+    toc_float:
+      collapsed:  yes
+      smooth_scroll: yes
+    number_sections: yes
+    code_folding:  show
+params:
+   ELECTION_DATE:      "2025-08-05"    
+   FILE_DATE:          "2025-05-02"   
+   UPDATED_DATA_FILE:  "../1-First-Look/Kansas-Updated.txt"   
+---
+
+```{r Dsetup, echo = FALSE}
+# http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHtmlTemplate
+require(Hmisc)    # provides knitrSet and other functions
+knitrSet(lang = 'markdown',   # If using blogdown: knitrSet(lang='blogdown')
+         fig.align = 'left',
+         w = 6.5,
+         h = 4.5,
+         cache = FALSE)
+```
+
+`r hidingTOC(buttonLabel = "Outline")`
+
+```{r Dsetup2, include = FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  comment    = NA)
+
+time.1 <- Sys.time()
+```
+
+# Setup {.tabset .tabset-fade .tabset-pills}
+
+##  {.active}
+
+## Constants
+
+```{r DConstants}
+EXCEL_LIMIT <- 2^20
+```
+
+## Packages
+
+```{r DPackages}
+library(rmarkdown)
+library(tidyverse)
+library(lubridate)
+
+library(readxl)
+library(kableExtra) 
+```
+
+## Helper Functions
+
+```{r DHelper}
+Show <- function(data, caption="", bigMark="", ...)
+{
+  data                                                    |>
+  kable("html", 
+        caption = caption,
+        format.args = list(big.mark = bigMark))   |>
+  kable_styling(bootstrap_options = c("striped", "bordered", "condensed"),
+                position = "left", 
+                full_width = FALSE, ...)
+}
+```
+
+# Voter Data
+
+Global to template
+
+```{r DRead-Voter-File, warning = FALSE}
+voters <- 
+  read_tsv(params$UPDATED_DATA_FILE, 
+           show_col_types = FALSE,
+           guess_max = EXCEL_LIMIT)        |>
+  rename(Gender      = cde_gender)         |> 
+  mutate(AgeInterval = factor(AgeInterval,
+                              levels = c(
+                                          "18-19", "20-24",  "25-29",   "30-34", "35-39",  
+                                          "40-44", "45-49",  "50-54",   "55-59", "60-64",   
+                                          "65-69", "70-74",  "75-79",   "80-84", "85+"
+                                        )
+                                
+                                
+                             )
+        )
+dim(voters)
+```
+
+# Geoname Data
+
+```{r DGeoname}
+geoname <- read_xlsx("Data-Census-Gov/Geoname-Kansas.xlsx") 
+nrow(geoname)
+```
+
+Process only rows with Tag of 1
+
+```{r DFilter}
+geonameList <-
+  geoname           |>
+  filter(Tag == 1)  |>
+  select(-Tag)
+
+head(geonameList) |> Show()
+```
+                                        
+# Function to Process Single Geoname
+
+```{r DProcessGeoname}
+processGeoname <- function(geoname, subset, voters)
+{
+  OUTPUT_DIR <- paste0("GEONAME/", geoname)
+  
+  if (!dir.exists(OUTPUT_DIR))
+  {
+    dir.create(OUTPUT_DIR)
+  }
+
+  rmarkdown::render(
+                     "Age-Gender-Party-Template.Rmd",
+                     output_format = html_document(theme      = "cerulean",
+                                                   toc        = TRUE,
+                                                   toc_format = TRUE,
+                                                   toc_float  = TRUE,
+                                                   number_sections = TRUE,
+                                                   code_folding = "show"),   
+
+                     output_file = paste0(geoname, "-", subset, ".html"),
+                     output_dir  = OUTPUT_DIR,
+
+                     quiet  = TRUE,
+                     params = list(
+                                    ELECTION_DATE = params$ELECTION_DATE,
+                                    FILE_DATE     = params$FILE_DATE,
+                                    SUBSET        = subset,
+                                    GEONAME       = geoname,
+                                    VOTERS        = voters
+                                  )
+                   )
+
+  # Add election date and county name to all graphics files
+  PATTERN <- "^.*\\.png$|^.*\\.xlsx$|^.*\\.svg$"
+  
+  listFiles <- dir(path = ".",  pattern = PATTERN)    
+  file.copy(listFiles, OUTPUT_DIR, copy.date = TRUE)
+  file.remove(listFiles)   
+  
+  invisible()
+}
+```
+
+# Process All Geonames
+
+```{r DProcessAll}
+system.time(
+             for (geoname in geonameList$GEONAME)
+             { 
+               if (geoname == "Kansas")
+               { 
+                 subset = "statewide"
+               } else {
+                 subset = "County"
+               }
+               
+               processGeoname(geoname, subset, voters)
+             }
+           )
+```
+                          
+
+# Fini {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Session Info
+
+```{r Dsession}
+sessionInfo()
+```
+
+</div>
+
+```{r ThatsAllDriver, echo = FALSE}
+time.2 <- Sys.time()
+processingTime <- paste("Processing time:", sprintf("%.1f",
+                        as.numeric(difftime(time.2,
+                                            time.1, units="secs"))), "secs\n")
+```
+
+`r processingTime`
+`r format(time.2, "%Y-%m-%d %H%M")`
+
