@@ -54,7 +54,7 @@ School district `district_sd` is not defined for 332 voters.
 * **County**:  [`Kansas-Counts-County-yyyy-mm-dd.xlsx` (105)](2025-05-02/1-First-Look/Kansas-Counts-County-2025-05-02.xlsx)
 
         Selected columns
-        ![alt text](2025-05-02/1-First-Look/Kansas-Counts-County-Selected-Columns.PNG "Kansas County Summary Counts")
+    ![alt text](2025-05-02/1-First-Look/Kansas-Counts-County-Selected-Columns.PNG "Kansas County Summary Counts")
 
         Notes:
 
@@ -64,10 +64,10 @@ School district `district_sd` is not defined for 332 voters.
 
         * Inactive rates (far right column) range from 0% in Meade County to 20% in Atchison County
 
-* **Precinct*: [`Kansas-Counts-Precinct-yyyy-mm-dd.xlsx` (4075)](2025-05-02/1-First-Look/Kansas-Counts-Precinct-2025-05-02.xlsx)
+* **Precinct**: [`Kansas-Counts-Precinct-yyyy-mm-dd.xlsx` (4075)](2025-05-02/1-First-Look/Kansas-Counts-Precinct-2025-05-02.xlsx)
 
         Selected columns
-        ![alt text](2025-05-02/1-First-Look/Kansas-Counts-Precinct-Selected-Columns.PNG "Kansas County Summary Counts")
+    ![alt text](2025-05-02/1-First-Look/Kansas-Counts-Precinct-Selected-Columns.PNG "Kansas County Summary Counts")
 
         Notes:
 
@@ -78,7 +78,7 @@ School district `district_sd` is not defined for 332 voters.
         * Inactive rates for very small precincts can often be 0% or 100%.
 
         Precincts with 30% or higher inactive rates with 50 or more voters:
-        ![alt text](2025-05-02/1-First-Look/Kansas-Counts-Precinct-High-Inactive-50-or-more-voters.PNG "Kansas precincts with high inactive rates")
+    ![alt text](2025-05-02/1-First-Look/Kansas-Counts-Precinct-High-Inactive-50-or-more-voters.PNG "Kansas precincts with high inactive rates")
 
 Stats include
 
@@ -105,15 +105,15 @@ Stats include
 
 ## Age issues
 
-* $$\lt$$ 18 years old:  `Kansas-Age-Too-Young-yyyy-mm-dd-Edited.xlsx`
+* $$\lt$$ 18 years old:  [`Kansas-Age-Too-Young-yyyy-mm-dd-Edited.xlsx`](2025-05-02/1-First-Look/Kansas-Age-Too-Young-2025-05-02-Edited.xlsx) (2)
 
-* $$\ge$$ 105 years old:  `Kansas-Age-Too-Old-yyyy-mm-dd-Edited.xlsx`
+* $$\ge$$ 105 years old:  [`Kansas-Age-Too-Old-yyyy-mm-dd-Edited.xlsx`](2025-05-02/1-First-Look/Kansas-Age-Too-Old-2025-05-02-Edited.xlsx) (308)
 
-* `Kansas-Crosstab-BirthYear-by-BirthMonth-yyyy-mm-dd.xlsx`
+* [`Kansas-Crosstab-BirthYear-by-BirthMonth-yyyy-mm-dd.xlsx`](2025-05-02/1-First-Look/Kansas-Crosstab-BirthYear-by-BirthMonth-2025-05-02.xlsx)
 
 Birth years before ~1915 are suspect (e.g., 1054 should be 1954).
 
-* `Kansas-Crosstab-RegisterYear-by-RegisterMonth-yyyy-mm-dd.xlsx`
+* [`Kansas-Crosstab-RegisterYear-by-RegisterMonth-yyyy-mm-dd.xlsx`](2025-05-02/1-First-Look/Kansas-Crosstab-RegisterYear-by-RegisterMonth-2025-05-02.xlsx)
 
 Registration years before 1960 are suspect. One registration in the future is an error.
 
@@ -125,7 +125,7 @@ Lists below show households with the top 0.1% number of voters (descending sort)
 
 ### Street Addresses
 
-* `Kansas-Households-Address-to-Explore-for-Many-Voters-yyyy-mm-dd.xlsx`
+* [`Kansas-Households-Address-to-Explore-for-Many-Voters-yyyy-mm-dd.xlsx`](2025-05-02/1-First-Look/Kansas-Households-Address-to-Explore-for-Many-Voters-2025-05-02.xlsx) (1181)
 
 Top 10
 
@@ -135,7 +135,7 @@ Top 10
 
 ### Mailing Addresses
 
-* `Kansas-Households-Mail-to-Explore-for-Many-Voters-yyyy-mm-dd.xlsx`
+* [`Kansas-Households-Mail-to-Explore-for-Many-Voters-yyyy-mm-dd.xlsx`](2025-05-02/1-First-Look/Kansas-Households-Mail-to-Explore-for-Many-Voters-2025-05-02.xlsx) (133)
 
 Top 10
 
@@ -150,7 +150,7 @@ Voter history is recorded with a code
 
 Counts of numbers of voters and counties using election codes (sorted in descending order):
 
-File:  `Kansas-Election-Code-Summary-yyyy-mm-dd.xlsx`
+**File**:  [`Kansas-Election-Code-Summary-yyyy-mm-dd.xlsx`](2025-05-02/1-First-Look/Kansas-Election-Code-Summary-2025-05-02.xlsx)  (1256)
 
 Top 10
 
@@ -176,7 +176,7 @@ Note:
 
 Parametric RStudio report files to create graphics for each geography (GEONAME).
 
-* `Age-Gender-Party-Driver.html` (results of processing)
+* [`Age-Gender-Party-Driver.html`](2025-05-02/2-Age-Gender-Party/Age-Gender-Party-Driver.html) (results of processing)
 
 * `Age-Gender-Party-Driver.Rmd`
 
@@ -206,11 +206,11 @@ Eventually all 105 counties will have separate directories.
 
 # 3. Active-Inactive Voters
 
-`Map-Kansas-Inactive-Voters.html` (results of processing)
+**File**: [`Map-Kansas-Inactive-Voters.html`](2025-05-02/3-Active-Inactive/Map-Kansas-Inactive-Voters.html) (results of processing)
 
 List of 105 counties with total voters and active and inactive counts:
 
-`Kansas-Active-Inactive-Voters.xlsx`
+[`Kansas-Active-Inactive-Voters.xlsx`](2025-05-02/3-Active-Inactive/Kansas-Active-Inactive-Voters.xlsx) (105)
 
 County Map
 
