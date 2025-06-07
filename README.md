@@ -53,31 +53,34 @@ School district `district_sd` is not defined for 332 voters.
 
 * **County**:  [`Kansas-Counts-County-yyyy-mm-dd.xlsx` (105)](2025-05-02/1-First-Look/Kansas-Counts-County-2025-05-02.xlsx)
 
-        Selected columns
+    Selected columns
     ![alt text](2025-05-02/1-First-Look/Kansas-Counts-County-Selected-Columns.PNG "Kansas County Summary Counts")
 
         Notes:
 
         * Allen County has 13 cities, 12 zip codes, and 23 precincts.
 
-        * Three counties shown above have voters older than any known human, Atchison (126), Barton (121), Bourbon (125).
+        * Three counties shown above have voters older than any known human,
+Atchison (126), Barton (121), Bourbon (125).
 
         * Inactive rates (far right column) range from 0% in Meade County to 20% in Atchison County
 
 * **Precinct**: [`Kansas-Counts-Precinct-yyyy-mm-dd.xlsx` (4075)](2025-05-02/1-First-Look/Kansas-Counts-Precinct-2025-05-02.xlsx)
 
-        Selected columns
+    Selected columns
     ![alt text](2025-05-02/1-First-Look/Kansas-Counts-Precinct-Selected-Columns.PNG "Kansas County Summary Counts")
 
         Notes:
 
-        * Most district information is the same within a precinct, but school districts can be divided into "precint parts."
+        * Most district information is the same within a precinct,
+but school districts can be divided into "precint parts."
 
-        * Allen County, Carlyle Township precinct has two school districts (SD257 and SD479) divided by 2 precinct parts (not shown).
+        * Allen County, Carlyle Township precinct has two school districts (SD257 and SD479)
+divided by 2 precinct parts (not shown).
 
         * Inactive rates for very small precincts can often be 0% or 100%.
 
-        Precincts with 30% or higher inactive rates with 50 or more voters:
+    Precincts with 30% or higher inactive rates with 50 or more voters:
     ![alt text](2025-05-02/1-First-Look/Kansas-Counts-Precinct-High-Inactive-50-or-more-voters.PNG "Kansas precincts with high inactive rates")
 
 Stats include
@@ -222,6 +225,6 @@ Recent article: [Kansas had over 140,000 inactive voters in Jan. 2024 but only 1
 
 Notes:
 
-* "Edited" in a filename indicates some personal identifiable information (PHI) has been removed.
+* "Edited" in a filename often indicates some personal identifiable information (PHI) has been removed.
 
 * Most filenames end with time stamp (yyyy-mm-dd) of voter file release (which enables comparisons of multiple versions in Excel).
