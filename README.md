@@ -2,6 +2,8 @@
 
 ** under development **
 
+Note: links below allow easy downloading of files, but they will not display automatically in a browser.
+
 # 1. First Look
 
 An RStudio computational notebook shows results of analyzing a voter registration file from Kansas Secretary of State:
@@ -60,8 +62,7 @@ School district `district_sd` is not defined for 332 voters.
 
         * Allen County has 13 cities, 12 zip codes, and 23 precincts.
 
-        * Three counties shown above have voters older than any known human,
-Atchison (126), Barton (121), Bourbon (125).
+        * Three counties shown above have voters older than any known human, Atchison (126), Barton (121), Bourbon (125).
 
         * Inactive rates (far right column) range from 0% in Meade County to 20% in Atchison County
 
@@ -72,11 +73,9 @@ Atchison (126), Barton (121), Bourbon (125).
 
         Notes:
 
-        * Most district information is the same within a precinct,
-but school districts can be divided into "precint parts."
+        * Most district information is the same within a precinct, but school districts can be divided into "precint parts."
 
-        * Allen County, Carlyle Township precinct has two school districts (SD257 and SD479)
-divided by 2 precinct parts (not shown).
+        * Allen County, Carlyle Township precinct has two school districts (SD257 and SD479) divided by 2 precinct parts (not shown).
 
         * Inactive rates for very small precincts can often be 0% or 100%.
 
@@ -149,7 +148,7 @@ Top 10
 
 ## Election Codes
 
-Voter history is recorded with a code
+Voter history is recorded with a code, which has been standardized statewide in recent years. Interpreting some old codes is difficult.
 
 Counts of numbers of voters and counties using election codes (sorted in descending order):
 
