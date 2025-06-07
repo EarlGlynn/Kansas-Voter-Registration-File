@@ -166,7 +166,7 @@ Top 10
 
 ## Election Codes
 
-Voter history is recorded with a code, which has been standardized statewide in recent years. Interpreting some old codes is difficult.
+Voter history is recorded with a code, which has been standardized statewide in recent years. Interpreting many old codes is difficult.
 
 Counts of numbers of voters and counties using election codes (sorted in descending order):
 
@@ -176,7 +176,13 @@ Top 10
 
 ![alt text](2025-05-02/1-First-Look/Top-10-Election-Codes.PNG "Kansas voter history election codes")
 
-Note: the 11th most common code shows one county still has not reported voter history for the 2024 primary election!
+Notes
+
+* Code prefix "GN" is for general election, "PR" for primary election, in even-numbered years.
+
+* Code "CG" used to mean "City General" election but now means a local election in odd-numbered years.
+
+* The 11th most common code above (PR2024) shows one county still has not reported voter history for the 2024 primary election!
 
 
 ## `Counts` folder
