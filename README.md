@@ -8,7 +8,7 @@ Note: links below allow easy downloading of files, but they will not display aut
 
 An RStudio computational notebook shows results of analyzing a voter registration file from Kansas Secretary of State:
 
-**File**:  [`Kansas-First-Look-Edited.html`](2025-05-02/1-First-Look/Kansas-First-Look-Edited.html) (results of processing)
+**File**:  [`Kansas-First-Look-Edited.html`](2025-05-02/1-First-Look/Kansas-First-Look-Edited.html)
 
 Shows
 
@@ -52,6 +52,24 @@ School district `district_sd` is not defined for 332 voters.
 **Files**
 
 * **State**:  [`Kansas-Counts-State-yyyy-mm-dd.xlsx` (1)](2025-05-02/1-First-Look/Kansas-Counts-State-2025-05-02.xlsx)
+
+    Selected columns
+    ![alt text](2025-05-02/1-First-Look/Kansas-Voters-part-1.PNG "Kansas Voter Summary part 1")
+    ![alt text](2025-05-02/1-First-Look/Kansas-Voters-part-2.PNG "Kansas Voter Summary part 2")
+
+        Notes:
+
+        * For the last year Kansas has had over 2 million voters with a median age of 49 years old.
+
+        * Voter data shows Kansas' oldest voter is 971 years old, born in 1054. (Oops, that should have been 1954 but has never been corrected.)
+
+        * Kansas has 105 counties, 4 congresional districts, 40 state sentate districts, 125 state house districts, 10 board of education districts.
+
+        * Data show 361 county commission districts and 453 school districts. (I'd like to verify all that.)
+
+        * Kansans are assigned to 4075 precincts for voting. Precinct parts (6531) divide some precincts by school district.
+
+        * Kansas' overall inactive voter rate of 5.9% is good.
 
 * **County**:  [`Kansas-Counts-County-yyyy-mm-dd.xlsx` (105)](2025-05-02/1-First-Look/Kansas-Counts-County-2025-05-02.xlsx)
 
@@ -176,7 +194,7 @@ Note:
 
 # 2. Age-Gender-Party breakdown
 
-Parametric RStudio report files to create graphics for each geography (GEONAME).
+Parametric RStudio computational notebook reports create graphics for each geography (GEONAME).
 
 * [`Age-Gender-Party-Driver.html`](2025-05-02/2-Age-Gender-Party/Age-Gender-Party-Driver.html) (results of processing)
 
@@ -208,7 +226,9 @@ Eventually all 105 counties will have separate directories.
 
 # 3. Active-Inactive Voters
 
-**File**: [`Map-Kansas-Inactive-Voters.html`](2025-05-02/3-Active-Inactive/Map-Kansas-Inactive-Voters.html) (results of processing)
+An RStudio computational notebook shows results of analyzing active/inactive voter registrations and plots a map by county:
+
+**File**: [`Map-Kansas-Inactive-Voters.html`](2025-05-02/3-Active-Inactive/Map-Kansas-Inactive-Voters.html)
 
 List of 105 counties with total voters and active and inactive counts:
 
