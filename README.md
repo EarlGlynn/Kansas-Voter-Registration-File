@@ -181,7 +181,7 @@ Note: the 11th most common code shows one county still has not reported voter hi
 
 ## `Counts` folder
 
-Each data field has a file with frequency counts of values.
+Each of about 80 data fields has a file with frequency counts of values.
 
 Some files with PHI have been withheld. Some very large files are not included.
 
