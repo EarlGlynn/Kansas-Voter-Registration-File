@@ -189,7 +189,7 @@ Notes
 
 Each of about 80 data fields has a file with frequency counts of values.
 
-Some files with PHI have been withheld. Some very large files are not included.
+Some files with personal identifiable information (PII) have been withheld. Some very large files are not included.
 
 Note:
 
@@ -250,6 +250,6 @@ Recent article: [Kansas had over 140,000 inactive voters in Jan. 2024 but only 1
 
 Notes:
 
-* "Edited" in a filename often indicates some personal identifiable information (PHI) has been removed.
+* "Edited" in a filename often indicates some personal identifiable information has been removed.
 
 * Most filenames end with time stamp (yyyy-mm-dd) of voter file release (which enables comparisons of multiple versions in Excel).
