@@ -209,13 +209,15 @@ Note:
 
 # 2. Age-Gender-Party breakdown
 
-Parametric RStudio computational notebook reports create graphics for each geography (GEONAME).
+Parametric RStudio computational notebooks create graphics for each geography (GEONAME), which is limit to Kansas statewide and a few counties for now.
 
 * [`Age-Gender-Party-Driver.html`](2025-05-02/2-Age-Gender-Party/Age-Gender-Party-Driver.html) (results of processing)
 
 * `Age-Gender-Party-Driver.Rmd`
 
 * `Age-Gender-Party-Template.Rmd`
+
+Plots use demographics from voter registration files (age, gender, and political party) and compare results against US Census information.
 
 ## Kansas statewide
 
