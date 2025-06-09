@@ -2,7 +2,7 @@
 
 ** under development **
 
-Anyone can purchase a copy of the Kansas voter registration file by completing a [`Statewide Voter Registration Dat Request`](https://sos.ks.gov/forms/Elections/CVR.pdf) and sending it to the Kansas Secretary of State.
+Anyone can purchase a copy of the Kansas voter registration file by completing a [`Statewide Voter Registration Data Request`](https://sos.ks.gov/forms/Elections/CVR.pdf) and sending it to the Kansas Secretary of State.
 
 The following analysis looks at statewide vote file obtained from the Secretary of State on May 2, 2025.
 
@@ -14,7 +14,7 @@ An RStudio computational notebook shows results of analyzing a voter registratio
 
 **File**:  [`Kansas-First-Look-Edited.html`](2025-05-02/1-First-Look/Kansas-First-Look-Edited.html)
 
-Shows
+This notebook shows:
 
 * Problems with raw data file
 
