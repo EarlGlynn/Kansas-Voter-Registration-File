@@ -2,7 +2,8 @@
 
 ** under development **
 
-Anyone can purchase a copy of the Kansas voter registration file by completing a [`Statewide Voter Registration Data Request`](https://sos.ks.gov/forms/Elections/CVR.pdf) and sending it to the Kansas Secretary of State.
+Anyone can purchase a copy of the Kansas voter registration file by completing a [`Statewide Voter Registration Data Request`](https://sos.ks.gov/forms/Elections/CVR.pdf) and sending it to the Kansas Secretary of State. Kansas law only permits using the data for non-commercial peruposes.
+See [KSA 25-2320](https://ksrevisor.gov/statutes/chapters/ch25/025_023_0020.html) and [KSA 25-2320a](https://ksrevisor.gov/statutes/chapters/ch25/025_023_0020a.html).
 
 The following analysis looks at statewide vote file obtained from the Secretary of State on May 2, 2025.
 
