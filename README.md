@@ -2,7 +2,11 @@
 
 ** under development **
 
-Note: links below allow easy downloading of files, but they will not display automatically in a browser.
+Anyone can purchase a copy of the Kansas voter registration file by completing a [`Statewide Voter Registration Dat Request`](https://sos.ks.gov/forms/Elections/CVR.pdf) and sending it to the Kansas Secretary of State.
+
+The following analysis looks at statewide vote file obtained from the Secretary of State on May 2, 2025.
+
+Note: links below allow easy downloading of files, but they will not display data automatically in a browser.
 
 # 1. First Look
 
@@ -28,7 +32,11 @@ Shows
 
 ## Metadata
 
-**File**:  [`Kansas-Field-Length-Summary-yyyy-mm-dd-Edited.xlsx`](2025-05-02/1-First-Look/Kansas-Field-Length-Summary-2025-05-02-Edited.xlsx "Fields in Kansas voter file")
+The Secretary of State sometimes includes a file, [`ELVIS Standard Field Definitions.xls`](2025-05-02/1-First-Look/ELVIS Standard Field Definitions.xls), with some information about each of the data fields.
+
+The following file with metadata about each field is based on actual statistics from the current voter file:
+
+[`Kansas-Field-Length-Summary-yyyy-mm-dd-Edited.xlsx`](2025-05-02/1-First-Look/Kansas-Field-Length-Summary-2025-05-02-Edited.xlsx "Fields in Kansas voter file")
 
 Descriptive stats about each data field (treated as character strings), including:
 
