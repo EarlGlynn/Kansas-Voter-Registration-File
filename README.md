@@ -257,6 +257,16 @@ Recent article: [Kansas had over 140,000 inactive voters in Jan. 2024 but only 1
 
 <hr>
 
+# 4. Election Turnout Curves
+
+Turnout curves by age and political party.
+
+Nov 2024 turnout curves to appear soon.
+
+For now, see [example Johnson County turnout curves Nov. 2016, 2018, 2020, 2022 here](https://watchdoglab.substack.com/p/impact-of-integrated-voter-engagement) based on several years of voter registration records including voter history.
+
+<hr>
+
 Notes:
 
 * "Edited" in a filename often indicates some personal identifiable information has been removed.
