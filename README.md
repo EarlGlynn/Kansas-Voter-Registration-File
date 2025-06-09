@@ -13,7 +13,7 @@ Note: links below allow easy downloading of files, but they will not display dat
 
 An RStudio computational notebook shows results of analyzing a voter registration file from Kansas Secretary of State:
 
-**File**:  [`Kansas-First-Look-Edited.html`](2025-05-02/1-First-Look/Kansas-First-Look-Edited.html)
+**File**:  [`Kansas-First-Look-Edited.html`](2025-05-02/1-First-Look/Kansas-First-Look-Edited.html) [Download "raw file" and view in browswer locally]
 
 This notebook shows:
 
