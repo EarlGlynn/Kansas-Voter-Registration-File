@@ -1,0 +1,6492 @@
+precinct_part_text_name,Count
+000010-Harrison Twp (241),47
+000010 - Baxter Sp W1,618
+000020-Sharon Springs P1 (241),253
+000020-SS Twp P3 (241),34
+000020 - Baxter Sp W2,652
+000030-Sharon Springs P2 (241),327
+000030-SS Twp P4 (241),117
+000030-SS Twp P4 (242),2
+000030 - Baxter Sp W3,1114
+000040-Wallace City (241),38
+000040-Wallace Twp (241),75
+000040-Wallace Twp (275),13
+00004A - Baxter Sp W4,832
+000050-Weskan Twp (241),20
+000050-Weskan Twp (242),234
+"000050 - Cherokee (247, 1-4)",169
+"000050 - Cherokee (493, 3-6)",109
+000060 - Columbus W1 (1-4),5
+000060 - Columbus W1 (2-5),376
+000070 - Columbus W2 (1-4),364
+000070 - Columbus W2 (2-5),148
+000080 - Columbus W3 (1-4),56
+000080 - Columbus W3 (2-5),393
+000090 - Columbus W4,463
+00010A - Columbus W5 (1-4),1
+00010A - Columbus W5 (2-5),162
+00010A - Columbus W5 (3-6),229
+"000110 - Crawford (404, 1-4)",118
+"000110 - Crawford (493, 3-6)",377
+000120 - Galena W1,594
+00013A - Galena W2,514
+000140 - Galena W3,701
+00015A - Galena W4,430
+000170 - Grdn / Lwl (404.1-4),57
+000170 - Grdn / Lwl (404.2-5),1045
+000170 - Grdn / Lwl (404.3-6),555
+"000170 - Grdn / Lwl (508, AL)",65
+"00018A - Grdn / StMns(404,1-4)",30
+"00018A - Grdn / StMns(404,2-5)",7
+"00018A - Grdn / StMns(404,3-6)",292
+"00018A - Grdn / StMns(499,AL)",229
+"000190 - Lola (493, 1-4)",233
+"000200 - Lowell (404, 1-4)",305
+"000200 - Lowell (404, 2-5)",23
+"000200 - Lowell (499, AL)",223
+"000210 - Lyon / Lyon (493,1-4)",278
+"000220 - Mineral (247, 1-4)",45
+"000220 - Mineral (493, 3-6)",104
+"000230 - Nsh / Flknr (493,1-4)",75
+"000240 - Nsh / Mlrs (493,1-4)",108
+"000240 - Nsh / Mlrs (505,AL)",7
+"000250 - Pleasant Vw (247,1-4)",15
+"000250 - Pleasant Vw (250, AL)",5
+"000250 - Pleasant Vw (493,3-6)",425
+"000270 - Ross/Bllvw (247, 2-5)",17
+"000270 - Ross/Bllvw (247, 3-6)",7
+"000270 - Ross/Bllvw (493, 1-4)",46
+"000270 - Ross/Bllvw (493, 3-6)",68
+"000280 - Ross/Rslnd (247,2-5)",96
+"000280 - Ross/Rslnd (493,3-6)",27
+"000280 - Ross/Rslnd (493,3-6)C",62
+"000290 - Ross/W Min (247,2-5)",14
+"000290 - Ross/W Min (247,3-6)",43
+"000290 - Ross/W Min (247,3-6)C",126
+"00030A - Salamanca (493, 1-4)",409
+"00030A - Salamanca (493, 2-5)",13
+000310 - Scammon W1,81
+000320 - Scammon W2,107
+000330 - Scammon W3,108
+"000340 - Shawnee (404, 1-4)",35
+"000340 - Shawnee (404, 2-5)",19
+"000340 - Shawnee (493, 3-6)",310
+"000340 - Shawnee (499, AL)",34
+"000350 - Sheridan (247, 3-6)",146
+"000350 - Sheridan (493, 1-4)",15
+"000360 - SpVly / Ntrl (508,AL)",15
+"000360 - SpVly / Ntrl(404,1-4)",474
+"000360 - SpVly / Ntrl(493,3-6)",21
+"00037A - SpVly / SpVly(404,14)",27
+"00037A - SpVly / SpVly(508,AL)",363
+001 H W1 P1,678
+"001.2 Ward 1, Com 3, BM 1-4",701
+002 H W1 P2,826
+"002.1 Ward 2, Com 1, BM 3-6",1098
+003 H W2 P1,879
+"003.1 Ward 3, Com 2, BM 2-5",1207
+004 H W2 P2,704
+"004.1 Pre 4, Com 3, 209",11
+"004.3 Pre 4, Com 3, 452",3
+"004.4 Pre 4, Com 3, 507",13
+"004.5 Pre 4, Com 3, BM 1-4",320
+005 H W2 P3,555
+"005.1 Pre 5, Com 1 BM 3-6",270
+"005.2 Pre 5, Com 1, 452",1
+006 H W2 P4,626
+"006.1 Pre 6, Com 2 BM 2-5",150
+007 H W2 P5,533
+008 H W3 P1,587
+009 H W3 P2,914
+01,4
+01.1,725
+01.1 Bunker Hill City CC5 407,88
+01.1 Cimarron Twp/C-1/218,46
+010 H W3 P3,935
+011 H W3 P4,2199
+012 H W4 P1,739
+013 H W4 P2,1024
+014 H W4 P3,741
+015 H W4 P4,1349
+016 H W4 P5,1168
+017 Ellis City,1538
+02,1569
+02.1,625
+02.1 Dorrance City CC5 112,106
+02.1 Elkhart/W-2/C-2,205
+02.2 Elkhart/W-2/C-3,95
+02.3 Elkhart/W-3/C-2,234
+02.4 Elkhart/W-3/C-3,188
+02.5 Elkhart/W-1/C-2,45
+02.6 Elkhart/W-2/C-1,154
+02.7 Elkhart/W-1/C-3,385
+02.8 Elkhart/W-1/C-1,95
+025B.1,58
+026.1,196
+026B.1,678
+03,4
+03.1,844
+03.1 Gorham City CC4 407,244
+03.1 Jones/C-2/218,8
+033.1,835
+034.1,702
+035.1,667
+035B.1,494
+038.1,1657
+038B.2,435
+04,1468
+04.1,993
+04.1 Lucas City CC3 299,221
+04.1 Richfield/C-2/217,31
+041.1,1754
+042.1,427
+042B.1,509
+042B.3,1
+042B.4,2
+043.1,2343
+044.1,725
+044B.1,438
+046.1,1068
+046B.1,1205
+049.1,1773
+049B.1,276
+05,1759
+05.1,884
+05.1 Luray City CC2 299,114
+05.1 Richfield East/C-2/217,50
+050.2,1660
+050B.1,68
+050B.2,3
+051.1,7
+051.2,66
+051.3,520
+052.3,654
+052B.1,66
+052B.2,17
+052B.4,2
+052B.5,5
+053.4,737
+053B.1,96
+053B.2,871
+053B.3,50
+055.1,227
+055B.2,80
+056.1,527
+056.2,83
+056.3,536
+056.5,9
+056.7,9
+056B.8,23
+056C.4,98
+057.1,237
+057.2,381
+057.4,28
+057B.3,206
+057C.5,99
+058.1,132
+058.2,183
+059.1,68
+059.3,286
+059.5,108
+059.6,211
+06,980
+06.1,897
+06.1 Paradise City CC2 399,25
+06.1 Richfield West/C-2/218,16
+06.2 Richfield West/C-2/217,35
+060.1,277
+060.2,529
+060.3,529
+061.1,31
+061.2,157
+061.3,667
+061.4,548
+061B.5,131
+061B.6,156
+062.1,176
+062.2,211
+062.3,135
+062.4,224
+062.5,651
+063.1,129
+063B.2,309
+063B.3,6
+063C.3,560
+064.1,43
+064.2,157
+064.4,64
+064B.3,1
+065.1,9
+065.2,20
+065.5,5
+065B.1,19
+065C.8,3
+065D.6,4
+065E.3,32
+066.5,390
+066B.4,3
+066C.1,294
+066C.2,3
+067.5,26
+067A.1,350
+067A.2,419
+067A.3,357
+067C.6,114
+067C.8,2
+069.1,68
+069.2,819
+069.3,8
+07,1941
+07.1,354
+07.1 Rolla Twp/C-1/217,86
+077.1,697
+08,669
+08.1,872
+08.1 Rolla City/C-1/217,252
+08.1 Waldo City CC2 399,29
+09,2644
+09.1,641
+09.1 Taloga Twp/C-1/218,63
+09.2 Taloga Twp/C-2/218,23
+1 East Rossville 321-1,14
+1 East Rossville 321-2,276
+1 East Rossville 321-2-R,409
+1 Pct 1 Ward,904
+1 Pct 2 Ward,817
+1 Pct 3 Ward,1050
+1 Pct 4 Ward,658
+1 Pct 5 Ward,927
+1 Pct 6 Ward,1009
+1 Pct 7 Ward,495
+1.1,736
+1.1  Burrton City - 369,497
+1.1 Atlanta Township,45
+1.1 Bazaar Local Board 3,75
+"1.1 Hanston City, N, 228, C1",104
+1.1 Ward One,627
+1.2 Atlanta Township,2
+"1.2 Marena Twp N 228, C1",74
+1.3 Atlanta Township,63
+"1.3 Marena Twp N 496, C1",6
+1/1 501-2,466
+1/2 345-A,115
+1/2 501-2,393
+1/3 345-B,426
+1/4 345-B,416
+1/4 501-2,172
+1/5 345-A,851
+1/5 501-2,30
+1/6 345-A,216
+1/6 345-B,409
+1/6 345-C,344
+1/7 345-B,3
+1/9 345-A,1
+10,1691
+10 West Silver Lake 321-2,5
+10 West Silver Lake 372,153
+10 West Silver Lake 372-S,401
+10.1,1025
+10.1 Belle Plain Twp,20
+10.1 East Strong Strong City,250
+10.1 Odessa Township,37
+"10.1 Valley 227, C1",33
+10.1 Westola Twp/C-2/218,47
+10.2 Belle Plain Twp,6
+"10.2 Valley 228, C1",2
+10.3 Edmond City,32
+10.4 SandCreek Twp,7
+10.5 SandCreek Twp,8
+10.6 SandCreek Twp,4
+10.7 Solomon Twp,10
+10/1 501-3,551
+10/10 437-A,6
+10/10 501-3,558
+10/11 437-A,279
+10/11 501-3,513
+10/13 437-A,60
+10/14 437-A,354
+10/14 501-3,202
+10/2 437-A,2
+10/2 501-3,395
+10/3 501-3,835
+10/4 501-3,538
+10/5 501-3,487
+10/6 501-3,433
+10/7 501-3,526
+10/8 501-3,490
+10/9 501-3,353
+1001.1,172
+1002.1,1280
+1003.1,5
+1003.2,515
+1003.3,3
+1003.4,87
+1004.1,1660
+1005.1,24
+1006.1,158
+1008.1,77
+1008.2,15
+1009.1,14
+101 in USD 259-2,17
+102,1267
+103,289
+104,135
+105 in USD 259-3,821
+105 in USD 259-6,290
+106 in USD 259-3,2172
+106 in USD 259-6,311
+107,2036
+108,1383
+109,1580
+11,985
+11.1,1475
+11.1 Athelstane,81
+11.1 Homestead,37
+11.1 Lincoln Twp,12
+11.1 Pioneer Township USD112-5,2
+11.1 Russell City Ward I CC3,450
+"11.1 W Sawlog, 227, Com 5",26
+11.1 Ward  1,783
+11.2 Pioneer Township,32
+11.2 West Union Twp,24
+11.3 Pioneer Township,17
+11.4 Pioneer Township USD112-6,5
+11.5.1 Russell City Ward 1 CC5,240
+11/1 501-3,392
+11/10 501-3,354
+11/2 501-3,500
+11/3 501-3,418
+11/4 501-3,644
+11/5 501-3,540
+11/6 501-3,519
+11/7 501-3,541
+11/8 501-3,553
+11/9 501-3,555
+110,1895
+111 in USD 259-1,476
+112,1803
+113,1735
+114 in USD 259-1,1270
+114 in USD 259-6,406
+116,2164
+117,1774
+118,2012
+119,1668
+12,100
+12 Grove 321-1,2
+12 Grove 321-2,38
+12 Grove 372,520
+12.1,1995
+12.1 Blaine,203
+12.1 City of Raymond - Raymond,47
+12.1 Matfield MFG City,43
+12.1 Russell City Ward 2 CC2,642
+12.1 Ward  2,545
+"12.1City of Jetmore, N, C2",234
+12.2 Raymond Township,4
+12.3 Raymond Township,58
+12.4.1 Russell City Ward 2 CC4,114
+12/1 437-A,515
+12/1 501-3,68
+12/11 437-C,749
+12/11 501-3,103
+12/13 437-A,606
+12/14 437-A,531
+12/15 437-A,917
+12/16 437-C,392
+12/16 501-3,637
+12/17 437-C,8
+12/19 437-A,112
+12/2 437-A,557
+12/20 437-A,715
+12/3 437-A,321
+12/3 501-3,218
+12/31 437-A,451
+12/4 501-3,600
+12/5 437-A,510
+12/6 501-3,697
+12/7 437-C,88
+12/7 501-3,657
+12/8 501-3,601
+12/9 501-3,979
+120,1666
+121,1271
+122,2824
+123,400
+126,374
+127  in USD 259-1,41
+128,1438
+129,571
+13,298
+13.1,1892
+13.1 Bloom,3
+"13.1 Jetmore, City S, C3",247
+13.1 Matfield,49
+13.1 Russell City Ward 3  CC3,164
+13.1 Sterling Township,146
+13.1 Ward 3,513
+13.2 Bloom,95
+13.3 Bloom,3
+13.4.1 Russell City Ward 3 CC4,424
+13.5.1 Russell City Ward 3 CC5,135
+13/1 437-C,2
+13/12 437-C,1019
+13/2 437-A,289
+13/21 437-A,151
+13/22 437-A,138
+13/30 437-A,351
+13/5 437-A,70
+13/6 437-C,203
+13/8 437-A,9
+13/9 437-A,173
+130 in USD 259-3,961
+130 in USD 259-4,158
+133,57
+135,436
+136 in USD 259-1,913
+137,1562
+138,1961
+14,985
+14 Kiro 345-A,389
+14 Kiro 372,342
+14.1,2394
+14.1 Chapman,76
+14.1 City of Little River -Un,346
+14.1 Russell City Ward 4 CC1,502
+14.1 Toledo,248
+14.1 Ward 4  Comm Dist #1,414
+"14.1Jetmore City NW, C5",65
+"14.2 Center SW, C5",49
+14.2 Union,147
+14.2 Ward 4  Comm Dist #2,413
+14.5.1 Russell City Ward 4 CC5,180
+14/01 437-B,659
+14/01 501-3,276
+14/02 437-B,835
+14/03 437-B,475
+14/04 437-C,1091
+14/05 437-C,499
+14B.1,476
+15,1492
+15 Messhoss Creek 345-A,326
+15 Messhoss Creek 372,254
+15.1,1672
+"15.1 Center Twp SE,C4 227",31
+15.1 City of Alden -Valley Twp,93
+15.1 Clay Center,307
+15.1 West Falls CWF City,309
+15.2 Valley Township,79
+15/01 450-C,850
+15/02 450-C,534
+15/03 450-C,87
+16,1388
+16.1,1728
+"16.1 Center Twp N, 227, C1",49
+16.1 City of Geneseo - Victori,169
+16.1 Exeter,60
+16.1 West Falls Local Board 1,69
+16.2 Victoria Township,8
+16.3 Victoria Township,3
+16.4 Victoria Township,36
+16.5 Victoria Township,11
+16.6 Victoria Township,13
+17,2483
+17.1,2137
+17.1 East Wash Twp,45
+17.1 Five Creeks,93
+17.1 West Strong,19
+17.2 East Wash Twp,66
+17.3 East Wash Twp,9
+17.4 East Wash Twp,8
+18,226
+18.1,2365
+18.1 Garfield,3
+18.1 West Strong Strong City,44
+18.1 West Wash Twp,64
+18.2 Garfield,69
+18.2 West Wash Twp,5
+18.3 West Wash Twp,28
+180010 - Weir City,443
+19,1364
+19.1,2349
+19.1 Gill,101
+19.1 Wilson Township,34
+19.3 Wilson Township,8
+19.4 Wilson Township,28
+19.5 Wilson Township,16
+19.6 Wilson Township,14
+1Beloit 2-5,432
+1Beloit 3-6,719
+1st Ward,790
+1st Ward - 109 2/5 C3,112
+1st Ward - 109 3/6 C3,377
+1st Ward Exclave Colonial,15
+1st Ward Exclave Halls,22
+1st Ward/333/MD1/CC1,466
+2-1-1.1 Halstead City - 440-1,400
+2-1-1.2 Halstead City - 440-2,161
+2-1-2.1 Halstead City  - 440-1,9
+2-1-2.2 Halstead City - 440-2,842
+2 Pct 2 Ward H40,478
+2 Pct 2 Ward H41,146
+2 Pct 5 Ward,689
+2 Pct 6 Ward H38,352
+2 Pct 6 Ward H40,476
+2 Pct 7 Wd 453,2061
+2 Pct 7 Wd 469,511
+2 West Rossville 321-1,79
+2 West Rossville 321-2,198
+2 West Rossville 321-2-R,284
+2.1,748
+2.1 Bell Township,4
+2.1 Cedar USD 398,22
+2.1 Clifton City,150
+"2.1 Hanston City, S, 228, C4",74
+2.2 Bell Township,3
+2.2 Cedar USD 284,38
+"2.2 Marena S, 228, C4",29
+2.2 Ward Two,677
+2/1 501-1,532
+2/10 501-1,523
+2/11 501-1,414
+2/2 501-1,437
+2/3 501-1,461
+2/4 501-1,414
+2/5 501-1,380
+2/6 501-1,499
+2/7 501-1,340
+2/8 501-1,381
+2/9 501-1,530
+20,1803
+20.01 EBC 432/111,16
+20.02 EBC/IMBC 489/111,415
+20.03 EBC/IMSE 489/111,68
+20.04 EBC 489/111,304
+20.1,2531
+20.1 Goshen,44
+20.1 Rockville Township,118
+2001.1,78
+2001.2,462
+2002.1,49
+2002.2,87
+2002.3,46
+2003.1,151
+2003.2,110
+2004.1,2
+2005.1,5
+2007.1,2
+2008.1,6
+2011.1,33
+2013.1,1
+2014.1,4
+2016.1,12
+2017.1,3
+2018.1,5
+2019.1,202
+2019.2,69
+2020.1,2
+2021.1,32
+2022.1,98
+2024.1,2
+2025.1,29
+205,873
+206,636
+207 in USD 259-2,2184
+207 in USD 259-3,968
+208,623
+209,1770
+21,373
+21 Urban Hills 345-A,17
+21.01 NBC 489/111,287
+21.02 NBC/IMPA 489/111,101
+21.1,707
+21.1 Grant,146
+21.2,22
+21.3,183
+21.4,4
+210,2293
+211,903
+214,1867
+215,3003
+216,1553
+217 in USD 259-2,1397
+217 in USD 375-1,522
+218 in USD 259-1,2742
+218 in USD 259-2,423
+218 in USD 375-1,273
+22,507
+22 Ltl Muddy Crk 345-C,451
+22.01 WBC 489 /111,5
+22.1,1383
+22.1 Hayes,157
+22.2,99
+221 in USD 259-2,1149
+222 in USD 259-2,461
+222 in USD 375-1,886
+223 in USD 259-2,1039
+223 in USD 385-2,742
+224 in USD 259-2,2937
+224 in USD 259-3,478
+225,3831
+226,2316
+227 in USD 259-2,367
+227 in USD 385-2,1144
+228,2643
+23 (305),1350
+23 (306-36),2
+23.01 BU 270/110,33
+23.02 BU 489/110,502
+23.03 BU 269/110,5
+23.05 BU 432/110,7
+23.1,800
+23.1 Highland,112
+23.2,39
+230,157
+233,894
+235,572
+236,1127
+238,334
+239,99
+24,1893
+24 Sac 345-C,816
+24.1,1410
+24.1 Mulberry,11
+24.2,220
+24.2 Mulberry,16
+24.3,42
+24.3 Mulberry,3
+24.4,1
+24.4 Mulberry,2
+24.5,7
+24.6,189
+240 in USD 259-2,143
+240 in USD 385-2,239
+241 in USD 385-2,182
+242 in USD 385-2,337
+243,79
+246 in USD 260,296
+247,525
+248 in USD 259-3,50
+249 in USD 259-2,1603
+25,1278
+25 Sherman 345-B,38
+25 Sherman 345-C,672
+25.1,952
+25.1 Kanorado City,90
+25.1 Oakland,3
+25.2,32
+25.2 Oakland,44
+25.3,333
+250 in USD 385-2,730
+251,690
+252,850
+257,1
+26,412
+26 Iroquois 345-A,970
+26.01 FR 432/110,69
+26.02 FR 403/110,1
+26.04 FR 489/110,2
+26.1,6
+26.1 Republican,130
+26.2,176
+26.3,130
+27,169
+27.01 HE 399/110,11
+27.02 HE 407/110,2
+27.03 HE 432/110,179
+27.04 HE/GFD 432/110,106
+27.1,897
+27.1 Sherman,9
+27.2,119
+27.2 Sherman,42
+28,19
+28 West Wichita 345-A,581
+28.1,849
+28.1 Union,116
+28.2,406
+29,203
+29 Indianola 345-A,304
+29 Indianola 345-B,437
+29.1,961
+29.2,10
+29D.1,3
+2Beloit 1-4,971
+2Beloit 2-5 -2,305
+2Beloit 3-6 - 3,6
+2nd Ward,849
+2nd Ward - 109 3/6 C3,521
+2nd Ward/1st Prec/333/MD1/CC2,44
+2nd Ward/1st Prec/333/MD2/CC2,512
+2nd Ward/2nd Prec/333/MD1/CC2,96
+2nd Ward/2nd Prec/333/MD2/CC2,513
+2nd Wd/2nd Prec/333/MD2/CC2 Ex,4
+2T/Toronto City,183
+3-1-1 Hesston City - 460,1333
+3-1-2 Hesston City - 460,1198
+3 Pct 2 Ward,996
+3 Pct 5 Ward,1273
+3 Pct 6 Ward,821
+3 Pct 7 Ward 453 H38,1330
+3 Pct 7 Ward 453 H40,1437
+3 Pct 7 Ward 469 H38,27
+3 Pct 7 Ward 469 H40,479
+3.1,1002
+"3.1 Benton Twp, 227, C5",29
+3.1 Cedar Point,12
+3.1 Center Township,6
+3.1 Green City,92
+3.2 Ward Three,664
+3.3 Center Township,10
+3.4 Center Township,57
+3/1 501-2,512
+3/10 501-1,56
+3/2 501-2,394
+3/3 501-2,467
+3/4 501-2,468
+3/5 501-2,336
+3/6 501-1,55
+3/6 501-2,309
+3/7 501-2,522
+3/8 501-2,413
+3/9 501-1,408
+3/9 501-2,194
+30 (305),1661
+30 Apache 345-A,722
+30.1,738
+30.2,44
+30.3,320
+30.4,174
+30.5,54
+30.6,34
+30.7,10
+30.8,92
+3001.2,19
+3002.1,1
+3003.1,3
+3004.1,1
+3006.1,15
+3009.1,165
+3009.2,39
+301,994
+3010.1,1007
+3010.2,75
+302,2090
+303,1071
+304,857
+305,469
+306,2307
+307,1589
+308,1832
+309,168
+31,34
+31 East Wichita 345-A,1076
+31.1,1466
+31.2,23
+31.3,42
+310 in USD 259-3,1997
+310 in USD 260,20
+312,919
+313 in USD 259-4,2430
+314 in USD 259-3,1437
+314 in USD 259-4,667
+315 in USD 259-3,1821
+316 in 259-4 in RD District,485
+316 in 261 in RD District,544
+316 in 261 outside RD District,193
+317,22
+318,254
+319,566
+32 Fox 340-2,127
+32 Fox 345-C,701
+32.1,1477
+32.2,90
+32.3,161
+32.4,20
+320,661
+321,98
+324,920
+325,1172
+326 in USD 259 in RD District,1
+326 in USD 261 in RD District,182
+328 in USD 260,146
+33 Elmont 345-B,1101
+33.1,93
+33.2,368
+33.3,6
+330,1594
+331,386
+332,872
+333,1236
+334 in USD 259,823
+335 in 259-3 in RD District,3
+335 in 259-4 in RD District,646
+336,264
+339 in USD 259-3,917
+339 in USD 259-4,1035
+34 Kilmer 340-2,81
+34 Kilmer 345-C,135
+34.1,1
+34.2,14
+35 Rochester 345-B,709
+35.1,93
+35.2,4
+36 East Soldier 345-C,796
+36.1,1227
+36.1 Lyons 1st Ward,535
+36.2,436
+36.3,2
+37 Whitfield 345-A,58
+37 Whitfield 345-B,541
+37.1,1365
+37.1 Lyons 2nd Ward,563
+38 Sioux 345-C,625
+38.1 Lyons 3rd Ward,545
+39 Pottawatomie 345-B,818
+39.1,1055
+39.1 Lyons 4th Ward,600
+3rd Ward,701
+3rd Ward - 109 1/4 C1,372
+3rd Ward/333/MD1/CC3,207
+3rd Ward/333/MD2/CC3,422
+3rd Ward/333/MD3/CC3,313
+3Y/YC Ward #1 (366 ALG),215
+3Y/YC Ward #1 366 ALG,284
+3Y/YC Ward #2 366 ALG,407
+4-1-1 Newton City - 373,737
+4-1-2 Newton City - 373,615
+4-1-3 Newton City - 373,451
+4-2-1 Newton City - 373,697
+4-2-2 Newton City - 373,1597
+4-3-1 Newton City - 373,617
+4-3-2 Newton City - 373,1018
+4-3-3 Newton City - 373,892
+4-3-4 Newton City - 373,2090
+4-4-1 Newton City - 373,788
+4-4-2 Newton City - 373,1310
+4-4-3 Newton City - 373,999
+4-4-4 Newton City - 373,428
+4 Pct 5 Ward,803
+4 Pct 6 Ward H38,442
+4 Pct 6 Ward H41,1022
+4.1,866
+4.1 Almena City,242
+4.1 City of Frederick USD112-6,6
+4.1 Cottonwood  Local Board 1,96
+4.1 Longford City,73
+4.10 Almena Twp (Har),1
+4.11 Almena Twp (Har),7
+4.2 Almena Twp,22
+4.2 Eureka Township USD112-6,16
+4.3 Almena Twp,50
+4.4 Eureka Township USD112-6,9
+4.5 Almena Twp,1
+4.6 Grant Twp,27
+4.7 Grant Twp,9
+4.8 Grant Twp,1
+4/1 450-A,431
+4/1 501-1,42
+4/10 501-1,516
+4/11 501-2,143
+4/14 501-1,52
+4/15 501-2,339
+4/2 501-1,699
+4/3 501-1,392
+4/4 501-1,651
+4/6 501-2,590
+4/7 501-1,355
+4/8 501-1,527
+4/9 501-1,497
+40 Stinson Creek 450-A,257
+40.1,948
+4001.1,106
+4001.2,2
+4002.1,292
+4004.1,2
+4006.1,134
+4007.1,276
+401,1108
+402,834
+403,1025
+404 in USD 259-5,1879
+404 in USD 259-6,795
+405,1601
+406,1740
+407,201
+408,1729
+409,957
+41 North Tecumseh 450-A,646
+410,2293
+411,1
+412 in USD 259-5,23
+412 in USD 261,74
+412 in USD 265,3663
+413,2438
+414,1125
+416 in 259-5,1
+416 in 261,1193
+417 in 259-4,784
+417 in 259-5,535
+418 in Riverside Drainage Dist,757
+418 out RD Drainage Dist 259-4,700
+418 out RD Drainage Dist 259-5,379
+419 in Riverside Drainage Dist,694
+419 outside RD Drainage Dist,590
+42 South Tecumseh 450-B,575
+420 in Riverside Drainage Dist,724
+420 outside RD Drainage Dist,942
+422,1204
+423,1688
+424,873
+425 in 259-4 & Riverside Dist,11
+425 in 259-4 outside RD Dist,735
+425 in 261 & RD Dist,705
+425 in 261 outside RD Dist,1194
+426,220
+429 in USD 259-4,254
+429 in USD 259-5,744
+43 Pawnee 450-B,771
+431,147
+433,763
+434,2
+437,1058
+44 Kaw 450-A,732
+44.1 Sterling East Ward,929
+444,148
+445,732
+446 in USD 259-5,1
+446 in USD 261,286
+447 outside RD Drainage Dist,318
+448 outside RD Drainage Dist,124
+449 in USD 265,691
+45 Peck 450-A,442
+45.1,1858
+45.1 Sterling West Ward,590
+46 East Peck 450-A,445
+47 Kiowa 450-B,978
+47.1,663
+48 Cheyenne 450-A,751
+48.1,1401
+49 Ponca 450-B,429
+4A.1,4
+4B.1,10
+4C.1,7
+4th Ward,613
+4th Ward/333/MD1/CC2,409
+5 Pct 6 Ward,1326
+5.1,909
+5.1 Center Twp,50
+5.1 City of Bushton - USD112-5,179
+5.1 Diamond USD 397,9
+"5.1 Hallet, C5, 227",32
+5.1 Morganville City,138
+5.1 North Newton - 373,1371
+5.2 Center Twp,123
+5.2 Diamond USD 284,118
+5.2 Farmer Township USD112-5,28
+5.3 Center Twp,129
+5.3 Farmer Township USD112-6,55
+5.4 Center Twp,61
+5.5 Emmett Twp,52
+5.6 Emmett Twp,30
+5/1 501-1,433
+5/10 450-B,711
+5/11 450-A,663
+5/14 450-A,447
+5/15 450-B,195
+5/2 501-1,482
+5/3 501-1,444
+5/4 501-1,449
+5/5 501-1,538
+5/6 501-1,435
+5/7 501-1,413
+5/8 450-B,106
+5/8 501-1,270
+5/9 450-B,438
+5/9 501-1,262
+5/91 450-B,222
+50.01 NBC 489 /110,233
+503,2398
+504,1627
+506,2063
+507,1890
+508 in USD 259-5,1658
+509 in USD 266-1,1627
+51.01 WBC 489/110,109
+51.1 Big Creek Twp CC1 407,66
+51.1 Grant Twp,44
+51.4.1 Big Creek Twp CC4 407,50
+510,1954
+512,4189
+513,1891
+514,2421
+515,2005
+516,1261
+517,1294
+518,1564
+519,1805
+52 Deer Creek 450-A,14
+52 Deer Creek 450-B,21
+52.01 HE 432/111,105
+52.02 HE/Vic City 432/111,886
+52.1 Center Twp CC5 407,116
+52.1 Iowa Twp  USD 314,1
+52.2 Iowa Twp  USD 352,19
+522,1571
+523,1500
+524,2352
+525 in USD 266-1,1836
+526 in USD 266-1,2063
+526 in USD 266-3,2
+527 in USD 266-3,2052
+528 in USD 267-2,2
+53 Pauline 450-C,266
+53.1 Fairfield Twp CC1 407,26
+53.1 Itasca Twp,212
+530 in USD 265,617
+530 in USD 266-1,1353
+531,2842
+534,241
+539 in USD 265,42
+539 in USD 266-1,1687
+539 in USD 267-2,284
+54 West Potter 437-B,96
+54.01 SBC 388/110,43
+54.02 SBC 489/110,263
+54.03 SBC/Schoen 489/110,149
+54.1,1297
+54.1 Fairview Twp CC3 299,60
+54.1 Lincoln Twp,62
+541,3
+544,257
+545,959
+549,23
+55 Central Pauline 437-B,153
+55.01 W BU 388/110,326
+55.02 W BU 489/110,28
+55.03 W BU 269/110,6
+55.1 Grant Twp CC1 407,148
+55.1 Llanos Twp  USD 314,26
+55.2 Llanos Twp USD 352,4
+550 in USD 267-2,71
+551 in USD 266-2,10
+56 Northwest Monmouth 450-C,527
+56.01 W FR 432/110,1
+56.02 W FR 489/110,154
+56.03 W FR Munj Imprv 489/110,149
+56.1 Lincoln Twp CC1 407,85
+56.1 Logan Twp,165
+57 Northeast Monmouth 450-C,776
+57.1 Luray Twp CC3 299,6
+57.1 McPherson Twp,21
+57.2.1 Luray Twp CC2 299,37
+58 South Monmouth 434-1,1
+58 South Monmouth 450-C,953
+58.1 Paradise Twp CC2 399,72
+58.1 Shermanville Twp,24
+58.2 Paradise Twp CC2 407,3
+58.4 Paradise Twp CC2 407 1215,7
+59 N Central Monmouth 450-C,376
+59.1 Plymouth Twp CC5 112,78
+59.1 Smoky Twp,45
+6.1,1042
+6.1 Crystal Twp,13
+6.1 East Falls CWF City,215
+"6.1 North Roscoe, C5, 227",30
+6.1 Oak Hill City,21
+6.1 Sedgwick City - 439-1,403
+6.2 Crystal Twp,5
+6.2 Galt Township,8
+6.2 Sedgwick City - 439-2,533
+6.3 Crystal Twp,4
+6.3 Galt Township,4
+6.4 Galt Township,26
+6.4 Garfield Twp,41
+6.5 Galt Township,20
+6.5 Rockbranch Twp,12
+6.6 Galt Township,2
+6.6 Rockwell Twp,5
+6.7 Rockwell Twp,7
+6.8 Rockwell Twp,7
+6/1 501-1,469
+6/2 501-1,580
+6/3 501-2,502
+6/4 501-2,639
+6/5 501-2,511
+6/6 501-2,425
+6/7 437-B,23
+6/7 501-2,379
+6/8 501-1,718
+6/9 437-B,510
+6/9 450-C,963
+60.1 Russell Twp CC2 407,25
+60.1 Stateline Twp,42
+60.3.1 Russsell Twp CC3 407,12
+60.4.1 Russell Twp CC4 407,20
+60.5.1 Russell Twp CC5 407,25
+6001.1,389
+6001.2,5
+6001.3,113
+6003.1,33
+6003.2,54
+6004.1,6
+6005.2,24
+6008.1,1
+601 in USD 259-6,2732
+6010.1,16
+6011.1,9
+6013.1,9
+6014.1,5
+6016.1,35
+6019.1,3
+6019.2,8
+602 in USD 259-5,1415
+602 in USD 259-6,995
+6020.1,1
+6021.1,19
+6024.1,2
+6025.1,1
+6026.1,6
+603 in USD 266-2,668
+6032.1,9
+6032.2,37
+604,2223
+605,836
+606,741
+607,2044
+608,1891
+609,2573
+61.1 Union Twp  USD 314,33
+61.2 Union Twp  USD 352,9
+61.2.1 Waldo Twp CC2 399,27
+61.2.2 Waldo Twp CC2 299,5
+61.3 Waldo Twp CC3 407,11
+610,1727
+611,1232
+612,2224
+613,1801
+614,1231
+615,3181
+616,1422
+617,1058
+618,715
+619,1824
+62 Forbes 450-C,99
+62.1 Voltaire Twp,141
+62.1 Winterset Twp CC1 407,41
+621,666
+622 in USD 259-6,1292
+622 in USD 262,840
+623 in USD 259-6,768
+623 in USD 262,1554
+624,218
+626,20
+627,129
+629,146
+63 Montara 437-B,682
+63 Montara 450-C,11
+63.1 Washington Twp,57
+630 in USD 259-6,5
+632 in USD 266-2,843
+633,819
+634,311
+64 Cullen 437-B,766
+65 Wakarusa 437-B,592
+65 Wakarusa 450-C,146
+66 Kingston 450-C,195
+6A.1,2
+7.1,504
+7.1  Walton City - 373,153
+7.1 Almelo Twp,51
+7.1 East Falls,93
+7.1 Harrison Township,116
+"7.1 South Roscoe, C5, 227",35
+7.1 Vining City,26
+7.2 Lenora City,179
+"7.2 South Roscoe, C5, 102",7
+7.3 Highland Twp,17
+"7.3 South Roscoe, C5, 443",5
+7.4 Lenora Twp,21
+7.5 Modell Twp,24
+7.6 Modell Twp,5
+7/1 501-2,483
+7/10 501-3,434
+7/11 501-2,370
+7/11 501-3,248
+7/2 501-2,515
+7/3 501-2,574
+7/4 501-3,536
+7/5 501-2,332
+7/5 501-3,89
+7/6 501-2,404
+7/7 501-2,423
+7/9 501-3,345
+7001.3,1
+7002.1,767
+7004.1,755
+7005.1,31
+7009.1,45
+7010.1,2
+7011.1,186
+71.1,1937
+72 City of Auburn 437-B,788
+73 Meadowlark 437-B,920
+74 Buffalo 330-1,33
+74 Buffalo 330-2,132
+74 Buffalo 437-B,527
+74.1,2187
+74.2,814
+76.1,185
+8.1,744
+8.1 Clayton City,38
+8.1 Diamond  Elmdale City,26
+"8.1 Sawlog E 227, Com 4",32
+8.1 Wakefield City,667
+8.1City of Chase Lincoln,267
+8.2 Clayton Twp,10
+8.2 Lincoln Township,59
+8.3 Clayton Twp,20
+8.4 Noble Twp,5
+8.5 Noble Twp,8
+8/1 501-2,466
+8/10 501-3,393
+8/11 501-3,566
+8/2 501-2,476
+8/3 501-2,541
+8/4 501-2,534
+8/5 501-3,740
+8/6 501-3,384
+8/7 501-2,503
+8/8 501-2,430
+8/9 501-3,529
+80 Gaillardia 437-A,843
+81 Dover 321-2,63
+81 Dover 330-1,449
+81 Dover 437-B,60
+82 Willard 321-2,361
+82 Willard 321-2-W,31
+82 Willard 330-1,26
+82 Willard 437-A,92
+83 Ichabod Wsbn 437-C,13
+84 Yucca 330-1,73
+84 Yucca 437-B,183
+85 Aldersgate 437-C,373
+86 Sunflower 437-C,1162
+87 Washburn 437-B,586
+87 Washburn 437-C,276
+89 North Mission 437-A,187
+9 East Silver Lake 372,303
+9 East Silver Lake 372-S,542
+9.1,679
+9.1 East Strong,98
+9.1 Leota Twp,44
+9.1 Mitchell Township,49
+"9.1 Sterling 227, C4",2
+9.2 Mitchell Township,3
+9.2 Orange Twp,38
+"9.2 Sterling 347, C4",11
+9.3 Mitchell Township,1
+"9.3 Sterling 228, C4",47
+9.4 Mitchell Township,36
+"9.4 Sterling 381, C4",16
+"9.5 Sterling 496, C4",1
+9/1 501-2,140
+9/10 501-2,313
+9/10 501-3,556
+9/11 501-2,430
+9/12 501-2,296
+9/2 501-2,443
+9/2 501-3,8
+9/3 501-2,493
+9/3 501-3,240
+9/4 501-2,584
+9/5 501-2,598
+9/6 501-3,613
+9/8 501-3,900
+9/9 501-2,386
+90 South Mission 437-B,454
+90 South Mission 437-C,57
+9001.1,124
+9001.3,303
+9002.1,4
+9003.1,125
+9004.1,21
+9005.1,23
+9007.2,407
+9008.1,2
+9009.1,1
+9010.1,555
+9010.2,15
+9010.3,55
+9011.1,2
+9012.1,5
+91 Central Mission 437-C,777
+92 Sherwood 437-C,552
+93 South Sherwood 437-C,569
+94 Indian Hills 437-C,651
+95 York 437-C,686
+96 Vaquero 437-A,1
+96 Vaquero 437-C,452
+97 York Outer 437-C,73
+99 Verbena 437-A,113
+A/001 Parsons 1W1P,553
+A/002 Parsons 1W2P,303
+A/003 Parsons 1W3P,334
+A001.1,1658
+A002.1,1049
+A003.1,1041
+A003.2,281
+A006.1,226
+A006.2,2
+A007.1,306
+A008.1,2
+A1.1 Alta - 313-3,88
+A1.1 Alta 313-3 - FD5,32
+A1.2 Alta - 369,11
+A1.2 Alta 369 - FD5,16
+A1.3 Alta - 423-3,27
+A2.1 Garden - 423-3,181
+A2.2 Garden - 440-1,16
+A2.3 Garden - 460,3
+A3.1 Emma - 423-3,7
+A3.2 Emma - 460,374
+A4.1 Highland - 373,4
+A4.1 Highland - 373 - FD1,86
+A4.2 Highland - 411-3 - FD1,18
+A4.3 Highland - 460,98
+A4.3 Highland - 460 - FD1,56
+A5.1 Walton - 373 - FD1,150
+A5.2 Walton - 398-2,15
+A5.2 Walton - 398-2 - FD1,7
+A5.3 Walton - 398-1,12
+A5.3 Walton - 398-1 - FD1,43
+A6.1 Burrton - 369,126
+A7.1 Halstead - 440-1,199
+A7.1 Halstead - 440-1 LAR,29
+A8.1 Macon - 373,7
+A8.2 Macon - 440-1,219
+A8.3 Macon - 460,48
+A8E.1 Macon East 72 - 373,57
+A8E.2 Macon East 72 - 440-1,2
+A8E.3 Macon East 72 - 460,3
+A9.1 Newton - 373 Part A,4
+A9.2 Newton - 373 Part B,205
+A9C.3 Newton 72 - 373 Part C,7
+A9C.4 Newton 72 - 373 Part D,59
+A9C.5 Newton 72 - 373 Part E,2
+A9N.1 Newton 74 - 373 Part A,3
+A9N.2 Newton 74 - 373 Part B,36
+AB City USD435-1 Prc 1,16
+AB City USD435-1 Prc3,495
+AB City USD435-1 Prc4,525
+AB City USD435-1 Prc5,773
+AB City USD435-2 Prc 1,733
+AB City USD435-2 Prc2,898
+AB City USD435-3 Prc2,248
+AB City USD435-3 Prc3,205
+AB City USD435-3 Prc4,376
+AB City USD435-3 Prc5,343
+Abbyville USD 310,55
+AC 001E,204
+AC 001N,89
+AC 001W,111
+AC 002,555
+AC 1A,2018
+AC 1AAX,1
+AC 1ABX,30
+AC 2A,1261
+AC 2AAX,2
+AC 3A,1473
+AC 4A,1332
+Adams Twp - USD 113,13
+Adams Twp - USD 115,122
+Adell/1/412,11
+Adria-USD 321 1-4 HOSPITAL,91
+Adrian-USD 322 6 HOSPITAL,2
+Adrian - USD 321 1-4,24
+Aetna Twp (Usd 255),6
+Afton in 265 & LW Imp Dist,180
+Afton in USD 264,1
+Afton in USD 265,535
+Afton in USD 267-3,491
+Afton in USD 268,1
+Agency 421 MD 2-4,2
+Agency 421 MD 3-4,8
+Agency 456 MD 147,5
+Agency 456 MD 257,25
+Agency 456 MD 367,73
+Agenda City EC - 109 2/5 C1,31
+Agra City 110/1/FD3A,180
+AH,29
+AL / SP 339,6
+AL / SP 342-1,244
+AL / SP 449-2,168
+AL / SP 464-2,264
+AL.1 Allison Township (211NT),4
+AL.2 Allison Township (412SD),17
+Alamota Twp,37
+Albano/350 Mem 3-6/H1/C3,15
+Albano/351 Mem 2-3-6/H2/C3,6
+Albano/438/H1/C3,11
+Albert City,119
+Albion - 108 C1 F3,3
+Albion - 109 2/5 C1 F3,39
+Albion Twp,34
+Albion USD 311,136
+Alexander-Belle Prairie Twsp.,39
+Alexander City,31
+Allen Township USD 331 Pos. 5,97
+Allen TWP 273,18
+Allen TWP 333,4
+Allodium Twp/USD 211/2-5,16
+Allodium Twp/USD 211/3-6,2
+Allodium Twp/USD 281,11
+Alma City 329-2,217
+Alma City 329-4,68
+Alma City 329-5,321
+Alma Twp 329-2,86
+Alma Twp 329-4,154
+Alma Twp 329-5,62
+Alta Vista 417,289
+"Alton City/392, 3",80
+Andale 267-1,624
+Andover W1 385-1 99 CM 1,3753
+Andover W1 385-2 99 CM 1,2279
+Andover W2 385-3 99 CM 1,3470
+Andover W3 385-3 77 CM 5,180
+Andover W3 385-3 77 CM 5 A,957
+Andover W3 385-3 77 CM 5 Exc C,166
+Andover W3 385-3 88 CM 5,825
+Andover W4 385-3 77 CM 5,292
+Anthony / WD1/H832/SD361,719
+Anthony / WD2/H832/SD361,295
+Anthony / WD3/H832/SD361,175
+Anthony / WD4/H832/SD361,230
+Anthony Lake / WD2/H832/SD361,47
+Anthony PowerPl/WD3/832/361,2
+App/C3/H1/459,3
+App/C3/H2/219,113
+App/C3/H3/220,2
+Appanoose Twp/287/1-4,217
+Arcade Twp 110/1/FD1,3
+Arcade Twp 110/1/FD3A,16
+Arcade Twp 325/1/FD1,18
+Arcade Twp 325/2/FD1,25
+Arcadia City,215
+Argonia City 359/1,216
+Argonia City 359/3,101
+Arion Twp/333/MD3/CC2,58
+Arion Twp/334/MD2/CC2,14
+Arlington City USD 310,280
+Arlington Twp USD 310,81
+Arvonia 243 MD 147,50
+Arvonia 243 MD 257,7
+Arvonia 251 MD__ RF1,30
+Arvonia 420 MD 147,3
+Ash Creek (112/5),1
+Ash Creek (327/3),44
+Ash Valley Twp / 495 / 3-6,36
+Ash Valley Twp / 496 / 246,1
+Asherville Township,69
+Ashland Twp-1,114
+Ashland Twp-2,13
+AT,13
+AT.1 Altory Township,17
+Athens TWP 273 1-4,49
+Athol City,29
+Attica / USD 511/H22,361
+Attica 1 in USD 265,25
+Attica 12 in USD 265,65
+Attica 13 in USD 265,4
+Attica 16 in USD 265,2
+Attica 2,108
+Attica 22 in USD 265,143
+Attica 3 in 267-2 & SM Imp D,29
+Attica 3 in USD 265,238
+Attica 3 in USD 267-1,64
+Attica 3 in USD 267-2,428
+Attica 3 in USD 267-3,35
+Attica 4 in USD 265,3
+Attica 5 in USD 265,47
+Attica 5 in USD 266-1,28
+Attica 5 in USD 266-3,43
+Attica 5 in USD 267-2,179
+Attica 6,115
+Attica 7 in USD 267-2,5
+Attica 8,29
+Attica 8 in RR Imp Dist,59
+Augusta Twp 205 - 32,74
+Augusta Twp 205 14,25
+Augusta Twp 32 375-6 B,3
+Augusta Twp 32 402 A,11
+Augusta Twp 375-6 - 32,6
+Augusta Twp 375-6 14,235
+Augusta Twp 402 - 32,642
+Augusta Twp 402 14,40
+Augusta W1,1725
+Augusta W2,1241
+Augusta W3,1837
+Augusta W4,1674
+Augustine Twp. #467,16
+Aurora City/333/MD3/CC1,32
+Aurora Twp/333/MD3/CC1,46
+"AV Twp Comm Dist 1, 1-4",32
+"AV Twp Comm Dist 1, 3-6",13
+Avon Twnshp 353/3,196
+Avon Twnshp 358/2,8
+Avon Twnshp 358/3,28
+"Avon Twp, 244/3",23
+"Avon Twp, 245/1",39
+"Avon Twp, 245/2",64
+B/004 Parsons 2W1P,224
+B/005 Parsons 2W2P,398
+B/006 Parsons 2W3P,625
+B001.1,1169
+B002.1,2
+B005.1,6
+B006.2,2
+B008.1,4
+B009.1,3
+B1.1 Pleasant - 206,106
+B1.1 Pleasant - 206 - FD1,74
+B1.2 Pleasant - 373,53
+B1.2 Pleasant - 373 - FD1,131
+B2.1 Lake - 312-3 - FD5,3
+B2.2 Lake - 369 - FD5,56
+B2.3 Lake - 369 - FD5mh,50
+B2.4 Lake - 440-3 - FD5,2
+B3.1 Lakin - 439-3,25
+B3.2 Lakin - 440-3,130
+B3.2 Lakin - 440-3 LAR,1
+B3.3 Lakin - 440-1,37
+B3.3 Lakin - 440-1 LAR,2
+B4.2 Sedgwick - 439-3,86
+B4.3 Sedgwick - 440-3,30
+B4.4 Sedgwick - 440-1,20
+B4E.1 Sedgwick East-72 - 373,4
+B4E.2 Sedgwick East-72 - 439-3,74
+B4E.3 Sedgwick East-72 - 440-3,12
+B4E.4 Sedgwick East-72 - 440-1,6
+B5.1 Darlington - 206,29
+B5.2 Darlington - 262-2,3
+B5.3 Darlington - 373,267
+B5.4 Darlington - 439-3,41
+B5N.3 Darlington North - 373,89
+B6.1 Richland - 206,268
+B6.2 Richland - 373,28
+BA.1 Bassettville Township,12
+Bach TWP 389 Mem 3,159
+Bachelor TWP 389 Mem 5,8
+Bachelor TWP 390,11
+Baker (293) CC1,37
+Baker (293) CC2,150
+Baker (293) Quinter,639
+Baker 247 14,67
+Baker 250,744
+Bala Twp-1,204
+Bala Twp-3 Leonardville City,273
+Bald USD 113-b,15
+Bald USD 364,45
+Banner,101
+Banner - USD 336,57
+Banner - USD 336.,197
+Banner 473-3,29
+Banner 481-2,59
+Banner Township,50
+"Banner Twsp. (395, 5)",8
+"Banner Twsp. (403, 1-4)",54
+Barclay 251 MD 147_RF1,19
+Barclay 420 MD 147,134
+Barnard-Salt Creek,8
+Barnard-Scott,42
+"Barnes City, 223.3",84
+"Barnes Township, 223.3",8
+"Barnes Township, 223.4",19
+"Barnes Township, 498.3-6",9
+Barrett Twp-USD 314,61
+Barrett Twp-USD 315,19
+Bassett City 257,21
+Battle Creek 298,18
+Battle Creek 299 02,3
+Battle Hill - USD 400,10
+Battle Hill - USD 419,75
+Bazine City H2/106/1,173
+Bazine Twp H1/106/1,18
+Bazine Twp H1/395/1,1
+Bazine Twp H2/106/1,69
+BC  No/ F 458-2,6
+BC No/ F 458-1,3332
+BC So/F  458-2,2766
+BE.1 Beaver Township,49
+Bear Creek T/S,23
+Beaver - 333 C2 F1CR,1
+Beaver - 426 2 C2 F12,28
+Beaver - 426 2 C2 F1CR,25
+Beaver 298,42
+Beaver Township,34
+Beaver Twp,162
+Beaver Twp 326/6/FD2,36
+Beaver Twp 326/6/FD4,2
+Beaver Twp REC,60
+Beaver/358/3-6,8
+Beaver/465,75
+Beaver/470,56
+Bel Aire 1,2320
+Bel Aire 2,1806
+Bel Aire 3 in 259-1,2672
+Bel Aire 3 in 375-1,462
+Bel Aire 4,4
+Bell USD 310,42
+Bell USD 311,2
+Bell USD 331 1-4,1
+Belle Plaine City 357/1,501
+Belle Plaine City 357/2,70
+Belle Plaine City 357/3,453
+Belle Plaine Twnshp H 79 357/1,60
+Belle Plaine Twnshp H 79 357/2,315
+Belle Plaine Twnshp H 79 357/3,72
+Belleville-Chautauqua,104
+Belleville-Chautauqua City,61
+Belleville-Peru,113
+Belleville-Peru City,72
+Belleville -109 1/4 C3 F7,75
+Belleville -109 2/5 C3 F7,92
+Belmont Twp 325/3/FD1,17
+Belmont Twp 325/3/FD4,2
+Belmont Twp 326/6/FD4,12
+Belmont Twp USD 331 Pos. 4,27
+Belmont Twp USD 332 Pos. 4,14
+"Beloit Township/1st Comm, 1-4",2
+"Beloit Township/1st Comm, 2-5",19
+"Beloit Township/1st Comm, 3-6",53
+"Beloit Township/2nd Comm, 1-4",42
+"Beloit Township/2nd Comm, 3-6",34
+Belpre City / USD 351,50
+Belpre Twp / USD 351,39
+Belpre Twp / USD 502,28
+Belv A Twp CD1/422,2
+Belv Twp CD1/474,21
+Belvue City   320.5,138
+Belvue Twp 320.5,105
+Belvue Twp 321 1.4,19
+Belvue Twp 321 3.6,6
+Benkelman Twp,28
+Bennett Twp USD 331 Pos. 5,35
+Bennett Twp USD 331 Pos. 6,123
+Bennington City,396
+Bennington Twp 239,2
+Bennington Twp 240/2-5,419
+Bennington Twp 240/3-6,41
+Benton 338,12
+Benton 339,5
+Benton 339 H63,37
+Benton 377,160
+Benton 377 H63,128
+Benton City 75 375-2,662
+Benton City 75 375-2 C,1
+Benton City 85 375-2,92
+Benton Twp 75 375-4,514
+Benton Twp 75 375-6,68
+Benton Twp 75 375 -2,162
+Benton Twp 75 385-2,166
+Benton Twp 85 375-2,289
+Benton Twp 85 385-2,7
+Bern City,127
+Berwick Twp - USD 113,284
+"Bethany Twp/272, 1-4",14
+"Bethany Twp/392, 3",42
+Beulah 247 25,67
+Beulah 247 25b,74
+Beulah 247 36,6
+Beulah 248 36,75
+Beverly,70
+Big Bend - 109 1/4 C2 F1,6
+Big Bend - 109 1/4 C2 F2,30
+Big Bend - 109 1/4 C2 F9,11
+"Big Bow Twp, CC 3,  USD 452",124
+Big Creek (101/3),175
+Big Creek (413),194
+Big Timber 489,1
+Big Timber Twsp.,36
+Big USD 380,18
+Big USD 384,2
+Big USD 498,4
+Bird City Twp/15,93
+Bird City Twp/26,81
+Bison City,128
+Black Wolf (327/3),80
+Blaine Township,34
+Blaine Twp 239/2-5,52
+Blaine Twp 239/3-6,42
+Blaine USD 397,29
+Blaine USD 410,4
+Blaine USD 481,4
+Blakely - USD 473,8
+Blakely - USD 475,68
+Blakely - USD 481,11
+Blm/3/316,23
+Blm/3/412,9
+Bloom Twp/219/mhd,61
+"Bloom Twp/272, 3-6",50
+"Bloom Twp/392, 3",1
+Bloomfield Township,63
+Bloomington Twp 205,262
+Bloomington Twp 396,30
+Bloomington Twp 402,110
+Blue Hill Township/273,6
+Blue Hill Township/299,18
+Blue Mound City,178
+Blue Mound Twp Bm00001.1,51
+Blue Mound Twp Bm00001.2,115
+Blue Twp H51 323.4,30
+Blue Twp H51 383.7,3369
+Blue Twp H61 323.3,59
+Blue Twp H61 323.4,17
+Blue Twp H61 378 3.6,153
+Blue Twp H61 383.7,420
+Blue Valley 384.2,48
+Blue Valley 384.3,63
+Bluff / USD 361/H832,34
+Bluff Twnshp 359/3,6
+Bluff Twnshp 360,40
+Bogue City/USD 281,109
+Bolton E H12/470,207
+Bolton W/358/3-6,6
+Bolton W/470,798
+Bonaville - USD 306,5
+Bonaville - USD 400,56
+Bow Creek Twp 110/1/FD3B,14
+Bow Creek Twp 325/1/FD3B,11
+BOW/1/412,25
+BOW/Geuda Springs/358/3,10
+BP Twnshp H79 263/3,119
+BP Twnshp H79 263/3 BP DD,4
+BP Twnshp H79 263/3 Cowskin DD,349
+BP Twnshp H79 263/3 Pt A,1
+BP Twnshp H79 357/1 Cowskin DD,202
+BP Twnshp H79 357/2 Cowskin DD,16
+BP Twnshp H82 263/3 BP DD,9
+BP Twnshp H82 263/3 Pt A,1
+BR City USD 364,4
+BR City USD 498.2,71
+BR City USD 498/B.1,446
+BR City USD 498/B.2,173
+BR USD 498,62
+Br. Grove Twp,31
+"Brantford Township, 109.2-5",8
+"Brantford Township, 223.1",2
+"Brantford Township, 224.3",53
+Brazilton,56
+Brewster City-USD 314,207
+Bronson City,192
+Brownscreek TWP 273 1-4,43
+Bruno Twp N 375-6 77 -1,152
+Bruno Twp N 385-2 - 77 - 1,31
+Bruno Twp N 385-2 - 99 - 1,276
+Bruno Twp N 385-3 - 99 - 1,28
+Bruno Twp N 385-3 77 - 1,458
+Bruno Twp N 402 77 - 1,281
+Bruno Twp N 402 77 - 1 B,94
+Bruno Twp N 402 77 - 1 C,45
+Bruno Twp S 385-3 77 CM 5,194
+Bruno Twp S 385-3 88 CM 5,5
+Bruno Twp S 402 77 CM 5,241
+Bryant Twp/USD 208,3
+Bryant Twp/USD 281,50
+Bryant Twp/USD 412,3
+BS01-01.204,1234
+BS02-01.204,1225
+BS03-01.204,1401
+BS04-01.204,1412
+BSPG City 458-2,5
+BT / F 458-1,845
+BT / F 458-2,343
+BT / F 469,396
+Buckeye 1-435-3,11
+Buckeye 1-473-1,23
+Buckeye 435-1,50
+Buckeye 435-3,188
+Buckeye 473-1,61
+Buckeye Twp 240,67
+Buckeye Twp 393,9
+Bucklin City/459/bhd/bcd,497
+Bucklin Twp/381/1-4/shd,5
+Bucklin Twp/459/bhd,3
+Bucklin Twp/459/bhd/bcd,55
+Buffalo Twp,311
+Buffalo TWP 107-2,56
+Buffalo Twp/333/MD3/CC2,69
+Buhler USD 313 3-6,944
+Bulingame SO 454 MD 367 WS,37
+Burdett City,164
+"Burl City, Wd 1, USD 244/1",52
+"Burl City, Wd 1, USD 244/2",249
+"Burl City, Wd 1, USD 244/5",281
+"Burl City, Wd 2, CC Hts, 244/6",77
+"Burl City, Wd 2, Excl, 244/6",7
+"Burl City, Wd 2, USD 244/2",32
+"Burl City, Wd 2, USD 244/3",230
+"Burl City, Wd 2, USD 244/5",129
+"Burl City, Wd 2, USD 244/6",87
+"Burl City, Wd 3, USD 244/3",102
+"Burl City, Wd 3, USD 244/4",409
+"Burl City, Wd 3, USD 244/6",68
+"Burl Twp, 244/1",23
+"Burl Twp, 244/2",6
+"Burl Twp, 244/3",44
+"Burl Twp, 244/4",92
+"Burl Twp, 244/5",36
+"Burl Twp, 244/6",111
+Burlingame NO 330 MD 257,102
+Burlingame NO 330 MD 257 WS,35
+Burlingame NO 434 MD 257,48
+Burlingame NO 437 MD 257,41
+Burlingame NO 454 MD 147,110
+Burlingame NO 454 MD 147 WS,188
+Burlingame SO 454 MD 257,15
+Burlingame SO 454 MD 257 WS,21
+Burlingame SO 454 MD 367,45
+Burns,140
+Burr Oak,113
+Burr Oak City 107-2,112
+Burr Oak TWP 107-2,52
+Byers USD 438  Comm 2,28
+Byron/350 Mem 1-4/H3/C2,33
+Byron/355/H3/C2,12
+"C. City Comm Dist 1, 1-4",6
+"C. City Comm Dist 1, 2-5",101
+"C. City Comm Dist 2, 1-4",74
+"C. City Comm Dist 2, 2-5",291
+"C. City Comm Dist 2, 3-6",4
+C/007 Parsons 3W1P,321
+C/008 Parsons 3W2P/503,456
+C/008 Parsons 3W2P/506,194
+C/009 Parsons 3W3P/503,380
+C/009 Parsons 3W3P/506,60
+C/010 Parsons 3W4P/503,643
+C/010 Parsons 3W4P/506,81
+C001.1,702
+C001.2,1705
+C002.1,4
+C002.2,8
+C003.1,1150
+C003.2,420
+C004.1,1310
+C006.1,2428
+C007.1,33
+C008.1,791
+C009.1,2352
+C010.1,1428
+C013.1,1469
+C014.1,1039
+C017.1,3
+C019.1,350
+C020.1,859
+C022.1,128
+C022.2,4
+C023.1,2
+C025.1,5
+C026.1,3
+C027.1,2
+CA - NC City H71 (393-25),83
+CA H71 (240-36),26
+CA H71 (305),136
+CA H71 (393-25),72
+CaC W1,290
+CaC W1 ExA,2
+CaC W1 ExC,2
+CaC W2,283
+CaC W3,338
+CaC W4,345
+CaC W4 ExA,1
+Caldwell Twnshp 360,101
+Caldwell W1 360,238
+Caldwell W2 360,447
+Calhoun Twp/25/297,28
+Calhoun Twp/26/103,7
+Calvin TWP 107-2,42
+Caneyville-USD 282,13
+Caneyville-USD 285,37
+Caneyville-USD 286-Member #1,6
+Canren (327/1),52
+Canton C - USD 419,402
+Canton T-  419 (1-4),35
+Canton T-  419 (3-6),108
+Canton Twp USD 331 Pos. 6,67
+Canton Twp USD 361,5
+Canville H2 (413),141
+Canville Part A H7 (101/1),5
+Canville Part A H7 (413),247
+Canville Part B H7 (413),5
+Capaldo 246 25,12
+Capaldo 246 25 HD,24
+Capaldo 248 14,191
+Capaldo 249,129
+Capaldo 249 HD,39
+Capioma Twp - USD 113,118
+Carlton City USD473-3,35
+Carlyle Twp 257,226
+Carlyle Twp 479,11
+Carneiro (307/1),16
+Carneiro (327/3),29
+Carr Creek Township/2-5,5
+Carr Creek Township/3-6,11
+Cassoday City 492-1,76
+Castle - USD 444,50
+Castleton USD 311,175
+Castleton USD 312 1-4,56
+Catlin,38
+Catlin USD408/Hospital Dist,24
+Catlin/Hospital Dist,54
+Catlin/Peabody City East,2
+Catlin/Peabody City West,6
+Cawker City,317
+Cawker Township,38
+CC.2 Clayton City (211NT),2
+CC/225/F,39
+CC/225/M,9
+CC/226/M,16
+CE.1 Center Township,39
+Cedar - USD 336,88
+Cedar - USD 336.,95
+Cedar - USD 337 1-4,153
+Cedar - USD 337 3-6,391
+Cedar City,22
+Cedar Township,61
+Cedar/285,14
+Cedar/471/3-6,10
+Cedron 299 01,1
+Cedron 299 02,24
+Cen1/C1/H3/220/City,381
+Cen2/C2/H3/220/City,218
+Cen2/C2/H3/220/Rural,75
+Center-USD 282,22
+Center-USD 285,2
+Center-USD 286-Member #1,26
+Center 1,38
+Center 2,250
+Center 339,46
+Center 377,393
+Center 473-1,151
+Center 473-3,132
+Center I-Smith Center City,457
+Center II-Smith Center City,503
+Center III-Smith Center City,266
+Center III Township,51
+Center IV Township,82
+Center Township,20
+Center Twp,51
+Center Twp - USD 115,80
+Center Twp - USD 380,55
+Center Twp (H) 320.5,20
+Center Twp (H) 322.6,21
+Center TWP 107-1,89
+Center Twp 239,64
+Center Twp 320.5,33
+"Center Twp USD 111 1,3,5,7",8
+"Center Twp USD 111 2,4,6,7",5
+"Center Twp USD 114 1,3,5,7",2
+Center Twp USD 429 1-7,489
+Center Twp/366 ALG /1,29
+Center Twp/366 ALG /3,147
+Center Twp/366 ALG/1,169
+Center Twp/366 ALG/3,118
+Center Twp/387/6 7/ 1,1
+Center Twsp.,55
+Center USD 310,5
+Center USD 312 2-5,166
+Center USD 364,74
+Center USD 380,32
+Centerville (101/1),206
+Centerville (101/2),76
+Centerville Twp Ce00002.1,155
+Centerville Twp Ce00002.2,152
+Centerville Twp Ce00002.3,38
+Centralia-Home 380 2-5,143
+Centralia-Home 380 3-6,132
+Centralia-Illinois,49
+Centre USD 397-6,4
+"Centre USD 408-1,4",11
+"Centre USD 408-1,4/CVD",4
+"Centre USD 408-2,5",105
+"Centre USD 408-2,5/CVD",1
+"Centre USD 408-3,6",46
+"Centre USD 408-3,6/CVD",1
+"Centre USD 408-3,6/Imp#2",210
+CF USD 322,2
+CF USD 380,15
+CF USD 380.2,17
+"CG-Ward 1 - 417, Bd 1",435
+"CG-Ward 2 - 417, Bd 1",389
+"CG-Ward 3 - 417, Bd 1",659
+CH USD 498,99
+Chalk 329-4,2
+Chalk 330-3 & 6,14
+Chalk 417,20
+Chanute  P1 Ward 3 (413),1226
+Chanute  P2 Ward 2 (413),596
+Chanute  P3 Ward 3 H2 (413),178
+Chanute P1 Ward 2 (413),590
+Chanute P1 Ward 3 EX (413),1
+Chanute P1 Ward 4 (413),678
+Chanute P2 Ward 3 (413),518
+Chanute P2 Ward 4 A H2 (413),7
+Chanute P2 Ward 4 B H2 (413),1
+Chanute P2 Ward 4 H7 (413),454
+Chanute P3 Ward 3 EX (413),4
+Chanute P3 Ward 3 H7 (413),899
+Chanute P3 Ward 4  H2 (413),46
+Chanute P3 Ward 4 EX C (413),5
+Chanute P3 Ward 4 H7 (413),448
+Chanute Ward 1 (413),189
+Chapman City 473-2,1004
+Chapman Twp 239,29
+Chapman Twp 379,7
+"Char Twp, 223.4, Hanover Hosp",21
+"Char Twp, 223.6, Hanover Hosp",5
+"Charleston Township, 108.2-5",12
+"Charleston Township, 223.4",6
+"Charleston Township, 223.6",4
+ChC W1,732
+ChC W2,551
+Cheever 435-3,4
+Cheever 473-1,104
+Chelsea Twp 389,3
+Chelsea Twp 490,43
+Chelsea Twp 492-1,137
+Chelsea Twp 492-2,25
+Cherokee,367
+Cherokee-Sheridan 247 25,151
+Cherokee-Sheridan 247 25 HD,78
+Cherokee-Sheridan 247 36,12
+Chetopa H13 (447),136
+Chetopa H2 (101/1),1
+Chetopa H9 (101/1),109
+Chetopa H9 (413),3
+Chetopa H9 (447),29
+Cheyenne Twp,82
+Cheyenne Twp / IM,113
+Cheyenne Twp REC,120
+Chicopee 247 14,391
+Chicopee 250,31
+Chikaskia 331 Pos. 6 Harp Hosp,6
+Chikaskia Twnshp 359/3,18
+Chikaskia Twnshp 360,24
+Chikaskia Twp USD 331 Pos. 6,8
+Chikaskia Twp USD 332 Pos. 6,13
+Cimarron City E USD 102,1070
+Cimarron City NW USD 102,259
+Cimarron City SW USD 102,92
+Cimarron Twp E USD 102,132
+Cimarron Twp NW USD 102,20
+Cimarron Twp NW USD 477,6
+Cimarron Twp SW USD 102,80
+Cimarron Twp SW USD 477,3
+Cimarron Twp USD 102,11
+Circleville City - USD 335 3,106
+City of B'Game South MD257 WS,122
+City of B'Game South MD367 WS,362
+City of Bentley,377
+City of Bird City,308
+City of Burlingame North WS,192
+City of Carbondale North,488
+City of Carbondale South,486
+City of Cheney 01,1475
+City of Colwich in 267-2,971
+City of Eastborough,654
+City of Lyndon North 1-4,567
+City of Lyndon North 2-4,7
+City of Lyndon South 1-4,126
+City of Lyndon South 2-4,93
+City of Melvern,270
+City of Olivet,56
+City of Overbrook,738
+City of Quenemo,223
+City of Scranton,465
+Claflin City REC,466
+Clarence Twp 428,46
+Clarence Twp 495,50
+Clark USD 397-6,57
+Clark USD 397-6/Imp#3,12
+"Clark USD 408-1,4",19
+"Clark USD 410,1-4",3
+Clay North En USD 313 2-5,4
+Clay North USD 313 1-4,242
+Clay North USD 313 2-5,403
+Clay North USD 313 3-6,94
+Clay South H102-1 USD 313 2-5,142
+Clay South H104 USD 313 2-5,328
+Clay South H104 USD 313 3-6,152
+Clay South H114 USD 312 3-6,132
+Clay South H114 USD 313 2-5,62
+Clay South H114 USD 313 3-6,6
+Clay South USD 308 H102A,1
+Clay South USD 312-3-6 H102A,5
+Clay Twp 205,22
+Clay Twp 396,21
+Clay Twp 462,19
+Clear Ck Twp (H) 322.5,25
+Clear Ck Twp (H) 323.6,75
+Clear Creek - USD 113,12
+Clear Creek - USD 115,62
+Clear Creek (327/3),78
+Clear Creek USD  397-6,60
+Clear Creek USD 397-6/Imp #3,28
+"Clear Creek USD 408-2,5",7
+Clear Creek USD397-5,112
+Cleve USD 380,61
+Cleveland Run Twp/14,26
+Cleveland Run Twp/25,11
+Cleveland Twp,7
+Cleveland Twp REC,26
+Cleveland/350 Mem 1-4/H1/C2,41
+Cleveland/351/Mem 1-4-5/H1/C2,2
+Clifford Twp 206,70
+Clifford Twp 398,56
+"Clifton City, 224.1",22
+"Clifton City, 224.2",166
+"Clifton Township, 224.3",53
+"Clifton Township, 224.6",14
+Climax City,49
+Clr Crk/351 Mem 2-3-6/H2/C3,19
+Clyde City/224/MD4/CC1,185
+Clyde City/224/MD5/CC1,249
+Clyde City/224/MD6/CC1,28
+Cntr 1 CD2/422,245
+Cntr 1 Twp CD2/300,6
+Cntr 1 Twp CD2/422,146
+Cntr 1A Twp CD3/422,47
+Cntr 2 CD2/422,116
+Cntr 2A CD3/422,150
+Cntrp N Twp/287/1-4,358
+Cntrp N Twp/348/3-6,17
+Cntrp S Twp/287/1-4,145
+Cntrp S Twp/287/2-5,210
+Cntrp S Twp/287/2-5/DD,21
+Cntrp S Twp/290,4
+"CO Twp Comm Dist 1, 1-4",78
+"CO Twp Comm Dist 1, 2-5",11
+"CO Twp Comm Dist 1, 3-6",11
+"CO Twp Comm Dist 2, 1-4",25
+"CO Twp Comm Dist 2, 3-6",9
+CO.1 Cook Township (294),17
+CO.2 Cook Township (316TH),1
+Coats-10 USD 438  Comm 3,61
+CoC P1,939
+CoC P1 DD1,15
+CoC P1 ExF,8
+CoC P2,763
+CoC P2 DD1,7
+CoC P3,821
+CoC P4,841
+CoC P5,969
+CoC P6,686
+"Coleman Township, 108.1-4",34
+"Coleman Township, 223.1",7
+Colfax,60
+Colfax Twp/224/MD6/CC1,17
+Colfax Twp/334/MD1/CC1,7
+Colfax Twp/379/CC1,1
+Collyer City,64
+Collyer Township,141
+Colony City,285
+Colorado 298,86
+Columbia (112/2),4
+Columbia (327/3),36
+Comanche Twp,121
+Comanche Twp EHD,197
+Concord Twp 239,97
+Concord Twp 240,97
+Concord Twp/102,33
+Concord Twp/443,29
+Conkling Twp / 495 / 3-6,4
+Conkling Twp / 496 / 246,10
+Conway Sprns (ConwayTwsp)356/2,298
+Conway Sprns (ConwayTwsp)356/3,222
+Conway Twnshp H116 356/2,34
+Conway Twnshp H116 356/3,30
+Conway Twnshp H79 264,1
+Conway Twnshp H79 356/1,140
+Conway Twnshp H79 356/2,23
+Conway Twnshp H79 356/3,14
+ConwaySprngs Springdale 356/3,233
+Coolidge City,51
+Coolidge T/S,21
+Copeland City USD 476,143
+Copeland Twp USD 371,9
+Copeland Twp USD 476,70
+Cora Township,23
+"Corinth Twp/272, 2-5",26
+"Corinth Twp/272, 3-6",14
+"Corinth Twp/392, 3",4
+Corning City,154
+Cottage Grove 256 All At Large,28
+Cottage Grove 258 All At Large,137
+Courtland - 426 1 C2 F12,40
+Courtland - 426 2 C2 F12,40
+Courtland City  CL - 426 1 C2,198
+Covert Twp/299,2
+"Covert Twp/392, 3",5
+Covert Twp/399,1
+Crawford 248 25,48
+Crawford 248 36,283
+Creek Twnshp 356/3,77
+Creek Twnshp 359/2,62
+Creswell E H12/470,313
+Creswell E H12/470/Lakewynds,116
+Creswell E H80/470,225
+Creswell E H80/Parkerfield/470,308
+Creswell W/470,435
+Crowe 246 14,47
+Crowe 246 36,149
+Crystal Plains Township,19
+Crystal Twp 110/1/FD3A,37
+CT/226/M,18
+CT/483/M,52
+CTR East 105,85
+CTR West 105,136
+CU.1 Custer Township,25
+Cuba City RI - 109 2/5 C1 F4,106
+Cullison USD 438  Comm 3,56
+Culver City,75
+Culver Twp 239,4
+Culver Twp 240/1-4,64
+Culver Twp 240/2-5,12
+Cunn-Dresden USD 332 Pos. 1,173
+Cunn-Rural USD 332 Pos. 2,118
+Custer Township/272,11
+Custer Township/299,22
+Cutler Twp/288/A,138
+Cutler Twp/288/B,308
+Cutler Twp/290,53
+D/011 Parsons 4W1P,301
+D/012 Parsons 4W2P,485
+D/013 Parsons 4W3P,407
+D/014 Parsons 4W4P/503,87
+D/014 Parsons 4W4P/506,402
+D101.1,1128
+D101.2,312
+D102.1,1146
+D103.1,758
+D104.1,400
+D104.2,1074
+D105.1,1168
+D106.1,1824
+D108.1,2
+D108.2,2115
+D109.1,1299
+D111.1,1140
+D113.1,976
+D114.1,1059
+D115.1,613
+D116.1,1664
+D117.1,530
+D118.1,1759
+D119.1,657
+D120.1,359
+D121.1,1653
+D122.1,110
+D122.2,2457
+D125.1,370
+D126.2,9
+D126.3,3
+D127.1,566
+D128.2,3
+D201.1,708
+D202.1,1171
+D203.1,1034
+D204.1,632
+D205.1,1479
+D205.2,558
+D206.1,876
+D206.2,1257
+D207.1,1325
+D207.2,639
+D208.1,1635
+D209.1,1083
+D210.1,2529
+D211.1,2486
+D212.1,1370
+D213.1,1031
+D214.1,976
+D215.1,1457
+D216.1,1066
+D219.1,12
+D221.1,586
+D222.1,2071
+D222.2,408
+D223.1,1371
+D224.1,303
+D224.2,257
+D301.1,751
+D302.1,331
+D303.1,734
+D304.1,1348
+D305.1,1619
+D306.1,872
+D307.1,883
+D308.1,563
+D309.1,753
+D310.1,1355
+D311.1,246
+D311.2,1284
+D312.1,1
+D313.1,521
+D313.2,819
+D315.1,1162
+D316.1,1244
+D316.2,70
+D317.1,1596
+D317.2,6
+D318.1,1525
+D319.1,832
+D320.1,1013
+D321.1,1606
+D322.1,1142
+D323.1,1208
+D324.1,664
+D325.1,1247
+D401.1,1788
+D402.1,330
+D402.2,1473
+D403.1,1876
+D404.1,1158
+D405.1,1514
+D406.1,1237
+D407.1,1238
+D408.1,1186
+D409.1,1681
+D410.1,1095
+D411.1,886
+D412.1,2000
+D413.1,924
+D414.1,1745
+D415.1,173
+D416.1,748
+D416.2,610
+D417.1,1247
+D417.2,68
+DA - SO City H71 (393-25),1
+DA H71 (393-25),92
+Dale Twp USD 331 Pos. 5,110
+Danville / USD 361,24
+Dayton Twp 212/2/FD2,13
+Dayton Twp 325/2/FD1,15
+Dayton Twp 325/2/FD2,1
+DC pct 1/443/H115 A,922
+DC pct 1/443/H119 B,896
+DC pct 12/443,5
+DC pct 2/443/H119 B,1174
+DC pct 3/443/H119 B,1554
+DC pct 4/443/H115 A,55
+Dc pct 4/443/H119 B,2095
+DC pct 5/443,2048
+DC pct 5/pws/443,574
+DC pct 6/443/H115 A,740
+DC pct 6/443/H119 B,462
+DC pct 6/pws/443/H115 A,826
+DC pct 6/pws/443/H119 B,730
+DC pct 7/pws/443/H119 A,400
+DC pct 7/pws/443/H119 B,51
+DC Pct 9/pws/443/H119 A,38
+DC Pct 9/pws/443/H119 B,98
+DC.1 Dresden City (294),24
+DC.2 Dresden City (412SD),6
+DE/Dexter City/471/1-4,92
+DE/Dexter City/471/2-5,64
+Deer Creek 256 All At Large,30
+Deer Creek 257,36
+Deer Creek 479,21
+Deer Creek Twp 110/1/FD3B,9
+Deer Creek Twp 325/1/FD1,57
+Deerfield City,329
+Deerfield Twp,115
+Deerhead Twp (Usd 254),11
+Del 1 453,4
+Del 1 469,913
+Delano 10,5
+Delano 3,1
+Delano 4,2
+Delaware 336 2/5,8
+Delaware 338 1/4,171
+Delaware 338 2/5,175
+Delaware 338 3/6,204
+Delaware 339 2/5,2
+Delaware 377 3/6,2
+Delhi Twp/299,18
+"Delhi Twp/392, 3",1
+Delia - USD 321 1-4,97
+Delmore - USD 418,30
+Delmore - USD 419,79
+Delmore  - USD 400,7
+Delphos City,210
+Denison City - USD 336,103
+Denton City,98
+Derby 101,1306
+Derby 102,2
+Derby 103,1085
+Derby 104,1330
+Derby 106,6
+Derby 107,1
+Derby 109,451
+Derby 201,965
+Derby 202,2060
+Derby 203,1672
+Derby 301,37
+Derby 302,145
+Derby 303,1072
+Derby 304,197
+Derby 305,13
+Derby 306,275
+Derby 307,463
+Derby 308,1273
+Derby 309,88
+Derby 310,983
+Derby 312 in USD 263-1,2
+Derby 401,57
+Derby 402,861
+Derby 403 in USD 260,1540
+Derby 404,774
+Derby 405,8
+Derby 406,118
+Derby 407,31
+Derby 408 in USD 260,1177
+Derby 408 in USD 263-1,237
+Dexter/462/3-6,2
+Dexter/471/1-4,21
+Dexter/471/2-5,36
+Dexter/471/3-6,45
+Dighton City / 1C,259
+Dighton City / 2C,328
+Dighton City / 3C,113
+Dighton Twp / 1C / 482,56
+Dighton Twp / 2C / 466,1
+Dighton Twp / 2C / 482,64
+Dighton Twp / 3C / 482,39
+Dixon Twnshp 359/2,70
+Dixon Twnshp 359/3,58
+Dodge Twp H119,72
+Dodge TWP N H119/443/pws,27
+Dodge TWP W H119,1
+Dodge Twp/003/443/H115 A,20
+Dodge Twp/003/443/H119 B,50
+Dodge Twp/443,200
+Dodge Twp/443/pws,155
+Dor 110 Township,19
+Dor 237 Township,2
+Dor 392 Township,3
+Douglas -  USD 340 1-4,58
+Douglas - USD 337 2-5,499
+Douglas - USD 337 3-6,699
+Douglas - USD 338 1-4,28
+Douglas/350 Mem 1-4/H1/C2,17
+Douglas/351 Mem 1-4-5/H1/C2,59
+Douglass City 396,1049
+Douglass Twp 32 396,123
+Douglass Twp 396,252
+"Downs City/272, 1-4",418
+"Downs City/272, 2-5",185
+Downs Twnshp H79 353/3,79
+Downs Twnshp H80 353/3,24
+Downs Twnshp H80 360,17
+Doyle USD 284,2
+"Doyle USD 408-3,6",41
+DR,62
+DR.1 Dresden Township (294),20
+DR.2 Dresden Township (412SD),27
+Dragoon 420 MD 147,27
+Dragoon 434 MD 367,21
+Dragoon 454 MD 257,106
+Dragoon 454 MD 257 WS,13
+Dresden Twp USD 332 Pos. 1,1
+Dresden Twp USD 332 Pos. 2,41
+Dresden Twp USD 332 Pos. 3,17
+Drywood,319
+Durham City,55
+Durham Park USD 397-1,7
+"Durham Park USD 410-1,4",66
+Durham Twp 239,5
+Durham Twp 379,7
+DW01-01.204,39
+E Cooper/349/H4/C1,35
+E Hoxie City 1,496
+E SJ City/350 Mem 2-5/H1/C3,141
+E SJ City/350 Mem 3-6/H1/C3,154
+E SJ Rural/350 Mem 1-4/H1/C3,29
+E. Center Twp/333/MD3/CC3,80
+E. Center Twp/334/MD1/CC3,2
+E. Center Twp/334/MD2/CC3,2
+E. Lincoln 107 Pct/333/MD3/CC3,25
+E. Lincoln 64 Pct/333/MD3/CC3,148
+E. Meredith Pct/239/CC3,22
+E. Meredith Pct/334/MD1/CC3,9
+E. Meredith Pct/334/MD2/CC3,7
+E. Sibley Twp/333/MD3/CC1,67
+E/015 Chetopa 1W,222
+"E/016 Chetopa 2W, 1-4",120
+"E/016 Chetopa 2W, 2-5",113
+E/017 Chetopa 3W,274
+E001.1,5
+E001.2,1807
+E001.3,191
+E003.1,909
+E005.1,481
+E006.1,4
+E008.1,389
+E009.1,231
+E009.2,344
+E009.3,557
+Eagle in 266-2 & BG Drain D,5
+Eagle in 267-1 & BG Drain,9
+Eagle in USD 262,4
+Eagle in USD 266-2,3
+Eagle in USD 267-1,31
+Eagle in USD 440-3,415
+Eagle in USD369,5
+Eagle Township USD 331 Pos. 5,62
+Eagle Township USD 331 Pos. 6,37
+Eagle Twp (Usd 254),21
+Earlton City (413),38
+East Branch USD 373/HV Fire1,6
+East Branch USD 398,40
+"East Branch USD 410-1,4",17
+"East Branch USD 411-3,6",58
+"East Branch USD411-3,6/HVFire1",9
+East Ellsworth 1-18 (327/2),446
+East Ellsworth 2-19 (327/2),397
+East Elm 256 All At Large,45
+East Elm 257,94
+East Elm 258,4
+East Erie City  (101/2),2
+East Erie City  (101/3),1
+East Erie City (101/2),252
+East Erie City (101/3),172
+East Erie TWP (101/3),2
+East Fairview 341 1/4,306
+East Fairview 341 LSV 1/4,191
+East Fairview 341 LWH 1/4,222
+East Hale Twp-USD 314,30
+East Hale Twp-USD 315,57
+East Hess Twp USD 102,91
+East Hess Twp USD 225,9
+East Hess Twp USD 371,15
+East Hibbard Twp / USD215,28
+East Hibbard Twp / USD216,38
+East Marion 235 2-5,98
+East Marion 235 3-6,237
+East Morgan Twp-USD 315,206
+East Ogallah Twp USD 208,17
+East Ogallah Twp USD 388,34
+East Second 409,470
+East Third 409,939
+Easton 449-1,672
+Easton 449-2,54
+EC / E 449-1,130
+EC H107 (305),302
+EC H107 (307-36),155
+EC H71 (305),307
+EC USD 364,109
+EC USD 498,10
+ED01-01.204,2704
+ED02-01.204,403
+ED02-02.500,9
+Eden H1/303/1,19
+Eden H2/303/1,35
+Eden Twnshp H116 356/3,20
+Eden Twnshp H116 359/2,7
+Eden Twnshp H79 331/5,129
+Eden Twnshp H79 331/6,133
+Eden Twnshp H79 356/1,16
+Eden Twnshp H79 356/3,12
+Eden Twnshp H79 359/2,3
+Effingham City 377,344
+El Dorado Twp East 205,50
+El Dorado Twp East 375-6,16
+El Dorado Twp East 490,70
+El Dorado Twp West 205,28
+El Dorado Twp West 375-5,107
+El Dorado Twp West 375-6,225
+El Dorado Twp West 490,40
+El Dorado Twp West 490 B,2
+El Dorado W1,2656
+El Dorado W2,3691
+El Dorado W2 375-5,1
+El Dorado W3 375-5,596
+El Dorado W3 490,109
+El Dorado W4 375-5,67
+El Dorado W4 375-6,201
+El Dorado W4 375-6 A,35
+El Dorado W4 490,1444
+Elbing City 206,174
+Elk 434 MD 147,642
+Elk 434 MD 367,20
+Elk 450 MD 367,41
+Elk Creek - 109 2/5 C1 F5,51
+Elk Creek -224 C1 F5,2
+Elk Falls City (282. 3&6),95
+"Elk Falls Township (282, 3&6)",64
+Elk Twp/224/MD3/CC1,63
+Elk Twp/224/MD6/CC1,4
+Elkader Twp. #274,6
+Elkhorn 298,109
+Ellinwood City EHD,1431
+Ellsworth Twp (327/1),127
+Ellsworth Twp (327/3),3
+Ellsworth Twp/Kanopolis (327/1,23
+Ellsworth Twp/Kanopolis (327/3,20
+Elm Mills Twp (Usd 254),55
+Elm Mills Twp (Usd 438),32
+Elsmore City 256 All At Large,44
+Elwood City EGDD,712
+Elwood Twp (Usd 255),32
+EMC 416-3,131
+EMC 416-4,820
+Emmett City (H) 321  1.4,106
+Emmett Twp (H)321 1.4,178
+Empire-USD 419 (2-5),69
+Empire-USD 419 (3-6),108
+Empire - USD 418,43
+Empire Buckeye West (327/3),32
+Empire Venango East (327/3),28
+Empire Venango East (400/1),88
+Enclave A - North Independence,2
+Eng/C2/H0/220/City,56
+Eng/C2/H3/220/Rural,36
+Ensign City USD 102,124
+Enterprise City 473-3,511
+Enterprise TWP H119,48
+Enterprise Twp/219,1
+Enterprise Twp/443,235
+Enterprise Twp/443/wgd/wgi,186
+Enterprise USD 309 2-5,26
+Enterprise USD 310,71
+Enterprise USD 376,2
+Erie in USD 268,60
+Erie in USD 331-5,19
+Erving TWP 107-2,30
+Es/1/293-1,32
+Es/1/412,5
+Esbon City 107-2,80
+Esbon TWP 107-2,41
+Esk 330-3 & 6,323
+EU - GY City H69 (306-25),276
+EU H69 (306-25),136
+EU H69 (306-36),58
+Eureka Township USD 331 Pos. 1,42
+Eureka Township USD 332 Pos. 3,21
+Eureka Township USD 332 Pos. 4,5
+Eureka Township/273,11
+Eureka Township/298,1
+Eureka TW 389 Mem 1-Com4,8
+Eureka TWP 389 Mem 1-Com3,90
+Eureka TWP 389 Mem 2-Com3,27
+Eureka TWP 389 Mem 2-Com4,9
+Eureka TWP 389 Mem 4-Com3,35
+Eureka TWP 389 Mem 4-Com4,1
+Eureka TWP 389 Mem 5-Com4,64
+Eureka TWP 389 Mem 6-Com4,79
+Eureka Twp 428,5
+Eureka Twp 431,69
+EV H6 368 2-5,318
+EV H9 A 368 2-5,17
+EV H9 B 362-2,1
+Evan Township USD 268,349
+Evan Township USD 311,17
+Evan Township USD 331 Pos. 5,77
+Everest City,196
+F/018 Oswego 1W,438
+F/019 Oswego 2W,386
+F/020 Oswego 3W,280
+FA H69 (400-01),192
+Fairfax  434 MD 367 H54,247
+Fairfax 421 MD 2-4,27
+Fairfax 421 MD 2-4 H54,132
+Fairfax 421 MD 3-4,82
+Fairfax 434 MD 367,2
+Fairmount Twp 206,190
+Fairmount Twp 398,7
+Fairplay USD 398,2
+"Fairplay USD 408-3,6",83
+Fairview - 109 2/5 C1 F3,52
+Fairview - 109 2/5 C1 F4,2
+Fairview - 109 2/5 C1 F7,6
+Fairview City,171
+Fairview H79/463/146,14
+Fairview H79/463/235,18
+Fairview H79/465,150
+Fairview Twp,47
+Fairview Twp 206,19
+Fairview Twp 375-4,395
+Fairview Twp/102,44
+Fairview Twp/443,146
+Fairview Twp/443/pws,7
+Fairview/349/H4/C1,52
+Fall River City,131
+"Fall River TWP 282 Dist1, Pos4",12
+Fall River TWP 389 Mem 3,45
+Fall River TWP Mem 5,50
+Falls Twnshp 360,119
+Falls Twnshp 509,2
+Fancy Crk Twp-1,41
+Fancy Crk Twp-2,36
+Fargo Township 1,98
+Fargo Township 2,66
+Fargo Township 3,23
+Fargo Township 4 (480),16
+Fargo Township 4 (483),326
+Farmer 329-4,72
+Farmer 417,4
+Farmington - 108 C1 F3,5
+Farmington - 109 2/5 C1 F3,30
+Farmington - 109 2/5 C1 F4,6
+"Farmington Twp, 108.1-4",44
+"Farmington Twp, 108.2-5",71
+Farmington/351 Mem 1-4-5/H2/C2,15
+Farmington/351 Mem 2-3-6/H2/C2,25
+FC 362-2,123
+FI.1 Finley Township,30
+Flora 473-1,75
+Florence 1st,129
+Florence 2nd,148
+Foote Twp USD 102,39
+Foote Twp USD477,16
+Ford City/459/bhd,131
+Ford Twp/219,2
+Ford Twp/443,31
+Ford Twp/459,19
+Ford Twp/459/bhd,32
+Ford Twp/459/bhd/bcd,14
+Formoso City 107-1,53
+Forrester City H2/303/1,15
+Forrester H1/106/2,11
+Forrester H1/303/1,8
+Forrester H2/303/1,33
+Fort Riley A Mad Twp P- A H68,602
+Fort Riley A Madison Twp H64-2,789
+Fort Riley B Madison Twp H64-1,242
+Fort Riley B Madison Twp H68,258
+Fort Riley Precinct A H65,582
+Fort Riley Precinct B H65,457
+Fort Riley Precinct B H68,757
+Fort Scott 1st Ward,966
+Fort Scott 2nd Ward,915
+Fort Scott 3rd Ward,399
+Fort Scott 4th Ward,801
+Fort Scott 5th Ward,825
+Fort Scott 6th Ward,2078
+Fort Scott 7th Ward,1054
+Fountain Twp 239,85
+Fowler/225/F,408
+Fragrant Hill 473-1,227
+"Frank Twp, 223.6, Hanover Hosp",17
+Frank USD 364-1,222
+Franklin - USD 336,108
+Franklin - USD 337 1-4,8
+Franklin - USD. 336,299
+Franklin 235,112
+Franklin 246 25,319
+Franklin 246 25 HD,49
+Franklin 248 14,18
+Franklin 298,64
+Franklin 346,141
+Franklin East 337 1-4,5
+Franklin East USD 336,20
+Franklin East USD 336.,53
+Franklin East USD. 336,259
+Franklin H2/303/1,87
+"Franklin Township, 108.1-4",17
+"Franklin Township, 223.6",25
+Franklin Twp / USD 502,57
+Franklin Twp/289/2-5,598
+Franklin Twp/289/3-6,338
+Freedom - 109 1/4 C1 F7,112
+Freedom - 109 2/5 C1 F7,11
+FREEDOM D1,238
+FREEDOM D5,6
+Freedom Twp 212/2/FD1,3
+Freedom Twp 325/2/FD1,58
+FRIEND 122 363 2/5,25
+FRIEND 122 363 3/6,23
+FRIEND 122 457,49
+Frontenac 1st Ward,772
+Frontenac 2nd Ward 249,831
+Frontenac 2nd Ward 250,177
+Frontenac 3rd Ward,432
+Frontenac 4th Ward,376
+Ft Leav,1710
+FT/225/F,99
+Fulton City,118
+G/021 Canada Twp,154
+G/022 Edna City/Elm Grove Twp,285
+G/022 Elm Grove Twp,281
+G/023 Fairview Twp/505,4
+G/023 Fairview Twp/506,129
+G/024 Bartlett/Hackberry Twp,70
+G/024 Hackberry Twp,187
+G/025 Howard Twp,254
+G/026 Labette Twp,289
+G/027 LabetteCity/Liberty Twp,36
+G/027 Liberty Twp/504,1
+G/027 Liberty Twp/506,255
+G/028 Montana Twp,110
+G/029 Mound Valley City,236
+G/029 Mound Valley Twp/447,3
+G/029 Mound Valley Twp/506,268
+G/030 Altamont/MtPleasant Twp,770
+G/030 Mt Pleasant Twp,185
+G/031 Neosho Twp/503,107
+G/031 Neosho Twp/504,9
+G/032 North Twp/503,436
+G/032 North Twp/506,66
+G/033 Osage Twp,513
+G/034 Oswego Twp/504,130
+G/034 Oswego Twp/505,82
+G/035 Richland Twp 44/1-4,18
+G/035 Richland Twp 44/2-5,94
+G/035 Richland Twp Cen/46/2-5,48
+G/035 Richland Twp SE/45/1-4,34
+G/036 Walton Twp/503,4
+G/036 Walton Twp/506,532
+G101.1,506
+G102.1,366
+G201.1,350
+G202.1,464
+G301.1,495
+G302.1,464
+G401.1,234
+G402.1,243
+G403.1,173
+G404.1,247
+GA in USD 267-3 in G Plain,690
+GA in USD 267-3 out G Plain,578
+GA.1 Garfield Township,28
+Gaeland (274) CC3,16
+Gaeland (291) CC3,17
+Galatia City,32
+"Gale USD 408-1,4",41
+"Gale USD 408-2,5",49
+"Gale USD 408-2,5/CVD",2
+"Gale USD 410-1,4",27
+"Gale USD408-1,4/Imp#1",71
+Galesburg City (101/1),95
+Galesburg Twp USD 311,38
+Galesburg Twp USD 331 Pos. 5,133
+Galva  - USD 419,551
+Garden Plain in USD 265,88
+Garden Plain in USD 267-1,227
+Garfield - USD 336,70
+Garfield - USD 336.,147
+Garfield - USD 337 3-6,2
+Garfield - USD. 336,114
+Garfield (327/3),34
+Garfield 237 Township,7
+Garfield 329-4,30
+Garfield 392 Township,24
+Garfield 393-1,69
+Garfield 417,80
+Garfield 435-2,64
+Garfield 473-3,16
+Garfield City,93
+Garfield Twp,26
+Garfield Twp 239/1-4,45
+Garfield Twp 239/2-5,22
+Garfield Twsp.,92
+Garnett 01,848
+Garnett 02,718
+Garnett 03,650
+Garnett 04,202
+Gas City 257,346
+Gaylord City,69
+GBC  P1-1W,631
+GBC  P1-2W,983
+GBC  P1-3W,712
+GBC  P1-4W,748
+GBC  P2-1W,924
+GBC  P2-2W,882
+GBC  P2-3W,797
+GBC  P2-4W,639
+GBC  P3-1W,656
+GBC  P3-2W,887
+GBC  P3-3W,853
+GBC  P3-3W Exclave,1
+GBC  P3-4W,312
+Gem City-USD 315,83
+Geneva 257,94
+Geneva 479,9
+German Township,23
+Gettysburg Twp/USD 281,44
+Geuda Springs City 358/3,79
+Gilman Twp - USD 113,30
+Gilman Twp - USD 115,90
+Girard 1st Ward,204
+Girard 2nd Ward,621
+Girard 3rd Ward,439
+Girard 4th Ward,609
+GL / F 458-2 S5,472
+GL / F 458-2 S9,685
+GL / F 458-3 S9,986
+GL H107 (240-14),74
+Glade City 325/1/FD1,8
+Glade City 325/3/FD1,44
+Glasco City/334/MD2/CC3,269
+Glen Elder City,273
+Glen Elder Township/2-5,62
+Glen Elder Township/3-6,8
+Glencoe Twp 205,129
+Glencoe Twp 492-3,14
+Glenwood Twp 110/1/FD1,22
+Glenwood Twp 325/2/FD1,13
+Goddard 1,59
+Goddard 11,1
+Goddard 2,141
+Goddard 4,176
+Goddard 5,1742
+Goddard 6,2101
+Goddard 8,4
+"Goessel USD 411-2,5",183
+"Goessel USD 411-3,6",194
+Goff City,70
+Golden Belt 112,12
+Golden Belt 299 02,21
+Gore Twnshp H79 263/3,220
+Gore Twnshp H79 358/2,14
+Gore Twnshp H79 463/1,39
+Gore Twnshp H79 463/2,64
+Gore Twnshp H82-32 263/3,237
+Gore Twnshp H82 263/3,168
+Gove (291) CC3,4
+Gove (292) CC3,85
+Gove (292) Gove,59
+GR H71 (305),340
+GR H71 (306-36),270
+GR H71 (393-25),1
+GR.1 Grant Township,12
+GR2 H71 (305),17
+GR3 H71 (305),5
+GR4 H71 (305),4
+Graham Twp/USD 211/1-4,4
+Graham Twp/USD 281,37
+Grainfield (292) CC2,34
+Grainfield (292) CC3,32
+Grainfield (292) Grainfield,187
+Granada Twp - USD 113,30
+Granada Twp - USD 335,42
+Grand River in USD 267-3,338
+Grand River in USD 268,196
+Grandview Plaza Precinct,856
+Grandview Twp East H115 B/PWS,6
+Grandview Twp Ward 2 443/H115A,30
+Grandview Twp Ward 2 443/H119C,49
+Grandview Twp/443/H115,13
+Grandview Twp/443/pws/H115,161
+Grandview Twp/443/pws/WID/H115,103
+Granite Twp 212/2/FD2,21
+GRANT-USD 322 6  HOSPITAL,38
+GRANT-USD 335 1 HOSPITAL,20
+Grant - 109 2/5 C1 F5,19
+Grant - 109 2/5 C1 F6,36
+Grant - USD 322   6,12
+Grant - USD 335 1,46
+Grant - USD 336.,6
+Grant (101/3),218
+Grant 1 in USD 262,840
+Grant 1 in USD 262 & Kechi,289
+Grant 1 in USD 439-3,3
+Grant 10 in USD 262,2
+Grant 13 in USD 262,2
+Grant 247 36,12
+Grant 248 36,154
+Grant 298,6
+Grant 299 02,49
+Grant 435-1,141
+Grant 435-2,455
+Grant 435-3,149
+Grant 505 36,18
+Grant 9 in USD 262,2
+Grant H54,32
+Grant H76,203
+"Grant Township, 108.1-4",27
+"Grant Township, 224-3",2
+Grant Twp,30
+Grant Twp-1,79
+Grant Twp-2,269
+Grant Twp-3 BRID Prop Owner,9
+Grant Twp-3a Non Prop Owner,3
+Grant Twp-4,434
+Grant Twp (H) 322.1,91
+Grant Twp (H) 322.6,3
+Grant TWP 107-1,46
+Grant Twp 239,69
+Grant Twp 403,31
+Grant TWP 426-1,14
+Grant Twp 431,12
+Grant Twp/271,2
+Grant Twp/333/MD3/CC3,62
+"Grant Twp/392, 3",23
+Grant USD 309 2-5,446
+Grant USD 309 3-6,130
+Grant USD 313 1-4,87
+Grant USD 313 3-6,42
+Grant USD 397-5,15
+"Grant USD 408-2,5",71
+Grant/471/3-6,47
+Grasshopper 377,202
+Grasshopper 377 3-6,51
+Grasshopper 430 2-5,4
+Grasshopper 430 3-6,24
+Great Bend Twp A 355,3
+Great Bend Twp A 428,975
+Great Bend Twp B,146
+Greeley,201
+Greeley 267-1 & Big Ark Drain2,14
+Greeley 267-1 2,29
+Greeley 312-3 & Big Ark Drain2,1
+Greeley 312-3 not in MH 2,77
+Greeley 369 2,27
+Green Garden Twp (112/5),49
+Green Twp 323.3,6
+Green Twp 323.6,35
+Green Twp 378 3.6,19
+Green Twp 384.3,100
+Greene Twnshp 353/3,24
+Greene Twnshp 358/3,24
+Greene Twnshp 509,10
+"Greenfield Township (282, 3&6)",12
+"Greenfield Township (462, 1-4)",62
+"Greenleaf City, 108.3-6",158
+"Greenleaf Township, 108.3-6",22
+"Greenleaf Township, 223.3",36
+Greenwood Twp 110/1/FD1,6
+Greenwood Twp 110/1/FD3A,4
+Greenwood Twp 325/2/FD1,18
+Greenwood Twp/287/2-5,53
+Greenwood Twp/287/2-5/DD,23
+Greenwood Twp/287/3-6,232
+Greenwood Twp/290,26
+Greenwood Twp/456/3-6,8
+"Grenola City (462, 1-4)",127
+"Gridley City, USD 245/2",215
+Grinnell (274) CC3,17
+Grinnell (291) CC3,75
+Grinnell (291) Grinnell,174
+Grove USD 310,41
+Groveland - USD 418,22
+Groveland - USD 448,99
+Guelph Twnshp 509,114
+Guit USD 113-g-1,8
+Guit USD 364-b-1,136
+Guit USD 364-g-1,90
+GY H69 (306-25),131
+Gypsum 1 in USD 259-2,251
+Gypsum 1 in USD 260,841
+Gypsum 1 in USD 394,1119
+Gypsum 2,318
+Gypsum 3,69
+Gypsum 4,108
+Gypsum 7 in 259-2 & SS Imp D,92
+Gypsum 7 in 260,3
+Gypsum 7 in USD 259-2,150
+Gypsum 8 in USD 260,109
+Gypsum Crk-USD 400,123
+H101.1,850
+H102.1,1332
+H103.1,1152
+H104.1,1140
+H105.1,826
+H106.1,284
+H107.1,1096
+H201.1,973
+H202.1,1496
+H203.1,1251
+H204.1,1291
+H205.1,742
+H206.1,765
+H207.1,673
+H301.1,1170
+H302.1,1238
+H303.1,820
+H304.1,467
+H305.1,2257
+H306.1,1895
+H307.1,225
+H401.1,367
+H402.1,935
+H403.1,797
+H404.1,1217
+H405.1,1154
+H406.1,1050
+H407.1,2117
+HA.1 Harlan Township,18
+"Haddam City, 108.1-4",59
+"Haddam Township, 108.1-4",40
+Hamilton City,179
+Hamlin City,26
+Hamlin Twp - Reserve,68
+Hamlin Twp (113- -1),34
+Hamlin Twp (415 1-4),67
+"Hampden Twp, 244/2",93
+"Hampden Twp, 244/3",24
+Hampton-Fairview #489,1
+"Hampton-Fairview Twsp (395, 1)",65
+"Hampton-Fairview Twsp (395, 6)",6
+"Hancock Twp/392, 3",15
+Hanover 299 01,10
+Hanover 299 02,21
+"Hanover City, 223.4",106
+"Hanover City, 223.5",236
+"Hanover City, 223.6",82
+"Hanover Township, 223.4",85
+"Hanover Township, 223.6",80
+Happy Twp/USD 208,1
+Happy Twp/USD 281,38
+Hardtner City (Usd 255),100
+Harlan Township,59
+Harmon Twnshp 353/3,47
+Harmon Twnshp 357/3,162
+Harmony,64
+Harper-USD 400 (1-4),15
+Harper-USD 400 (2-5),55
+Harper - USD 418,44
+Harper / WD1 / H832 / 361,395
+Harper / WD2 / H832 / 361,461
+Harrison,52
+Harrison-Goff - USD 115,2
+Harrison-Goff - USD 380,47
+Harrison-Kelly - USD 115,79
+Harrison Goff - USD 335,6
+Harrison TWP 107-2,16
+Harrison Twp/288,17
+Harrison Twp/290,371
+Hartland Twp,81
+Harvey 110 Township,7
+Harvey 237 Township,54
+Harvey/462/1-4,20
+Harvey/462/2-5,52
+Hav A Twp CD2/422,33
+Hav A Twp CD2/474,20
+Hav City CD1/474,368
+Hav Twp CD1/474,101
+Haven City USD 312 1-4,879
+Haven H101 USD 312 1-4,215
+Haven H101 USD 312 3-6,16
+Haven H114 USD 312 1-4,80
+Havensville (H) 322.1,80
+"Hawkeye Twp/392, 3",21
+Hayes - USD 444,84
+Hayes - USD 448,81
+Hayes 473-1,156
+Hayes Township,20
+Hayes Twp/287/1-4,63
+Hayes Twp/289/2-5,4
+Hayes Twp/289/3-6,83
+Hayes Twp/290,187
+Hayes Twp/348/3-6,54
+Hayes USD 310,47
+Hayes USD 376,2
+Hayes/348/2-5,14
+Hayes/350 Mem 1-4/H3/C2,54
+Hayes1-473-1,17
+Haysville 11,1306
+Haysville 15,3
+Haysville 17,460
+Haysville 21,1226
+Haysville 24,92
+Haysville 25,38
+Haysville 27,466
+Haysville 31,1428
+Haysville 33,125
+Haysville 35,164
+Haysville 41,1178
+Haysville 42,564
+Hazelton City (Usd 255),57
+Hazelton Twp (Usd 254),8
+Hazelton Twp (Usd 255),23
+HC,116
+HE 001,87
+HE 002,21
+HE 003,18
+Hendricks--Elgin City-USD 286,41
+Hendricks-USD 285,3
+Hendricks-USD 286-Member #1,31
+Henry Twp 239,3
+Henry Twp 240,12
+Hepler City,79
+Herington W1 487,584
+Herington W2 487,604
+Herington W4 487,378
+Herk USD 364,160
+Hessdale  329-1,15
+Hessdale  329-4,31
+Hessdale 330-3&6,21
+"HI - 481, Bd 1",71
+"Hiawatha City, Ward 1",342
+"Hiawatha City, Ward 2",930
+"Hiawatha City, Ward 3",771
+"Hiawatha City, Ward 4",156
+Hiawatha Twp (415  2-5),299
+Hiawatha Twp (415  3-6),151
+Hickory Twp 205,70
+Highland 112,3
+Highland 299 02,40
+"Highland City 1,3,5,7",435
+"Highland Township, 108.1-4",17
+Highland TWP 107-2,28
+Highpoint H2/106/1,27
+Hill City#1,135
+Hill City#2,623
+Hill City#3,220
+Hill CityTwp#71,8
+Hill CityTwp#72,58
+Hill CityTwp#73,44
+"Hillsboro 1st/USD410-2,5",826
+"Hillsboro 2nd/USD410-2,5",78
+"Hillsboro 2nd/USD410-3,6",818
+Hoisington 1st Ward,504
+Hoisington 2nd Ward,482
+Hoisington 3rd Ward,428
+Hoisington 4th Ward,448
+HOLCOMB City 122 363 1/4,652
+HOLCOMB City 122 363 2/5,414
+HOLCOMB City 122 363 3/6,257
+HOLCOMB Rural 122 363 2/5,199
+HOLCOMB Rural 122 363 3/6,207
+Holland 306 SM2,14
+Holland 473-3,43
+"Hollenberg City, 223.6",9
+Holmwood TWP 107-1,22
+Holton  City lake 336,2
+Holton City - Ward 1 - 336,702
+Holton City - Ward 2 - 336,795
+Holton City - Ward 3 - 336,523
+Holton City Illinois Ave East,16
+Home Twp - USD 380 Mbr 2-5,96
+Home Twp - USD 380 Mbr 3-6,8
+Homewood Twp/287/3-6,351
+Homewood Twp/288,33
+Homewood Twp/290,66
+Hoosier Twp USD 331 Pos. 1,56
+Hoosier Twp USD 331 Pos. 2,52
+Hope 397 SM2,10
+Hope 481-2,22
+Hope 481.2,47
+Hope City USD481-2,237
+Horace City,57
+"Horton City, Ward 1 (1-4)",307
+"Horton City, Ward 1 (2-5)",138
+"Horton City, Ward 2 (1-4)",202
+"Horton City, Ward 2 (3-6)",159
+"Horton City, Ward 3 (1-4)",107
+"Horton City, Ward 3 (2-5)",40
+"Horton City, Ward 3 (3-6)",105
+Houston 237 Township,33
+"Howard City (282, 2&5)",438
+"Howard Township (282, 1&4)",37
+"Howard Township (282, 3&6)",26
+"Howard Township (282,2&5)",66
+Hoyt City - USD 337 2-5,404
+HP / BO 449-2 H38,51
+HP / BO 449-2 H41,234
+HP / BO 449-2 H42,55
+HP / BO 453 H38,77
+HP / BO 453 H41,54
+HP / BO 464-2 H38,445
+HP / BO 464-2 H42,21
+HP / BO 469 H38,512
+HP / BO 469 H40,382
+Hud City/350 Mem 1-4/H3/C2,65
+HUFFMAN 122 363 2/5,65
+HUFFMAN 122 457,658
+Hugoton 1,513
+Hugoton 2,830
+Hugoton 3,901
+Hum City-1 258 All At Large,652
+Hum City-2 258 All At Large,642
+Humboldt Twp 258 All At Large,219
+Hunnewell City 509,48
+Hunter City,35
+Huntsville USD 309 2-5,2
+Huntsville USD 310,91
+Huron 377,125
+Huron City 377,46
+Hutch 26Ex H102 USD 312 3-6,134
+Hutchinson 1-H102 USD 308,566
+Hutchinson 1 H102A USD 308,36
+Hutchinson 10 USD 308,621
+Hutchinson 10 USD 309 3-6,196
+Hutchinson 10 USD 313 1-4,233
+Hutchinson 11 USD 308,1020
+Hutchinson 11 USD 313 1-4,28
+Hutchinson 12 USD 308,695
+Hutchinson 13 H102 USD 308,474
+Hutchinson 13 H104 USD 308,327
+Hutchinson 14 USD 308,756
+Hutchinson 15 USD 308,693
+Hutchinson 16 USD 308,1038
+Hutchinson 17 USD 308,378
+Hutchinson 17 USD 313 2-5,470
+Hutchinson 18 USD 308,487
+Hutchinson 19 USD 308,585
+Hutchinson 2 USD 308,607
+Hutchinson 20 USD 308,837
+Hutchinson 21 USD 308,1611
+Hutchinson 22- H104 USD 308,989
+Hutchinson 22-H104 USD 313 2-5,87
+Hutchinson 23 Ex USD 313 1-4,260
+Hutchinson 23 H104 USD 308,1245
+Hutchinson 23 H104 USD 313 1-4,56
+Hutchinson 24 USD 308,635
+Hutchinson 24 USD 313 1-4,229
+Hutchinson 25 USD 308,892
+Hutchinson 25 USD 313 2-5,3
+Hutchinson 26 USD 308,393
+Hutchinson 26 USD 312 3-6,26
+Hutchinson 27 USD 313 2-5,614
+Hutchinson 28 Ex USD 313 2-5,581
+Hutchinson 28 USD 313 1-4,1148
+Hutchinson 28 USD 313 2-5,157
+Hutchinson 29 USD 308,168
+Hutchinson 29 USD 309 3-6,444
+Hutchinson 3 USD 308,371
+Hutchinson 30 USD 308,374
+Hutchinson 30 USD 309 3-6,88
+Hutchinson 31 USD 308,408
+Hutchinson 31 USD 313 1-4,315
+Hutchinson 32 USD 313 1-4,207
+Hutchinson 33 USD 313 1-4,256
+Hutchinson 34 Ex  USD 312 3-6,1
+Hutchinson 34 USD 313 2-5,133
+Hutchinson 35 USD 308,348
+Hutchinson 4 USD 308,1184
+Hutchinson 5 USD 308,877
+Hutchinson 6 USD 308,713
+Hutchinson 7 USD 308,837
+Hutchinson 8 USD 308,392
+Hutchinson 9 USD 308,1024
+HV 330-2 & 5,142
+I101.1,227
+I101.2,1786
+I102.1,1373
+I103.1,1554
+I104.1,1252
+I105.1,1371
+I106.1,1
+I106.2,617
+I107.1,1312
+I108.1,1011
+I109.1,311
+I109.2,1346
+I201.1,188
+I201.2,1356
+I202.1,1013
+I202.2,86
+I203.1,1765
+I204.1,2225
+I205.1,1793
+I206.1,703
+I207.1,1624
+I209.2,31
+I210.1,659
+I211.1,1309
+I301.1,1306
+I302.1,2100
+I303.1,1449
+I304.1,950
+I305.1,1281
+I306.1,476
+I307.1,1087
+I308.1,1075
+I309.1,1081
+I310.1,419
+I401.1,889
+I402.1,1048
+I403.1,1077
+I404.1,761
+I405.1,589
+I406.2,4
+I407.1,904
+I408.1,782
+I409.1,972
+I410.1,486
+I411.1,1138
+I412.1,871
+I413.1,236
+Illinois 1 in 264 & K42 ID,192
+Illinois 1 in USD 264,427
+Illinois 1 in USD 265,924
+Illinois 432,2
+Illinois Twnshp 264,90
+Illinois Twp - USD 115,46
+Illinois Twp - USD 380 Mbr 3-6,121
+Illinois Twsp.,32
+Illionis Twnshp 356/2,34
+Illlinois #395-6,2
+InC W1,857
+InC W2 P1,244
+InC W2 P2,227
+InC W3 P1,735
+InC W3 P1 ExA,1
+InC W3 P2,33
+InC W4 P1,924
+InC W5,963
+InC W6 P1,1031
+InC W6 P2,518
+InC W6 P3,234
+"Indep Twp, 223.6, Hanover Hosp",70
+Independence Twp USD 377 1-4,2
+"Independence Twp, 223.6",9
+"Independence Twp/392, 3",17
+Independent Twp 112,5
+Independent Twp 112 REC,84
+Indian Creek 365,22
+Indian Creek 479,79
+Indiana 298,59
+Indiana Twp/USD 211/2-5,10
+Indiana Twp/USD 281,13
+"Indp Twp USD 111 2,4,6,7",192
+Ingalls City USD 477,189
+Ingalls Twp USD 476,4
+Ingalls Twp USD 477,157
+Inman - USD 448,922
+Iola Ward 1  257,782
+Iola Ward 2  257,1109
+Iola Ward 3  257,924
+Iola Ward 4  257,826
+Ionia TWP 107-2,51
+"Iowa Twp (WC) USD 111 1,3,5,7",62
+"Iowa Twp USD 111 1,3,5,7",110
+"Iowa Twp USD 111 2,4,6,7",149
+Iowa Twp USD 429 1-7,13
+Irving Twp (111 1-3-5),16
+Irving Twp (415 1-4),211
+Isabel City (Usd 254),50
+Isbel Twp,62
+Iuka USD 382  Comm 2,99
+Ivanhoe (012) 1/374,62
+Ivanhoe (013) 1/374/HD,25
+J BARKER 122A,298
+J BARKER 122A DD2,483
+J BARKER 122C DD2,2
+J BARKER 123A,24
+J BARKER 123B DD2,8
+J BARKER 123F DD2,8
+J BARKER 123G DD2,4
+J BARKER 123H,4
+J101.1,579
+J102.1,503
+J102.2,11
+J103.1,201
+J104.1,530
+J201.1,60
+J201.2,198
+J202.2,2
+J203.1,677
+J204.1,532
+J204.2,479
+J301.1,1233
+J302.1,1042
+J401.1,1341
+J402.1,501
+J403.1,628
+Jackson - USD 383,16
+Jackson - USD 417,12
+Jackson - USD 418,136
+Jackson - USD 475,32
+Jackson 1-4,96
+Jackson 2-5,133
+Jackson 3-6,119
+Jackson Twnshp H79 353/3,23
+Jackson Twnshp H80 353/3,69
+Jackson Twnshp H80 509,15
+Jackson Twp-1,99
+Jackson Twp-2,7
+Jackson Twp-3 Randolph City,104
+Jackson Twp-4Randolph City,2
+Jackson Twp / USD 347,38
+Jackson TWP 107-1,46
+Jackson TWP 109,23
+Jackson Twp/299,12
+"Jackson Twp/392, 3",10
+Jamestown City/333/MD3/CC3,153
+Janesville Twp 386,6
+Janesville TWP 389,1
+Janesville Twp 390 Mem 1-4,30
+Janesville TWP 390 Mem 2-5,122
+Jaqua Twp,9
+JC.1 Jennings City (294),2
+JC.2 Jennings City (412SD),58
+JE 105,11
+JE 316,12
+JE.1 Jennings Township (294),20
+JE.2 Jennings Township (412SD),5
+Jefferson-Cedar Vale City,296
+Jefferson-USD 285,77
+Jefferson-USD 335 4,2
+Jefferson - 109 2/5 C1 F4,51
+Jefferson - 109 2/5 C1 F7,37
+Jefferson - USD 335 3,162
+Jefferson - USD 336,25
+Jefferson -USD 335 3,86
+Jefferson 06 (Jefferson),331
+Jefferson 339 2/5,322
+Jefferson 339 3/6,172
+Jefferson 449,3
+Jefferson 473-3,106
+Jefferson 481-2,43
+Jerome (292) CC3,20
+Jerome (293) CC3,43
+Jerome (466) CC3,12
+Jerome (482) CC3,8
+Jewell City 107-2,278
+"Johnson City CC 3, USD 452",160
+"Johnson City, CC 1, USD 452",156
+"Johnson City, CC 2, USD 452",338
+Johnson H2/303/1,39
+K101.1,657
+K102.1,1061
+K201.1,1131
+K202.1,1097
+K301.1,1270
+K302.1,532
+K401.1,697
+K402.1,783
+K403.1,250
+K404.1,311
+KALVESTA 122 102,72
+KALVESTA 122 457,22
+Kanopolis City (327/3),335
+Kapioma 338,2
+Kapioma 377,186
+Kaw 320,69
+Kaw 321,121
+Kaw 329-2,15
+Kaw 340 2/5,8
+Kaw 340 3/6,302
+Kaw 343 1/4,558
+Kaw 345,175
+KC Ward 1 / USD 347,453
+KC Ward 2 / VTD 7a / USD 347,411
+KC01-01.500,287
+KC01-01.500-FF,1
+KC01-02.500,368
+KC01-03.500,227
+KC01-03.500-KV,10
+KC01-05.500-KV,35
+KC02-01.500,490
+KC02-01.500-FF,1
+KC02-02.500,330
+KC02-03.500,89
+KC02-04.500,487
+KC02-05.500,641
+KC02-06.500,25
+KC03-01.500,931
+KC03-02.500,950
+KC03-03.500,174
+KC03-04.500,655
+KC03-05.500,53
+KC04-01.500,844
+KC04-02.500,383
+KC04-03.500,602
+KC04-04.500,1017
+KC05-01.500,991
+KC05-02.500,482
+KC05-03.500,464
+KC05-04.500,543
+KC05-05.500,522
+KC06-01.500-KV,626
+KC06-02.500,1
+KC06-02.500-KV,265
+KC07-01.500,563
+KC07-02.500,461
+KC07-03.500,429
+KC07-03.500-KV,170
+KC07-04.202,944
+KC07-04.202-KV,1
+KC07-04.500-KV,8
+KC07-05.500,43
+KC07-05.500-KV,169
+KC07-06.202,96
+KC07-06.500,1033
+KC07-07.202,32
+KC07-07.500,461
+KC07-08.500,700
+KC07-08.500-KV,255
+KC07-09.202,1206
+KC07-10.202,501
+KC07-10.500,111
+KC07-11.500,14
+KC07-11.500-KV,1
+KC08-01.500,913
+KC08-02.500,850
+KC08-03.500,1182
+KC08-04.500,1122
+KC09-01.500,174
+KC09-02.500,881
+KC09-03.500,1712
+KC09-04.500,203
+KC09-05.202,86
+KC09-06.202,678
+KC09-06.500,357
+KC09-07.202,838
+KC09-07.202-KV,67
+KC09-08.202,27
+KC09-08.500,452
+KC09-09.500,358
+KC09-10.500,861
+KC09-11.500,136
+KC09-12.204,106
+KC09-12.500,842
+KC09-13.500,662
+KC09-14.204,237
+KC09-14.500,589
+KC09-15.500,4
+KC09-16.203,925
+KC09-16.204,1405
+KC09-16.500,1
+KC09-17.204,9
+KC09-18.500,182
+KC09-19.500,39
+KC09-21.202,65
+KC09-22.500,134
+KC09-23.500,77
+KC09-24.500,40
+KC09-25.500,1097
+KC10-01.500,889
+KC10-02.500,862
+KC10-03.500,66
+KC10-04.500,613
+KC10-05.500,1003
+KC10-06.500,345
+KC10-07.500,239
+KC11-01.500,937
+KC11-02.500,869
+KC11-03.500,1050
+KC11-04.500,976
+KC11-05.500,1143
+KC11-06.500,758
+KC11-07.202,44
+KC11-07.500,580
+KC11-08.500,1016
+KC11-09.500,490
+KC11-10.500,700
+KC11-11.500,858
+KC11-12.500,279
+KC11-13.500,162
+KC11-14.500,233
+KC11-15.500,329
+KC11-16.500,98
+KC11-17.500,17
+KC12-01.500,923
+KC12-02.500,707
+KC12-03.500,1009
+KC12-04.202,965
+KC12-04.500,44
+KC12-05.202,499
+KC12-06.202,924
+KC12-07.202,946
+KC12-08.202,610
+KC12-09.202,127
+KC12-10.202,185
+KC12-11.202,368
+KC12-12.202,397
+KC12-13.202,685
+KC12-14.202,317
+KC12-15.202,80
+KC12-16.202,320
+KC13-01.500,1053
+KC13-02.500,858
+KC13-03.500,464
+KC13-04.500,446
+KC13-05.500,144
+KC13-06.500,207
+KC13-07.500,542
+KC13-08.500,658
+KC13-09.500,882
+KC13-10.500,86
+KC13-11.500,672
+KC13-12.500,619
+KC13-13.500,275
+KC14-01.500,922
+KC14-02.500,459
+KC14-03.500,414
+KC14-04.500,796
+KC14-05.500,755
+KC14-06.500,958
+KC14-07.500,1174
+KC14-08.203,45
+KC14-08.500,844
+KC14-09.203,524
+KC14-10.203,1841
+KC14-11.203,864
+KC14-11.500,34
+KC14-12.203,1877
+KC14-13.203,1268
+KC14-14.203,2030
+KC14-15.203,888
+KC14-16.500,472
+KC14-17.203,918
+Ke/1/412,67
+Ke/2/412,70
+Kechi 1,2
+Kechi 10,6
+Kechi 17 in USD 262,1
+Kechi 19 in USD 259-1,9
+Kechi 2 in USD 259-1,12
+Kechi 21 in USD 262,17
+Kechi 26 in USD 259-1,7
+Kechi 3 in USD 259-1,35
+Kechi 3 in USD 259-1 & Kechi,1184
+Kechi 3 in USD 262,53
+Kechi 3 in USD 262 & Kechi,10
+Kechi 4,53
+Kechi 7 in USD 262,16
+Kechi 8 in USD 259-1,5
+Keene  329-1,11
+Keene  330-2 & 5,63
+Keene  330-3 & 6,26
+Keene 330-1 & 4,346
+Kendall T/S,60
+Kendall Twp/USD215,49
+Kendall Twp/USD216,3
+Kensington City,339
+Kentucky 343 1/4,458
+Kentucky 343 2/5,127
+"Key West Twp, 243/1-3-5",40
+"Key West Twp, 243/2-4-6",158
+Keystone Twp,75
+Keysville Twp / 495 / 3-6,1
+Keysville Twp / 496 / 246,24
+Kickapoo 449-2 H41,286
+Kickapoo 449-2 H42,75
+Kickapoo 449-3 H41,1094
+Kickapoo 449-3 H42,14
+Kickapoo 453 H41,69
+"Kill Creek Twp/392, 3",3
+"Kimeo Township, 223.3",31
+Kincaid,100
+King City - USD 418,287
+King City - USD 423,76
+King City - USD 448,9
+Kingery Twp-USD 275,30
+Kingery Twp-USD 314,27
+Kingery Twp-USD 315,2
+Kingman Twp USD 332 Pos. 3,10
+Kingman Twp USD 332 Pos. 5,79
+Kinsley Twp / USD 347,78
+Kinsley Twp / USD 502,1
+Kiowa East City (Usd 255),353
+Kiowa East Twp (Usd 255),39
+Kiowa West City (Usd 255 - 1),122
+Kiowa West City (Usd 255 - 2),91
+Kiowa West Twp (Usd 255 - 1),37
+Kirwin City 110/1/FD3B,112
+Kirwin Twp 110/1/FD3B,38
+Kirwin Twp 110/2/FD3B,5
+Kismet City,220
+Km City Ward 1 USD 331 P 3,570
+Km City Ward 2 USD 331 Po 1,111
+Km City Ward 2 USD 331 Po 2,739
+Km City Ward 3 USD 331 Po 4,328
+Km City Ward 4 USD 331 Po 1,452
+L001.1,722
+L002.1,918
+L003.1,589
+L004.1,943
+La Crosse City #1,518
+La Crosse City #2,325
+Lacey Twp-USD 315,29
+"LaCrosse-Brkd #1 Twsp (395, 4)",20
+"LaCrosse-Brkd #1 Twsp (395, 6)",23
+"LaCrosse-Brkd #2 Twsp (395, 1)",1
+"LaCrosse-Brkd #2 Twsp (395, 2)",2
+"LaCrosse-Brkd #2 Twsp (395, 3)",10
+"LaCrosse-Brkd #2 Twsp (395, 6)",24
+Ladore (101/1),256
+Ladore (101/2),22
+Lafayette-USD 286-Member #1,31
+LaHarpe City  257,309
+Lake City Twp (Usd 254),56
+Lake Twp,53
+Lakin City / CC1,637
+Lakin City / CC2,564
+Lakin Twp / CC1,145
+Lakin Twp / CC2,57
+Lakin Twp A EHD,122
+Lakin Twp B EHD,58
+Lamont T/S,51
+Lancaster 377,247
+Lancaster City 377,197
+Lane 110 Township,25
+Lane 237 Township,30
+Lane City/288,164
+Lane TWP 386,27
+Langdon City USD 310,37
+Langdon USD 310,61
+Langley (327/3),2
+Langley (400/1),55
+Langley (444/1),1
+Lansing Ward 1,1625
+Lansing Ward 2,2080
+Lansing Ward 3,1795
+Lansing Ward 4,1860
+Larned City Ward 1 C1 / 1-4,57
+Larned City Ward 1 C1 / 2-5,402
+Larned City Ward 1 C4 / 2-5,47
+Larned City Ward 2 C1 / 1-4,596
+Larned City Ward 2 C1 / 2-5,39
+Larned City Ward 2 C4 / 1-4,61
+Larned City Ward 3 / 1-4,697
+Larned City Ward 4 C1 / 2-5,7
+Larned City Ward 4 C4 / 1-4,86
+Larned City Ward 4 C4 / 2-5,314
+Larned Twp C1 / 1-4,32
+Larned Twp C1 / 2-5,26
+Larned Twp C1 / 3-6,60
+Larned Twp C4 Part A / 2-5,36
+Larned Twp C4 Part A / 3-6,12
+Larned Twp C4 Part B / 1-4,23
+Larrabee (293) CC3,26
+Larrabee (482) CC3,1
+Latham City 205,71
+"Lawrence Twp/392, 3",19
+LB.1 Liberty Township,37
+LC 01 416-2,94
+LC 01 416-5,64
+LC 01 416-6,669
+LC 02 416-5,594
+LC 02 416-6,350
+LC 03 416-3,746
+LC 03 416-5,257
+LC 04 416-2,832
+LC 04 416-4 MC,57
+Lebanon City,153
+"Lebo City, USD 243/1/3/5",627
+Lees Twp. #274,7
+Lees Twp. #466,2
+Lehigh City,97
+"Lehigh USD410-1,4",105
+"Lehigh USD411-1,4",1
+"Lehigh USD411-2,5",10
+Leon City 205,445
+Leona CIty,19
+"LeRoy City, USD 245/1",368
+"LeRoy Twp, 245/1",74
+Lewis (274) CC3,3
+Lewis (291) CC3,2
+Lewis (466) CC3,1
+Lewis City / USD 502,216
+Lex/C1/H3/220,27
+Lex/C1/H3/459,3
+LI H69 (306-14),49
+LI H69 (306-25),82
+Lib/C1/H1/459,25
+Liberal Township 1 (209),2
+Liberal Township 1 (480),157
+Liberal Township 2  (483),1
+Liberal Township 2 (209),10
+Liberal Township 2 (480),59
+Liberal Township 3 (480),81
+Liberal Township 4 (480),64
+Liberal Township 4 (483),17
+Liberal Township 5 (480),54
+Liberal Township 5 (483),7
+Liberty - 109 1/4 C2 F1,3
+Liberty - 109 1/4 C2 F8,18
+Liberty - 109 2/5 C2 F3,4
+Liberty - 109 2/5 C2 F8,13
+Liberty - USD 329,1
+Liberty - USD 335 4,90
+Liberty - USD 335 5,33
+Liberty - USD 336,257
+Liberty - USD 383,15
+Liberty - USD 417,123
+Liberty - USD 475,10
+Liberty - USD 481,1
+Liberty 473-2,57
+Liberty 473-3,12
+Liberty 481-2,47
+Liberty T/S,27
+"Liberty Township (282, 1&4)",1
+"Liberty Township (484, 3&6)",69
+Liberty Twp 428,149
+Liberty Twp 495,36
+Liberty Twp Lb00003.1,155
+Liberty Twp Lb00003.2,409
+Liberty Twp USD 332 Pos. 5,41
+"Liberty Twp, 244/6",11
+"Liberty Twp, 245/2",160
+Liberty Twp/245/2 7/3,5
+Liberty Twp/366 ALG /3,77
+Liberty Twp/366 ALG/1,27
+Liberty Twp/399,15
+"Liberty USD410-1,4",225
+"Liberty USD411-2,5",19
+Liberty/465,102
+Liberty/471/2-5,18
+Liebenthal City,75
+Limestone TWP 107-2,37
+Linc USD 113-l,49
+Linc USD 115-l,11
+Linc USD 380,57
+Lincoln-Arcadia 246 14,76
+Lincoln-Arcadia 246 36,34
+Lincoln - 109 1/4 C3 F11,16
+Lincoln - 109 2/5 C3 F6,36
+Lincoln - 333 C3 F11,7
+Lincoln - 426 2 C3 F11,10
+Lincoln - USD 321 1-4,58
+Lincoln - USD 336,17
+Lincoln - USD 337 1-4,726
+Lincoln (101/2),109
+Lincoln (112/5),29
+Lincoln (247),23
+Lincoln (327/3),12
+Lincoln (505/3),58
+Lincoln (H) 322.6,88
+Lincoln 237 Township,2
+Lincoln 246 14,78
+Lincoln 246 36,92
+Lincoln 246 36 HD,118
+Lincoln 248 14,9
+Lincoln 248 36,3
+Lincoln 272 Township,40
+Lincoln 287 MD 367,35
+Lincoln 365,159
+Lincoln 393-1,144
+Lincoln 393-2,4
+Lincoln 435-2,172
+Lincoln 435-3,93
+Lincoln 456 MD 147,86
+Lincoln 456 MD 257,3
+Lincoln 479,4
+Lincoln I Com 1,226
+Lincoln I Com 2,108
+Lincoln I Com 3,40
+Lincoln II Com 1,262
+Lincoln II Com 2,141
+Lincoln in 206 & FL Improv,313
+Lincoln in USD 262,93
+Lincoln in USD 375-2,4
+"Lincoln Township, 223.3",20
+"Lincoln Township, 498.3-6",9
+Lincoln Twp,11
+Lincoln Twp / USD 351,76
+Lincoln Twp 206,2
+Lincoln Twp 240,9
+Lincoln Twp 375-5,11
+Lincoln Twp 393,89
+Lincoln Twp 398,52
+Lincoln Twp 490,145
+Lincoln Twp 492-1,2
+"Lincoln Twp, 243/1-3-5",256
+"Lincoln Twp, 252",24
+Lincoln Twp/287/2-5,10
+Lincoln Twp/287/2-5/DD,26
+Lincoln Twp/287/3-6,132
+Lincoln Twp/288,9
+Lincoln Twp/290,558
+Lincoln Twp/290/DD,43
+Lincoln USD 309 3-6,3
+Lincoln USD 312 2-5,343
+Lincoln/351 Mem 1-4-5/No H/C2,58
+Lincolnville,120
+Lindsborg 1-USD 400,579
+Lindsborg 2-USD 400,598
+Lindsborg 3-USD 400,584
+Lindsborg 3-USD 400.1,16
+Lindsborg 4-USD 400,348
+Lindsborg 4-USD 400.2,263
+"Linn City, 223.1",96
+"Linn City, 223.2",87
+"Linn Township, 223.1",65
+"Linn Township, 223.2",38
+Linn Valley City,995
+Linwood City 458-3,283
+"Little Blue Township, 223.4",47
+Little Caney-Niotaze-USD 436,65
+Little Caney-USD 286-Member #3,62
+Little Caney-USD 436,123
+Little River USD 313 3-6,406
+Little Valley-USD 444,9
+Little Valley-USD 448,291
+Little Walnut Twp 205,236
+LN.1 Lincoln Township,14
+LO.1 Logan Township,24
+Lo/3/316,17
+Lo/3/412,57
+Loda USD 310,11
+Loda USD 311,52
+Loda USD 331 1-4,2
+Loda USD 331 2-5,10
+Log USD 223,1
+Log USD 364,197
+Logan,31
+Logan 239,6
+Logan 258 All At Large,86
+Logan 298,41
+Logan 413,70
+Logan 473-3,157
+Logan City 326/2/FD4,137
+Logan City 326/3/FD4,101
+Logan City 326/4/FD4,21
+Logan City 326/5/FD4,132
+Logan Township,47
+"Logan Township, 108-2-5",14
+"Logan Township, 108.3-6",69
+Logan Twp / 351 / 1-4-5,18
+Logan Twp / 495 / 3-6,15
+Logan Twp / USD 347,19
+Logan Twp 205,100
+Logan Twp 239/2-5,28
+Logan Twp 239/3-6,32
+Logan Twp 326/4/FD4,17
+Logan Twp 326/6/FD4,24
+Logan Twp REC 354,115
+Logan Twp USD 477,150
+Logansport Twp. #274,1
+Logansport Twp. #275,2
+London Twnshp 264,130
+London Twnshp 353/3,21
+London Twnshp 357/2,291
+London Twp 263/3 Peck Imp Dist,69
+London Twshp 263/3,57
+Lone Elm 365,27
+Lone Elm 479,144
+Lone Elm City,15
+Lone Star 247 14,153
+Lone Star 248 36,15
+Lone Star 249,79
+Lone Star 250,657
+Lone Star Twsp.,56
+Lone Tree - USD 418,33
+Lone Tree - USD 423,135
+Lone Tree Twp (H) 322.3,13
+Lone Tree Twp (H) 322.5,84
+Long Island City 212/2/FD2,119
+Long Island Twp 212/2/FD2,68
+"Longton City (283, 1)",100
+"Longton City (283, 3)",80
+"Longton Township (283, 1)",17
+"Longton Township (283, 3)",44
+Lorraine City (112/5),82
+Lost Springs City,31
+Lost Springs Township,82
+Louisville City 320.5,83
+Louisville Twp 320.3,89
+Louisville Twp 320.5,589
+Louisville Twp 323.3,20
+Louisville Twp 323:6,20
+"Lowe Township, 108.1-4",47
+LT/225/F,27
+LT/226/F,57
+LU,78
+Lulu Township,34
+LWID  330-3&6,117
+LY.2 Lyon Township (412SD),14
+Lyon - USD 473,218
+Lyon - USD 475,4
+Lyon - USD 481,3
+Lyon H70 481-2,13
+Lyon H70 487,163
+Lyon Twp/239/CC3,25
+Lyon Twp/333/MD3/CC3,2
+Lyon Twp/334/MD2/CC3,42
+M001.1,162
+MA/Udall City/463/235,46
+MACK 122A,204
+MACK 122A DD2,371
+MACK 122B,62
+MACK 122C,5
+Madison 298,83
+Madison City 386 Mem 1-4,287
+Madison City 386 Mem 3-6,187
+Madison TWP 386 Mem 2-5,215
+Madison TWP 386 Mem 3-6,37
+Madison Twp B,24
+Madison Twp H64-1,133
+Madison Twp H64-Riley City-2,690
+"Mahaska City, 108.1-4",38
+Manchester City USD473-1,56
+Manhattan City 383.7,6
+Manhattan Twp- 3 H67,134
+Manhattan Twp-2,405
+Manhattan Twp-3-Enclave A,2
+Manhattan Twp -3 Enclave,7
+Manhattan Twp 1-Enclave,4
+Manhattan Twp 1-H64,394
+Manhattan Twp 3-H68,6
+Manhattan Twp 4- Enclave B,1
+Manhattan Twp 4- Enclave C,6
+Manhattan Twp 4- H51,7
+Manhattan Twp 4- H61,256
+Manhattan Twp 4-H64,359
+Manhattan Twp 4-H66,1
+Mankato City 107-1,615
+"Manter City, CC 1, USD 452",85
+"Manter Twp, CC 1, USD 452",58
+Maple Hill 321,45
+Maple Hill 329-1,104
+Maple Hill 329-3,33
+Maple Hill 329-6,108
+Maple/263,91
+Maple/396,19
+Maple/463/235,455
+Mapleton City,79
+Marion 298,37
+Marion North,584
+Marion North/CVD,131
+Marion South,545
+Marion South/CVD,113
+Marion Twp,171
+Marion Twp - Bailley Imp Dist,124
+Marion Twp - USD 115,149
+Marmaton 256 All At Large,206
+MARMATON D2 234,234
+MARMATON D2 235 1-4,111
+MARMATON D2 235 3-6,68
+MARMATON D4 234,127
+Marquette - USD 400,529
+Martin 110 Township,9
+Martin 237 Township,10
+Mary USD 364,216
+May Day Twp,56
+Mayetta City - USD 337 1-4,166
+Mayetta City - USD 337 3-6,33
+Mayfield City 353/3,70
+MC,113
+MC/226-1/M,2
+MC/226-2/M,1
+MC/226-3/M,240
+Mcadoo (Usd 254),9
+Mcadoo (Usd 438),9
+McAllaster Twp. #275,25
+McCracken City,113
+Mccune City,285
+McFarland  329-1,16
+McFarland  329-2,39
+McFarland 329-5,3
+McLouth City 342 2/5,649
+Meade/226-1/M,764
+Meade/226-2/M,554
+Med Lodge Five (Mbr 4),44
+Med Lodge Four (Mbr 2),171
+Med Lodge One (Mbr 1),254
+Med Lodge One (Mbr 3),180
+Med Lodge Three (Mbr 4),270
+Med Lodge Two (Mbr 2),167
+Med Lodge Two (Mbr 3),194
+Med Lodge Two Exclave  (Mbr 2),7
+Medford USD 309 2-5,52
+Medford USD 376,68
+Medora USD 313 3-6,1291
+Medway T/S,31
+Melvern 421 MD 2-4,8
+Melvern 456 MD 147,161
+Melvern 456 MD 257,101
+Menlo City-USD 316,25
+Menlo Twp-USD 274,2
+Menlo Twp-USD 315,1
+Menlo Twp-USD 316,23
+"Menno USD410-1,4",32
+"Menno USD411-1,4",25
+"Menno USD411-2,5",190
+Meriden City 340 2/5,508
+Meridian - USD 411,57
+Meridian - USD 423,100
+Meridian - USD 460,21
+MF City 329-1,184
+MF City 329-5,18
+MH City 329-3,456
+MH City 329-6,3
+MH Twp 330-1 & 4,131
+MI 103,15
+MI 105,7
+MI 314,11
+MI H6 368 2-5,76
+MI H6 416-4,113
+MI H9 362-2,57
+MI H9 362-4,122
+MI H9 368 2-5,89
+Miami USD 310,49
+Michigan Twp,60
+Michigan Valley 287 MD 147,218
+Michigan Valley 287 MD 147 H54,7
+Michigan Valley 287 MD 257,21
+Michigan Valley 434 MD 147,82
+Michigan Valley 434 MD 147 H54,70
+Milan City 359/2,34
+Milford - USD 378,11
+Milford - USD 473,6
+Milford - USD 475,930
+Milford City - USD 475,276
+"Mill Creek Township, 108.1-4",58
+Mill Creek Twp (H) 322.2,6
+Mill Creek Twp (H) 322.3,206
+Mill Creek Twp (H) 322.4,13
+Millbrook Twp/USD 281,85
+Millcreek 234,249
+Millcreek 235,161
+Milton Twp 206 75,283
+Milton USD398,59
+Miltonvale City/334/MD1/CC1,259
+Mingona Twp (Usd 254),63
+Minn/C3/H2/219,494
+Minneapolis City I,412
+Minneapolis City II,313
+Minneapolis City III,465
+Minneapolis City III-2,30
+Minneha 1 in 385-2 & CV Imp D,1580
+Minneha 1 in USD 259-2,1
+Minneha 1 in USD 385-2,8
+Minneha 12,2
+Minneha 14 in SD Imp Dist,149
+Minneha 18,3
+Minneha 20,3
+Minneha 22,2
+Minneha 26,23
+Minneha 3,4
+Minneha 5,2
+Minneha 7,35
+Minneha 8,36
+Minneha 9,2
+Minneha 9 in SS Imp Dist,334
+Mission (101/2),10
+Mission (505),193
+Mission Twp (415 1-4),77
+Mission Twp (430 2-5),135
+Mission Twp (430 3-6),181
+Mitchell Twp - USD 115,247
+Mitchell Twp - USD 380 3-6,15
+MND H5 367 3-6,140
+MND H9 362 -5,135
+MND H9 367 3-6,268
+"Moline City (282, 3&6)",243
+Monroe 365/1-4,71
+Monroe 365/2-5,156
+Monroe 365/3-6,42
+Montana TWP 107-1,46
+Montezuma City USD 371,415
+Montezuma Twp USD 102,23
+Montezuma Twp USD 371,170
+Monument Twp. #274,86
+Monument Twp. #275,12
+Moore,40
+Moore Twp (Usd 254-6),14
+Moore Twp (Usd 255),10
+Moore Twp 17 KH (Usd 255),23
+Moran City 256 All At Large,300
+Morlan Twp/USD 269 #1,3
+Morlan Twp/USD 269 #2,3
+Morlan Twp/USD 269 #3,19
+Morlan Twp/USD 281,21
+Morland City/Gettys.Twp/USD281,14
+Morland City/Sol.Twp/USD281,97
+Morrill City,136
+Morrill Twp (113 -1),177
+Morris Twnshp 359/3,20
+"Morrowville City, 108.1-4",79
+Morton 3 in USD 268,4
+Morton in USD 267-3,49
+Morton in USD 268,435
+Morton Twp / 495 / 3-6,18
+Morton Twp / 496 / 246,6
+Morton Twp 240,93
+Moscow City,144
+Moscow Rural,207
+Moscow USD210,18
+Mound - USD 423,265
+Mound City City/346.2,361
+Mound City City/346.5,138
+Mound City Twp Mc00006.1,6
+Mound City Twp Mc00006.3,441
+Mound City Twp Mc00006.4,54
+Mound City Twp Mc00006.5,84
+Mound Twp 325/3/FD1,95
+Mound Twp 326/6/FD1,5
+Moundridge-USD 423,1167
+Mount Hope 01 312-3,544
+Mount Hope 02 312-3,6
+Mount Hope 04 312-3,2
+MP City W1-USD 418,4489
+MP City W2-USD 418,1417
+MP City W3-USD 418,947
+MP City W4-USD 418,2055
+MP Twp - USD 418,425
+Mt Pleasant 377,584
+Mt Pleasant 409,113
+Mt Pleasant 449,1
+"Mt. Ayr Twp/392, 3",14
+Mt. Ayr Twp/399,9
+MT/226-3/M,24
+MT/371/M,7
+MT/476/M,20
+MT/483/M,27
+Mulberry (307/1),28
+Mulberry (327/3),2
+Mulberry 1st Ward,126
+Mulberry 2nd Ward,155
+Mull City CD3/422,125
+Mull Twp CD3/422,129
+Mulvane 1 in USD 263-1,947
+Mulvane 14,1
+Mulvane 2 in USD 263-1,376
+Mulvane 2 in USD 263-2,2049
+Mulvane 2 in USD 263-3,265
+Mulvane 5,3
+Mulvane 6,148
+Mulvane 7,1
+Mulvane City 263/3,519
+Mulvane Cy 263/3 H79 exclave B,2
+Mulvane Cy 263/3H79 Cowskin DD,6
+Mulvane Cy Exclave A 263/3 H82,2
+Munden City FR - 109 2/5 C1 F3,30
+Munden City RC - 109 2/5 C1 F3,34
+Murdock Twp 206,165
+Murdock Twp 375-2,41
+Murdock Twp 375-2 A,7
+Murdock Twp 375-4,105
+Murray USD 113-A6,316
+Murray USD 113-m,156
+Murray USD 115-m,1
+Muscotah City 377,112
+MX City/351 Mem 1-4-5/H2/C2,69
+MX City/351 Mem 2-3-6/H2/C2,161
+N Brown Twp / USD 347,21
+N Brown Twp / USD 502,23
+N Center City H2/303/1,562
+N Center Twp H2/303/1,18
+N Dudley (019)  2/374,14
+N Dudley (020) 2/507-1,54
+N Gottland -USD 400,143
+N Gottland -USD 418,275
+N La Cygne City,518
+N La Cygne City/Scott TWP,3
+N Lincoln Twp Ln00004.1,63
+N Lincoln Twp Ln00004.2,171
+N Lockport (006) 39/3/476,48
+N Lockport (007) 39/3/374,31
+N Paola E Prt 1 368 2-5,12
+N Paola E Prt 2 368 2-5,75
+N Paola W 368 1-4,257
+N Paola W 368 2-5,28
+N Paola W 368 3-6,104
+N Pleasanton City,458
+N Potosi Twp Po00008.1,296
+N Seward/350 Mem 1-4/No H/C2,13
+N Seward/351 Mem 1-4-5/No H/C2,9
+N Seward/428/No H/C2,47
+N SF City/349/H4/C1,310
+N SF Rural/349/H4/C1,37
+N St Cr USD 335 5,22
+N St. Creek USD 377 1-4,3
+N. Lawrence Pct/109/CC1,2
+N. Lawrence Pct/224/MD3/CC1,18
+N. Lawrence Pct/333/MD3/CC1,29
+N101.1,1174
+N102.1,1395
+N103.1,1088
+N104.1,400
+N105.1,441
+N106.1,1221
+N107.1,1387
+N108.1,1296
+N109.1,690
+N110.1,1516
+N111.1,534
+N112.1,1475
+N113.1,924
+N114.1,1144
+N115.1,528
+N116.1,983
+N117.1,599
+N118.1,841
+N119.1,969
+N120.1,567
+N121.1,356
+N122.1,350
+N123.1,821
+N124.1,264
+N125.1,707
+N126.1,219
+N127.1,1211
+N201.1,862
+N202.1,971
+N203.1,775
+N204.1,1147
+N205.1,786
+N206.1,941
+N207.1,694
+N208.1,723
+N209.1,950
+N210.1,1926
+N211.1,465
+N212.1,739
+N213.1,768
+N214.1,700
+N215.1,1162
+N216.1,777
+N217.1,1048
+N218.1,1608
+N219.1,704
+N220.1,621
+N221.1,700
+N222.1,904
+N223.1,815
+N224.1,826
+N225.1,676
+N226.1,852
+N227.1,533
+N228.1,569
+N229.1,972
+N230.1,1080
+N231.1,842
+N232.1,910
+N301.1,1458
+N302.1,1146
+N303.1,658
+N304.1,1098
+N305.1,1199
+N305.2,1
+N306.1,1673
+N307.1,1215
+N308.1,1364
+N309.1,1330
+N310.1,691
+N311.1,1087
+N312.1,939
+N313.1,26
+N313.2,1865
+N314.1,1411
+N315.1,601
+N315.2,263
+N317.1,1553
+N318.1,1884
+N319.1,1304
+N320.1,1141
+N321.1,1047
+N322.1,646
+N401.1,616
+N401.2,772
+N402.1,1180
+N403.1,565
+N403.2,1314
+N404.1,1547
+N405.1,1231
+N406.1,976
+N407.1,871
+N408.1,1480
+N409.1,730
+N409.2,223
+N410.1,761
+N411.1,1439
+N412.1,1761
+N413.1,1049
+N414.1,657
+N415.1,751
+N416.1,2180
+N417.1,1675
+N417.2,64
+N419.1,1444
+N420.1,96
+N420.2,455
+N421.1,835
+N501.1,1299
+N502.1,1132
+N503.1,1240
+N504.1,1604
+N505.1,2233
+N506.1,1406
+N507.1,1562
+N508.1,2155
+N509.1,1533
+N510.1,1099
+N511.1,1559
+N512.1,599
+N513.1,1197
+N514.1,104
+N515.1,1845
+N516.1,827
+N517.1,530
+N518.1,1178
+N519.1,417
+N601.1,1420
+N602.1,109
+N603.1,1188
+N604.1,1470
+N605.1,1668
+N606.1,437
+N607.1,442
+N608.1,1044
+N608.2,387
+N609.1,810
+N610.1,370
+N611.1,1383
+N612.1,568
+N613.1,459
+N613.2,1109
+N613.3,3
+N614.1,1384
+N615.1,1802
+N616.1,842
+N617.1,259
+N618.1,1559
+N619.1,4
+N619.2,952
+N620.1,707
+N621.1,814
+N622.1,1481
+N623.1,2084
+Narka City AL - 109 2/5 C1 F3,59
+Nashville City USD 332 Pos. 5,50
+Natoma City,216
+Natoma Twp/399,14
+NC.1 Norcatur City,108
+NE Liberty USD 335 5,1
+NE USD 466,1
+Nelson Twp/224/MD6/CC1,6
+Nelson Twp/333/MD3/CC1,88
+Nemaha Twp - USD 113 Mbr 5,72
+Nemaha Twp - USD 115,29
+Neosho Falls City,79
+Neosho Falls/245/2 7/1,3
+Neosho Falls/366 ALG/1,26
+"Neosho Twp, 244/3",1
+"Neosho Twp, 244/4",20
+"Neosho Twp, 245/2",66
+Netawaka - USD 335 4,135
+Netawaka City - USD 335 4,120
+Neuchatel Twp - USD 322,22
+Neuchatel Twp - USD 380,61
+Nevada City H1/106/2,204
+Nevada Twp H1/106/2,80
+"New Strawn City, 06.1",326
+Newbern 435-2,81
+Newbern 473-3,208
+NF/Piqua/258/1 7/1,23
+NF/Piqua/366 ALG/1,144
+NI/Udall City/463/146,388
+Nickerson Ward 1 USD 309 2-5,281
+Nickerson Ward 2 USD 309 2-5,164
+Nickerson Ward 3 USD 309 2-5,204
+Nicodemus Twp/USD 281,38
+Ninnescah - Rural,185
+Ninnescah 1 - Rural,380
+Ninnescah in Clearwater,1802
+Ninnescah Twp USD 331 Pos. 1,61
+Ninnescah Twp USD 331 Pos. 4,128
+Ninnescah USD 311,149
+Ninnescah USD 312 1-4,25
+Ninnescah/358/1-4,4
+Ninnescah/463/146,261
+Ninnescah/465,6
+NMV ENC H26 S23 230 3-6,6
+NMV ENC H5 S23 230 3-6,8
+NMV H5 S23 230 3-6,132
+NMV H5 S37 230 3-6,336
+NMV H5 S37 368 1-4,3
+NMV H6 Prt B 203 3-6,1
+NMV H6 S23 230 3-6,151
+NMV H6 S23 368 1-4,4
+NMV H6 S37 230 3-6,170
+NMV H6 S37 368 1-4,91
+Noble (112/4),14
+Noble (327/3),40
+Noble 473-1,143
+Noble 473-2,238
+Noble USD 380.2,76
+Noble USD 380/V,84
+Noble2-473-1,35
+North Arma City,602
+North Elsmore 256 All At Large,96
+North Fifth 409,1128
+North Homestead Twp,88
+North Iola Twp 257,196
+North Randall Twp-USD 274,17
+North Randall TWp-USD 315,36
+North Sedan,95
+North Sedan-Sedan City,394
+North Tioga (413),344
+North Twp/245/4 7/3,7
+North Twp/245/6 7/3,6
+North Twp/366 ALG /3,27
+North Twp/366 ALG/3,1
+Norton 338 3/6,10
+Norton 339 1/4,37
+Norton 339 2/5,161
+Nortonville City 339 1/4,411
+Norway - 426 2 C2 F11,100
+Norway - 426 2 C2 F1CR,5
+Norwich City USD 331 Pos. 5,112
+Norwich City USD 331 Pos.6,207
+NW 229 3-6 (WD1),48
+NW 416-1,270
+NW 416-1 (WD1),124
+NW 416-3,99
+O101.1,1438
+O102.1,512
+O103.1,1099
+O201.1,1413
+O202.1,696
+O203.1,1064
+O301.1,823
+O302.1,1390
+O303.1,849
+O401.1,1083
+O402.1,814
+O403.1,1190
+O404.1,416
+O501.1,923
+O502.1,1125
+O503.1,1687
+O601.1,890
+O602.1,1369
+O603.1,856
+Oak Township,55
+"Oak Valley Township (283, 1)",32
+"Oak Valley Township (283, 3)",17
+"Oak ValleyTownship (283, 2)",27
+Oakland Twp/334/MD1/CC1,31
+Oakley City-USD 274,29
+Oakley City/ C1,768
+Oakley City/C2,546
+Oakley Twp. CC1 #274,106
+Oakley Twp. CC2 #274,34
+OB.1 Oberlin Township,67
+OC 01 H6 367 1-4,511
+OC 01 H6 367 3-6,17
+OC 02 H5 367 1-4,637
+OC 03 H5 367 2-5,686
+OC 03 H5 EXC B 367 3-6,5
+OC 04 H5 367 2-5,40
+OC 04 H6 367 2-5,568
+OC00001.1 Oberlin City,509
+OC00002.1 Oberlin City,644
+OD/226-3/M,26
+Odessa TWP 107-2,18
+Offerle City / USD 347,132
+Ogallah Township USD 208,93
+Ogallah Township USD 388,27
+Ogden Twp-1,298
+Ogden Twp-7,5
+Ogden Twp-8,1
+OgdenTwpFt Riley A -Ogden City,966
+OH H107 (307-14),46
+OH H107 (307-25),126
+OH H107 (307-36),50
+OH H69 (305),2
+OH H69 (307-25),65
+Ohio 1 in 263-1 & PE Imp Dist,28
+Ohio 1 in USD 261,69
+Ohio 1 in USD 263-1,3
+Ohio 1 in USD 264,921
+Ohio City H1/106/2,92
+Ohio H1/106/2,48
+Ohio H1/303/1,12
+Ohio Twp/287/3-6,2
+Ohio Twp/288/A,306
+Ohio Twp/288/B,55
+Ohio Twp/290,41
+Ohio/349/H1/C3,8
+Ohio/350 Mem 3-6/H1/C3,54
+Oketo USD 364,104
+Oketo USD 364/O,48
+OL.1 Olive Township,44
+Olivet 420 MD 147,46
+Olivet 421 MD 2-4,43
+Olivet 456 MD 147,66
+Olmitz City,74
+Olsburg City 384.3,167
+Omnia/462/2-5,65
+Omnia/Atlanta City/462/2-5,115
+Onaga City (H) 322.2,206
+Onaga City (H) 322.4,264
+Oneida City,33
+Only First 409,528
+Only Fourth 409,772
+Opolis,291
+Orange 298,22
+Orange 299 02,21
+Orange Twp,29
+Orange Twp/Garfield City,1
+Orlando Twp/25/297,44
+Orlando Twp/26/103,4
+OSA H5 367 3-6,473
+OSA H6 Part A 367 3-6,1
+OSA H9 367 3-6,96
+Osage,295
+Osage-McCune,137
+Osage-McCune HD,164
+Osage 256 All At Large,196
+Osage 362-2,299
+Osage 367 3-6,22
+"Osage City Ward 1 (420, 147)",322
+"Osage City Ward 1 (420, 257)",240
+"Osage City Ward 1 (420, 367)",22
+"Osage City Ward 2 (420, 367)",448
+"Osage City Ward 3 (420, 257)",25
+"Osage City Ward 3 (420, 367)",563
+"Osage City Ward 4 (420, 257)",465
+Osborne Twnshp 353/3,116
+"Osborne Ward 1/392, 1",321
+"Osborne Ward 2/392, 2",380
+"Osborne Ward 3/392, 1",151
+"Osborne Ward 3/392, 2",69
+Oskaloosa 339 2/5,25
+Oskaloosa 339 3/6,16
+Oskaloosa 341 1/4,119
+Oskaloosa 341 2/5,349
+Oskaloosa 341 3/6,295
+Oskaloosa City 341 2/5,379
+Oskaloosa City 341 3/6,337
+Otis City,210
+Ottawa City P1/290,898
+Ottawa City P2/290,1051
+Ottawa City P2/290/DD,7
+Ottawa City P3/290,647
+Ottawa City P4/290,1847
+Ottawa City P6/290,678
+Ottawa City P7/290,1903
+Ottawa City P7/290/DD,8
+Ottawa City P8/290,1780
+Ottawa Twp 239,7
+Ottawa Twp 240,11
+Ottawa Twp 393,7
+Ottawa Twp/287/1-4,234
+Ottawa Twp/287/2-5,1
+Ottawa Twp/287/2-5/DD,6
+Ottawa Twp/289/3-6,35
+Ottawa Twp/290,363
+Ottawa Twp/290/DD,21
+Otter Creek TWP 205,2
+Otter Creek TWP 282,2
+Otter Creek TWP 389  Mem 5,116
+Otter/285,31
+"Ottumwa Twp, 243/1-3-5",23
+"Ottumwa Twp, 243/2-4-6",37
+"Ottumwa Twp, 244/1",144
+"Ottumwa Twp, 244/2",33
+"OV - 481, Bd 1",57
+"OV - 481, Bd 2",3
+OV - 487 At Lrg,2
+Oxford 358/1,206
+Oxford 358/2,509
+Oxford Twnshp 358/1,39
+Oxford Twnshp 358/2,75
+Oxford Twnshp 358/3,45
+Ozark 479/2-5,67
+Ozark 479/3-6,67
+Ozawkie 338 1/4,62
+Ozawkie 338 Fire 11 1/4,96
+Ozawkie 340 1/4,157
+Ozawkie 341 1/4,249
+Ozawkie 341 LSE 1/4,207
+Ozawkie City 340 1/4,483
+"P. City Comm Dist 3, 3-6  #1",293
+P101.1,840
+P102.1,471
+P201.1,634
+P202.1,773
+P301.1,461
+P302.1,442
+P303.1,386
+P401.1,389
+P402.1,535
+P403.1,572
+Pa/2/316,3
+Pa/2/412,79
+Padonia Twp ( 415 1-4),142
+"Painterhood Township (282, 1&4",35
+Palacky (112/4),43
+Palestine Twnshp 357/3,30
+Palestine Twnshp 358/2,42
+Palestine Tws 357/1 Cowskin DD,35
+Palestine Tws 357/3 Cowskin DD,24
+"Palmer City, 223.2",92
+Paris Twp Pa00007.1,47
+Paris Twp Pa00007.2,145
+Paris Twp Pa00007.3,257
+Paris Twp Pa00007.4,10
+Park 1 in USD 262,209
+Park 10 in USD 266-2,2
+Park 11 in USD 266-2,2
+Park 12,2
+Park 14 in USD 266-2 in Maize,49
+Park 14 in USD 266-3 in Maize,2051
+Park 14 in USD 266-3 out Maize,4
+Park 15 in USD 266-2,74
+Park 15 in USD 266-2 & Maize,351
+Park 16 in USD 266-2,19
+Park 17 in 266-2 & Maize,1
+Park 2 in USD 266-2,270
+Park 5 in USD 262,68
+Park 5 in USD 266-2 & Maize,983
+Park 5 in USD 266-2 out Maize,80
+Park 5 in USD 266-3 & Maize,1068
+Park 6 in USD 266-3 & Maize,90
+Park 9 in USD 266-2,5
+Park City 11,215
+Park City 13,530
+Park City 16,2
+Park City 17,1
+Park City 18,467
+Park City 19 in USD 259-6,182
+Park City 21,1162
+Park City 23 in USD 262,375
+Park City 31 in USD 259-6,807
+Park City 31 in USD 262,325
+Park City 32 in USD 262,280
+Park City 41 in USD 259-6,680
+Park City 41 in USD 262,3
+Park City 43 in USD 259-1,490
+Park City 43 in USD 259-6,9
+Park City 44,100
+Park City 45 in USD 259-1,305
+Parker City,151
+Parkview 246 14,192
+Parkview 246 25,40
+Parkview 246 36,9
+Parkview 249,221
+Partridge City USD 312 2-5,148
+"Paw Paw Township (282, 1&4)",97
+Pawnee 234,128
+Pawnee 235 2-5,64
+Pawnee 235 3-6,87
+Pawnee Rock City,142
+Pawnee Rock Twp,96
+Pawnee Township,29
+Pawnee Twp,58
+Paxico  320,3
+Paxico  329-2,103
+Paxico  329-6,163
+Paxico 329-1,84
+Paxico FVID 329-1,58
+Paxton Twp. #275,10
+Paxton Twp. #466,10
+Paxton Twp. #467,1
+Payne (292) CC2,49
+Payne (292) Park,94
+Payne (293) CC2,30
+Payne 1 in 259-1 & Kechi,368
+Payne 1 in USD 259-1,41
+Payne 1 in USD 375-1,333
+Payne 1 in USD 375-2,186
+Payne 1 in USD 385-1,235
+PC 01 368 1-4,187
+PC 01 368 3-6,814
+PC 02 368 2-5,338
+PC 02 368 3-6,619
+PC 03 368 2-5,781
+PC 03 368 3-6,97
+PC 04 368 2-5,190
+PC 04 368 3-6,1102
+Pd/3/294-4,3
+Pd/3/316,41
+Peabody City East,260
+Peabody City West,373
+Peabody Township East,65
+Peabody Township West,78
+Peabody Twp West/USD 206,9
+Penalosa City USD 331 Pos. 1,6
+Penalosa City USD 332 Pos. 2,8
+"Penn Twp/392, 2",43
+"Penn Twp/392, 3",47
+Peoria Twp/289/3-6,519
+Peoria Twp/290,31
+Peoria Twp/368/1-4,14
+Perry City 343 2/5,673
+Perry Twp/258/1 7/1,13
+Perry Twp/366 ALG/1,60
+Perry Twp/387/6 7/1,1
+Peters Twp USD 332 Pos. 4,82
+Phillipsburg Twp 325/1/FD1,32
+Phillipsburg Twp 325/2/FD1,93
+Phillipsburg Twp 325/3/FD1,75
+PIERCEVILLE 122,291
+PIERCEVILLE 122 DD2,2
+Pioneer,47
+Pioneer Twp/USD 281,14
+Pioneer Twp/USD 326 #4,10
+Pioneer Twsp.,39
+Pittsburg 1p - 1w,926
+Pittsburg 1p - 2w,504
+Pittsburg 1p - 3w,659
+Pittsburg 1p - 4w,336
+Pittsburg 2p - 1w,1264
+Pittsburg 2p - 2w,555
+Pittsburg 2p - 3w 249,4
+Pittsburg 2p - 3w 250,753
+Pittsburg 2p - 4w,674
+Pittsburg 3p - 1w,2453
+Pittsburg 3p - 2w,694
+Pittsburg 3p - 4w,946
+Pittsburg 4p - 2w,527
+Pittsburg 4p - 4w 249,4
+Pittsburg 4p - 4w 250,644
+Pittsburg 5p - 2w,988
+Pittsburg 5p - 4w,1165
+Pittsburg 6p - 4w,179
+Pittsburg Township,62
+Pl  Valley/465,540
+Pl  Valley/470,107
+PL.1 Pleasant Valley TWP 211NT,3
+PL.2 Pleasant Valley TWP 294,12
+PL.3 Pleasant Valley TWP 412SD,3
+Plains/483/M,768
+Plainview Twp 325/3/FD4,1
+Plainview Twp 326/6/FD4,18
+Pleasant 110 Township,8
+Pleasant 237 Township,19
+Pleasant 299 02,83
+Pleasant Grove TWP 389 Mem 3,39
+Pleasant Twp 394,1538
+Pleasant Twp 396,34
+Pleasant Twp 402,225
+Pleasant Twp 77 385-3,38
+Pleasant Twp 77 385-3 A,5
+Pleasant Twp 88 385-3,33
+Pleasant Twp 88 394,89
+Pleasant Twp N 77 394,10
+"Pleasant Twp, 244/6",159
+"Pleasant Twp, 245/2",22
+"Pleasant Twp, 252",13
+PLEASANT VALLEY 122,106
+Pleasantdale Twsp.,24
+Plevna City USD 310,64
+Plevna USD 310,102
+Plt. Grove Twp / 1-4,23
+Plt. Grove Twp / 2-5,9
+Plt. Grove Twp / 3-6,90
+Plt. Ridge Twp / 495 / 3-6,34
+Plt. Ridge Twp / 496 / 246,2
+Plt. Valley Twp / 351 1-4-5,3
+Plt. Valley Twp / 495,53
+Plum Creek Township,104
+Plum Grove Twp 206,121
+Plum Twp 110/1/FD3A,76
+Plumb 330-2 & 5,277
+PLYMELL 122,255
+"PO Twp Comm Dist 1, 1-4",23
+Pomona City/287/2-5,576
+Pomona Twp/287/2-5,158
+Pomona Twp/287/2-5/DD,12
+"Portis City/392, 3",74
+Pottawatomie Twp 323.3,186
+Pottawatomie Twp 323.6,204
+"Pottawatomie Twp, 243/2-4-6",124
+"Pottawatomie Twp, 244-2",7
+"Pottawatomie Twp, 365",5
+Pottawatomie Twp/288/A,62
+Pottawatomie Twp/288/B,125
+Pottawatomie Twp/288/C,110
+Pottawatomie Twp/290,1
+Pottawatomie Twp/365/1-4,16
+Potwin City 206,292
+Powhattan City,46
+Powhattan Twp (113 -4),12
+Powhattan Twp (335 4-6-7),31
+Powhattan Twp (415 1-4),88
+Powhattan Twp (430 2-5),347
+PR Twp Comm Dist 3  3-6  #1,31
+"PR Twp Comm Dist 3, 1-4   #2",6
+"PR Twp Comm Dist 3, 1-4 #2",15
+"PR Twp Comm Dist 3, 3-6  #1",72
+PR.1 Prairie Dog Township,30
+Prairie TWP 273 2-5,49
+Prairie View City 326/1/FD2,97
+Prairie View Twp 212/2/FD2,16
+Prairie View Twp 326/1/FD2,34
+Prairie View Twp 326/6/FD2,4
+PREC 1 CITY,357
+PREC 1 COUNTY,70
+PREC 2 CITY,451
+PREC 2 COUNTY,95
+PREC 3-467-1,99
+PREC 3-467-2,169
+Precinct 2 Ward I,731
+Precinct 2 Ward II,735
+Precinct 2 Ward III,1104
+Precinct 2 Ward IV,1033
+Prescott City,162
+Preston USD 382  Comm 2,65
+Pretty Prairie Ward 1 USD 311,460
+Pretty Prairie Ward 2 USD 311,3
+Princeton City/288,197
+Prospect Twp 205,205
+Prospect Twp 490,484
+Prospect Twp 492-2,199
+Prospect Twp 492-3,7
+Putnam,239
+Putnam N/355/H3/C2,12
+Putnam S/350 Mem 1-4/H3/C2,6
+PV H107 (240-25),22
+PV H107 (307-14),34
+PV H107 (307-36),215
+PX City 329-6,145
+Q101.1,1240
+Q102.1,854
+Q103.1,926
+Q104.1,755
+Q104.2,18
+Q105.1,612
+Q105.2,980
+Q106.1,1208
+Q107.1,1513
+Q108.1,2226
+Q109.1,2
+Q109.2,369
+Q109.3,1
+Q110.2,437
+Q111.1,1166
+Q112.2,8
+Q113.1,417
+Q113.2,446
+Q201.1,686
+Q201.2,106
+Q202.1,1129
+Q203.1,1325
+Q204.1,1351
+Q205.1,698
+Q206.1,811
+Q207.1,617
+Q207.2,265
+Q208.1,772
+Q209.1,713
+Q210.1,699
+Q211.1,870
+Q212.1,550
+Q213.1,496
+Q301.1,975
+Q302.1,1075
+Q303.1,1540
+Q304.2,315
+Q304.3,1198
+Q305.1,22
+Q305.2,117
+Q306.1,1489
+Q307.1,2135
+Q308.1,1351
+Q309.1,1576
+Q309.2,2
+Q310.1,961
+Q311.1,1869
+Q311.2,15
+Q312.1,652
+Q401.1,1391
+Q402.1,892
+Q403.1,812
+Q404.1,825
+Q405.1,1616
+Q406.1,1109
+Q407.1,1462
+Q408.1,524
+Q409.1,1948
+Q411.1,952
+Q412.1,281
+Q413.1,258
+Q414.1,233
+QC01-01.202,32
+Quincy TWP 386 Mem 2-5,3
+Quincy TWP 389 Commission 1,54
+Quincy TWP 389 Commission 3,7
+Quincy TWP 390,37
+R001.1,819
+R002.1,623
+Rad City D/351 M 1-4-5/No H/C2,14
+Rad City L/351 M1-4-5/No H/C2,7
+Ramona,67
+Randall City 273 2-5,46
+Rantoul City/288,124
+Raymond 248 14,557
+Raymond 248 36,27
+Red Bud 435-2,67
+Red Vermillion Twp - USD 322,19
+Red Vermillion Twp - USD 380,66
+Redfield City,88
+Reeder 287/3-6,13
+Reeder 365/1-4,198
+Reilly Twp - USD 335,37
+Reilly Twp - USD 380,42
+Reno 458-3,180
+Reno 464-3,580
+Reno 491,140
+Reno 497,360
+Reno North USD 308,2
+Reno North USD 309 3-6,592
+Reno North USD 313 1-4,568
+Reno South USD 309 3-6,136
+Reno South USD 312 2-5,64
+Republic City BB - 109 1/4 C2,73
+Republic City WA - 109 1/4 C2,8
+Reserve City - Hamlin Twp,54
+Rexford City-USD 316,113
+Rich,199
+RICH H5 231 1-4,342
+RICH H5 289 2-5,136
+RICH H5 289 3-6,293
+RICH H5 368 1-4,821
+RICH H6 368 1-4,111
+Rich USD 113-1,45
+Rich USD 113-rs,54
+Rich USD 364,24
+Richland - 109 2/5 C1 F4,50
+Richland T/S,14
+Richland TWP 107-1,28
+Richland Twp 239,50
+Richland Twp 240,103
+Richland Twp 394,319
+Richland Twp 394 A,2
+Richland Twp 396,574
+Richland Twp USD 331 Pos.4,68
+Richland Twp/443,445
+Richland/350 Mem 3-6/H1/C2,16
+Richland/351 Mem 1-4-5/H2/C2,11
+Richland/351 Mem 2-3-6/H2/C2,4
+Richland/396,9
+Richland/462/2-5,103
+Richland/463/235,5
+Richland/465,5
+Richmond City/288,295
+Richmond Twp - USD 115,424
+Richmond Twp/288,222
+Richmond Twp/365/1-4,47
+Ridge 473-3,24
+Ridge 481-2,26
+Ridge 481.2,68
+Ridgeway NO 434 MD 257,157
+Ridgeway NO 434 MD 367,272
+Ridgeway NO 450 MD 367,6
+Ridgeway SO 434 MD 257,29
+Ridgeway SO 434 MD 367,395
+Rinehart 473-2,173
+Risley,172
+River Twp / 351 / 1-4-5,5
+River Twp / 495 / 3-6,40
+Riverside 1 in 261,37
+RIVERSIDE 122,920
+Riverside 13 in USD 260,9
+Riverside 14 in 261,43
+Riverside 15 in 260 & SV ID,137
+Riverside 15 in OL Imp Dist,365
+Riverside 3 in OL Imp Dist,276
+Riverside 3 outside OL Imp D,104
+Riverside 6 outside OL Imp D,172
+Riverside 7 in 260 & OL ID,740
+Riverside 7 in 260 & SV ID,209
+Rk Creek/396,8
+Rk Creek/463/235,162
+RO 103,150
+RO 105,29
+RO 314,6
+RO.1 Roosevelt Township,11
+Robinson City,132
+Robinson Twp (415 1-4),147
+Rochester Twp USD 332 Pos. 6,52
+Rock Creek 338 1/4,87
+Rock Creek 340 1/4,791
+Rock Creek 340 2/5,402
+Rock Creek 340 3/6,382
+Rock Creek 343 1/4,8
+Rock Creek Twp - USD 113 Mbr 4,145
+Rock Creek Twp - USD 113 Mbr 5,182
+Rock Creek Twp 205,16
+Rock Creek Twp 322.5,2
+Rock Creek Twp 323.5,38
+Rock Creek Twp 323.6,92
+Rock Creek Twp 396,246
+"Rock Creek Twp, 243/2-4-6",271
+Rock USD 113-r,2
+Rock USD 364,20
+Rock USD 380,64
+Rock USD 380.2,4
+Rockford 1 in USD 260,376
+Rockford 1 in USD 263-2,41
+Rockford 1 in USD 394,260
+Rockford 2 in USD 263-1,22
+Rockford 3 in USD 263-1,50
+Rockford 3 in USD 263-2,182
+Rockford 3 in USD 263-3,223
+Rockford 4 in USD 260,16
+Rosalia Twp 205,4
+Rosalia Twp 492-2,156
+Rosalia Twp 492-3,288
+Roscoe USD 311,81
+Rose Creek - 109 2/5 C1 F3,33
+Rose Creek - 109 2/5 C1 F8,15
+Rose Hill City-Rockwood Falls,52
+Rose Hill City-Sienna 394,331
+Rose Hill City 394 Pleasant,1669
+Rose Hill City 394 Richland,1106
+Rose Valley/349/H1/C3,2
+Rose Valley/350 Mem 3-6/H1/C3,34
+"Ross Twp/272, 1-4",52
+"Ross Twp/272, 2-5",21
+Round Mound Twp/399,24
+Round Springs Township/273,8
+Round Springs Township/298,8
+Rovohl Twp-USD 315,129
+Royal Twp/443/pws,209
+Rozel City,84
+Rural 341 3/6,59
+Rural 343 2/5,551
+Rural Twp USD 332 Pos. 2,2
+Rural Twp USD 332 Pos. 3,74
+Rush Center City,106
+Rushville Twp 325/1/FD1,3
+Rushville Twp 325/3/FD1,20
+Russell Springs City,18
+Russell Springs Twp. #275,25
+Ryan Twnshp 356/2,1
+Ryan Twnshp 356/3,7
+Ryan Twnshp 359/2,13
+Ryan Twnshp 359/3,40
+S Brown Twp / USD 347,20
+S Brown Twp / USD 502,37
+S Center City H2/303/1,314
+S Center Twp H2/303/1,5
+S La Cygne City/362.1,52
+S La Cygne City/362.6,184
+S Lincoln Twp Ln00005.1,179
+S Lockport (006) 3/476,19
+S Lockport (007) 39/3/374,62
+S Paola E Part 2 368 2-5,151
+S Paola W 368 1-4,96
+S Paola W 368 2-5,155
+S Pleasanton City,422
+S Potosi Twp Po00009.1,162
+S Potosi Twp Po00009.4,88
+S Potosi Twp Po00009.5,20
+S Seward/350 Mem 1-4/H1/C2,34
+S Seward/351 Mem 1-4-5/H1/C2,7
+S SF City/349/H4/C1,280
+S SF Rural/349/H4/C1,51
+S Sharps Creek - 400,50
+S Sharps Creek - 444,14
+S SJ City/350 Mem 3-6/H1/C3,184
+S Tioga W Enclave H2 (413),16
+S Tioga W Part A H2 (413),20
+S Tioga West Enclave B (413),10
+S Tioga West Enclave C (413),1
+S Tioga West Enclave H7 (413),2
+S Tioga West H7 (413),83
+S. Lawrence Pct/224/MD3/CC1,4
+S. Lawrence Pct/333/MD3/CC1,47
+S001.1,334
+SA.1 Sappa Township,27
+Sabetha City - Ward 1 (113/3),384
+Sabetha City - Ward 1 (113/4),70
+Sabetha City - Ward 2 (113/3),296
+Sabetha City - Ward 2 (113/4),200
+Sabetha City - Ward 2 (113/5),8
+Sabetha City - Ward 3 (113/2),300
+Sabetha City - Ward 3 (113/5),139
+Sabetha City - Ward 4 (113/2),324
+Sabetha City - Ward 4 (113/5),2
+"Sabetha City, Morrill",5
+Salem 1 in 263-1 & PE Imp Dist,7
+Salem 1 in USD 260,72
+Salem 1 in USD 261,812
+Salem 1 in USD 263-1,678
+Salem 2,777
+Salem 256 All At Large,40
+Salem 258 All At Large,144
+Salem 3 in USD 261,56
+Salem 4 in USD 261,35
+Salem 5,387
+Salem TWP 389,19
+Salem TWP 390,6
+Salem TWP 492,2
+Salem/462/2-5,39
+Salem/462/3-6,23
+Salem/465,164
+Salt Creek-USD 283,42
+Salt Creek-USD 286-Member #1,40
+Salt Creek-USD 446,2
+Salt Creek 239,3
+Salt Creek 298,21
+Salt Creek Township/273,13
+Salt Creek Township/298,3
+Salt Creek USD 309 2-5,132
+Salt Creek USD 309 3-6,54
+Salt Creek USD 312 2-5,76
+Salt Springs TWP 282,60
+Salt Springs TWP 389,52
+Salt Springs TWP 484,88
+Santa Fe Twp,124
+Sarcoxie E 342 3/6 Split,665
+Sarcoxie W 341 3/6,16
+Sarcoxie W 343 2/5,26
+Sarxcoxie W 342 3/6 Split,108
+Satanta 1 (001) 1/507/2/HD/CI,151
+Satanta 1 (020) 1/507-2/HD,5
+Satanta 2 (001) 2/507-1/HD,85
+Satanta 2 (001) 2/507-2/HD,146
+Satanta 2 (001) 2/507-3/HD,297
+Satanta 2 (020) 2/507-2,4
+Satanta 2 (020) 2/507-3,32
+Satanta 2 (020) 507-1,84
+Savonburg City 256 All At Larg,58
+Sawmill Twp,15
+Sawyer 11 USD 438  Comm 3,66
+SB USD 113-s1,32
+SB USD 113-s2,39
+SB USD 113-s3,57
+SC - BK City H69 (307-14),164
+SC H107 (307-14),75
+SC H6 416-4,246
+SC H69 (307-14),39
+SC H9 362-4,94
+SC H9 416-4,109
+SC/220/M,8
+SC/226/F,15
+SC/226/M,4
+SC/Burden City/462/3-6,281
+Scandia - 109 1/4 C2 F7,5
+Scandia - 426 2 C2 F10,36
+Scandia - 426 2 C2 F7,2
+Scandia - 426 3 C2 F10,14
+Scandia City SC - 426 3 C2,255
+Scott 298,25
+Scott City Ward 1,507
+Scott City Ward 2,737
+Scott City Ward 3,639
+Scott City Ward 4,860
+SCOTT D1,155
+SCOTT D2,51
+SCOTT D3,734
+SCOTT D4,549
+SCOTT D5,513
+Scott Twp,201
+Scott Twp Sc00010.1,46
+Scott Twp Sc00010.2,81
+Scott Twp Sc00010.4,117
+Scott Twp Sc00010.5,401
+Scottsville City,23
+Scranton 434 MD 257,181
+Scranton 434 MD 367,121
+Scranton 454 MD 257,62
+SE in 439-1,5
+SE in 439-3,111
+SE USD 466,4
+SE02 in 439-2,5
+Selden/3/316,143
+Seneca City - Ward 1 (115/2),186
+Seneca City - Ward 1 (115/3),166
+Seneca City - Ward 2 (115/1),302
+Seneca City - Ward 2 (115/2),242
+Seneca City - Ward 2 (115/3),10
+Seneca City - Ward 3 (115/1),360
+Seneca City - Ward 3 (115/2),10
+Seneca City - Ward 3 (115/3),262
+Seventy-six Twnshp 353/3,172
+Seventy-six Twnshp 357/3,36
+Severance City,59
+Severy City,163
+Sew City/351 Mem 1-4-5/No H/C2,41
+Seward Township 1 (209),9
+Seward Township 1 (483),4
+Seward Township 1 (507/2),13
+Seward Township 1 (507/3),22
+Seward Township 2 (374),21
+Seward Township 2 (483),30
+Seward Township 2 (507/2),3
+Seward Township 3 (483),8
+Seward Township 3 (483/2),17
+SH H107 (305),83
+SH H107 (307-25),47
+SH H107 (307-36),19
+SH H69 (305),27
+SH H69 (307-25),9
+SH H69 Enclave (305),2
+SH H69 Enclave B (305),2
+SH H71 Exclave (305),4
+SH PR 5 USD 473 H65,146
+SH PR 5 USD 473 H68,37
+SH PR 5 USD 475 H65,90
+SH.1 Sherman Township,18
+Sh/3/316,27
+Sh/3/412,31
+Shannon 377,226
+Shannon 409,768
+Shannon Twp   323.6,107
+Shannon Twp 384.3,95
+Sharon City (Usd 254),119
+Sharon Twp (Usd 254),113
+SHC 230 3-6 (EXC B),178
+SHC H226 230 3-6,1392
+SHC H26 230 2-5,874
+Shell Rock TWP 245 Mem 2,12
+Shell Rock TWP 386 Mem 2-5,62
+Shell Rock TWP 386 Mem 3-6,44
+Sheridan,115
+Sheridan-Cherokee City,81
+Sheridan HD,4
+Sheridan Township 223.3,9
+"Sheridan Township, 223.2",28
+"Sheridan Township, 224.3",31
+Sheridan Twp 239/1-4,16
+Sheridan Twp 239/2-5,61
+Sheridan Twp Sh00011.3,10
+Sheridan Twp Sh00011.4,192
+Sheridan/462/3-6,39
+Sheridan/465,58
+Sheridan/471/2-5,14
+Sherman - Rural 267-1,833
+Sherman  235,9
+Sherman (327/3),49
+Sherman 204 H38,172
+Sherman 248 14,47
+Sherman 248 36,372
+Sherman 458-3 H38,1650
+Sherman 458-3 H42,172
+Sherman 464-3 H38,30
+Sherman 464-3 H42,36
+Sherman 473-1,129
+"Sherman Township, 223.2",19
+"Sherman Township, 223.3",83
+"Sherman Township, 224.3",5
+Sherman Twp-2,107
+Sherman Twp-3,2
+Sherman Twp-5,135
+Sherman Twp (H) 322.3,2
+Sherman Twp (H) 322.5,61
+Sherman Twp (H) 323.6,12
+Sherman Twp 239,36
+Sherman Twp 323.6,16
+ShermanTwp-1BRID Prop Owner,38
+ShermanTwp-6-BRID Prop Owner,5
+ShermanTwp-6-Non Owner,1
+ShermanTwp-7-Non Owner,70
+ShermanTwp-7-UPID Prop Owner,101
+ShermanTwp-Non Owner,21
+Shiley Twp,19
+Shiloh (101/1),109
+Shiloh (447),103
+Shirley Twp/224/MD3/CC1,4
+Shirley Twp/224/MD6/CC1,99
+Silv Creek/462/2-5,29
+Silv Creek/462/3-6,94
+Silverdale/470,261
+Silverdale/471/3-6,8
+Simpson City,46
+Sinclair TWP 107-1,43
+Sit/C1/H3/220,26
+Sit/C1/H3/300,13
+SM - SM City H69 (400-01),144
+SM H69 (306-14),189
+SM H69 (306-36),13
+SM H69 (307-25),114
+SM H69 (400-01),102
+Smelter 249,180
+Smelter 250,277
+Smith Twp-USD 316,39
+Smoky HiIl PR 4,112
+Smoky Hill - USD 306,1
+Smoky Hill - USD 400 (1-4),41
+Smoky Hill - USD 400 (2-5),192
+Smoky Hill PR 2,8
+Smoky Hill PR 3 USD 473,135
+Smoky Hill PR 3 USD 475,11
+Smoky Hill PR 6 H68,53
+SMV 368 1-4,985
+SMV 368 2-5,146
+SO H71 (306-36),233
+SO H71 (393-25),29
+SO/3/274,4
+SO/3/291,92
+SO/3/412,29
+Sodville Twp/459/bhd/bcd,72
+Soldier-USD 322 1 HOSPITAL,13
+Soldier-USD 335 1 HOSPITAL,41
+Soldier - USD 335 1,145
+Soldier City - USD 335 1,70
+Solomon City  USD393-1,131
+Solomon City  USD393-2,156
+Solomon City  USD393-3,452
+Solomon Rapids Township/272,10
+Solomon Rapids Township/273,45
+Solomon Twp 325/1/FD1,15
+Solomon Twp 325/3/FD1,56
+Solomon Twp/273/CC3,12
+Solomon Twp/334/MD2/CC3,61
+Solomon Twp/USD 281,33
+South Arma City,481
+South Bend Twp,430
+South Collyer Twp USD 106,9
+South Collyer Twp USD 208,10
+South Elsmore 256 All At Large,58
+South Fifth 409,666
+South Haven City 509,218
+South Haven Twnshp 360,3
+South Haven Twnshp 509,120
+South Homestead Twp 428,13
+South Homestead Twp 431,253
+South Hutch 1 USD 309 1-4,548
+South Hutch 2 USD 309 1-4,777
+South Hutch 2 USD 309 3-6,8
+South Hutch 3 USD 309 1-4,490
+South Iola Twp 257,373
+South Iola Twp 258 All At Lrg,39
+South Ogallah Twp USD 106,9
+South Ogallah Twp USD 208,31
+South Ogallah Twp USD 388,27
+South Ogallah Twp USD 395,1
+South Randall Twp-USD 274,138
+South Randall Twp-USD 291,15
+South Salem TWP 389 Comm 2,73
+South Salem TWp 492,1
+South Sedan,151
+South Sedan-Sedan City,219
+South Tioga East (413),199
+South WaKeeney Twp USD 106,10
+South WaKeeney Twp USD 208,44
+Southside Twp / USD215,76
+Southside Twp / USD216,39
+Sp Creek/471/3-6,41
+SP/2/291,1
+SP/2/292,16
+SP/2/412,49
+Spearville City/381/2-5/shd,338
+Spearville City/381/3-6/shd,246
+Spearville Twp/381/1-4/pws/shd,25
+Spearville Twp/381/1-4/shd,206
+Spearville Twp/443/shd,25
+Spearville Twp/443/shd/pws,3
+Spearville Twp/459/shd,32
+Speed City 325/3/FD1,29
+Spivey City USD 331 Pos. 6,50
+Spr Valley - USD 411,50
+Spr Valley - USD 419,120
+Spr Valley - USD 423,7
+Spring Ck Twp 323.6,6
+Spring Ck Twp 384.3,31
+Spring Creek TWP 389 Mem 1,7
+Spring Creek TWP 389 Mem 5,90
+"Spring Creek Twp, 245/1",88
+Spring Twp 205,1114
+Spring Twp 375-6,11
+Spring Twp 402,77
+Springdale Twnshp 356/2,51
+Springdale Twnshp 356/3,209
+Springdale Twnshp 359/2,2
+ST / ST 458-1 H38,371
+ST / ST 458-2 H38,193
+ST / ST 464-2 H38,237
+ST / ST 464-2 H42,528
+St Clere Twp (H) 321  1.4,32
+St Clere Twp (H) 322.6,13
+St George City H51 323.1,179
+St George City H51 323.2,547
+St George Twp H51 320.1,23
+St George Twp H51 320.3,133
+St George Twp H51 323.1,674
+St George Twp H51 323.2,383
+St George Twp H51 323.3,125
+St George Twp H51 323.4,338
+St George Twp H61 320.3,155
+St George Twp H61 320.5,12
+St George Twp H61 323.1,47
+St George Twp H61 323.3,649
+St George Twp H61 323.4,72
+St Mary  Twp 321   1.4,639
+St Marys City 321  1.4,340
+St Marys City 321  3.6,1566
+St Marys Twp 321  3.6,192
+St Paul City (505),406
+St. Creek -  USD 377 3-6,1
+St. Creek - USD 335 5,27
+St. Creek - USD 336,65
+St. Francis City/2/14/W1,346
+St. Francis City/3/25/W2,275
+St. Francis City/3/36/W2,335
+STAN H5 D3 367 3-6,195
+STAN H5 D5 368 1-4,447
+STAN H6 367 3-6,18
+STAN H6 368 1-4,37
+Stanton Twp 239,34
+Stanton Twp 273,1
+Stanton Twp St00012.1,32
+Stanton Twp St00012.2,109
+"Stanton Twp, CC 1, USD 452",11
+"Stanton Twp, CC 2, USD 452",56
+"Stanton Twp, CC 3, USD 452",4
+"Stanton Twsp, CC 2, USD 452",32
+"Star Twp,  243/2-4-6",3
+"Star Twp, 244/2",51
+"Star Twp, 244/3",11
+Star Twp. 365,55
+Stark City (101/3),49
+Starr Twp/334/MD1/CC1,63
+Starr Twp/379/CC1,5
+"Strawberry Twp, 108.1-4",2
+"Strawberry Twp, 223.1",63
+"Strawberry Twp, 224.3",2
+Strawberry Twp. 223.2,16
+SU.1 Summit Township,22
+Sublette 1 (012) 1/374/H124,144
+Sublette 1(002) 1/374/CI/H124,546
+Sublette 1(013)1/374/HD/H124,11
+Sublette 1(014)1/507-1/HD/H122,3
+Sublette 1(014)1/507-2/HD/H124,3
+Sublette 3 (002) 3/374/CI H124,383
+Sublette 3 (012) 3/374,5
+Summers Twp-USD 274,34
+Summers Twp-USD 275,7
+Summers Twp-USD 315,91
+Summit,54
+Summit-USD 285,21
+Summit-USD 286-Member 1,40
+Summit Twp/333/MD3/CC3,22
+Summit Twp/334/MD2/CC3,14
+Sumner Twnshp 353/3,27
+Sumner Twnshp 356/2,52
+Sumner Twp 110/1/FD3A,32
+Sumner Twp/271,11
+"Sumner Twp/392, 3",28
+Sumner USD 267 1-4,325
+Sumner USD 267 3-6,84
+Sumner USD 312 1-4,55
+Sumner USD 312 3-6,9
+Sun City (City) (Usd 254),35
+Sun City (Twp) (Usd 254),6
+Superior - USD 448,229
+Superior 420 MD 147,108
+Superior 420 MD 147H54,28
+Superior 420 MD 367,42
+Superior 421 MD 2-4,20
+Susank City,23
+SV- AS City H69 (306-14),334
+SV H69 (306-14),219
+SV H69 (400-01),116
+SW 416-1,158
+SW 416-2,272
+SW 416-3,383
+SW 416-5,309
+SW 416-6,75
+SW ENC A 416-5,27
+Swan Township,22
+Swede Crk Twp-1,107
+Swede Crk Twp-2,11
+Sycamore Twp 490,4
+Sycamore Twp 490 A,4
+Sycamore Twp 490 B,4
+Sycamore Twp 492-1,142
+Sylvan Grove,193
+Sylvia City USD 310,136
+Sylvia Township USD 310,49
+Syracuse 1 City,225
+Syracuse 1 T/S,32
+Syracuse 2 City,141
+Syracuse 2 T/S,33
+Syracuse 3 City,207
+Syracuse 3 T/S,29
+Syracuse 4 City,89
+Syracuse 4 T/S,17
+Syracuse 5 City,134
+Syracuse 5 City/usd 3,99
+Syracuse 5 T/S,43
+T / TN 464-1,629
+T / TN 464-2,1386
+T / TN 464-3,923
+T / TR 342-1,220
+T / TR 342-3,99
+T / TR 464-2,861
+T / TR 464-3,1027
+T / TS 464-1,1247
+T / TS 464-3,136
+T001.1,908
+Tampa,75
+Tescott City,170
+Thayer City (447),337
+The Highlands City USD 309 2-5,332
+THEONI 122,90
+Thomas (112/5),32
+Thomas (327/3),11
+"Tilden Twp/392, 3",51
+Timberhill 234,7
+Timberhill 235,80
+Timberhill 346,25
+Timken City,38
+Tipton City,142
+Tisdale/465,246
+TM 230 3-6,225
+TM 368 1-4,221
+TM 368 2-5,27
+TM 416-1,712
+TM 416-2,61
+Toronto/366 ALG/3,69
+Toronto/386/257/3,2
+Toronto/389/3 7/3,124
+Toronto/484/367/3,5
+Towanda City 375-3,900
+Towanda City 375-6,180
+Towanda Twp 326/4/FD4,13
+Towanda Twp 326/6/FD4,8
+Towanda Twp 375-3,14
+Towanda Twp 375-3 A,2
+Towanda Twp 375-3 C,2
+Towanda Twp 375-4,230
+Towanda Twp 375-6,668
+Trenton Twp / USD 347,59
+Tribune City,543
+Tribune Twp,245
+Trivoli (327/3),27
+Trivoli (400/1),2
+Trivoli (444/1),4
+Troy City,649
+Troy USD 310,25
+Troy USD 311,70
+Turkey Creek (Usd 254),11
+Turkey Creek Township/272,7
+Turkey Creek Township/273,69
+Turkey Crk-USD 423,115
+Turkey Crk-USD 448,94
+Turon City USD 310,219
+"Twin Grove TWP 282 Dist1, Pos1",59
+"Twin Grove TWP 282 Dist1, Pos4",118
+Twin Grove TWP 389  Mem 5,25
+Twp #1  Woodston 271,55
+Twp #1 270,4
+Twp #1 271,64
+Twp #10 269-3,15
+Twp #10 269-6,29
+Twp #10 270,13
+Twp #10 Zurich 269-6,60
+Twp #11-1 Plainville City West,211
+Twp #11-1 Twp 270,166
+Twp #11-2 Plainville City 270,1061
+Twp #11-2 Twp 270,77
+Twp #12 270,89
+Twp #12 399-3,26
+Twp #2 270,24
+Twp #2 271,103
+Twp #2 Sarver's Add 271,171
+Twp #3-1 Twp 271,67
+Twp #3-2 Stockton 271,783
+Twp #3-2 Twp 271,28
+Twp #4 271,26
+Twp #5 271,8
+Twp #5 271 Logan Fire,25
+Twp #5 326,5
+Twp #5 326 Logan Fire,12
+Twp #6 269-6 Rush W/HD,2
+Twp #6 271 Belmont Not HD,46
+Twp #6 271 Rush W/HD,19
+Twp #7 Damar 269-1,64
+Twp #7 Damar 269-4,41
+Twp #7 Richland 269-1,16
+Twp #7 Richland 269-4,25
+Twp #8 Northampton 269-2,24
+Twp #8 Northampton 269-3,6
+Twp #8 Northampton 269-4,23
+Twp #8 Northampton 269-5,3
+Twp #8 Palco 269-2,62
+Twp #8 Palco 269-4,10
+Twp #8 Palco 269-5,91
+Twp #9 269-3,29
+"Twp 1 Pct 2 - 417, Bd 1",124
+"Twp 1, Pct 1 - 284, Bd 2",1
+"Twp 1, Pct 1 - 417, Bd 1",233
+"Twp 1, Pct 2-Dunlap-417,Bd 1",22
+"Twp 1, Pct 2 - 284, Bd 2",11
+Twp 10 USD 438  Comm3,26
+"Twp 10, USD 438,  Comm 3",10
+Twp 11 USD 254 Comm 3,36
+Twp 11 USD 332 Mem 3 Com 3,1
+Twp 11 USD 382  Comm3,2
+Twp 11 USD 438  Comm 3,56
+Twp 11 USD 438 Comm 3,56
+Twp 12 USD 254 Comm 3,8
+Twp 12 USD 332 Mem 2 Comm 3,3
+Twp 12 USD 332 Mem 3 Comm 3,5
+Twp 12 USD 382  Comm 3,240
+Twp 12 USD 382 Comm 2,37
+Twp 12 USD 382 Comm 3,324
+Twp 12 USD 382 Comm2,52
+Twp 12 USD 438  Comm 3,20
+Twp 12 USD 438 Comm 3,3
+Twp 12 USD 438 Comm2,13
+"Twp 2  - 417, Bd 2",401
+"Twp 2  - 417, Bd 2 - City Lake",123
+"Twp 2  417, Bd 2 - Impvmt Dist",15
+"Twp 3 - 417, Bd 2",124
+"Twp 3 - Dwight City  417, Bd 2",170
+"Twp 4 - 417, Bd 2",56
+"Twp 4 - 481, Bd 1",62
+"Twp 4 - Parkerville-417, Bd 2",6
+"Twp 4 - Parkerville-481, Bd 1",25
+"Twp 5 - 481, Bd 1",120
+"Twp 5 - White City - 481, Bd 1",308
+"Twp 6 - 481, Bd 1",14
+Twp 6 - 487  At Large,47
+"Twp 6 - Latimer - 481, Bd 1",19
+Twp 6 USD 310 Mem - Comm 2,7
+Twp 6 USD 332 Mem 2 Comm 2,24
+Twp 6 USD 349 Mem - Comm 2,2
+Twp 6 USD 382  Comm 2,230
+"Twp 7 - 397, Bd 1",15
+"Twp 7 - 417, Bd 2",75
+Twp 7 - 487  At Large,78
+Twp 7 USD 382  Comm 2,18
+Twp 7 USD 382 Comm2,42
+Twp 7 USD 438  Comm 2,15
+Twp 7 USD 438 Comm2,5
+"Twp 8 - 397, Bd 1",123
+"Twp 8 - 417, Bd 2",8
+Twp 8 USD 351 Mem - Comm 2,10
+Twp 8 USD 438  Comm 2,56
+"Twp 9 - 417, Bd 2",120
+"Twp 9 - Wilsey - 417, Bd 2",124
+Twp 9 USD 382 Comm 2,17
+Twp 9 USD 438  Comm 3,72
+Twp 9 USD 438 Comm2,49
+Twp 9 USD 474 Comm 3,1
+Twp Caney P1,374
+Twp Caney P1 Havana City,72
+Twp Caney P2,423
+Twp Caney P2 Tyro City,88
+Twp Cherokee P1,157
+Twp Cherokee P1 DD2,40
+Twp Cherokee P2,80
+Twp Cherokee P2 DD2,17
+Twp Cherokee P2 DD3,3
+Twp Cherry 447,374
+Twp Cherry 461,10
+Twp Cherry EnB,1
+Twp Drum Creek P1 446,58
+Twp Drum Creek P1 447,16
+Twp Drum Creek P2 446,121
+Twp Drum Creek P2 447,189
+Twp Fawn Creek P1 436,201
+Twp Fawn Creek P1 445,38
+Twp Fawn Creek P1 446,50
+Twp Fawn Creek P1 Tyro City,66
+Twp Fawn Creek P2,512
+Twp Fawn Creek P2 Dearing City,224
+Twp Fawn Creek P3,348
+Twp Fawn Creek P3 Dearing City,37
+Twp Independence P1 445,59
+Twp Independence P1 446,1167
+Twp Independence P2 436,61
+Twp Independence P2 446,132
+Twp Independence P3,243
+Twp Independence P4,75
+Twp Liberty P1 445 CCC,18
+Twp Liberty P1 446 ICC,69
+Twp Liberty P1 447 CCC,2
+Twp Liberty P1 447 ICC,6
+Twp Liberty P2 445 CCC,101
+Twp Liberty P2 445 CCC DD3,7
+Twp Liberty P2 447 CCC,69
+Twp Liberty P2 447 CCC DD3,9
+Twp Liberty P2 447 ICC,20
+Twp Liberty P2 Liberty City,74
+Twp Louisburg P1 283,62
+Twp Louisburg P1 446,92
+Twp Louisburg P1 484,21
+Twp Louisburg P1 Elk City,169
+Twp Louisburg P2 283,28
+Twp Louisburg P2 446,16
+Twp Louisburg P2 484,1
+Twp Parker P1,211
+Twp Parker P2,616
+Twp Parker P2 DD2,3
+Twp Parker P2 DD3,1
+Twp Parker P2 EnC,3
+Twp Parker P3,10
+Twp Rutland P1 436,120
+Twp Rutland P1 446,123
+Twp Rutland P2,17
+Twp Sycamore 283,40
+Twp Sycamore 446,520
+Twp Sycamore 461,77
+Twp West Cherry 446,113
+Twp West Cherry 447,60
+Twp West Cherry 461,56
+Twp1 / SD332 / H22,11
+Twp1 / SD361 / H22 / MD3,53
+Twp1 / SD511 / H22,144
+Twp2 / SD255 / H832,10
+Twp2 / SD361 / H22,17
+Twp2 / SD361 / H832,28
+Twp2 / SD511 / H22,2
+Twp3 / SD361 / H832/ MD 1 / C3,31
+Twp3 / SD361 / H832/ MD 2,73
+Twp3 /C1/SD361/H832/MD1,118
+Twp4 / SD361 / H832,55
+Twp4 / SD361 H832,54
+Twp5 / SD359,25
+Twp5 / SD361,40
+Twp5 / SD361 / H832 / MD2,122
+Twp5 / SD361 / H832 / MD3,25
+Twp5 /C1/SD361/MD3/H832,91
+Twp6 / C2/SD361/H832/MD3,102
+Twp6 / SD331 / H833,18
+Twp6 / SD359 / H832,4
+Twp6 / SD359 / H833,4
+Twp6 / SD361 / H833 / MD3,17
+Twp6 /C1/SD361/H832/MD3,68
+UN,28
+UN/2/412,22
+Union-USD 400 (1-4),66
+Union - 109 1/4 C2 F10,4
+Union - 109 1/4 C2 F7,5
+Union - 109 1/4 C2 F9,9
+Union - 426 2 C2 F10,3
+Union 1 in 267-2 & SM Imp Dist,10
+Union 1 in USD 266-2,20
+Union 1 in USD 266-3,190
+Union 1 in USD 267-1,118
+Union 1 in USD 267-2,478
+Union 2 in 266-3 & Maize,558
+Union 481-2,63
+Union 487,56
+"Union Center Township (282,1&4",49
+"Union Center Township (389, 5)",7
+"Union Center Township(282, 3&6",7
+Union E 339 3/6,49
+Union E 342 1/4 Split,458
+Union E 342 2/5,38
+Union E 342 3/6 Split,100
+"Union Township, 108.1-4",15
+Union Twp,154
+Union Twp 205,29
+Union Twp 320.5,88
+Union Twp 323.6,105
+Union Twp USD 331 Pos. 1,23
+Union Twp USD 331 Pos. 4,2
+Union Twp USD 332 Pos. 4,28
+"Union Twsp. (395, 2)",15
+"Union Twsp. (395, 5)",17
+Union Twsp. (496),8
+Union USD 400 (2-5),77
+Union W 342 1/4 Split,19
+Union W 342 3/6 Split,24
+Union/349/H4/C1,16
+Uniontown City,208
+USD 387-114,318
+USD 387-225,292
+USD 387-336,394
+USD 447,69
+USD 461-114,554
+USD 461-225,229
+USD 461-225W4,505
+USD 461-336,524
+USD 484-114,591
+USD 484-225,123
+USD 484-225 W1,313
+USD 484-225 W2,111
+USD 484-225 W3,142
+USD 484-225 W4,280
+USD 484-336,550
+USD 484-336-2,43
+USD 484-3362,25
+VA in 439-3 outside SE,157
+VA in USD 262,560
+VA in USD 266-2,8
+VA in USD 440-3,102
+VA/1/412,81
+Valley (112/4),61
+Valley 110 Township,42
+Valley 110 Township (Old 324),2
+Valley 237 Township,2
+Valley 298,32
+Valley Brook NO 420 MD 147,9
+Valley Brook NO 421 MD 2-4,210
+Valley Brook NO 421 MD 3-4,59
+Valley Brook SO 421 MD 2-4,133
+Valley Brook SO 456 MD 3-6,4
+Valley Center 11,1210
+Valley Center 21,1156
+Valley Center 31,1171
+Valley Center 32 in USD 259-6,7
+Valley Center 32 in USD 262,75
+Valley Center 33 in 262,9
+Valley Center 41,1230
+Valley Center 42,337
+Valley Center 44,11
+Valley Center Twp / 351/ 1-4-5,19
+Valley Center Twp / 495 / 3-6,5
+Valley Falls City  338 2/5,232
+Valley Falls City  338 3/6,134
+Valley Falls City 338 1/4,396
+Valley H101 USD 312 3-6,4
+Valley H114 USD 312 3-6,271
+Valley H114 USD 313 3-6,261
+Valley H114 USD 369,62
+Valley Twp,134
+Valley Twp (Usd 254),48
+Valley Twp 110/1/FD3B,16
+Valley Twp USD 331 P6 Harper,18
+Valley Twp USD 331 Pos. 4,12
+Valley Twp USD 331 Pos. 6,40
+Valley Twp USD 361,7
+Valley Twp Va00013.1,53
+Valley Twp Va00013.2,39
+Valley Twp/299,10
+Valley Twp/399,12
+Valley Twp/Holyrood (112/4),284
+Valverde Twnshp H80 358/3,84
+Valverde Twnshp H80 509,2
+Vassar 287 MD 147,13
+Vassar 287 MD 257,7
+Vassar 421 MD 3-4,573
+Verm-E USD 380.1,62
+Verm-E USD 380.2,14
+Verm-E USD 380/F,261
+Verm-W USD 380.1,34
+Verm-W USD 380.2,32
+Verm-W USD 380/F,264
+Vernon/358/1-4,68
+Vernon/465,248
+Vesper 299 02,67
+Vicksburg TWP 107-2,20
+Vicksburg TWP 426-3,1
+Victor Twp/399,12
+Vienna Twp (H) 322.3,21
+Vienna Twp (H) 322.6,54
+"Vining City, 224.1",4
+Vinita Twp USD 268,163
+Vinita Twp USD 331 Pos. 5,26
+Viola in 356-1 & City,95
+Viola in USD 264,97
+Viola in USD 267-3,55
+Viola in USD 268,6
+Viola in USD 356-1,124
+Virgil City,44
+Voorhees,121
+W Cooper/349/H4/C1,47
+W Cooper/350 Mem 1-4/H4/C1,4
+W Hoxie City/2,370
+W SJ City/350 Mem 2-5/H1/C3,198
+W SJ City/350 Mem 3-6/H1/C3,83
+W SJ Rural/350 Mem 1-4/H1/C3,19
+W. Center Twp/333/MD3/CC3,77
+"W. City Comm Dist 1, 1-4",31
+W. Lincoln Pct/333/MD3/CC2,124
+W. Meredith Pct/239/CC3,3
+W. Meredith Pct/334/MD2/CC3,6
+W. Sibley Twp/333/MD3/CC1,66
+WA / ST 458-2 H38,159
+WA / ST 458-3 H38,212
+WA / ST 464-3 H38,241
+WA / ST 464-3 H42,424
+"WA Twp-Wathena 114 1,3,5,7",95
+"WA Twp-Wathena 114 2,4,6,7",95
+Wab Twp 320,301
+Wab Twp 320x,32
+Wab Twp 329-2,50
+Wab Twp 329-4,76
+Waco 1 in USD 261,34
+Waco 1 in USD 264,42
+Waco 1 in USD 265,13
+Waco 10 in USD 261,41
+Waco 11 in USD 265,2
+Waco 13 in USD 261,4
+Waco 2 in USD 261,261
+Waco 2 in USD 265,104
+Waco 3 in USD 265,13
+Waco 5 in USD 261,1
+Waco 8 in USD 261,2
+Waco 9 in USD 265,3
+WaKeeney City Central,407
+WaKeeney City East,432
+WaKeeney City West,443
+WaKeeney Township,250
+Waldron / H832 / USD 361,6
+Walker 365/1-4,290
+Walnut-Albert Twp 403,30
+Walnut-Albert Twp 428,9
+Walnut-Hepler 248 36,46
+Walnut-Olmitz Twp,50
+Walnut 235,81
+Walnut 248,2
+Walnut 377,130
+Walnut 409,204
+Walnut 449,2
+Walnut City,126
+Walnut Creek Township,34
+Walnut Enclave 409,5
+Walnut Grove  (101/2),30
+Walnut Grove (101/3),128
+Walnut Grove (248),47
+Walnut Grove (505),58
+Walnut Twp,54
+Walnut Twp (113 - 4),86
+Walnut Twp (415 1-4),170
+Walnut Twp 101 25,5
+Walnut TWP 107-2,47
+Walnut Twp 12-32 205,4
+Walnut Twp 12-32 396,133
+Walnut Twp 12-32 402,117
+Walnut Twp 248 36,40
+Walnut Twp 325/2,10
+Walnut Twp 325/2/FD1,1
+Walnut Twp 394,4
+Walnut Twp 396,7
+Walnut Twp 402,315
+Walnut USD 223,2
+Walnut USD 309 2-5,38
+Walnut USD 310,5
+Walnut USD 364,37
+Walnut USD 376,39
+Walnut USD 498,41
+Walnut/465,499
+Walton Twnshp 358/3,18
+Walton Twnshp 470,52
+Walton Twnshp 509,51
+Wamego  City 320.2,863
+Wamego City 320.1,336
+Wamego City 320.3,458
+Wamego City 320.4,900
+Wamego City 320.6,893
+Wamego Twp H51 320.1,55
+Wamego Twp H51 320.2,1
+Wamego Twp H51 320.3,355
+Wamego Twp H51 320.4,23
+Wamego Twp H61 320.3,172
+Wamego Twp H61 320.5*****,66
+Wano Twp/2/14/W1,226
+Wano Twp/3/103/26/W2,5
+Wano Twp/3/25/W2,117
+Wano Twp/3/36/W2,78
+WARD 01 122B DD2,4
+WARD 01 122E,264
+WARD 01 123B,392
+WARD 02 122,1123
+WARD 02 123,16
+WARD 03 123,1019
+WARD 04 123,510
+WARD 05 123,892
+WARD 06 122A,18
+WARD 06 122A DD2,265
+WARD 06 122B DD2,5
+WARD 06 122C,321
+WARD 06 122C DD2,217
+WARD 06 123F,1005
+WARD 07 123,683
+WARD 08 123F,1466
+WARD 09 123,794
+Ward 1,2098
+Ward 1  325/1/FD1,700
+Ward 1 Prec 1,1289
+Ward 1 Precicnt 2 H68,96
+Ward 1 Precinct 1,1547
+Ward 1 Precinct 2,1771
+Ward 1 Precinct 2 H65,313
+Ward 1 Precinct 3,1082
+Ward 1 Precinct 3 H65,298
+Ward 1 Precinct 3 H68,277
+Ward 1 Precinct 4,991
+Ward 1 Precinct 5 H65,199
+Ward 1 Precinct 5 H68,411
+Ward 1 Precinct 6 H65,490
+Ward 1 Precinct 6 H68,423
+Ward 1 Precinct 7 H65,370
+Ward 1 Precinct 7 H68,694
+WARD 10 123,591
+Ward 10 Prec 01-1,300
+Ward 10 Prec 01-3,6
+Ward 10 Prec 01-4,13
+Ward 10 Prec 01-5,4
+Ward 10 Prec 01-6,12
+Ward 10 Prec 01-7,16
+Ward 10 Prec 01-9,16
+WARD 11 123,831
+Ward 11 Prec 01-2,902
+Ward 11 Prec 01-B,546
+Ward 11 Prec 03,225
+WARD 12 123,721
+Ward 12 Prec 1,18
+Ward 12 Prec 1-2,60
+WARD 13 123,691
+Ward 13 Prec 1,3
+WARD 14 123A,73
+WARD 14 123A DD2,249
+WARD 14 123B,394
+WARD 14 123B DD2,200
+WARD 15 123A,211
+WARD 15 123A DD2,420
+WARD 15 123B,643
+WARD 16 123,451
+WARD 16 123 DD2,606
+Ward 2,2527
+Ward 2  325/2/FD1,567
+Ward 2 Prec 1,1545
+Ward 2 Prec 3,667
+Ward 2 Prec 4,839
+Ward 2 Prec 5,1379
+Ward 2 Prec 6,305
+Ward 2 Prec 7,18
+Ward 2 Precinct 1 H65,124
+Ward 2 Precinct 1 H68,96
+Ward 2 Precinct 2,1100
+Ward 2 Precinct 3,126
+Ward 2 Precinct 4,78
+Ward 2 Precinct 5,520
+Ward 2 Precinct 6,378
+Ward 2 Precinct 7,961
+Ward 2 Precinct 8,301
+Ward 3,3128
+Ward 3  325/3/FD1,536
+Ward 3 325/CD1/FD1,4
+Ward 3 Industrial Park,7
+Ward 3 Prec 1,239
+Ward 3 Prec 2,1054
+Ward 3 Prec 3,1345
+Ward 3 Precinct 1 H65,162
+Ward 3 Precinct 1 H68,176
+Ward 3 Precinct 2,756
+Ward 3 Precinct 3,928
+Ward 3 Precinct 4,467
+Ward 4,1207
+Ward 4-1 H114-1,395
+Ward 4-2 H114-2,394
+Ward 4 Prec 2,344
+Ward 4 Prec 3,778
+Ward 4 Prec 4,1817
+Ward 4 Prec 5,1085
+Ward 4 Prec 5 Exclave-1,19
+Ward 4 Prec 6,910
+Ward 4 Prec 6-2,32
+Ward 4 Prec 7,94
+Ward 4 Precinct 1,577
+Ward 4 Precinct 2 H65,337
+Ward 4 Precinct 2 H68,49
+Ward 4 Precinct 3,857
+Ward 4 Precinct 4,875
+Ward 5,593
+Ward 5 College H114,38
+Ward 5 H116,712
+Ward 5 Prec 10,2354
+Ward 5 Prec 10-2,66
+Ward 5 Prec 10-3,6
+Ward 5 Prec 10-4,14
+Ward 5 Prec 10-5,7
+Ward 5 Prec 11,2025
+Ward 5 Prec 2,1196
+Ward 5 Prec 3,1407
+Ward 5 Prec 5,738
+Ward 5 Prec 6,1100
+Ward 5 Prec 7,540
+Ward 5 Prec 8,695
+Ward 5 Prec 9,1887
+Ward 5 Prec 9-2,1
+Ward 5 Prec 9-3,2
+Ward 5 Prec 9-4,14
+Ward 6 Prec 01,106
+Ward 6 Precicnt 1,1552
+Ward 6 Precinct 2,1266
+Ward 8 Prec 01,569
+Ward 8 Prec 02,5
+Ward 8 Prec 03,930
+Ward 8 Prec 03-2,482
+Ward 9 Prec 01,192
+Ward 9 Prec 02,129
+Ward 9 Prec 03,75
+Waring City H1/106/2,19
+Waring H1/106/2,37
+Waring H1/395/1,9
+Washington,225
+Washington-North Arma 246 36,94
+Washington-North Arma 246 36 H,9
+Washington-North Arma 248 14,4
+Washington-South Arma 246 25,171
+Washington-South Arma 246 25 H,49
+Washington-USD 286-Member 3,52
+Washington-USD 436,7
+Washington - 109 1/4 C2 F1,40
+Washington - 109 1/4 C2 F9,1
+Washington - 329-4,68
+Washington - USD 321 1-4,192
+Washington - USD 321 1-4 HOSP,63
+Washington - USD 337 2-5,23
+"Washington City, 108.2-5",442
+"Washington City, 108.3-6",220
+Washington Township,38
+Washington Twp-Blair,175
+Washington Twp (111 2-4-6),10
+Washington Twp (415 1-4),15
+Washington Twp (430 3-6),122
+Washington TWP 107-1,43
+Washington Twp 113,189
+Washington Twp EGDD,19
+"Washington Twp, 108.1-4",17
+"Washington Twp, 108.2-5",37
+"Washington Twp, 108.3-6",80
+"Washington Twp, 223.1",8
+Water USD 498,95
+Water USD 498/W,471
+Wathena City,698
+Wathena City EGDD,156
+"Waverly City, 05.1",374
+"Wayne Twp-USD 111 2,4,6,7",5
+"Wayne Twp-USD 114 1,3,5,7",14
+Wayne Twp-USD 429 1-7,112
+Wayne Twp / USD 347,2
+Wayne Twp / USD 502,55
+WD 1A,1517
+WD 1ABX,2
+WD 2A,1272
+WD 2ABX,37
+WD 2ACX,30
+WD 2ADX,3
+WD 3A,154
+WD 4A,1751
+WD 5A,1786
+Webber City 107-1,21
+Webster Township,39
+Welda 365/3-6,205
+Welda 479/2-5,4
+Welda 479/3-6,7
+Wellington City H80 353/1,1655
+Wellington City H80 353/1 H80,257
+Wellington City H80 353/2 H80,2098
+Wellington City H80 353/3,180
+Wellington City H80 353/3 H80,690
+Wellington Lake Exclave 353/3,3
+Wellington Twnshp H79 353/3,163
+Wellington Twnshp H80 353/3,83
+Wellington Twnshp H80A 353/3,14
+Wellington Twnsp H80 PtA 353/3,5
+Wells USD 380,30
+Wells USD 380.4,44
+Wells USD 498,22
+Wellsville/289/1-4,1369
+Wendell Twp-USD 315,15
+Wendell Twp-USD 316,27
+"West Branch USD411-1,4",121
+"West Branch USD411-2,5",10
+"West Branch USD411-3,6",177
+"West Branch USD411-3,6/HVFire1",3
+West Branch USD460,2
+West Center,104
+West Ellsworth (327/1),317
+West Ellsworth (327/2),227
+West Elm 257,412
+West Elm 258 All At Large,3
+West Erie City  (101/2),332
+West Erie TWP (101/1),8
+West Erie TWP (101/2),85
+West Erie TWP (101/3),49
+West Erie TWP (413),28
+West Fairview 340 1/4,6
+West Fairview 340 3/6,578
+West Hale Twp-USD 314,49
+West Hibbard Twp,28
+West Marion,74
+West Morgan Twp-USD 315,304
+West Second 409,746
+West Third 409,1502
+Western Twp. #241,14
+Western Twp. #275,9
+Westminster USD 310,79
+Westphalia 365/1-4,138
+Westphalia City,90
+Westy / PT City 323.5,151
+Westy / RC City 323.5,317
+Wetmore City,196
+Wetmore Twp - USD 335 Mbr 2,92
+Wetmore Twp - USD 335 Mbr 4,6
+Wheatland,44
+Wheatland 306 SM2,2
+Wheatland 306 SM3,1
+Wheatland 473-3,106
+Wheatland Twp/347/shd,49
+Wheatland Twp/381/1-4/shd,61
+Wheaton City (H) 322.5,80
+White Cloud City,98
+White Rock - 109 1/4 C2 F9,15
+White Rock - 426 1 C2 F12,36
+White Rock - 426 1 C2 F2,4
+White Rock - 426 2 C2 F10,8
+White Rock - 426 2 C2 F12,11
+White Rock Township,25
+White Rock Twp,10
+White U.S.D. 311,8
+White USD 331 Po 3 Comm 1,94
+White USD 331 Po 4 Comm 1,62
+White USD 331 Pos. 1,14
+White USD 331 Pos. 2,47
+White USD 331 Pos. 3 Comm 3,51
+Whitemound 107-2,30
+Whitewater City 206 72,533
+Whiting - USD 335 5,87
+Whiting - USD 430 2-5,11
+Whiting City - USD 335 5,138
+WI/Cambridge City/462/1-4,60
+Wilburn Twp/102,5
+Wilburn Twp/219/mhd,27
+Wilburn Twp/225,26
+"Wildcat Township (282, 3&6)",128
+"Wildcat Township (462, 1-4)",2
+Wildcat Twp H64,654
+Wildcat Twp Part B H67,2
+Wildhorse Twp/USD 269 #1,19
+Wildhorse Twp/USD 281,29
+Williamsburg City/287/3-6,220
+Williamsburg Twp/243/3-6,2
+Williamsburg Twp/287/3-6,262
+Willis City,21
+Willowbrook USD 309 3-6,91
+Willowdale 1-393-1,13
+Willowdale 393-1,67
+Willowdale 435-3,145
+Willowdale1-473-1,15
+Wilm Twp 330-2&5,23
+Wilm Twp 330-3&6,99
+Wilson City (112/1),472
+Wilson City (112/2),55
+Wilson Twp (112/2),68
+Wilson Twp / 482,47
+"Wilson USD 408-3,6/Hospital",80
+"Wilson USD408-2,5/CVD",3
+"Wilson USD408-2,5/Hospital",27
+"Wilson USD408-3,6",4
+"Wilson USD410-1,4",28
+"Wilson USD410-1,4/Hospital",3
+Winchester City 339 2/5,5
+Winchester City 339 3/6,339
+Windom - USD 444,77
+Windsor/462/1-4,41
+Windsor/462/3-6,1
+"Winfield Twp/392, 3",17
+Wingfield - USD 417,1
+Wingfield - USD 475,134
+Winona City,139
+Winona Twp. #275,50
+WL H69 (305),16
+WL H69 (306-14),17
+WL H69 (306-25),121
+WL H69 (306-36),274
+WMC 368 2-5,461
+WMC 416-2,25
+WMC 416-4,132
+Wolf River Twp-Sev USD 429,22
+Woodbine City USD 481,118
+WP/226-3/M,8
+WP/483-4/M,68
+WP/483-5/M,28
+"WR Twp Leona USD 111 2,4,6,7",39
+"WR Twp Sev USD 111 2,4,6,7",90
+WS H107 (307-14),5
+WS H69 (307-14),4
+WS H69 (307-25),78
+WS H69 (400-01),27
+WS/1/292,26
+WS/1/412,20
+WV EXC 367 3-6,172
+WV EXC 368 2-5,121
+WV6 367 3-6,3
+WV6 367 3-6 (23 De-Annex),38
+WV6 367 3-6 (HWY 169),217
+WV6 368 1-4,64
+WV6 368 2-5,125
+WV9 367-3-6,43
+Yoder H114 USD 309 3-6,5
+Yoder H114 USD 312 1-4,132
+Yoder H114 USD 312 2-5,218
+Yoder H114 USD 312 3-6,47
+York/310/H4/C1,9
+York/349/H4/C1,20
+Zeandale Twp-1,94
+Zeandale Twp-2,2
+Zeandale Twp-3,181
+Zenda City USD 332 Pos. 6,47

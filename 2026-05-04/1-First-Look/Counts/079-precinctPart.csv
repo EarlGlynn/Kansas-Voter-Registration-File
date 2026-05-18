@@ -1,0 +1,6544 @@
+precinctPart,Count
+AL|Bassett City 257|01,21
+AL|Carlyle Twp 257|01,226
+AL|Carlyle Twp 479|03,11
+AL|Cottage Grove 256 All At Large|01,28
+AL|Cottage Grove 258 All At Large|02,137
+AL|Deer Creek 256 All At Large|01,30
+AL|Deer Creek 257|05,36
+AL|Deer Creek 479|04,21
+AL|East Elm 256 All At Large|01,45
+AL|East Elm 257|02,94
+AL|East Elm 258|03,4
+AL|Elsmore City 256 All At Large|01,44
+AL|Gas City 257|01,346
+AL|Geneva 257|01,94
+AL|Geneva 479|02,9
+AL|Hum City-1 258 All At Large|01,652
+AL|Hum City-2 258 All At Large|02,642
+AL|Humboldt Twp 258 All At Large|01,219
+AL|Iola Ward 1  257|01,782
+AL|Iola Ward 2  257|02,1109
+AL|Iola Ward 3  257|03,924
+AL|Iola Ward 4  257|04,826
+AL|LaHarpe City  257|01,309
+AL|Logan 258 All At Large|01,86
+AL|Logan 413|02,70
+AL|Marmaton 256 All At Large|03,206
+AL|Moran City 256 All At Large|01,300
+AL|North Elsmore 256 All At Large|01,96
+AL|North Iola Twp 257|01,196
+AL|Osage 256 All At Large|01,196
+AL|Salem 256 All At Large|03,40
+AL|Salem 258 All At Large|02,144
+AL|Savonburg City 256 All At Larg|01,58
+AL|South Elsmore 256 All At Large|01,58
+AL|South Iola Twp 257|01,373
+AL|South Iola Twp 258 All At Lrg|02,39
+AL|West Elm 257|01,412
+AL|West Elm 258 All At Large|02,3
+AN|Colony City|01,285
+AN|Garnett 01|01,848
+AN|Garnett 02|01,718
+AN|Garnett 03|01,650
+AN|Garnett 04|01,202
+AN|Greeley|01,201
+AN|Indian Creek 365|01,22
+AN|Indian Creek 479|02,79
+AN|Jackson 1-4|03,96
+AN|Jackson 2-5|01,133
+AN|Jackson 3-6|02,119
+AN|Kincaid|01,100
+AN|Lincoln 365|01,159
+AN|Lincoln 479|02,4
+AN|Lone Elm 365|01,27
+AN|Lone Elm 479|02,144
+AN|Lone Elm City|01,15
+AN|Monroe 365/1-4|01,71
+AN|Monroe 365/2-5|02,156
+AN|Monroe 365/3-6|03,42
+AN|Ozark 479/2-5|02,67
+AN|Ozark 479/3-6|03,67
+AN|Putnam|01,239
+AN|Reeder 287/3-6|01,13
+AN|Reeder 365/1-4|02,198
+AN|Rich|01,199
+AN|Walker 365/1-4|01,290
+AN|Washington|01,225
+AN|Welda 365/3-6|02,205
+AN|Welda 479/2-5|03,4
+AN|Welda 479/3-6|04,7
+AN|Westphalia 365/1-4|01,138
+AN|Westphalia City|01,90
+AT|Benton 338|01,12
+AT|Benton 339 H63|02,37
+AT|Benton 339|02,5
+AT|Benton 377 H63|01,128
+AT|Benton 377|03,160
+AT|Center 339|01,46
+AT|Center 377|02,393
+AT|East Second 409|01,470
+AT|East Third 409|01,939
+AT|Effingham City 377|01,344
+AT|Grasshopper 377 3-6|04,51
+AT|Grasshopper 377|02,202
+AT|Grasshopper 430 2-5|05,4
+AT|Grasshopper 430 3-6|06,24
+AT|Huron 377|01,125
+AT|Huron City 377|01,46
+AT|Kapioma 338|01,2
+AT|Kapioma 377|02,186
+AT|Lancaster 377|01,247
+AT|Lancaster City 377|01,197
+AT|Mt Pleasant 377|01,584
+AT|Mt Pleasant 409|02,113
+AT|Mt Pleasant 449|03,1
+AT|Muscotah City 377|01,112
+AT|North Fifth 409|01,1128
+AT|Only First 409|01,528
+AT|Only Fourth 409|01,772
+AT|Shannon 377|01,226
+AT|Shannon 409|02,768
+AT|South Fifth 409|01,666
+AT|Walnut 377|01,130
+AT|Walnut 409|02,204
+AT|Walnut 449|03,2
+AT|Walnut Enclave 409|01,5
+AT|West Second 409|01,746
+AT|West Third 409|01,1502
+BA|Aetna Twp (Usd 255)|02,6
+BA|Deerhead Twp (Usd 254)|01,11
+BA|Eagle Twp (Usd 254)|01,21
+BA|Elm Mills Twp (Usd 254)|01,55
+BA|Elm Mills Twp (Usd 438)|02,32
+BA|Elwood Twp (Usd 255)|01,32
+BA|Hardtner City (Usd 255)|02,100
+BA|Hazelton City (Usd 255)|01,57
+BA|Hazelton Twp (Usd 254)|03,8
+BA|Hazelton Twp (Usd 255)|02,23
+BA|Isabel City (Usd 254)|02,50
+BA|Kiowa East City (Usd 255)|01,353
+BA|Kiowa East Twp (Usd 255)|02,39
+BA|Kiowa West City (Usd 255 - 1)|01,122
+BA|Kiowa West City (Usd 255 - 2)|02,91
+BA|Kiowa West Twp (Usd 255 - 1)|03,37
+BA|Lake City Twp (Usd 254)|01,56
+BA|Mcadoo (Usd 254)|01,9
+BA|Mcadoo (Usd 438)|02,9
+BA|Med Lodge Five (Mbr 4)|01,44
+BA|Med Lodge Four (Mbr 2)|01,171
+BA|Med Lodge One (Mbr 1)|01,254
+BA|Med Lodge One (Mbr 3)|02,180
+BA|Med Lodge Three (Mbr 4)|01,270
+BA|Med Lodge Two (Mbr 2)|01,167
+BA|Med Lodge Two (Mbr 3)|02,194
+BA|Med Lodge Two Exclave  (Mbr 2)|03,7
+BA|Mingona Twp (Usd 254)|01,63
+BA|Moore Twp (Usd 254-6)|03,14
+BA|Moore Twp (Usd 255)|02,10
+BA|Moore Twp 17 KH (Usd 255)|01,23
+BA|Sharon City (Usd 254)|02,119
+BA|Sharon Twp (Usd 254)|01,113
+BA|Sun City (City) (Usd 254)|02,35
+BA|Sun City (Twp) (Usd 254)|01,6
+BA|Turkey Creek (Usd 254)|01,11
+BA|Valley Twp (Usd 254)|01,48
+BB|1st Ward Exclave Colonial|02,15
+BB|1st Ward Exclave Halls|02,22
+BB|Bronson City|01,192
+BB|Drywood|01,319
+BB|East Marion 235 2-5|01,98
+BB|East Marion 235 3-6|02,237
+BB|Fort Scott 1st Ward|01,966
+BB|Fort Scott 2nd Ward|01,915
+BB|Fort Scott 3rd Ward|01,399
+BB|Fort Scott 4th Ward|01,801
+BB|Fort Scott 5th Ward|01,825
+BB|Fort Scott 6th Ward|01,2078
+BB|Fort Scott 7th Ward|01,1054
+BB|Franklin 235|01,112
+BB|Franklin 346|02,141
+BB|FREEDOM D1|FEF,238
+BB|FREEDOM D5|FE5,6
+BB|Fulton City|01,118
+BB|Mapleton City|01,79
+BB|MARMATON D2 234|MN1,234
+BB|MARMATON D2 235 1-4|MN2,111
+BB|MARMATON D2 235 3-6|MN3,68
+BB|MARMATON D4 234|MN4,127
+BB|Millcreek 234|01,249
+BB|Millcreek 235|02,161
+BB|Osage|01,295
+BB|Pawnee 234|01,128
+BB|Pawnee 235 2-5|03,64
+BB|Pawnee 235 3-6|02,87
+BB|Redfield City|01,88
+BB|SCOTT D1|SC1,155
+BB|SCOTT D2|SC2,51
+BB|SCOTT D3|SC3,734
+BB|SCOTT D4|SC4,549
+BB|SCOTT D5|SC5,513
+BB|Timberhill 234|01,7
+BB|Timberhill 235|02,80
+BB|Timberhill 346|03,25
+BB|Uniontown City|01,208
+BB|Walnut 235|01,81
+BB|Walnut 248|02,2
+BB|West Marion|01,74
+BR|Everest City|01,196
+BR|Fairview City|01,171
+BR|Hamlin City|01,26
+BR|Hamlin Twp - Reserve|01,68
+BR|Hamlin Twp (113- -1)|02,34
+BR|Hamlin Twp (415 1-4)|01,67
+"BR|Hiawatha City, Ward 1|01",342
+"BR|Hiawatha City, Ward 2|01",930
+"BR|Hiawatha City, Ward 3|01",771
+"BR|Hiawatha City, Ward 4|01",156
+BR|Hiawatha Twp (415  2-5)|01,299
+BR|Hiawatha Twp (415  3-6)|02,151
+"BR|Horton City, Ward 1 (1-4)|01",307
+"BR|Horton City, Ward 1 (2-5)|02",138
+"BR|Horton City, Ward 2 (1-4)|01",202
+"BR|Horton City, Ward 2 (3-6)|02",159
+"BR|Horton City, Ward 3 (1-4)|01",107
+"BR|Horton City, Ward 3 (2-5)|02",40
+"BR|Horton City, Ward 3 (3-6)|03",105
+BR|Irving Twp (111 1-3-5)|02,16
+BR|Irving Twp (415 1-4)|01,211
+BR|Mission Twp (415 1-4)|01,77
+BR|Mission Twp (430 2-5)|03,135
+BR|Mission Twp (430 3-6)|04,181
+BR|Morrill City|01,136
+BR|Morrill Twp (113 -1)|01,177
+BR|Padonia Twp ( 415 1-4)|01,142
+BR|Powhattan City|01,46
+BR|Powhattan Twp (113 -4)|03,12
+BR|Powhattan Twp (335 4-6-7)|04,31
+BR|Powhattan Twp (415 1-4)|01,88
+BR|Powhattan Twp (430 2-5)|02,347
+BR|Reserve City - Hamlin Twp|01,54
+BR|Robinson City|01,132
+BR|Robinson Twp (415 1-4)|01,147
+"BR|Sabetha City, Morrill|01",5
+BR|Walnut Twp (113 - 4)|02,86
+BR|Walnut Twp (415 1-4)|01,170
+BR|Washington Twp (111 2-4-6)|04,10
+BR|Washington Twp (415 1-4)|01,15
+BR|Washington Twp (430 3-6)|03,122
+BR|Willis City|01,21
+BT|Albert City|01,119
+BT|Albion Twp|01,34
+BT|Beaver Twp REC|01,60
+BT|Beaver Twp|02,6
+BT|Buffalo Twp|01,311
+BT|Cheyenne Twp REC|01,120
+BT|Cheyenne Twp|03,24
+BT|Claflin City REC|02,466
+BT|Clarence Twp 428|01,46
+BT|Clarence Twp 495|02,50
+BT|Cleveland Twp REC|03,26
+BT|Cleveland Twp|01,7
+BT|Comanche Twp EHD|01,197
+BT|Comanche Twp|02,121
+BT|Ellinwood City EHD|01,1431
+BT|Eureka Twp 428|01,5
+BT|Eureka Twp 431|02,69
+BT|Fairview Twp|02,47
+BT|Galatia City|01,32
+BT|GBC  P1-1W|01,631
+BT|GBC  P1-2W|01,983
+BT|GBC  P1-3W|01,712
+BT|GBC  P1-4W|01,748
+BT|GBC  P2-1W|01,924
+BT|GBC  P2-2W|01,882
+BT|GBC  P2-3W|01,797
+BT|GBC  P2-4W|01,639
+BT|GBC  P3-1W|01,656
+BT|GBC  P3-2W|01,887
+BT|GBC  P3-3W Exclave|02,1
+BT|GBC  P3-3W|01,853
+BT|GBC  P3-4W|01,312
+BT|Grant Twp 403|01,31
+BT|Grant Twp 431|02,12
+BT|Great Bend Twp A 355|01,3
+BT|Great Bend Twp A 428|02,975
+BT|Great Bend Twp B|01,146
+BT|Hoisington 1st Ward|01,504
+BT|Hoisington 2nd Ward|01,482
+BT|Hoisington 3rd Ward|01,428
+BT|Hoisington 4th Ward|01,448
+BT|Independent Twp 112 REC|04,84
+BT|Independent Twp 112|01,5
+BT|Lakin Twp A EHD|02,122
+BT|Lakin Twp B EHD|01,58
+BT|Liberty Twp 428|01,149
+BT|Liberty Twp 495|02,36
+BT|Logan Twp REC 354|01,115
+BT|North Homestead Twp|01,88
+BT|Olmitz City|01,74
+BT|Pawnee Rock City|01,142
+BT|Pawnee Rock Twp|02,96
+BT|South Bend Twp|01,430
+BT|South Homestead Twp 428|01,13
+BT|South Homestead Twp 431|02,253
+BT|Susank City|01,23
+BT|Union Twp|02,46
+BT|Walnut-Albert Twp 403|02,30
+BT|Walnut-Albert Twp 428|03,9
+BT|Walnut-Olmitz Twp|02,50
+BT|Wheatland|01,44
+BU|Andover W1 385-1 99 CM 1|10,3753
+BU|Andover W1 385-2 99 CM 1|20,2279
+BU|Andover W2 385-3 99 CM 1|10,3470
+BU|Andover W3 385-3 77 CM 5 A|10,957
+BU|Andover W3 385-3 77 CM 5 Exc C|10,166
+BU|Andover W3 385-3 77 CM 5|10,180
+BU|Andover W3 385-3 88 CM 5|10,825
+BU|Andover W4 385-3 77 CM 5|10,292
+BU|Augusta Twp 205 - 32|50,74
+BU|Augusta Twp 205 14|70,25
+BU|Augusta Twp 32 375-6 B|10,3
+BU|Augusta Twp 32 402 A|10,11
+BU|Augusta Twp 375-6 - 32|40,6
+BU|Augusta Twp 375-6 14|60,235
+BU|Augusta Twp 402 - 32|10,642
+BU|Augusta Twp 402 14|30,40
+BU|Augusta W1|10,1725
+BU|Augusta W2|10,1241
+BU|Augusta W3|10,1837
+BU|Augusta W4|10,1674
+BU|Benton City 75 375-2 C|10,1
+BU|Benton City 75 375-2|10,662
+BU|Benton City 85 375-2|10,92
+BU|Benton Twp 75 375-4|40,514
+BU|Benton Twp 75 375-6|30,68
+BU|Benton Twp 75 375 -2|10,162
+BU|Benton Twp 75 385-2|20,166
+BU|Benton Twp 85 375-2|10,289
+BU|Benton Twp 85 385-2|20,7
+BU|Bloomington Twp 205|20,262
+BU|Bloomington Twp 396|30,30
+BU|Bloomington Twp 402|10,110
+BU|Bruno Twp N 375-6 77 -1|30,152
+BU|Bruno Twp N 385-2 - 77 - 1|50,31
+BU|Bruno Twp N 385-2 - 99 - 1|20,276
+BU|Bruno Twp N 385-3 - 99 - 1|10,28
+BU|Bruno Twp N 385-3 77 - 1|70,458
+BU|Bruno Twp N 402 77 - 1 B|10,94
+BU|Bruno Twp N 402 77 - 1 C|10,45
+BU|Bruno Twp N 402 77 - 1|40,281
+BU|Bruno Twp S 385-3 77 CM 5|20,194
+BU|Bruno Twp S 385-3 88 CM 5|10,5
+BU|Bruno Twp S 402 77 CM 5|10,241
+BU|Cassoday City 492-1|10,76
+BU|Chelsea Twp 389|20,3
+BU|Chelsea Twp 490|10,43
+BU|Chelsea Twp 492-1|30,137
+BU|Chelsea Twp 492-2|40,25
+BU|Clay Twp 205|10,22
+BU|Clay Twp 396|20,21
+BU|Clay Twp 462|30,19
+BU|Clifford Twp 206|10,70
+BU|Clifford Twp 398|20,56
+BU|Douglass City 396|10,1049
+BU|Douglass Twp 32 396|10,123
+BU|Douglass Twp 396|20,252
+BU|El Dorado Twp East 205|30,50
+BU|El Dorado Twp East 375-6|20,16
+BU|El Dorado Twp East 490|10,70
+BU|El Dorado Twp West 205|60,28
+BU|El Dorado Twp West 375-5|10,107
+BU|El Dorado Twp West 375-6|50,225
+BU|El Dorado Twp West 490 B|10,2
+BU|El Dorado Twp West 490|30,40
+BU|El Dorado W1|10,2656
+BU|El Dorado W2 375-5|20,1
+BU|El Dorado W2|10,3691
+BU|El Dorado W3 375-5|20,596
+BU|El Dorado W3 490|10,109
+BU|El Dorado W4 375-5|20,67
+BU|El Dorado W4 375-6 A|10,35
+BU|El Dorado W4 375-6|30,201
+BU|El Dorado W4 490|10,1444
+BU|Elbing City 206|10,174
+BU|Fairmount Twp 206|20,190
+BU|Fairmount Twp 398|30,7
+BU|Fairview Twp 206|10,19
+BU|Fairview Twp 375-4|20,395
+BU|Glencoe Twp 205|10,129
+BU|Glencoe Twp 492-3|20,14
+BU|Hickory Twp 205|10,70
+BU|Latham City 205|10,71
+BU|Leon City 205|10,445
+BU|Lincoln Twp 206|30,2
+BU|Lincoln Twp 375-5|40,11
+BU|Lincoln Twp 398|10,52
+BU|Lincoln Twp 490|20,145
+BU|Lincoln Twp 492-1|50,2
+BU|Little Walnut Twp 205|20,236
+BU|Logan Twp 205|10,100
+BU|Milton Twp 206 75|20,283
+BU|Murdock Twp 206|30,165
+BU|Murdock Twp 375-2 A|10,7
+BU|Murdock Twp 375-2|10,41
+BU|Murdock Twp 375-4|20,105
+BU|Pleasant Twp 394|30,1538
+BU|Pleasant Twp 396|40,34
+BU|Pleasant Twp 402|10,225
+BU|Pleasant Twp 77 385-3 A|10,5
+BU|Pleasant Twp 77 385-3|20,38
+BU|Pleasant Twp 88 385-3|20,33
+BU|Pleasant Twp 88 394|10,89
+BU|Pleasant Twp N 77 394|10,10
+BU|Plum Grove Twp 206|20,121
+BU|Potwin City 206|10,292
+BU|Prospect Twp 205|40,205
+BU|Prospect Twp 490|10,484
+BU|Prospect Twp 492-2|20,199
+BU|Prospect Twp 492-3|30,7
+BU|Richland Twp 394 A|10,2
+BU|Richland Twp 394|10,319
+BU|Richland Twp 396|20,574
+BU|Rock Creek Twp 205|10,16
+BU|Rock Creek Twp 396|20,246
+BU|Rosalia Twp 205|30,4
+BU|Rosalia Twp 492-2|10,156
+BU|Rosalia Twp 492-3|20,288
+BU|Rose Hill City-Rockwood Falls|10,52
+BU|Rose Hill City-Sienna 394|10,331
+BU|Rose Hill City 394 Pleasant|10,1669
+BU|Rose Hill City 394 Richland|20,1106
+BU|Spring Twp 205|20,1114
+BU|Spring Twp 375-6|30,11
+BU|Spring Twp 402|10,77
+BU|Sycamore Twp 490 A|10,4
+BU|Sycamore Twp 490 B|10,4
+BU|Sycamore Twp 490|30,4
+BU|Sycamore Twp 492-1|40,142
+BU|Towanda City 375-3|10,900
+BU|Towanda City 375-6|70,180
+BU|Towanda Twp 375-3 A|10,2
+BU|Towanda Twp 375-3 C|10,2
+BU|Towanda Twp 375-3|30,14
+BU|Towanda Twp 375-4|40,230
+BU|Towanda Twp 375-6|60,668
+BU|Union Twp 205|20,29
+BU|Walnut Twp 12-32 205|30,4
+BU|Walnut Twp 12-32 396|10,133
+BU|Walnut Twp 12-32 402|20,117
+BU|Walnut Twp 394|40,4
+BU|Walnut Twp 396|10,7
+BU|Walnut Twp 402|30,315
+BU|Whitewater City 206 72|10,533
+CA|App/C3/H1/459|03,3
+CA|App/C3/H2/219|01,113
+CA|App/C3/H3/220|05,2
+CA|Cen1/C1/H3/220/City|01,381
+CA|Cen2/C2/H3/220/City|01,218
+CA|Cen2/C2/H3/220/Rural|02,75
+CA|Eng/C2/H0/220/City|01,56
+CA|Eng/C2/H3/220/Rural|02,36
+CA|Lex/C1/H3/220|01,27
+CA|Lex/C1/H3/459|02,3
+CA|Lib/C1/H1/459|01,25
+CA|Minn/C3/H2/219|04,494
+CA|Sit/C1/H3/220|01,26
+CA|Sit/C1/H3/300|02,13
+CD|1st Ward/333/MD1/CC1|01,466
+CD|2nd Ward/1st Prec/333/MD1/CC2|01,44
+CD|2nd Ward/1st Prec/333/MD2/CC2|02,512
+CD|2nd Ward/2nd Prec/333/MD1/CC2|01,96
+CD|2nd Ward/2nd Prec/333/MD2/CC2|02,513
+CD|2nd Wd/2nd Prec/333/MD2/CC2 Ex|03,4
+CD|3rd Ward/333/MD1/CC3|01,207
+CD|3rd Ward/333/MD2/CC3|02,422
+CD|3rd Ward/333/MD3/CC3|03,313
+CD|4th Ward/333/MD1/CC2|01,409
+CD|Arion Twp/333/MD3/CC2|01,58
+CD|Arion Twp/334/MD2/CC2|02,14
+CD|Aurora City/333/MD3/CC1|03,32
+CD|Aurora Twp/333/MD3/CC1|01,46
+CD|Buffalo Twp/333/MD3/CC2|01,69
+CD|Clyde City/224/MD4/CC1|02,185
+CD|Clyde City/224/MD5/CC1|03,249
+CD|Clyde City/224/MD6/CC1|04,28
+CD|Colfax Twp/224/MD6/CC1|01,17
+CD|Colfax Twp/334/MD1/CC1|02,7
+CD|Colfax Twp/379/CC1|03,1
+CD|E. Center Twp/333/MD3/CC3|01,80
+CD|E. Center Twp/334/MD1/CC3|02,2
+CD|E. Center Twp/334/MD2/CC3|03,2
+CD|E. Lincoln 107 Pct/333/MD3/CC3|01,25
+CD|E. Lincoln 64 Pct/333/MD3/CC3|01,148
+CD|E. Meredith Pct/239/CC3|01,22
+CD|E. Meredith Pct/334/MD1/CC3|02,9
+CD|E. Meredith Pct/334/MD2/CC3|03,7
+CD|E. Sibley Twp/333/MD3/CC1|01,67
+CD|Elk Twp/224/MD3/CC1|01A,63
+CD|Elk Twp/224/MD6/CC1|01,4
+CD|Glasco City/334/MD2/CC3|03,269
+CD|Grant Twp/333/MD3/CC3|01,62
+CD|Jamestown City/333/MD3/CC3|03,153
+CD|Lyon Twp/239/CC3|01,25
+CD|Lyon Twp/333/MD3/CC3|02,2
+CD|Lyon Twp/334/MD2/CC3|03,42
+CD|Miltonvale City/334/MD1/CC1|03,259
+CD|N. Lawrence Pct/109/CC1|03,2
+CD|N. Lawrence Pct/224/MD3/CC1|01,18
+CD|N. Lawrence Pct/333/MD3/CC1|02,29
+CD|Nelson Twp/224/MD6/CC1|01,6
+CD|Nelson Twp/333/MD3/CC1|02,88
+CD|Oakland Twp/334/MD1/CC1|01,31
+CD|S. Lawrence Pct/224/MD3/CC1|02,4
+CD|S. Lawrence Pct/333/MD3/CC1|01,47
+CD|Shirley Twp/224/MD3/CC1|02,4
+CD|Shirley Twp/224/MD6/CC1|01,99
+CD|Solomon Twp/273/CC3|01,12
+CD|Solomon Twp/334/MD2/CC3|02,61
+CD|Starr Twp/334/MD1/CC1|01,63
+CD|Starr Twp/379/CC1|02,5
+CD|Summit Twp/333/MD3/CC3|02,22
+CD|Summit Twp/334/MD2/CC3|03,14
+CD|W. Center Twp/333/MD3/CC3|01,77
+CD|W. Lincoln Pct/333/MD3/CC2|01,124
+CD|W. Meredith Pct/239/CC3|01,3
+CD|W. Meredith Pct/334/MD2/CC3|02,6
+CD|W. Sibley Twp/333/MD3/CC1|01,66
+"CF|Avon Twp, 244/3|01",23
+"CF|Avon Twp, 245/1|02",39
+"CF|Avon Twp, 245/2|03",64
+"CF|Burl City, Wd 1, USD 244/1|01",52
+"CF|Burl City, Wd 1, USD 244/2|03",249
+"CF|Burl City, Wd 1, USD 244/5|08",281
+"CF|Burl City, Wd 2, CC Hts, 244/6|01",77
+"CF|Burl City, Wd 2, Excl, 244/6|01",7
+"CF|Burl City, Wd 2, USD 244/2|02",32
+"CF|Burl City, Wd 2, USD 244/3|04",230
+"CF|Burl City, Wd 2, USD 244/5|07",129
+"CF|Burl City, Wd 2, USD 244/6|09",87
+"CF|Burl City, Wd 3, USD 244/3|05",102
+"CF|Burl City, Wd 3, USD 244/4|06",409
+"CF|Burl City, Wd 3, USD 244/6|10",68
+"CF|Burl Twp, 244/1|01",23
+"CF|Burl Twp, 244/2|02",6
+"CF|Burl Twp, 244/3|03",44
+"CF|Burl Twp, 244/4|04",92
+"CF|Burl Twp, 244/5|05",36
+"CF|Burl Twp, 244/6|06",111
+"CF|Gridley City, USD 245/2|01",215
+"CF|Hampden Twp, 244/2|01",93
+"CF|Hampden Twp, 244/3|02",24
+"CF|Key West Twp, 243/1-3-5|02",40
+"CF|Key West Twp, 243/2-4-6|01",158
+"CF|Lebo City, USD 243/1/3/5|01",627
+"CF|LeRoy City, USD 245/1|01",368
+"CF|LeRoy Twp, 245/1|01",74
+"CF|Liberty Twp, 244/6|01",11
+"CF|Liberty Twp, 245/2|02",160
+"CF|Lincoln Twp, 243/1-3-5|01",256
+"CF|Lincoln Twp, 252|02",24
+"CF|Neosho Twp, 244/3|01",1
+"CF|Neosho Twp, 244/4|02",20
+"CF|Neosho Twp, 245/2|04",66
+"CF|New Strawn City, 06.1|01",326
+"CF|Ottumwa Twp, 243/1-3-5|04",23
+"CF|Ottumwa Twp, 243/2-4-6|01",37
+"CF|Ottumwa Twp, 244/1|02",144
+"CF|Ottumwa Twp, 244/2|03",33
+"CF|Pleasant Twp, 244/6|01",159
+"CF|Pleasant Twp, 245/2|02",22
+"CF|Pleasant Twp, 252|03",13
+"CF|Pottawatomie Twp, 243/2-4-6|01",124
+"CF|Pottawatomie Twp, 244-2|03",7
+"CF|Pottawatomie Twp, 365|04",5
+"CF|Rock Creek Twp, 243/2-4-6|02",271
+"CF|Spring Creek Twp, 245/1|01",88
+"CF|Star Twp,  243/2-4-6|01",3
+"CF|Star Twp, 244/2|03",51
+"CF|Star Twp, 244/3|04",11
+CF|Star Twp. 365|06,55
+"CF|Waverly City, 05.1|01",374
+CK|000010 - Baxter Sp W1|01,618
+CK|000020 - Baxter Sp W2|01,652
+CK|000030 - Baxter Sp W3|01,1114
+CK|00004A - Baxter Sp W4|01,832
+"CK|000050 - Cherokee (247, 1-4)|01",169
+"CK|000050 - Cherokee (493, 3-6)|02",109
+CK|000060 - Columbus W1 (1-4)|02,5
+CK|000060 - Columbus W1 (2-5)|01,376
+CK|000070 - Columbus W2 (1-4)|02,364
+CK|000070 - Columbus W2 (2-5)|01,148
+CK|000080 - Columbus W3 (1-4)|02,56
+CK|000080 - Columbus W3 (2-5)|01,393
+CK|000090 - Columbus W4|01,463
+CK|00010A - Columbus W5 (1-4)|03,1
+CK|00010A - Columbus W5 (2-5)|01,162
+CK|00010A - Columbus W5 (3-6)|02,229
+"CK|000110 - Crawford (404, 1-4)|01",118
+"CK|000110 - Crawford (493, 3-6)|02",377
+CK|000120 - Galena W1|01,594
+CK|00013A - Galena W2|01,514
+CK|000140 - Galena W3|01,701
+CK|00015A - Galena W4|01,430
+CK|000170 - Grdn / Lwl (404.1-4)|04,57
+CK|000170 - Grdn / Lwl (404.2-5)|01,1045
+CK|000170 - Grdn / Lwl (404.3-6)|02,555
+"CK|000170 - Grdn / Lwl (508, AL)|03",65
+"CK|00018A - Grdn / StMns(404,1-4)|04",30
+"CK|00018A - Grdn / StMns(404,2-5)|01",7
+"CK|00018A - Grdn / StMns(404,3-6)|02",292
+"CK|00018A - Grdn / StMns(499,AL)|03",229
+"CK|000190 - Lola (493, 1-4)|01",233
+"CK|000200 - Lowell (404, 1-4)|03",305
+"CK|000200 - Lowell (404, 2-5)|01",23
+"CK|000200 - Lowell (499, AL)|02",223
+"CK|000210 - Lyon / Lyon (493,1-4)|01",278
+"CK|000220 - Mineral (247, 1-4)|01",45
+"CK|000220 - Mineral (493, 3-6)|02",104
+"CK|000230 - Nsh / Flknr (493,1-4)|01",75
+"CK|000240 - Nsh / Mlrs (493,1-4)|01",108
+"CK|000240 - Nsh / Mlrs (505,AL)|02",7
+"CK|000250 - Pleasant Vw (247,1-4)|01",15
+"CK|000250 - Pleasant Vw (250, AL)|02",5
+"CK|000250 - Pleasant Vw (493,3-6)|03",425
+"CK|000270 - Ross/Bllvw (247, 2-5)|01",17
+"CK|000270 - Ross/Bllvw (247, 3-6)|02",7
+"CK|000270 - Ross/Bllvw (493, 1-4)|03",46
+"CK|000270 - Ross/Bllvw (493, 3-6)|04",68
+"CK|000280 - Ross/Rslnd (247,2-5)|01",96
+"CK|000280 - Ross/Rslnd (493,3-6)|02",27
+"CK|000280 - Ross/Rslnd (493,3-6)C|03",62
+"CK|000290 - Ross/W Min (247,2-5)|01",14
+"CK|000290 - Ross/W Min (247,3-6)|03",43
+"CK|000290 - Ross/W Min (247,3-6)C|02",126
+"CK|00030A - Salamanca (493, 1-4)|01",409
+"CK|00030A - Salamanca (493, 2-5)|02",13
+CK|000310 - Scammon W1|01,81
+CK|000320 - Scammon W2|01,107
+CK|000330 - Scammon W3|01,108
+"CK|000340 - Shawnee (404, 1-4)|04",35
+"CK|000340 - Shawnee (404, 2-5)|01",19
+"CK|000340 - Shawnee (493, 3-6)|02",310
+"CK|000340 - Shawnee (499, AL)|03",34
+"CK|000350 - Sheridan (247, 3-6)|01",146
+"CK|000350 - Sheridan (493, 1-4)|02",15
+"CK|000360 - SpVly / Ntrl (508,AL)|03",15
+"CK|000360 - SpVly / Ntrl(404,1-4)|01",474
+"CK|000360 - SpVly / Ntrl(493,3-6)|02",21
+"CK|00037A - SpVly / SpVly(404,14)|01",27
+"CK|00037A - SpVly / SpVly(508,AL)|02",363
+CK|180010 - Weir City|01,443
+CL|AC 1A|01,2018
+CL|AC 1AAX|01,1
+CL|AC 1ABX|01,30
+CL|AC 2A|01,1261
+CL|AC 2AAX|01,2
+CL|AC 3A|01,1473
+CL|AC 4A|01,1332
+CL|Beaver/358/3-6|01,8
+CL|Beaver/465|02,75
+CL|Beaver/470|03,56
+CL|Bolton E H12/470|01,207
+CL|Bolton W/358/3-6|01,6
+CL|Bolton W/470|02,798
+CL|BOW/Geuda Springs/358/3|03,10
+CL|Cedar/285|01,14
+CL|Cedar/471/3-6|02,10
+CL|Creswell E H12/470/Lakewynds|01,116
+CL|Creswell E H12/470|02,313
+CL|Creswell E H80/470|01,225
+CL|Creswell E H80/Parkerfield/470|03,308
+CL|Creswell W/470|01,435
+CL|DE/Dexter City/471/1-4|03,92
+CL|DE/Dexter City/471/2-5|05,64
+CL|Dexter/462/3-6|07,2
+CL|Dexter/471/1-4|02,21
+CL|Dexter/471/2-5|04,36
+CL|Dexter/471/3-6|06,45
+CL|Fairview H79/463/146|01,14
+CL|Fairview H79/463/235|02,18
+CL|Fairview H79/465|03,150
+CL|Grant/471/3-6|01,47
+CL|Harvey/462/1-4|01,20
+CL|Harvey/462/2-5|02,52
+CL|Liberty/465|01,102
+CL|Liberty/471/2-5|02,18
+CL|MA/Udall City/463/235|05,46
+CL|Maple/263|01,91
+CL|Maple/396|02,19
+CL|Maple/463/235|03,455
+CL|NI/Udall City/463/146|04,388
+CL|Ninnescah/358/1-4|01,4
+CL|Ninnescah/463/146|02,261
+CL|Ninnescah/465|03,6
+CL|Omnia/462/2-5|01,65
+CL|Omnia/Atlanta City/462/2-5|02,115
+CL|Otter/285|01,31
+CL|Pl  Valley/465|01,540
+CL|Pl  Valley/470|02,107
+CL|Richland/396|01,9
+CL|Richland/462/2-5|03,103
+CL|Richland/463/235|04,5
+CL|Richland/465|05,5
+CL|Rk Creek/396|01,8
+CL|Rk Creek/463/235|03,162
+CL|Salem/462/2-5|02,39
+CL|Salem/462/3-6|03,23
+CL|Salem/465|04,164
+CL|SC/Burden City/462/3-6|01,281
+CL|Sheridan/462/3-6|01,39
+CL|Sheridan/465|02,58
+CL|Sheridan/471/2-5|03,14
+CL|Silv Creek/462/2-5|02,29
+CL|Silv Creek/462/3-6|03,94
+CL|Silverdale/470|01,261
+CL|Silverdale/471/3-6|02,8
+CL|Sp Creek/471/3-6|01,41
+CL|Tisdale/465|02,246
+CL|Vernon/358/1-4|01,68
+CL|Vernon/465|02,248
+CL|Walnut/465|01,499
+CL|WD 1A|01,1517
+CL|WD 1ABX|01,2
+CL|WD 2A|01,1272
+CL|WD 2ABX|01,37
+CL|WD 2ACX|01,30
+CL|WD 2ADX|01,3
+CL|WD 3A|01,154
+CL|WD 4A|01,1751
+CL|WD 5A|01,1786
+CL|WI/Cambridge City/462/1-4|01,60
+CL|Windsor/462/1-4|02,41
+CL|Windsor/462/3-6|03,1
+"CM|AV Twp Comm Dist 1, 1-4|01",32
+"CM|AV Twp Comm Dist 1, 3-6|02",13
+"CM|C. City Comm Dist 1, 1-4|05",6
+"CM|C. City Comm Dist 1, 2-5|01",101
+"CM|C. City Comm Dist 2, 1-4|06",74
+"CM|C. City Comm Dist 2, 2-5|02",291
+"CM|C. City Comm Dist 2, 3-6|04",4
+"CM|CO Twp Comm Dist 1, 1-4|01",78
+"CM|CO Twp Comm Dist 1, 2-5|03",11
+"CM|CO Twp Comm Dist 1, 3-6|05",11
+"CM|CO Twp Comm Dist 2, 1-4|02",25
+"CM|CO Twp Comm Dist 2, 3-6|06",9
+"CM|P. City Comm Dist 3, 3-6  #1|01",293
+"CM|PO Twp Comm Dist 1, 1-4|01",23
+CM|PR Twp Comm Dist 3  3-6  #1|01,31
+"CM|PR Twp Comm Dist 3, 1-4   #2|02",6
+"CM|PR Twp Comm Dist 3, 1-4 #2|02",15
+"CM|PR Twp Comm Dist 3, 3-6  #1|01",72
+"CM|W. City Comm Dist 1, 1-4|01",31
+CN|Benkelman Twp|01,28
+CN|Bird City Twp/15|01,93
+CN|Bird City Twp/26|02,81
+CN|Calhoun Twp/25/297|01,28
+CN|Calhoun Twp/26/103|02,7
+CN|City of Bird City|03,308
+CN|Cleveland Run Twp/14|01,26
+CN|Cleveland Run Twp/25|02,11
+CN|Jaqua Twp|01,9
+CN|Orlando Twp/25/297|01,44
+CN|Orlando Twp/26/103|02,4
+CN|St. Francis City/2/14/W1|01,346
+CN|St. Francis City/3/25/W2|03,275
+CN|St. Francis City/3/36/W2|04,335
+CN|Wano Twp/2/14/W1|02,226
+CN|Wano Twp/3/103/26/W2|07,5
+CN|Wano Twp/3/25/W2|05,117
+CN|Wano Twp/3/36/W2|06,78
+CQ|Belleville-Chautauqua City|02,61
+CQ|Belleville-Chautauqua|01,104
+CQ|Belleville-Peru City|02,72
+CQ|Belleville-Peru|01,113
+CQ|Caneyville-USD 282|01,13
+CQ|Caneyville-USD 285|02,37
+CQ|Caneyville-USD 286-Member #1|03,6
+CQ|Center-USD 282|01,22
+CQ|Center-USD 285|02,2
+CQ|Center-USD 286-Member #1|03,26
+CQ|Harrison|01,52
+CQ|Hendricks--Elgin City-USD 286|03,41
+CQ|Hendricks-USD 285|01,3
+CQ|Hendricks-USD 286-Member #1|02,31
+CQ|Jefferson-Cedar Vale City|02,296
+CQ|Jefferson-USD 285|01,77
+CQ|Lafayette-USD 286-Member #1|02,31
+CQ|Little Caney-Niotaze-USD 436|03,65
+CQ|Little Caney-USD 286-Member #3|01,62
+CQ|Little Caney-USD 436|02,123
+CQ|North Sedan-Sedan City|02,394
+CQ|North Sedan|01,95
+CQ|Salt Creek-USD 283|01,42
+CQ|Salt Creek-USD 286-Member #1|02,40
+CQ|Salt Creek-USD 446|03,2
+CQ|South Sedan-Sedan City|02,219
+CQ|South Sedan|01,151
+CQ|Summit-USD 285|01,21
+CQ|Summit-USD 286-Member 1|03,40
+CQ|Washington-USD 286-Member 3|01,52
+CQ|Washington-USD 436|02,7
+CR|Arcadia City|01,215
+CR|Baker 247 14|01,67
+CR|Baker 250|02,744
+CR|Beulah 247 25|01,67
+CR|Beulah 247 25b|01b,74
+CR|Beulah 247 36|02,6
+CR|Beulah 248 36|03,75
+CR|Brazilton|01,56
+CR|Capaldo 246 25 HD|04,24
+CR|Capaldo 246 25|01,12
+CR|Capaldo 248 14|02,191
+CR|Capaldo 249 HD|05,39
+CR|Capaldo 249|03,129
+CR|Cherokee-Sheridan 247 25 HD|03,78
+CR|Cherokee-Sheridan 247 25|01,151
+CR|Cherokee-Sheridan 247 36|02,12
+CR|Cherokee|01,367
+CR|Chicopee 247 14|01,391
+CR|Chicopee 250|02,31
+CR|Crawford 248 25|02,48
+CR|Crawford 248 36|03,283
+CR|Crowe 246 14|01,47
+CR|Crowe 246 36|03,149
+CR|Franklin 246 25 HD|03,49
+CR|Franklin 246 25|01,319
+CR|Franklin 248 14|02,18
+CR|Frontenac 1st Ward|01,772
+CR|Frontenac 2nd Ward 249|01,831
+CR|Frontenac 2nd Ward 250|02,177
+CR|Frontenac 3rd Ward|01,432
+CR|Frontenac 4th Ward|01,376
+CR|Girard 1st Ward|01,204
+CR|Girard 2nd Ward|01,621
+CR|Girard 3rd Ward|01,439
+CR|Girard 4th Ward|01,609
+CR|Grant 247 36|02,12
+CR|Grant 248 36|03,154
+CR|Grant 505 36|01,18
+CR|Hepler City|01,79
+CR|Lincoln-Arcadia 246 14|01,76
+CR|Lincoln-Arcadia 246 36|02,34
+CR|Lincoln 246 14|01,78
+CR|Lincoln 246 36 HD|05,118
+CR|Lincoln 246 36|02,92
+CR|Lincoln 248 14|04,9
+CR|Lincoln 248 36|03,3
+CR|Lone Star 247 14|01,153
+CR|Lone Star 248 36|02,15
+CR|Lone Star 249|03,79
+CR|Lone Star 250|04,657
+CR|Mccune City|01,285
+CR|Mulberry 1st Ward|01,126
+CR|Mulberry 2nd Ward|01,155
+CR|North Arma City|01,602
+CR|Opolis|01,291
+CR|Osage-McCune HD|02,164
+CR|Osage-McCune|01,137
+CR|Parkview 246 14|01,192
+CR|Parkview 246 25|04,40
+CR|Parkview 246 36|03,9
+CR|Parkview 249|02,221
+CR|Pittsburg 1p - 1w|01,926
+CR|Pittsburg 1p - 2w|01,504
+CR|Pittsburg 1p - 3w|01,659
+CR|Pittsburg 1p - 4w|01,336
+CR|Pittsburg 2p - 1w|01,1264
+CR|Pittsburg 2p - 2w|01,555
+CR|Pittsburg 2p - 3w 249|01,4
+CR|Pittsburg 2p - 3w 250|02,753
+CR|Pittsburg 2p - 4w|01,674
+CR|Pittsburg 3p - 1w|01,2453
+CR|Pittsburg 3p - 2w|01,694
+CR|Pittsburg 3p - 4w|01,946
+CR|Pittsburg 4p - 2w|01,527
+CR|Pittsburg 4p - 4w 249|02,4
+CR|Pittsburg 4p - 4w 250|01,644
+CR|Pittsburg 5p - 2w|01,988
+CR|Pittsburg 5p - 4w|01,1165
+CR|Pittsburg 6p - 4w|01,179
+CR|Raymond 248 14|01,557
+CR|Raymond 248 36|02,27
+CR|Sheridan-Cherokee City|01,81
+CR|Sheridan HD|03,4
+CR|Sheridan|02,115
+CR|Sherman  235|03,9
+CR|Sherman 248 14|01,47
+CR|Sherman 248 36|02,372
+CR|Smelter 249|01,180
+CR|Smelter 250|02,277
+CR|South Arma City|01,481
+CR|Walnut-Hepler 248 36|01,46
+CR|Walnut City|01,126
+CR|Walnut Twp 101 25|01,5
+CR|Walnut Twp 248 36|02,40
+CR|Washington-North Arma 246 36 H|04,9
+CR|Washington-North Arma 246 36|02,94
+CR|Washington-North Arma 248 14|03,4
+CR|Washington-South Arma 246 25 H|04,49
+CR|Washington-South Arma 246 25|02,171
+CS|1.1 Bazaar Local Board 3|01,75
+CS|10.1 East Strong Strong City|01,250
+CS|11.1 Homestead|01,37
+CS|12.1 Matfield MFG City|01,43
+CS|13.1 Matfield|01,49
+CS|14.1 Toledo|01,248
+CS|15.1 West Falls CWF City|01,309
+CS|16.1 West Falls Local Board 1|01,69
+CS|17.1 West Strong|01,19
+CS|18.1 West Strong Strong City|01,44
+CS|2.1 Cedar USD 398|01,22
+CS|2.2 Cedar USD 284|02,38
+CS|3.1 Cedar Point|01,12
+CS|4.1 Cottonwood  Local Board 1|01,96
+CS|5.1 Diamond USD 397|01,9
+CS|5.2 Diamond USD 284|02,118
+CS|6.1 East Falls CWF City|01,215
+CS|7.1 East Falls|01,93
+CS|8.1 Diamond  Elmdale City|01,26
+CS|9.1 East Strong|01,98
+CY|11.1 Athelstane|01,81
+CY|12.1 Blaine|01,203
+CY|13.1 Bloom|01,3
+CY|13.2 Bloom|02,95
+CY|13.3 Bloom|03,3
+CY|14.1 Chapman|01,76
+CY|15.1 Clay Center|01,307
+CY|16.1 Exeter|01,60
+CY|17.1 Five Creeks|01,93
+CY|18.1 Garfield|01,3
+CY|18.2 Garfield|02,69
+CY|19.1 Gill|01,101
+CY|1st Ward|01,790
+CY|2.1 Clifton City|01,150
+CY|20.1 Goshen|01,44
+CY|21.1 Grant|01,146
+CY|22.1 Hayes|01,157
+CY|23.1 Highland|01,112
+CY|24.1 Mulberry|01,11
+CY|24.2 Mulberry|02,16
+CY|24.3 Mulberry|03,3
+CY|24.4 Mulberry|04,2
+CY|25.1 Oakland|01,3
+CY|25.2 Oakland|02,44
+CY|26.1 Republican|01,130
+CY|27.1 Sherman|01,9
+CY|27.2 Sherman|02,42
+CY|28.1 Union|01,116
+CY|2nd Ward|01,849
+CY|3.1 Green City|01,92
+CY|3rd Ward|01,701
+CY|4.1 Longford City|01,73
+CY|4th Ward|01,613
+CY|5.1 Morganville City|01,138
+CY|6.1 Oak Hill City|01,21
+CY|7.1 Vining City|01,26
+CY|8.1 Wakefield City|01,667
+DC|AL.1 Allison Township (211NT)|01,4
+DC|AL.2 Allison Township (412SD)|02,17
+DC|AT.1 Altory Township|01,17
+DC|BA.1 Bassettville Township|01,12
+DC|BE.1 Beaver Township|01,49
+DC|CC.2 Clayton City (211NT)|02,2
+DC|CE.1 Center Township|01,39
+DC|CO.1 Cook Township (294)|01,17
+DC|CO.2 Cook Township (316TH)|02,1
+DC|CU.1 Custer Township|01,25
+DC|DC.1 Dresden City (294)|01,24
+DC|DC.2 Dresden City (412SD)|02,6
+DC|DR.1 Dresden Township (294)|01,20
+DC|DR.2 Dresden Township (412SD)|02,27
+DC|FI.1 Finley Township|01,30
+DC|GA.1 Garfield Township|01,28
+DC|GR.1 Grant Township|01,12
+DC|HA.1 Harlan Township|01,18
+DC|JC.1 Jennings City (294)|01,2
+DC|JC.2 Jennings City (412SD)|02,58
+DC|JE.1 Jennings Township (294)|01,20
+DC|JE.2 Jennings Township (412SD)|02,5
+DC|LB.1 Liberty Township|01,37
+DC|LN.1 Lincoln Township|01,14
+DC|LO.1 Logan Township|01,24
+DC|LY.2 Lyon Township (412SD)|02,14
+DC|NC.1 Norcatur City|01,108
+DC|OB.1 Oberlin Township|01,67
+DC|OC00001.1 Oberlin City|01,509
+DC|OC00002.1 Oberlin City|01,644
+DC|OL.1 Olive Township|01,44
+DC|PL.1 Pleasant Valley TWP 211NT|01,3
+DC|PL.2 Pleasant Valley TWP 294|02,12
+DC|PL.3 Pleasant Valley TWP 412SD|03,3
+DC|PR.1 Prairie Dog Township|01,30
+DC|RO.1 Roosevelt Township|01,11
+DC|SA.1 Sappa Township|01,27
+DC|SH.1 Sherman Township|01,18
+DC|SU.1 Summit Township|01,22
+DG|025B.1|1,58
+DG|026.1|1,196
+DG|026B.1|1,678
+DG|033.1|1,835
+DG|034.1|1,702
+DG|035.1|1,667
+DG|035B.1|1,494
+DG|038.1|1,1657
+DG|038B.2|2,435
+DG|041.1|1,1754
+DG|042.1|1,427
+DG|042B.1|1,509
+DG|042B.3|3,1
+DG|042B.4|4,2
+DG|043.1|1,2343
+DG|044.1|1,725
+DG|044B.1|1,438
+DG|046.1|1,1068
+DG|046B.1|1,1205
+DG|049.1|1,1773
+DG|049B.1|1,276
+DG|050.2|2,1660
+DG|050B.1|1,68
+DG|050B.2|2,3
+DG|051.1|1,7
+DG|051.2|2,66
+DG|051.3|3,520
+DG|052.3|3,654
+DG|052B.1|1,66
+DG|052B.2|2,17
+DG|052B.4|4,2
+DG|052B.5|5,5
+DG|053.4|4,737
+DG|053B.1|1,96
+DG|053B.2|2,871
+DG|053B.3|3,50
+DG|055.1|1,227
+DG|055B.2|2,80
+DG|056.1|1,527
+DG|056.2|2,83
+DG|056.3|3,536
+DG|056.5|5,9
+DG|056.7|7,9
+DG|056B.8|8,23
+DG|056C.4|4,98
+DG|057.1|1,237
+DG|057.2|2,381
+DG|057.4|4,28
+DG|057B.3|3,206
+DG|057C.5|5,99
+DG|058.1|1,132
+DG|058.2|2,183
+DG|059.1|1,68
+DG|059.3|3,286
+DG|059.5|5,108
+DG|059.6|6,211
+DG|060.1|1,277
+DG|060.2|2,529
+DG|060.3|3,529
+DG|061.1|1,31
+DG|061.2|2,157
+DG|061.3|3,667
+DG|061.4|4,548
+DG|061B.5|5,131
+DG|061B.6|6,156
+DG|062.1|1,176
+DG|062.2|2,211
+DG|062.3|3,135
+DG|062.4|4,224
+DG|062.5|5,651
+DG|063.1|1,129
+DG|063B.2|2,309
+DG|063B.3|3,6
+DG|063C.3|3,560
+DG|064.1|1,43
+DG|064.2|2,157
+DG|064.4|4,64
+DG|064B.3|3,1
+DG|065.1|1,9
+DG|065.2|2,20
+DG|065.5|5,5
+DG|065B.1|1,19
+DG|065C.8|8,3
+DG|065D.6|6,4
+DG|065E.3|3,32
+DG|066.5|5,390
+DG|066B.4|4,3
+DG|066C.1|1,294
+DG|066C.2|2,3
+DG|067.5|5,26
+DG|067A.1|1,350
+DG|067A.2|2,419
+DG|067A.3|3,357
+DG|067C.6|6,114
+DG|067C.8|8,2
+DG|069.1|1,68
+DG|069.2|2,819
+DG|069.3|3,8
+DG|077.1|1,697
+DG|1.1|1,736
+DG|10.1|1,366
+DG|11.1|1,864
+DG|12.1|1,1463
+DG|13.1|1,1085
+DG|14.1|1,1605
+DG|14B.1|1,476
+DG|15.1|1,1289
+DG|16.1|1,1044
+DG|17.1|1,1437
+DG|18.1|1,1796
+DG|19.1|1,1328
+DG|2.1|1,748
+DG|20.1|1,1740
+DG|21.1|1,567
+DG|22.1|1,1305
+DG|23.1|1,656
+DG|24.1|1,875
+DG|25.1|1,625
+DG|27.1|1,870
+DG|28.1|1,792
+DG|29.1|1,855
+DG|3.1|1,1002
+DG|30.1|1,734
+DG|31.1|1,1104
+DG|32.1|1,1226
+DG|36.1|1,1220
+DG|37.1|1,1305
+DG|39.1|1,1055
+DG|4.1|1,866
+DG|40.1|1,948
+DG|45.1|1,1858
+DG|47.1|1,663
+DG|48.1|1,1401
+DG|5.1|1,909
+DG|54.1|1,1297
+DG|6.1|1,1042
+DG|7.1|1,504
+DG|71.1|1,1937
+DG|74.1|1,2187
+DG|74.2|2,814
+DG|76.1|1,185
+DG|8.1|1,744
+DG|9.1|1,679
+DK|AB City USD435-1 Prc 1|04,16
+DK|AB City USD435-1 Prc3|03,495
+DK|AB City USD435-1 Prc4|04,525
+DK|AB City USD435-1 Prc5|03,773
+DK|AB City USD435-2 Prc 1|06,733
+DK|AB City USD435-2 Prc2|03,898
+DK|AB City USD435-3 Prc2|04,248
+DK|AB City USD435-3 Prc3|04,205
+DK|AB City USD435-3 Prc4|05,376
+DK|AB City USD435-3 Prc5|05,343
+DK|Banner 473-3|01,29
+DK|Banner 481-2|02,59
+DK|Buckeye 1-435-3|02,11
+DK|Buckeye 1-473-1|01,23
+DK|Buckeye 435-1|04,50
+DK|Buckeye 435-3|05,188
+DK|Buckeye 473-1|06,61
+DK|Carlton City USD473-3|01,35
+DK|Center 473-1|03,151
+DK|Center 473-3|04,132
+DK|Chapman City 473-2|02,1004
+DK|Cheever 435-3|03,4
+DK|Cheever 473-1|04,104
+DK|Enterprise City 473-3|02,511
+DK|Flora 473-1|02,75
+DK|Fragrant Hill 473-1|01,227
+DK|Garfield 393-1|04,69
+DK|Garfield 435-2|05,64
+DK|Garfield 473-3|06,16
+DK|Grant 435-1|04,141
+DK|Grant 435-2|05,455
+DK|Grant 435-3|06,149
+DK|Hayes 473-1|02,156
+DK|Hayes1-473-1|01,17
+DK|Herington W1 487|01,584
+DK|Herington W2 487|01,604
+DK|Herington W4 487|01,378
+DK|Holland 306 SM2|01,14
+DK|Holland 473-3|02,43
+DK|Hope 397 SM2|01,10
+DK|Hope 481-2|03,22
+DK|Hope 481.2|02,47
+DK|Hope City USD481-2|01,237
+DK|Jefferson 473-3|01,106
+DK|Jefferson 481-2|02,43
+DK|Liberty 473-2|01,57
+DK|Liberty 473-3|03,12
+DK|Liberty 481-2|02,47
+DK|Lincoln 393-1|04,144
+DK|Lincoln 393-2|03,4
+DK|Lincoln 435-2|05,172
+DK|Lincoln 435-3|07,93
+DK|Logan 473-3|01,157
+DK|Lyon H70 481-2|02,13
+DK|Lyon H70 487|03,163
+DK|Manchester City USD473-1|02,56
+DK|Newbern 435-2|03,81
+DK|Newbern 473-3|05,208
+DK|Noble 473-1|01,143
+DK|Noble 473-2|02,238
+DK|Noble2-473-1|01,35
+DK|Red Bud 435-2|06,67
+DK|Ridge 473-3|01,24
+DK|Ridge 481-2|03,26
+DK|Ridge 481.2|02,68
+DK|Rinehart 473-2|01,173
+DK|Sherman 473-1|01,129
+DK|Solomon City  USD393-1|01,131
+DK|Solomon City  USD393-2|02,156
+DK|Solomon City  USD393-3|03,452
+DK|Union 481-2|02,63
+DK|Union 487|03,56
+DK|Wheatland 306 SM2|01,2
+DK|Wheatland 306 SM3|03,1
+DK|Wheatland 473-3|02,106
+DK|Willowdale 1-393-1|02,13
+DK|Willowdale 393-1|02,67
+DK|Willowdale 435-3|05,145
+DK|Willowdale1-473-1|01,15
+DK|Woodbine City USD 481|01,118
+DP|Burr Oak|01,113
+"DP|Center Twp USD 111 1,3,5,7|02",8
+"DP|Center Twp USD 111 2,4,6,7|06",5
+"DP|Center Twp USD 114 1,3,5,7|01",2
+DP|Center Twp USD 429 1-7|04,489
+DP|Denton City|01,98
+DP|Elwood City EGDD|01,712
+"DP|Highland City 1,3,5,7|01",435
+DP|Independence Twp USD 377 1-4|01,2
+"DP|Indp Twp USD 111 2,4,6,7|02",192
+"DP|Iowa Twp (WC) USD 111 1,3,5,7|01",62
+"DP|Iowa Twp USD 111 1,3,5,7|01",110
+"DP|Iowa Twp USD 111 2,4,6,7|02",149
+DP|Iowa Twp USD 429 1-7|03,13
+DP|Leona CIty|01,19
+DP|Marion Twp|01,171
+DP|Severance City|01,59
+DP|Troy City|01,649
+DP|Union Twp|01,108
+"DP|WA Twp-Wathena 114 1,3,5,7|02",95
+"DP|WA Twp-Wathena 114 2,4,6,7|01",95
+DP|Washington Twp-Blair|01,175
+DP|Washington Twp EGDD|02,19
+DP|Wathena City EGDD|02,156
+DP|Wathena City|01,698
+"DP|Wayne Twp-USD 111 2,4,6,7|03",5
+"DP|Wayne Twp-USD 114 1,3,5,7|01",14
+DP|Wayne Twp-USD 429 1-7|02,112
+DP|White Cloud City|01,98
+DP|Wolf River Twp-Sev USD 429|02,22
+"DP|WR Twp Leona USD 111 2,4,6,7|01",39
+"DP|WR Twp Sev USD 111 2,4,6,7|01",90
+ED|Belpre City / USD 351|01,50
+ED|Belpre Twp / USD 351|01,39
+ED|Belpre Twp / USD 502|02,28
+ED|Franklin Twp / USD 502|01,57
+ED|Jackson Twp / USD 347|01,38
+ED|KC Ward 1 / USD 347|01,453
+ED|KC Ward 2 / VTD 7a / USD 347|01,411
+ED|Kinsley Twp / USD 347|01,78
+ED|Kinsley Twp / USD 502|02,1
+ED|Lewis City / USD 502|01,216
+ED|Lincoln Twp / USD 351|01,76
+ED|Logan Twp / USD 347|01,19
+ED|N Brown Twp / USD 347|01,21
+ED|N Brown Twp / USD 502|02,23
+ED|Offerle City / USD 347|01,132
+ED|S Brown Twp / USD 347|01,20
+ED|S Brown Twp / USD 502|02,37
+ED|Trenton Twp / USD 347|01,59
+ED|Wayne Twp / USD 347|02,2
+ED|Wayne Twp / USD 502|01,55
+EK|Elk Falls City (282. 3&6)|01,95
+"EK|Elk Falls Township (282, 3&6)|01",64
+"EK|Greenfield Township (282, 3&6)|01",12
+"EK|Greenfield Township (462, 1-4)|02",62
+"EK|Grenola City (462, 1-4)|01",127
+"EK|Howard City (282, 2&5)|01",438
+"EK|Howard Township (282, 1&4)|02",37
+"EK|Howard Township (282, 3&6)|01",26
+"EK|Howard Township (282,2&5)|03",66
+"EK|Liberty Township (282, 1&4)|01",1
+"EK|Liberty Township (484, 3&6)|02",69
+"EK|Longton City (283, 1)|01",100
+"EK|Longton City (283, 3)|02",80
+"EK|Longton Township (283, 1)|02",17
+"EK|Longton Township (283, 3)|03",44
+"EK|Moline City (282, 3&6)|01",243
+"EK|Oak Valley Township (283, 1)|01",32
+"EK|Oak Valley Township (283, 3)|03",17
+"EK|Oak ValleyTownship (283, 2)|02",27
+"EK|Painterhood Township (282, 1&4|01",35
+"EK|Paw Paw Township (282, 1&4)|01",97
+"EK|Union Center Township (282,1&4|02",49
+"EK|Union Center Township (389, 5)|03",7
+"EK|Union Center Township(282, 3&6|04",7
+"EK|Wildcat Township (282, 3&6)|01",128
+"EK|Wildcat Township (462, 1-4)|02",2
+EL|001 H W1 P1|01,678
+EL|002 H W1 P2|01,826
+EL|003 H W2 P1|01,879
+EL|004 H W2 P2|01,704
+EL|005 H W2 P3|01,555
+EL|006 H W2 P4|01,626
+EL|007 H W2 P5|01,533
+EL|008 H W3 P1|01,587
+EL|009 H W3 P2|01,914
+EL|010 H W3 P3|01,935
+EL|011 H W3 P4|01,2199
+EL|012 H W4 P1|01,739
+EL|013 H W4 P2|01,1024
+EL|014 H W4 P3|01,741
+EL|015 H W4 P4|01,1349
+EL|016 H W4 P5|01,1168
+EL|017 Ellis City|01,1538
+EL|20.01 EBC 432/111|01,16
+EL|20.02 EBC/IMBC 489/111|02,415
+EL|20.03 EBC/IMSE 489/111|03,68
+EL|20.04 EBC 489/111|04,304
+EL|21.01 NBC 489/111|01,287
+EL|21.02 NBC/IMPA 489/111|02,101
+EL|22.01 WBC 489 /111|01,5
+EL|23.01 BU 270/110|01,33
+EL|23.02 BU 489/110|02,502
+EL|23.03 BU 269/110|03,5
+EL|23.05 BU 432/110|05,7
+EL|26.01 FR 432/110|01,69
+EL|26.02 FR 403/110|02,1
+EL|26.04 FR 489/110|04,2
+EL|27.01 HE 399/110|01,11
+EL|27.02 HE 407/110|02,2
+EL|27.03 HE 432/110|03,179
+EL|27.04 HE/GFD 432/110|04,106
+EL|50.01 NBC 489 /110|01,233
+EL|51.01 WBC 489/110|01,109
+EL|52.01 HE 432/111|01,105
+EL|52.02 HE/Vic City 432/111|02,886
+EL|54.01 SBC 388/110|01,43
+EL|54.02 SBC 489/110|02,263
+EL|54.03 SBC/Schoen 489/110|03,149
+EL|55.01 W BU 388/110|01,326
+EL|55.02 W BU 489/110|02,28
+EL|55.03 W BU 269/110|03,6
+EL|56.01 W FR 432/110|01,1
+EL|56.02 W FR 489/110|02,154
+EL|56.03 W FR Munj Imprv 489/110|03,149
+EW|Ash Creek (112/5)|03,1
+EW|Ash Creek (327/3)|01,44
+EW|Black Wolf (327/3)|01,80
+EW|Canren (327/1)|01,52
+EW|Carneiro (307/1)|01,16
+EW|Carneiro (327/3)|02,29
+EW|Clear Creek (327/3)|01,78
+EW|Columbia (112/2)|03,4
+EW|Columbia (327/3)|01,36
+EW|East Ellsworth 1-18 (327/2)|01,446
+EW|East Ellsworth 2-19 (327/2)|01,397
+EW|Ellsworth Twp (327/1)|01,127
+EW|Ellsworth Twp (327/3)|02,3
+EW|Ellsworth Twp/Kanopolis (327/1|02,23
+EW|Ellsworth Twp/Kanopolis (327/3|01,20
+EW|Empire Buckeye West (327/3)|01,32
+EW|Empire Venango East (327/3)|01,28
+EW|Empire Venango East (400/1)|02,88
+EW|Garfield (327/3)|01,34
+EW|Green Garden Twp (112/5)|02,49
+EW|Kanopolis City (327/3)|01,335
+EW|Langley (327/3)|01,2
+EW|Langley (400/1)|02,55
+EW|Langley (444/1)|03,1
+EW|Lincoln (112/5)|03,29
+EW|Lincoln (327/3)|01,12
+EW|Lorraine City (112/5)|02,82
+EW|Mulberry (307/1)|01,28
+EW|Mulberry (327/3)|02,2
+EW|Noble (112/4)|04,14
+EW|Noble (327/3)|01,40
+EW|Palacky (112/4)|04,43
+EW|Sherman (327/3)|01,49
+EW|Thomas (112/5)|03,32
+EW|Thomas (327/3)|01,11
+EW|Trivoli (327/3)|01,27
+EW|Trivoli (400/1)|02,2
+EW|Trivoli (444/1)|03,4
+EW|Valley (112/4)|03,61
+EW|Valley Twp/Holyrood (112/4)|01,284
+EW|West Ellsworth (327/1)|01,317
+EW|West Ellsworth (327/2)|02,227
+EW|Wilson City (112/1)|03,472
+EW|Wilson City (112/2)|01,55
+EW|Wilson Twp (112/2)|02,68
+FI|FRIEND 122 363 2/5|02,25
+FI|FRIEND 122 363 3/6|03,23
+FI|FRIEND 122 457|01,49
+FI|HOLCOMB City 122 363 1/4|01,652
+FI|HOLCOMB City 122 363 2/5|02,414
+FI|HOLCOMB City 122 363 3/6|06,257
+FI|HOLCOMB Rural 122 363 2/5|03,199
+FI|HOLCOMB Rural 122 363 3/6|04,207
+FI|HUFFMAN 122 363 2/5|01,65
+FI|HUFFMAN 122 457|02,658
+FI|J BARKER 122A DD2|01,483
+FI|J BARKER 122A|02,298
+FI|J BARKER 122C DD2|01,2
+FI|J BARKER 123A|01,24
+FI|J BARKER 123B DD2|01,8
+FI|J BARKER 123F DD2|01,8
+FI|J BARKER 123G DD2|01,4
+FI|J BARKER 123H|01,4
+FI|KALVESTA 122 102|01,72
+FI|KALVESTA 122 457|02,22
+FI|MACK 122A DD2|01,371
+FI|MACK 122A|02,204
+FI|MACK 122B|01,62
+FI|MACK 122C|01,5
+FI|PIERCEVILLE 122 DD2|01,2
+FI|PIERCEVILLE 122|02,291
+FI|PLEASANT VALLEY 122|01,106
+FI|PLYMELL 122|01,255
+FI|RIVERSIDE 122|01,920
+FI|THEONI 122|01,90
+FI|WARD 01 122B DD2|02,4
+FI|WARD 01 122E|01,264
+FI|WARD 01 123B|01,392
+FI|WARD 02 122|01,1123
+FI|WARD 02 123|01,16
+FI|WARD 03 123|01,1019
+FI|WARD 04 123|01,510
+FI|WARD 05 123|01,892
+FI|WARD 06 122A DD2|01,265
+FI|WARD 06 122A|02,18
+FI|WARD 06 122B DD2|01,5
+FI|WARD 06 122C DD2|01,217
+FI|WARD 06 122C|02,321
+FI|WARD 06 123F|01,1005
+FI|WARD 07 123|01,683
+FI|WARD 08 123F|01,1466
+FI|WARD 09 123|01,794
+FI|WARD 10 123|01,591
+FI|WARD 11 123|01,831
+FI|WARD 12 123|01,721
+FI|WARD 13 123|01,691
+FI|WARD 14 123A DD2|01,249
+FI|WARD 14 123A|02,73
+FI|WARD 14 123B DD2|01,200
+FI|WARD 14 123B|02,394
+FI|WARD 15 123A DD2|01,420
+FI|WARD 15 123A|02,211
+FI|WARD 15 123B|02,643
+FI|WARD 16 123 DD2|02,606
+FI|WARD 16 123|01,451
+FO|Bloom Twp/219/mhd|01,61
+FO|Bucklin City/459/bhd/bcd|01,497
+FO|Bucklin Twp/381/1-4/shd|02,5
+FO|Bucklin Twp/459/bhd/bcd|05,55
+FO|Bucklin Twp/459/bhd|03,3
+FO|Concord Twp/102|01,33
+FO|Concord Twp/443|02,29
+FO|DC pct 1/443/H115 A|01,922
+FO|DC pct 1/443/H119 B|02,896
+FO|DC pct 12/443|01,5
+FO|DC pct 2/443/H119 B|01,1174
+FO|DC pct 3/443/H119 B|01,1554
+FO|DC pct 4/443/H115 A|01,55
+FO|Dc pct 4/443/H119 B|02,2095
+FO|DC pct 5/443|01,2048
+FO|DC pct 5/pws/443|02,574
+FO|DC pct 6/443/H115 A|01,740
+FO|DC pct 6/443/H119 B|01,462
+FO|DC pct 6/pws/443/H115 A|02,826
+FO|DC pct 6/pws/443/H119 B|02,730
+FO|DC pct 7/pws/443/H119 A|01,400
+FO|DC pct 7/pws/443/H119 B|02,51
+FO|DC Pct 9/pws/443/H119 A|01,38
+FO|DC Pct 9/pws/443/H119 B|02,98
+FO|Dodge Twp H119|01,72
+FO|Dodge TWP N H119/443/pws|01,27
+FO|Dodge TWP W H119|01,1
+FO|Dodge Twp/003/443/H115 A|01,20
+FO|Dodge Twp/003/443/H119 B|02,50
+FO|Dodge Twp/443/pws|02,155
+FO|Dodge Twp/443|01,200
+FO|Enterprise TWP H119|01,48
+FO|Enterprise Twp/219|01,1
+FO|Enterprise Twp/443/wgd/wgi|03,186
+FO|Enterprise Twp/443|02,235
+FO|Fairview Twp/102|01,44
+FO|Fairview Twp/443/pws|03,7
+FO|Fairview Twp/443|02,146
+FO|Ford City/459/bhd|01,131
+FO|Ford Twp/219|01,2
+FO|Ford Twp/443|02,31
+FO|Ford Twp/459/bhd/bcd|04,14
+FO|Ford Twp/459/bhd|05,32
+FO|Ford Twp/459|03,19
+FO|Grandview Twp East H115 B/PWS|03,6
+FO|Grandview Twp Ward 2 443/H115A|01,30
+FO|Grandview Twp Ward 2 443/H119C|04,49
+FO|Grandview Twp/443/H115|01,13
+FO|Grandview Twp/443/pws/H115|02,161
+FO|Grandview Twp/443/pws/WID/H115|03,103
+FO|Richland Twp/443|01,445
+FO|Royal Twp/443/pws|02,209
+FO|Sodville Twp/459/bhd/bcd|02,72
+FO|Spearville City/381/2-5/shd|01,338
+FO|Spearville City/381/3-6/shd|02,246
+FO|Spearville Twp/381/1-4/pws/shd|06,25
+FO|Spearville Twp/381/1-4/shd|01,206
+FO|Spearville Twp/443/shd/pws|10,3
+FO|Spearville Twp/443/shd|04,25
+FO|Spearville Twp/459/shd|05,32
+FO|Wheatland Twp/347/shd|01,49
+FO|Wheatland Twp/381/1-4/shd|02,61
+FO|Wilburn Twp/102|01,5
+FO|Wilburn Twp/219/mhd|02,27
+FO|Wilburn Twp/225|03,26
+FR|Appanoose Twp/287/1-4|01,217
+FR|Cntrp N Twp/287/1-4|01,358
+FR|Cntrp N Twp/348/3-6|02,17
+FR|Cntrp S Twp/287/1-4|01,145
+FR|Cntrp S Twp/287/2-5/DD|04,21
+FR|Cntrp S Twp/287/2-5|02,210
+FR|Cntrp S Twp/290|03,4
+FR|Cutler Twp/288/A|01,138
+FR|Cutler Twp/288/B|02,308
+FR|Cutler Twp/290|03,53
+FR|Franklin Twp/289/2-5|01,598
+FR|Franklin Twp/289/3-6|02,338
+FR|Greenwood Twp/287/2-5/DD|05,23
+FR|Greenwood Twp/287/2-5|04,53
+FR|Greenwood Twp/287/3-6|01,232
+FR|Greenwood Twp/290|02,26
+FR|Greenwood Twp/456/3-6|03,8
+FR|Harrison Twp/288|01,17
+FR|Harrison Twp/290|02,371
+FR|Hayes Twp/287/1-4|01,63
+FR|Hayes Twp/289/2-5|02,4
+FR|Hayes Twp/289/3-6|03,83
+FR|Hayes Twp/290|04,187
+FR|Hayes Twp/348/3-6|05,54
+FR|Hayes/348/2-5|06,14
+FR|Homewood Twp/287/3-6|02,351
+FR|Homewood Twp/288|03,33
+FR|Homewood Twp/290|04,66
+FR|Lane City/288|01,164
+FR|Lincoln Twp/287/2-5/DD|06,26
+FR|Lincoln Twp/287/2-5|01,10
+FR|Lincoln Twp/287/3-6|02,132
+FR|Lincoln Twp/288|03,9
+FR|Lincoln Twp/290/DD|05,43
+FR|Lincoln Twp/290|04,558
+FR|Ohio Twp/287/3-6|01,2
+FR|Ohio Twp/288/A|02,306
+FR|Ohio Twp/288/B|03,55
+FR|Ohio Twp/290|04,41
+FR|Ottawa City P1/290|01,898
+FR|Ottawa City P2/290/DD|02,7
+FR|Ottawa City P2/290|01,1051
+FR|Ottawa City P3/290|01,647
+FR|Ottawa City P4/290|01,1847
+FR|Ottawa City P6/290|01,678
+FR|Ottawa City P7/290/DD|02,8
+FR|Ottawa City P7/290|01,1903
+FR|Ottawa City P8/290|01,1780
+FR|Ottawa Twp/287/1-4|01,234
+FR|Ottawa Twp/287/2-5/DD|05,6
+FR|Ottawa Twp/287/2-5|02,1
+FR|Ottawa Twp/289/3-6|03,35
+FR|Ottawa Twp/290/DD|06,21
+FR|Ottawa Twp/290|04,363
+FR|Peoria Twp/289/3-6|02,519
+FR|Peoria Twp/290|03,31
+FR|Peoria Twp/368/1-4|04,14
+FR|Pomona City/287/2-5|01,576
+FR|Pomona Twp/287/2-5/DD|02,12
+FR|Pomona Twp/287/2-5|01,158
+FR|Pottawatomie Twp/288/A|01,62
+FR|Pottawatomie Twp/288/B|02,125
+FR|Pottawatomie Twp/288/C|03,110
+FR|Pottawatomie Twp/290|04,1
+FR|Pottawatomie Twp/365/1-4|05,16
+FR|Princeton City/288|01,197
+FR|Rantoul City/288|01,124
+FR|Richmond City/288|01,295
+FR|Richmond Twp/288|02,222
+FR|Richmond Twp/365/1-4|03,47
+FR|Wellsville/289/1-4|01,1369
+FR|Williamsburg City/287/3-6|01,220
+FR|Williamsburg Twp/243/3-6|01,2
+FR|Williamsburg Twp/287/3-6|02,262
+GE|Blakely - USD 473|01,8
+GE|Blakely - USD 475|02,68
+GE|Blakely - USD 481|03,11
+GE|Fort Riley Precinct A H65|01,582
+GE|Fort Riley Precinct B H65|01,457
+GE|Fort Riley Precinct B H68|01,757
+GE|Grandview Plaza Precinct|01,856
+GE|Jackson - USD 383|01,16
+GE|Jackson - USD 417|02,12
+GE|Jackson - USD 475|03,32
+GE|Jefferson 06 (Jefferson)|01,331
+GE|Liberty - USD 329|01,1
+GE|Liberty - USD 383|02,15
+GE|Liberty - USD 417|03,123
+GE|Liberty - USD 475|04,10
+GE|Liberty - USD 481|05,1
+GE|Lyon - USD 473|01,218
+GE|Lyon - USD 475|02,4
+GE|Lyon - USD 481|03,3
+GE|Milford - USD 378|01,11
+GE|Milford - USD 473|02,6
+GE|Milford - USD 475|03,930
+GE|Milford City - USD 475|01,276
+GE|SH PR 5 USD 473 H65|01,146
+GE|SH PR 5 USD 473 H68|01,37
+GE|SH PR 5 USD 475 H65|02,90
+GE|Smoky HiIl PR 4|01,112
+GE|Smoky Hill PR 2|01,8
+GE|Smoky Hill PR 3 USD 473|01,135
+GE|Smoky Hill PR 3 USD 475|02,11
+GE|Smoky Hill PR 6 H68|01,53
+GE|Ward 1 Precicnt 2 H68|01,96
+GE|Ward 1 Precinct 1|01,514
+GE|Ward 1 Precinct 2 H65|01,313
+GE|Ward 1 Precinct 3 H65|01,298
+GE|Ward 1 Precinct 3 H68|01,277
+GE|Ward 1 Precinct 4|01,991
+GE|Ward 1 Precinct 5 H65|01,199
+GE|Ward 1 Precinct 5 H68|01,411
+GE|Ward 1 Precinct 6 H65|01,490
+GE|Ward 1 Precinct 6 H68|01,423
+GE|Ward 1 Precinct 7 H65|01,370
+GE|Ward 1 Precinct 7 H68|01,694
+GE|Ward 2 Precinct 1 H65|01,124
+GE|Ward 2 Precinct 1 H68|01,96
+GE|Ward 2 Precinct 2|01,537
+GE|Ward 2 Precinct 3|01,126
+GE|Ward 2 Precinct 4|01,78
+GE|Ward 2 Precinct 5|01,520
+GE|Ward 2 Precinct 6|01,378
+GE|Ward 2 Precinct 7|01,961
+GE|Ward 2 Precinct 8|01,301
+GE|Ward 3 Precinct 1 H65|01,162
+GE|Ward 3 Precinct 1 H68|01,176
+GE|Ward 3 Precinct 2|01,756
+GE|Ward 3 Precinct 3|01,928
+GE|Ward 3 Precinct 4|01,467
+GE|Ward 4 Precinct 1|01,577
+GE|Ward 4 Precinct 2 H65|01,337
+GE|Ward 4 Precinct 2 H68|01,49
+GE|Ward 4 Precinct 3|01,857
+GE|Ward 4 Precinct 4|01,875
+GE|Wingfield - USD 417|01,1
+GE|Wingfield - USD 475|02,134
+GH|Allodium Twp/USD 211/2-5|02,16
+GH|Allodium Twp/USD 211/3-6|03,2
+GH|Allodium Twp/USD 281|01,11
+GH|Bogue City/USD 281|01,109
+GH|Bryant Twp/USD 208|03,3
+GH|Bryant Twp/USD 281|01,50
+GH|Bryant Twp/USD 412|02,3
+GH|Gettysburg Twp/USD 281|01,44
+GH|Graham Twp/USD 211/1-4|02,4
+GH|Graham Twp/USD 281|01,37
+GH|Happy Twp/USD 208|02,1
+GH|Happy Twp/USD 281|01,38
+GH|Hill City#1|01,135
+GH|Hill City#2|01,623
+GH|Hill City#3|01,220
+GH|Hill CityTwp#71|01,8
+GH|Hill CityTwp#72|01,58
+GH|Hill CityTwp#73|01,44
+GH|Indiana Twp/USD 211/2-5|02,10
+GH|Indiana Twp/USD 281|01,13
+GH|Millbrook Twp/USD 281|01,85
+GH|Morlan Twp/USD 269 #1|02,3
+GH|Morlan Twp/USD 269 #2|03,3
+GH|Morlan Twp/USD 269 #3|04,19
+GH|Morlan Twp/USD 281|01,21
+GH|Morland City/Gettys.Twp/USD281|02,14
+GH|Morland City/Sol.Twp/USD281|01,97
+GH|Nicodemus Twp/USD 281|01,38
+GH|Pioneer Twp/USD 281|01,14
+GH|Pioneer Twp/USD 326 #4|03,10
+GH|Solomon Twp/USD 281|01,33
+GH|Wildhorse Twp/USD 269 #1|02,19
+GH|Wildhorse Twp/USD 281|01,29
+GL|Horace City|01,57
+GL|Tribune City|01,543
+GL|Tribune Twp|01,245
+GO|Baker (293) CC1|02,37
+GO|Baker (293) CC2|03,150
+GO|Baker (293) Quinter|01,639
+GO|Gaeland (274) CC3|13,16
+GO|Gaeland (291) CC3|16,17
+GO|Gove (291) CC3|14,4
+GO|Gove (292) CC3|13,85
+GO|Gove (292) Gove|01,59
+GO|Grainfield (292) CC2|12,34
+GO|Grainfield (292) CC3|13,32
+GO|Grainfield (292) Grainfield|01,187
+GO|Grinnell (274) CC3|12,17
+GO|Grinnell (291) CC3|15,75
+GO|Grinnell (291) Grinnell|01,174
+GO|Jerome (292) CC3|13,20
+GO|Jerome (293) CC3|16,43
+GO|Jerome (466) CC3|11,12
+GO|Jerome (482) CC3|12,8
+GO|Larrabee (293) CC3|12,26
+GO|Larrabee (482) CC3|15,1
+GO|Lewis (274) CC3|11,3
+GO|Lewis (291) CC3|12,2
+GO|Lewis (466) CC3|14,1
+GO|Payne (292) CC2|11,49
+GO|Payne (292) Park|01,94
+GO|Payne (293) CC2|12,30
+"GT|001.2 Ward 1, Com 3, BM 1-4|02",701
+"GT|002.1 Ward 2, Com 1, BM 3-6|01",1098
+"GT|003.1 Ward 3, Com 2, BM 2-5|01",1207
+"GT|004.1 Pre 4, Com 3, 209|01",11
+"GT|004.3 Pre 4, Com 3, 452|03",3
+"GT|004.4 Pre 4, Com 3, 507|04",13
+"GT|004.5 Pre 4, Com 3, BM 1-4|05",320
+"GT|005.1 Pre 5, Com 1 BM 3-6|01",270
+"GT|005.2 Pre 5, Com 1, 452|02",1
+"GT|006.1 Pre 6, Com 2 BM 2-5|01",150
+GW|Bach TWP 389 Mem 3|01,159
+GW|Bachelor TWP 389 Mem 5|02,8
+GW|Bachelor TWP 390|03,11
+GW|Climax City|01,49
+GW|Eureka TW 389 Mem 1-Com4|07,8
+GW|Eureka TWP 389 Mem 1-Com3|01,90
+GW|Eureka TWP 389 Mem 2-Com3|02,27
+GW|Eureka TWP 389 Mem 2-Com4|08,9
+GW|Eureka TWP 389 Mem 4-Com3|03,35
+GW|Eureka TWP 389 Mem 4-Com4|09,1
+GW|Eureka TWP 389 Mem 5-Com4|04,64
+GW|Eureka TWP 389 Mem 6-Com4|05,79
+GW|Fall River City|01,131
+"GW|Fall River TWP 282 Dist1, Pos4|04",12
+GW|Fall River TWP 389 Mem 3|02,45
+GW|Fall River TWP Mem 5|03,50
+GW|Hamilton City|01,179
+GW|Janesville Twp 386|01,6
+GW|Janesville TWP 389|02,1
+GW|Janesville Twp 390 Mem 1-4|03,30
+GW|Janesville TWP 390 Mem 2-5|04,122
+GW|Lane TWP 386|01,27
+GW|Madison City 386 Mem 1-4|01,287
+GW|Madison City 386 Mem 3-6|02,187
+GW|Madison TWP 386 Mem 2-5|01,215
+GW|Madison TWP 386 Mem 3-6|03,37
+GW|Otter Creek TWP 205|01,2
+GW|Otter Creek TWP 282|02,2
+GW|Otter Creek TWP 389  Mem 5|03,116
+GW|Pleasant Grove TWP 389 Mem 3|01,39
+GW|Quincy TWP 386 Mem 2-5|02,3
+GW|Quincy TWP 389 Commission 1|03,54
+GW|Quincy TWP 389 Commission 3|04,7
+GW|Quincy TWP 390|05,37
+GW|Salem TWP 389|01,19
+GW|Salem TWP 390|02,6
+GW|Salem TWP 492|03,2
+GW|Salt Springs TWP 282|01,60
+GW|Salt Springs TWP 389|02,52
+GW|Salt Springs TWP 484|03,88
+GW|Severy City|01,163
+GW|Shell Rock TWP 245 Mem 2|01,12
+GW|Shell Rock TWP 386 Mem 2-5|04,62
+GW|Shell Rock TWP 386 Mem 3-6|05,44
+GW|South Salem TWP 389 Comm 2|01,73
+GW|South Salem TWp 492|04,1
+GW|Spring Creek TWP 389 Mem 1|01,7
+GW|Spring Creek TWP 389 Mem 5|02,90
+"GW|Twin Grove TWP 282 Dist1, Pos1|01",59
+"GW|Twin Grove TWP 282 Dist1, Pos4|03",118
+GW|Twin Grove TWP 389  Mem 5|04,25
+GW|Virgil City|01,44
+GW|Ward 1|01,619
+GW|Ward 2|01,423
+GW|Ward 3|01,513
+GY|Cimarron City E USD 102|01,1070
+GY|Cimarron City NW USD 102|01,259
+GY|Cimarron City SW USD 102|02,92
+GY|Cimarron Twp E USD 102|02,132
+GY|Cimarron Twp NW USD 102|03,20
+GY|Cimarron Twp NW USD 477|04,6
+GY|Cimarron Twp SW USD 102|01,80
+GY|Cimarron Twp SW USD 477|02,3
+GY|Cimarron Twp USD 102|01,11
+GY|Copeland City USD 476|01,143
+GY|Copeland Twp USD 371|01,9
+GY|Copeland Twp USD 476|02,70
+GY|East Hess Twp USD 102|01,86
+GY|East Hess Twp USD 102|02,5
+GY|East Hess Twp USD 225|03,9
+GY|East Hess Twp USD 371|04,15
+GY|Ensign City USD 102|01,124
+GY|Foote Twp USD 102|01,16
+GY|Foote Twp USD 102|02,23
+GY|Foote Twp USD477|03,16
+GY|Ingalls City USD 477|01,189
+GY|Ingalls Twp USD 476|01,4
+GY|Ingalls Twp USD 477|02,157
+GY|Logan Twp USD 477|01,150
+GY|Montezuma City USD 371|01,415
+GY|Montezuma Twp USD 102|02,9
+GY|Montezuma Twp USD 102|03,14
+GY|Montezuma Twp USD 371|04,170
+"HG|1.1 Hanston City, N, 228, C1|01",104
+"HG|1.2 Marena Twp N 228, C1|02",74
+"HG|1.3 Marena Twp N 496, C1|03",6
+"HG|10.1 Valley 227, C1|01",33
+"HG|10.2 Valley 228, C1|02",2
+"HG|11.1 W Sawlog, 227, Com 5|01",26
+"HG|12.1City of Jetmore, N, C2|01",234
+"HG|13.1 Jetmore, City S, C3|01",247
+"HG|14.1Jetmore City NW, C5|01",65
+"HG|14.2 Center SW, C5|02",49
+"HG|15.1 Center Twp SE,C4 227|01",31
+"HG|16.1 Center Twp N, 227, C1|01",49
+"HG|2.1 Hanston City, S, 228, C4|01",74
+"HG|2.2 Marena S, 228, C4|02",29
+"HG|3.1 Benton Twp, 227, C5|01",29
+"HG|5.1 Hallet, C5, 227|01",32
+"HG|6.1 North Roscoe, C5, 227|01",30
+"HG|7.1 South Roscoe, C5, 227|01",35
+"HG|7.2 South Roscoe, C5, 102|02",7
+"HG|7.3 South Roscoe, C5, 443|03",5
+"HG|8.1 Sawlog E 227, Com 4|01",32
+"HG|9.1 Sterling 227, C4|01",2
+"HG|9.2 Sterling 347, C4|02",11
+"HG|9.3 Sterling 228, C4|03",47
+"HG|9.4 Sterling 381, C4|04",16
+"HG|9.5 Sterling 496, C4|05",1
+HM|Bear Creek T/S|01,23
+HM|Coolidge City|03,51
+HM|Coolidge T/S|02,21
+HM|Kendall T/S|04,60
+HM|Lamont T/S|05,51
+HM|Liberty T/S|07,27
+HM|Medway T/S|08,31
+HM|Richland T/S|09,14
+HM|Syracuse 1 City|10,225
+HM|Syracuse 1 T/S|11,32
+HM|Syracuse 2 City|12,141
+HM|Syracuse 2 T/S|13,33
+HM|Syracuse 3 City|14,207
+HM|Syracuse 3 T/S|16,29
+HM|Syracuse 4 City|17,89
+HM|Syracuse 4 T/S|19,17
+HM|Syracuse 5 City/usd 3|30,99
+HM|Syracuse 5 City|20,134
+HM|Syracuse 5 T/S|22,43
+HP|Anthony / WD1/H832/SD361|01,719
+HP|Anthony / WD2/H832/SD361|02,295
+HP|Anthony / WD3/H832/SD361|03,175
+HP|Anthony / WD4/H832/SD361|04,230
+HP|Anthony Lake / WD2/H832/SD361|01,47
+HP|Anthony PowerPl/WD3/832/361|01,2
+HP|Attica / USD 511/H22|01,361
+HP|Bluff / USD 361/H832|01,34
+HP|Danville / USD 361|01,24
+HP|Harper / WD1 / H832 / 361|01,395
+HP|Harper / WD2 / H832 / 361|02,461
+HP|Twp1 / SD332 / H22|01,11
+HP|Twp1 / SD361 / H22 / MD3|03,53
+HP|Twp1 / SD511 / H22|02,144
+HP|Twp2 / SD255 / H832|01,10
+HP|Twp2 / SD361 / H22|03,17
+HP|Twp2 / SD361 / H832|04,28
+HP|Twp2 / SD511 / H22|02,2
+HP|Twp3 / SD361 / H832/ MD 1 / C3|01,31
+HP|Twp3 / SD361 / H832/ MD 2|02,73
+HP|Twp3 /C1/SD361/H832/MD1|01,118
+HP|Twp4 / SD361 / H832|03,55
+HP|Twp4 / SD361 H832|02,54
+HP|Twp5 / SD359|01,25
+HP|Twp5 / SD361 / H832 / MD2|03,122
+HP|Twp5 / SD361 / H832 / MD3|04,25
+HP|Twp5 / SD361|02,40
+HP|Twp5 /C1/SD361/MD3/H832|01,91
+HP|Twp6 / C2/SD361/H832/MD3|04,102
+HP|Twp6 / SD331 / H833|01,18
+HP|Twp6 / SD359 / H832|02,4
+HP|Twp6 / SD359 / H833|03,4
+HP|Twp6 / SD361 / H833 / MD3|05,17
+HP|Twp6 /C1/SD361/H832/MD3|01,68
+HP|Waldron / H832 / USD 361|01,6
+HS|Ivanhoe (012) 1/374|01,62
+HS|Ivanhoe (013) 1/374/HD|02,25
+HS|N Dudley (019)  2/374|01,14
+HS|N Dudley (020) 2/507-1|02,54
+HS|N Lockport (006) 39/3/476|02,48
+HS|N Lockport (007) 39/3/374|01,31
+HS|S Lockport (006) 3/476|05,19
+HS|S Lockport (007) 39/3/374|04,62
+HS|Satanta 1 (001) 1/507/2/HD/CI|08,151
+HS|Satanta 1 (020) 1/507-2/HD|07,5
+HS|Satanta 2 (001) 2/507-1/HD|06,85
+HS|Satanta 2 (001) 2/507-2/HD|04,146
+HS|Satanta 2 (001) 2/507-3/HD|05,297
+HS|Satanta 2 (020) 2/507-2|02,4
+HS|Satanta 2 (020) 2/507-3|03,32
+HS|Satanta 2 (020) 507-1|01,84
+HS|Sublette 1 (012) 1/374/H124|04,144
+HS|Sublette 1(002) 1/374/CI/H124|03,546
+HS|Sublette 1(013)1/374/HD/H124|05,11
+HS|Sublette 1(014)1/507-1/HD/H122|01,3
+HS|Sublette 1(014)1/507-2/HD/H124|02,3
+HS|Sublette 3 (002) 3/374/CI H124|01,383
+HS|Sublette 3 (012) 3/374|06,5
+HV|1.1  Burrton City - 369|01,497
+HV|2-1-1.1 Halstead City - 440-1|01,400
+HV|2-1-1.2 Halstead City - 440-2|02,161
+HV|2-1-2.1 Halstead City  - 440-1|01,9
+HV|2-1-2.2 Halstead City - 440-2|02,842
+HV|3-1-1 Hesston City - 460|01,1333
+HV|3-1-2 Hesston City - 460|01,1198
+HV|4-1-1 Newton City - 373|01,737
+HV|4-1-2 Newton City - 373|01,615
+HV|4-1-3 Newton City - 373|01,451
+HV|4-2-1 Newton City - 373|01,697
+HV|4-2-2 Newton City - 373|01,1597
+HV|4-3-1 Newton City - 373|01,617
+HV|4-3-2 Newton City - 373|01,1018
+HV|4-3-3 Newton City - 373|01,892
+HV|4-3-4 Newton City - 373|01,2090
+HV|4-4-1 Newton City - 373|01,788
+HV|4-4-2 Newton City - 373|01,1310
+HV|4-4-3 Newton City - 373|01,999
+HV|4-4-4 Newton City - 373|01,428
+HV|5.1 North Newton - 373|01,1371
+HV|6.1 Sedgwick City - 439-1|01,403
+HV|6.2 Sedgwick City - 439-2|02,533
+HV|7.1  Walton City - 373|01,153
+HV|A1.1 Alta - 313-3|01,88
+HV|A1.1 Alta 313-3 - FD5|015,32
+HV|A1.2 Alta - 369|02,11
+HV|A1.2 Alta 369 - FD5|025,16
+HV|A1.3 Alta - 423-3|03,27
+HV|A2.1 Garden - 423-3|01,181
+HV|A2.2 Garden - 440-1|02,16
+HV|A2.3 Garden - 460|03,3
+HV|A3.1 Emma - 423-3|01,7
+HV|A3.2 Emma - 460|02,374
+HV|A4.1 Highland - 373 - FD1|011,86
+HV|A4.1 Highland - 373|01,4
+HV|A4.2 Highland - 411-3 - FD1|02,18
+HV|A4.3 Highland - 460 - FD1|031,56
+HV|A4.3 Highland - 460|03,98
+HV|A5.1 Walton - 373 - FD1|01,150
+HV|A5.2 Walton - 398-2 - FD1|021,7
+HV|A5.2 Walton - 398-2|02,15
+HV|A5.3 Walton - 398-1 - FD1|031,43
+HV|A5.3 Walton - 398-1|03,12
+HV|A6.1 Burrton - 369|01,126
+HV|A7.1 Halstead - 440-1 LAR|01L,29
+HV|A7.1 Halstead - 440-1|01,199
+HV|A8.1 Macon - 373|01,7
+HV|A8.2 Macon - 440-1|02,219
+HV|A8.3 Macon - 460|03,48
+HV|A8E.1 Macon East 72 - 373|01,57
+HV|A8E.2 Macon East 72 - 440-1|02,2
+HV|A8E.3 Macon East 72 - 460|03,3
+HV|A9.1 Newton - 373 Part A|01,4
+HV|A9.2 Newton - 373 Part B|02,205
+HV|A9C.3 Newton 72 - 373 Part C|03,7
+HV|A9C.4 Newton 72 - 373 Part D|04,59
+HV|A9C.5 Newton 72 - 373 Part E|05,2
+HV|A9N.1 Newton 74 - 373 Part A|01,3
+HV|A9N.2 Newton 74 - 373 Part B|02,36
+HV|B1.1 Pleasant - 206 - FD1|011,74
+HV|B1.1 Pleasant - 206|01,106
+HV|B1.2 Pleasant - 373 - FD1|021,131
+HV|B1.2 Pleasant - 373|02,53
+HV|B2.1 Lake - 312-3 - FD5|01,3
+HV|B2.2 Lake - 369 - FD5|02,56
+HV|B2.3 Lake - 369 - FD5mh|03,50
+HV|B2.4 Lake - 440-3 - FD5|04,2
+HV|B3.1 Lakin - 439-3|01,25
+HV|B3.2 Lakin - 440-3 LAR|02L,1
+HV|B3.2 Lakin - 440-3|02,130
+HV|B3.3 Lakin - 440-1 LAR|03L,2
+HV|B3.3 Lakin - 440-1|03,37
+HV|B4.2 Sedgwick - 439-3|02,86
+HV|B4.3 Sedgwick - 440-3|03,30
+HV|B4.4 Sedgwick - 440-1|04,20
+HV|B4E.1 Sedgwick East-72 - 373|01,4
+HV|B4E.2 Sedgwick East-72 - 439-3|02,74
+HV|B4E.3 Sedgwick East-72 - 440-3|03,12
+HV|B4E.4 Sedgwick East-72 - 440-1|04,6
+HV|B5.1 Darlington - 206|01,29
+HV|B5.2 Darlington - 262-2|02,3
+HV|B5.3 Darlington - 373|03,267
+HV|B5.4 Darlington - 439-3|04,41
+HV|B5N.3 Darlington North - 373|03,89
+HV|B6.1 Richland - 206|01,268
+HV|B6.2 Richland - 373|02,28
+JA|Adria-USD 321 1-4 HOSPITAL|04,91
+JA|Adrian-USD 322 6 HOSPITAL|05,2
+JA|Adrian - USD 321 1-4|01,24
+JA|Banner - USD 336.|02,197
+JA|Banner - USD 336|01,57
+JA|Cedar - USD 336.|02,95
+JA|Cedar - USD 336|01,88
+JA|Cedar - USD 337 1-4|03,153
+JA|Cedar - USD 337 3-6|04,391
+JA|Circleville City - USD 335 3|01,106
+JA|Delia - USD 321 1-4|01,97
+JA|Denison City - USD 336|01,103
+JA|Douglas -  USD 340 1-4|04,58
+JA|Douglas - USD 337 2-5|01,499
+JA|Douglas - USD 337 3-6|02,699
+JA|Douglas - USD 338 1-4|03,28
+JA|Franklin - USD 336|01,108
+JA|Franklin - USD 337 1-4|04,8
+JA|Franklin - USD. 336|03,299
+JA|Franklin East 337 1-4|04,5
+JA|Franklin East USD 336.|02,53
+JA|Franklin East USD 336|01,20
+JA|Franklin East USD. 336|03,259
+JA|Garfield - USD 336.|02,147
+JA|Garfield - USD 336|01,70
+JA|Garfield - USD 337 3-6|04,2
+JA|Garfield - USD. 336|03,114
+JA|GRANT-USD 322 6  HOSPITAL|05,38
+JA|GRANT-USD 335 1 HOSPITAL|06,20
+JA|Grant - USD 322   6|01,12
+JA|Grant - USD 335 1|02,46
+JA|Grant - USD 336.|04,6
+JA|Holton  City lake 336|01,2
+JA|Holton City - Ward 1 - 336|01,702
+JA|Holton City - Ward 2 - 336|01,795
+JA|Holton City - Ward 3 - 336|01,523
+JA|Holton City Illinois Ave East|01,16
+JA|Hoyt City - USD 337 2-5|01,404
+JA|Jefferson-USD 335 4|04,2
+JA|Jefferson - USD 335 3|01,162
+JA|Jefferson - USD 336|02,25
+JA|Jefferson -USD 335 3|03,86
+JA|Liberty - USD 335 4|03,90
+JA|Liberty - USD 335 5|01,33
+JA|Liberty - USD 336|02,257
+JA|Lincoln - USD 321 1-4|01,58
+JA|Lincoln - USD 336|02,17
+JA|Lincoln - USD 337 1-4|03,726
+JA|Mayetta City - USD 337 1-4|01,166
+JA|Mayetta City - USD 337 3-6|05,33
+JA|N St Cr USD 335 5|01,22
+JA|N St. Creek USD 377 1-4|02,3
+JA|NE Liberty USD 335 5|01,1
+JA|Netawaka - USD 335 4|01,135
+JA|Netawaka City - USD 335 4|01,120
+JA|Soldier-USD 322 1 HOSPITAL|03,13
+JA|Soldier-USD 335 1 HOSPITAL|04,41
+JA|Soldier - USD 335 1|02,145
+JA|Soldier City - USD 335 1|01,70
+JA|St. Creek -  USD 377 3-6|04,1
+JA|St. Creek - USD 335 5|01,27
+JA|St. Creek - USD 336|02,65
+JA|Ward 3 Industrial Park|01,7
+JA|Washington - USD 321 1-4 HOSP|03,63
+JA|Washington - USD 321 1-4|01,192
+JA|Washington - USD 337 2-5|02,23
+JA|Whiting - USD 335 5|01,87
+JA|Whiting - USD 430 2-5|02,11
+JA|Whiting City - USD 335 5|01,138
+JF|Delaware 336 2/5|01,8
+JF|Delaware 338 1/4|02,171
+JF|Delaware 338 2/5|03,175
+JF|Delaware 338 3/6|04,204
+JF|Delaware 339 2/5|05,2
+JF|Delaware 377 3/6|06,2
+JF|East Fairview 341 1/4|01,306
+JF|East Fairview 341 LSV 1/4|02,191
+JF|East Fairview 341 LWH 1/4|03,222
+JF|Jefferson 339 2/5|01,322
+JF|Jefferson 339 3/6|02,172
+JF|Jefferson 449|03,3
+JF|Kaw 340 2/5|01,8
+JF|Kaw 340 3/6|02,302
+JF|Kaw 343 1/4|03,558
+JF|Kaw 345|04,175
+JF|Kentucky 343 1/4|01,458
+JF|Kentucky 343 2/5|02,127
+JF|McLouth City 342 2/5|05,649
+JF|Meriden City 340 2/5|06,508
+JF|Norton 338 3/6|01,10
+JF|Norton 339 1/4|02,37
+JF|Norton 339 2/5|03,161
+JF|Nortonville City 339 1/4|05,411
+JF|Oskaloosa 339 2/5|05,25
+JF|Oskaloosa 339 3/6|01,16
+JF|Oskaloosa 341 1/4|02,119
+JF|Oskaloosa 341 2/5|03,349
+JF|Oskaloosa 341 3/6|04,295
+JF|Oskaloosa City 341 2/5|06,379
+JF|Oskaloosa City 341 3/6|07,337
+JF|Ozawkie 338 1/4|01,62
+JF|Ozawkie 338 Fire 11 1/4|04,96
+JF|Ozawkie 340 1/4|02,157
+JF|Ozawkie 341 1/4|03,249
+JF|Ozawkie 341 LSE 1/4|05,207
+JF|Ozawkie City 340 1/4|06,483
+JF|Perry City 343 2/5|03,673
+JF|Rock Creek 338 1/4|01,87
+JF|Rock Creek 340 1/4|02,791
+JF|Rock Creek 340 2/5|03,402
+JF|Rock Creek 340 3/6|04,382
+JF|Rock Creek 343 1/4|05,8
+JF|Rural 341 3/6|01,59
+JF|Rural 343 2/5|02,551
+JF|Sarcoxie E 342 3/6 Split|02,665
+JF|Sarcoxie W 341 3/6|01,16
+JF|Sarcoxie W 343 2/5|03,26
+JF|Sarxcoxie W 342 3/6 Split|02,108
+JF|Union E 339 3/6|01,49
+JF|Union E 342 1/4 Split|02,458
+JF|Union E 342 2/5|03,38
+JF|Union E 342 3/6 Split|04,100
+JF|Union W 342 1/4 Split|02,19
+JF|Union W 342 3/6 Split|04,24
+JF|Valley Falls City  338 2/5|08,232
+JF|Valley Falls City  338 3/6|09,134
+JF|Valley Falls City 338 1/4|07,396
+JF|West Fairview 340 1/4|02,6
+JF|West Fairview 340 3/6|01,578
+JF|Winchester City 339 2/5|04,5
+JF|Winchester City 339 3/6|05,339
+JO|1001.1|01,172
+JO|1002.1|01,1280
+JO|1003.1|01,5
+JO|1003.2|02,515
+JO|1003.3|03,3
+JO|1003.4|04,87
+JO|1004.1|01,1660
+JO|1005.1|01,24
+JO|1006.1|01,158
+JO|1008.1|01,77
+JO|1008.2|02,15
+JO|1009.1|01,14
+JO|2001.1|01,78
+JO|2001.2|02,462
+JO|2002.1|01,49
+JO|2002.2|02,87
+JO|2002.3|03,46
+JO|2003.1|01,151
+JO|2003.2|02,110
+JO|2004.1|01,2
+JO|2005.1|01,5
+JO|2007.1|01,2
+JO|2008.1|01,6
+JO|2011.1|01,33
+JO|2013.1|01,1
+JO|2014.1|01,4
+JO|2016.1|01,12
+JO|2017.1|01,3
+JO|2018.1|01,5
+JO|2019.1|01,202
+JO|2019.2|02,69
+JO|2020.1|01,2
+JO|2021.1|01,32
+JO|2022.1|01,98
+JO|2024.1|01,2
+JO|2025.1|01,29
+JO|3001.2|02,19
+JO|3002.1|01,1
+JO|3003.1|01,3
+JO|3004.1|01,1
+JO|3006.1|01,15
+JO|3009.1|01,165
+JO|3009.2|02,39
+JO|3010.1|01,1007
+JO|3010.2|02,75
+JO|4001.1|01,106
+JO|4001.2|02,2
+JO|4002.1|01,292
+JO|4004.1|01,2
+JO|4006.1|01,134
+JO|4007.1|01,276
+JO|6001.1|01,389
+JO|6001.2|02,5
+JO|6001.3|03,113
+JO|6003.1|01,33
+JO|6003.2|02,54
+JO|6004.1|01,6
+JO|6005.2|02,24
+JO|6008.1|01,1
+JO|6010.1|01,16
+JO|6011.1|01,9
+JO|6013.1|01,9
+JO|6014.1|01,5
+JO|6016.1|01,35
+JO|6019.1|01,3
+JO|6019.2|02,8
+JO|6020.1|01,1
+JO|6021.1|01,19
+JO|6024.1|01,2
+JO|6025.1|01,1
+JO|6026.1|01,6
+JO|6032.1|01,9
+JO|6032.2|02,37
+JO|7001.3|03,1
+JO|7002.1|01,767
+JO|7004.1|01,755
+JO|7005.1|01,31
+JO|7009.1|01,45
+JO|7010.1|01,2
+JO|7011.1|01,186
+JO|9001.1|01,124
+JO|9001.3|03,303
+JO|9002.1|01,4
+JO|9003.1|01,125
+JO|9004.1|01,21
+JO|9005.1|01,23
+JO|9007.2|02,407
+JO|9008.1|01,2
+JO|9009.1|01,1
+JO|9010.1|01,555
+JO|9010.2|02,15
+JO|9010.3|03,55
+JO|9011.1|01,2
+JO|9012.1|01,5
+JO|A001.1|01,1658
+JO|A002.1|01,1049
+JO|A003.1|01,1041
+JO|A003.2|02,281
+JO|A006.1|01,226
+JO|A006.2|02,2
+JO|A007.1|01,306
+JO|A008.1|01,2
+JO|B001.1|01,1169
+JO|B002.1|01,2
+JO|B005.1|01,6
+JO|B006.2|02,2
+JO|B008.1|01,4
+JO|B009.1|01,3
+JO|C001.1|01,702
+JO|C001.2|02,1705
+JO|C002.1|01,4
+JO|C002.2|02,8
+JO|C003.1|01,1150
+JO|C003.2|02,420
+JO|C004.1|01,1310
+JO|C006.1|01,2428
+JO|C007.1|01,33
+JO|C008.1|01,791
+JO|C009.1|01,2352
+JO|C010.1|01,1428
+JO|C013.1|01,1469
+JO|C014.1|01,1039
+JO|C017.1|01,3
+JO|C019.1|01,350
+JO|C020.1|01,859
+JO|C022.1|01,128
+JO|C022.2|02,4
+JO|C023.1|01,2
+JO|C025.1|01,5
+JO|C026.1|01,3
+JO|C027.1|01,2
+JO|D101.1|01,1128
+JO|D101.2|02,312
+JO|D102.1|01,1146
+JO|D103.1|01,758
+JO|D104.1|01,400
+JO|D104.2|02,1074
+JO|D105.1|01,1168
+JO|D106.1|01,1824
+JO|D108.1|01,2
+JO|D108.2|02,2115
+JO|D109.1|01,1299
+JO|D111.1|01,1140
+JO|D113.1|01,976
+JO|D114.1|01,1059
+JO|D115.1|01,613
+JO|D116.1|01,1664
+JO|D117.1|01,530
+JO|D118.1|01,1759
+JO|D119.1|01,657
+JO|D120.1|01,359
+JO|D121.1|01,1653
+JO|D122.1|01,110
+JO|D122.2|02,2457
+JO|D125.1|01,370
+JO|D126.2|02,9
+JO|D126.3|03,3
+JO|D127.1|01,566
+JO|D128.2|02,3
+JO|D201.1|01,708
+JO|D202.1|01,1171
+JO|D203.1|01,1034
+JO|D204.1|01,632
+JO|D205.1|01,1479
+JO|D205.2|02,558
+JO|D206.1|01,876
+JO|D206.2|02,1257
+JO|D207.1|01,1325
+JO|D207.2|02,639
+JO|D208.1|01,1635
+JO|D209.1|01,1083
+JO|D210.1|01,2529
+JO|D211.1|01,2486
+JO|D212.1|01,1370
+JO|D213.1|01,1031
+JO|D214.1|01,976
+JO|D215.1|01,1457
+JO|D216.1|01,1066
+JO|D219.1|01,12
+JO|D221.1|01,586
+JO|D222.1|01,2071
+JO|D222.2|02,408
+JO|D223.1|01,1371
+JO|D224.1|01,303
+JO|D224.2|02,257
+JO|D301.1|01,751
+JO|D302.1|01,331
+JO|D303.1|01,734
+JO|D304.1|01,1348
+JO|D305.1|01,1619
+JO|D306.1|01,872
+JO|D307.1|01,883
+JO|D308.1|01,563
+JO|D309.1|01,753
+JO|D310.1|01,1355
+JO|D311.1|01,246
+JO|D311.2|02,1284
+JO|D312.1|01,1
+JO|D313.1|01,521
+JO|D313.2|02,819
+JO|D315.1|01,1162
+JO|D316.1|01,1244
+JO|D316.2|02,70
+JO|D317.1|01,1596
+JO|D317.2|02,6
+JO|D318.1|01,1525
+JO|D319.1|01,832
+JO|D320.1|01,1013
+JO|D321.1|01,1606
+JO|D322.1|01,1142
+JO|D323.1|01,1208
+JO|D324.1|01,664
+JO|D325.1|01,1247
+JO|D401.1|01,1788
+JO|D402.1|01,330
+JO|D402.2|02,1473
+JO|D403.1|01,1876
+JO|D404.1|01,1158
+JO|D405.1|01,1514
+JO|D406.1|01,1237
+JO|D407.1|01,1238
+JO|D408.1|01,1186
+JO|D409.1|01,1681
+JO|D410.1|01,1095
+JO|D411.1|01,886
+JO|D412.1|01,2000
+JO|D413.1|01,924
+JO|D414.1|01,1745
+JO|D415.1|01,173
+JO|D416.1|01,748
+JO|D416.2|02,610
+JO|D417.1|01,1247
+JO|D417.2|02,68
+JO|E001.1|01,5
+JO|E001.2|02,1807
+JO|E001.3|03,191
+JO|E003.1|01,909
+JO|E005.1|01,481
+JO|E006.1|01,4
+JO|E008.1|01,389
+JO|E009.1|01,231
+JO|E009.2|02,344
+JO|E009.3|03,557
+JO|G101.1|01,506
+JO|G102.1|01,366
+JO|G201.1|01,350
+JO|G202.1|01,464
+JO|G301.1|01,495
+JO|G302.1|01,464
+JO|G401.1|01,234
+JO|G402.1|01,243
+JO|G403.1|01,173
+JO|G404.1|01,247
+JO|H101.1|01,850
+JO|H102.1|01,1332
+JO|H103.1|01,1152
+JO|H104.1|01,1140
+JO|H105.1|01,826
+JO|H106.1|01,284
+JO|H107.1|01,1096
+JO|H201.1|01,973
+JO|H202.1|01,1496
+JO|H203.1|01,1251
+JO|H204.1|01,1291
+JO|H205.1|01,742
+JO|H206.1|01,765
+JO|H207.1|01,673
+JO|H301.1|01,1170
+JO|H302.1|01,1238
+JO|H303.1|01,820
+JO|H304.1|01,467
+JO|H305.1|01,2257
+JO|H306.1|01,1895
+JO|H307.1|01,225
+JO|H401.1|01,367
+JO|H402.1|01,935
+JO|H403.1|01,797
+JO|H404.1|01,1217
+JO|H405.1|01,1154
+JO|H406.1|01,1050
+JO|H407.1|01,2117
+JO|I101.1|01,227
+JO|I101.2|02,1786
+JO|I102.1|01,1373
+JO|I103.1|01,1554
+JO|I104.1|01,1252
+JO|I105.1|01,1371
+JO|I106.1|01,1
+JO|I106.2|02,617
+JO|I107.1|01,1312
+JO|I108.1|01,1011
+JO|I109.1|01,311
+JO|I109.2|02,1346
+JO|I201.1|01,188
+JO|I201.2|02,1356
+JO|I202.1|01,1013
+JO|I202.2|02,86
+JO|I203.1|01,1765
+JO|I204.1|01,2225
+JO|I205.1|01,1793
+JO|I206.1|01,703
+JO|I207.1|01,1624
+JO|I209.2|02,31
+JO|I210.1|01,659
+JO|I211.1|01,1309
+JO|I301.1|01,1306
+JO|I302.1|01,2100
+JO|I303.1|01,1449
+JO|I304.1|01,950
+JO|I305.1|01,1281
+JO|I306.1|01,476
+JO|I307.1|01,1087
+JO|I308.1|01,1075
+JO|I309.1|01,1081
+JO|I310.1|01,419
+JO|I401.1|01,889
+JO|I402.1|01,1048
+JO|I403.1|01,1077
+JO|I404.1|01,761
+JO|I405.1|01,589
+JO|I406.2|02,4
+JO|I407.1|01,904
+JO|I408.1|01,782
+JO|I409.1|01,972
+JO|I410.1|01,486
+JO|I411.1|01,1138
+JO|I412.1|01,871
+JO|I413.1|01,236
+JO|J101.1|01,579
+JO|J102.1|01,503
+JO|J102.2|02,11
+JO|J103.1|01,201
+JO|J104.1|01,530
+JO|J201.1|01,60
+JO|J201.2|02,198
+JO|J202.2|02,2
+JO|J203.1|01,677
+JO|J204.1|01,532
+JO|J204.2|02,479
+JO|J301.1|01,1233
+JO|J302.1|01,1042
+JO|J401.1|01,1341
+JO|J402.1|01,501
+JO|J403.1|01,628
+JO|K101.1|01,657
+JO|K102.1|01,1061
+JO|K201.1|01,1131
+JO|K202.1|01,1097
+JO|K301.1|01,1270
+JO|K302.1|01,532
+JO|K401.1|01,697
+JO|K402.1|01,783
+JO|K403.1|01,250
+JO|K404.1|01,311
+JO|L001.1|01,722
+JO|L002.1|01,918
+JO|L003.1|01,589
+JO|L004.1|01,943
+JO|M001.1|01,162
+JO|N101.1|01,1174
+JO|N102.1|01,1395
+JO|N103.1|01,1088
+JO|N104.1|01,400
+JO|N105.1|01,441
+JO|N106.1|01,1221
+JO|N107.1|01,1387
+JO|N108.1|01,1296
+JO|N109.1|01,690
+JO|N110.1|01,1516
+JO|N111.1|01,534
+JO|N112.1|01,1475
+JO|N113.1|01,924
+JO|N114.1|01,1144
+JO|N115.1|01,528
+JO|N116.1|01,983
+JO|N117.1|01,599
+JO|N118.1|01,841
+JO|N119.1|01,969
+JO|N120.1|01,567
+JO|N121.1|01,356
+JO|N122.1|01,350
+JO|N123.1|01,821
+JO|N124.1|01,264
+JO|N125.1|01,707
+JO|N126.1|01,219
+JO|N127.1|01,1211
+JO|N201.1|01,862
+JO|N202.1|01,971
+JO|N203.1|01,775
+JO|N204.1|01,1147
+JO|N205.1|01,786
+JO|N206.1|01,941
+JO|N207.1|01,694
+JO|N208.1|01,723
+JO|N209.1|01,950
+JO|N210.1|01,1926
+JO|N211.1|01,465
+JO|N212.1|01,739
+JO|N213.1|01,768
+JO|N214.1|01,700
+JO|N215.1|01,1162
+JO|N216.1|01,777
+JO|N217.1|01,1048
+JO|N218.1|01,1608
+JO|N219.1|01,704
+JO|N220.1|01,621
+JO|N221.1|01,700
+JO|N222.1|01,904
+JO|N223.1|01,815
+JO|N224.1|01,826
+JO|N225.1|01,676
+JO|N226.1|01,852
+JO|N227.1|01,533
+JO|N228.1|01,569
+JO|N229.1|01,972
+JO|N230.1|01,1080
+JO|N231.1|01,842
+JO|N232.1|01,910
+JO|N301.1|01,1458
+JO|N302.1|01,1146
+JO|N303.1|01,658
+JO|N304.1|01,1098
+JO|N305.1|01,1199
+JO|N305.2|02,1
+JO|N306.1|01,1673
+JO|N307.1|01,1215
+JO|N308.1|01,1364
+JO|N309.1|01,1330
+JO|N310.1|01,691
+JO|N311.1|01,1087
+JO|N312.1|01,939
+JO|N313.1|01,26
+JO|N313.2|02,1865
+JO|N314.1|01,1411
+JO|N315.1|01,601
+JO|N315.2|02,263
+JO|N317.1|01,1553
+JO|N318.1|01,1884
+JO|N319.1|01,1304
+JO|N320.1|01,1141
+JO|N321.1|01,1047
+JO|N322.1|01,646
+JO|N401.1|01,616
+JO|N401.2|02,772
+JO|N402.1|01,1180
+JO|N403.1|01,565
+JO|N403.2|02,1314
+JO|N404.1|01,1547
+JO|N405.1|01,1231
+JO|N406.1|01,976
+JO|N407.1|01,871
+JO|N408.1|01,1480
+JO|N409.1|01,730
+JO|N409.2|02,223
+JO|N410.1|01,761
+JO|N411.1|01,1439
+JO|N412.1|01,1761
+JO|N413.1|01,1049
+JO|N414.1|01,657
+JO|N415.1|01,751
+JO|N416.1|01,2180
+JO|N417.1|01,1675
+JO|N417.2|02,64
+JO|N419.1|01,1444
+JO|N420.1|01,96
+JO|N420.2|02,455
+JO|N421.1|01,835
+JO|N501.1|01,1299
+JO|N502.1|01,1132
+JO|N503.1|01,1240
+JO|N504.1|01,1604
+JO|N505.1|01,2233
+JO|N506.1|01,1406
+JO|N507.1|01,1562
+JO|N508.1|01,2155
+JO|N509.1|01,1533
+JO|N510.1|01,1099
+JO|N511.1|01,1559
+JO|N512.1|01,599
+JO|N513.1|01,1197
+JO|N514.1|01,104
+JO|N515.1|01,1845
+JO|N516.1|01,827
+JO|N517.1|01,530
+JO|N518.1|01,1178
+JO|N519.1|01,417
+JO|N601.1|01,1420
+JO|N602.1|01,109
+JO|N603.1|01,1188
+JO|N604.1|01,1470
+JO|N605.1|01,1668
+JO|N606.1|01,437
+JO|N607.1|01,442
+JO|N608.1|01,1044
+JO|N608.2|02,387
+JO|N609.1|01,810
+JO|N610.1|01,370
+JO|N611.1|01,1383
+JO|N612.1|01,568
+JO|N613.1|01,459
+JO|N613.2|02,1109
+JO|N613.3|03,3
+JO|N614.1|01,1384
+JO|N615.1|01,1802
+JO|N616.1|01,842
+JO|N617.1|01,259
+JO|N618.1|01,1559
+JO|N619.1|01,4
+JO|N619.2|02,952
+JO|N620.1|01,707
+JO|N621.1|01,814
+JO|N622.1|01,1481
+JO|N623.1|01,2084
+JO|O101.1|01,1438
+JO|O102.1|01,512
+JO|O103.1|01,1099
+JO|O201.1|01,1413
+JO|O202.1|01,696
+JO|O203.1|01,1064
+JO|O301.1|01,823
+JO|O302.1|01,1390
+JO|O303.1|01,849
+JO|O401.1|01,1083
+JO|O402.1|01,814
+JO|O403.1|01,1190
+JO|O404.1|01,416
+JO|O501.1|01,923
+JO|O502.1|01,1125
+JO|O503.1|01,1687
+JO|O601.1|01,890
+JO|O602.1|01,1369
+JO|O603.1|01,856
+JO|P101.1|01,840
+JO|P102.1|01,471
+JO|P201.1|01,634
+JO|P202.1|01,773
+JO|P301.1|01,461
+JO|P302.1|01,442
+JO|P303.1|01,386
+JO|P401.1|01,389
+JO|P402.1|01,535
+JO|P403.1|01,572
+JO|Q101.1|01,1240
+JO|Q102.1|01,854
+JO|Q103.1|01,926
+JO|Q104.1|01,755
+JO|Q104.2|02,18
+JO|Q105.1|01,612
+JO|Q105.2|02,980
+JO|Q106.1|01,1208
+JO|Q107.1|01,1513
+JO|Q108.1|01,2226
+JO|Q109.1|01,2
+JO|Q109.2|02,369
+JO|Q109.3|03,1
+JO|Q110.2|02,437
+JO|Q111.1|01,1166
+JO|Q112.2|02,8
+JO|Q113.1|01,417
+JO|Q113.2|02,446
+JO|Q201.1|01,686
+JO|Q201.2|02,106
+JO|Q202.1|01,1129
+JO|Q203.1|01,1325
+JO|Q204.1|01,1351
+JO|Q205.1|01,698
+JO|Q206.1|01,811
+JO|Q207.1|01,617
+JO|Q207.2|02,265
+JO|Q208.1|01,772
+JO|Q209.1|01,713
+JO|Q210.1|01,699
+JO|Q211.1|01,870
+JO|Q212.1|01,550
+JO|Q213.1|01,496
+JO|Q301.1|01,975
+JO|Q302.1|01,1075
+JO|Q303.1|01,1540
+JO|Q304.2|02,315
+JO|Q304.3|03,1198
+JO|Q305.1|01,22
+JO|Q305.2|02,117
+JO|Q306.1|01,1489
+JO|Q307.1|01,2135
+JO|Q308.1|01,1351
+JO|Q309.1|01,1576
+JO|Q309.2|02,2
+JO|Q310.1|01,961
+JO|Q311.1|01,1869
+JO|Q311.2|02,15
+JO|Q312.1|01,652
+JO|Q401.1|01,1391
+JO|Q402.1|01,892
+JO|Q403.1|01,812
+JO|Q404.1|01,825
+JO|Q405.1|01,1616
+JO|Q406.1|01,1109
+JO|Q407.1|01,1462
+JO|Q408.1|01,524
+JO|Q409.1|01,1948
+JO|Q411.1|01,952
+JO|Q412.1|01,281
+JO|Q413.1|01,258
+JO|Q414.1|01,233
+JO|R001.1|01,819
+JO|R002.1|01,623
+JO|S001.1|01,334
+JO|T001.1|01,908
+JW|Allen TWP 273|01,18
+JW|Allen TWP 333|02,4
+JW|Athens TWP 273 1-4|02,49
+JW|Brownscreek TWP 273 1-4|01,43
+JW|Buffalo TWP 107-2|01,56
+JW|Burr Oak City 107-2|01,112
+JW|Burr Oak TWP 107-2|01,52
+JW|Calvin TWP 107-2|01,42
+JW|Center TWP 107-1|01,89
+JW|Erving TWP 107-2|01,30
+JW|Esbon City 107-2|01,80
+JW|Esbon TWP 107-2|01,41
+JW|Formoso City 107-1|01,53
+JW|Grant TWP 107-1|01,46
+JW|Grant TWP 426-1|02,14
+JW|Harrison TWP 107-2|01,16
+JW|Highland TWP 107-2|01,28
+JW|Holmwood TWP 107-1|01,22
+JW|Ionia TWP 107-2|01,51
+JW|Jackson TWP 107-1|01,46
+JW|Jackson TWP 109|02,23
+JW|Jewell City 107-2|01,278
+JW|Limestone TWP 107-2|01,37
+JW|Mankato City 107-1|01,615
+JW|Montana TWP 107-1|01,46
+JW|Odessa TWP 107-2|01,18
+JW|Prairie TWP 273 2-5|01,49
+JW|Randall City 273 2-5|01,46
+JW|Richland TWP 107-1|01,28
+JW|Sinclair TWP 107-1|01,43
+JW|Vicksburg TWP 107-2|01,20
+JW|Vicksburg TWP 426-3|02,1
+JW|Walnut TWP 107-2|01,47
+JW|Washington TWP 107-1|01,43
+JW|Webber City 107-1|01,21
+JW|Whitemound 107-2|01,30
+KE|Deerfield City|02,329
+KE|Deerfield Twp|01,115
+KE|East Hibbard Twp / USD215|01,28
+KE|East Hibbard Twp / USD216|02,38
+KE|Hartland Twp|01,81
+KE|Kendall Twp/USD215|01,49
+KE|Kendall Twp/USD216|02,3
+KE|Lakin City / CC1|01,637
+KE|Lakin City / CC2|02,564
+KE|Lakin Twp / CC1|01,145
+KE|Lakin Twp / CC2|02,57
+KE|Southside Twp / USD215|01,76
+KE|Southside Twp / USD216|02,39
+KE|West Hibbard Twp|01,28
+KM|Allen Township USD 331 Pos. 5|01,97
+KM|Belmont Twp USD 331 Pos. 4|03,27
+KM|Belmont Twp USD 332 Pos. 4|01,14
+KM|Bennett Twp USD 331 Pos. 5|01,35
+KM|Bennett Twp USD 331 Pos. 6|02,123
+KM|Canton Twp USD 331 Pos. 6|04,67
+KM|Canton Twp USD 361|02,5
+KM|Chikaskia 331 Pos. 6 Harp Hosp|04,6
+KM|Chikaskia Twp USD 331 Pos. 6|03,8
+KM|Chikaskia Twp USD 332 Pos. 6|01,13
+KM|Cunn-Dresden USD 332 Pos. 1|01,173
+KM|Cunn-Rural USD 332 Pos. 2|02,118
+KM|Dale Twp USD 331 Pos. 5|01,110
+KM|Dresden Twp USD 332 Pos. 1|03,1
+KM|Dresden Twp USD 332 Pos. 2|01,41
+KM|Dresden Twp USD 332 Pos. 3|02,17
+KM|Eagle Township USD 331 Pos. 5|01,62
+KM|Eagle Township USD 331 Pos. 6|02,37
+KM|Eureka Township USD 331 Pos. 1|01,42
+KM|Eureka Township USD 332 Pos. 3|02,21
+KM|Eureka Township USD 332 Pos. 4|03,5
+KM|Evan Township USD 268|05,349
+KM|Evan Township USD 311|04,17
+KM|Evan Township USD 331 Pos. 5|07,77
+KM|Galesburg Twp USD 311|01,38
+KM|Galesburg Twp USD 331 Pos. 5|05,133
+KM|Hoosier Twp USD 331 Pos. 1|01,56
+KM|Hoosier Twp USD 331 Pos. 2|06,52
+KM|Kingman Twp USD 332 Pos. 3|01,10
+KM|Kingman Twp USD 332 Pos. 5|03,79
+KM|Km City Ward 1 USD 331 P 3|01,570
+KM|Km City Ward 2 USD 331 Po 1|02,111
+KM|Km City Ward 2 USD 331 Po 2|05,739
+KM|Km City Ward 3 USD 331 Po 4|01,328
+KM|Km City Ward 4 USD 331 Po 1|01,452
+KM|Liberty Twp USD 332 Pos. 5|02,41
+KM|Nashville City USD 332 Pos. 5|01,50
+KM|Ninnescah Twp USD 331 Pos. 1|02,61
+KM|Ninnescah Twp USD 331 Pos. 4|03,128
+KM|Norwich City USD 331 Pos. 5|01,112
+KM|Norwich City USD 331 Pos.6|02,207
+KM|Penalosa City USD 331 Pos. 1|01,6
+KM|Penalosa City USD 332 Pos. 2|02,8
+KM|Peters Twp USD 332 Pos. 4|02,82
+KM|Richland Twp USD 331 Pos.4|01,68
+KM|Rochester Twp USD 332 Pos. 6|02,52
+KM|Rural Twp USD 332 Pos. 2|01,2
+KM|Rural Twp USD 332 Pos. 3|02,74
+KM|Spivey City USD 331 Pos. 6|02,50
+KM|Union Twp USD 331 Pos. 1|04,23
+KM|Union Twp USD 331 Pos. 4|02,2
+KM|Union Twp USD 332 Pos. 4|03,28
+KM|Valley Twp USD 331 P6 Harper|04,18
+KM|Valley Twp USD 331 Pos. 4|03,12
+KM|Valley Twp USD 331 Pos. 6|02,40
+KM|Valley Twp USD 361|01,7
+KM|Vinita Twp USD 268|01,163
+KM|Vinita Twp USD 331 Pos. 5|03,26
+KM|White U.S.D. 311|02,8
+KM|White USD 331 Po 3 Comm 1|01,94
+KM|White USD 331 Po 4 Comm 1|03,62
+KM|White USD 331 Pos. 1|08,14
+KM|White USD 331 Pos. 2|04,47
+KM|White USD 331 Pos. 3 Comm 3|15,51
+KM|Zenda City USD 332 Pos. 6|01,47
+KW|Belv A Twp CD1/422|02,2
+KW|Belv Twp CD1/474|01,21
+KW|Cntr 1 CD2/422|02,245
+KW|Cntr 1 Twp CD2/300|01,6
+KW|Cntr 1 Twp CD2/422|04,146
+KW|Cntr 1A Twp CD3/422|04,47
+KW|Cntr 2 CD2/422|02,116
+KW|Cntr 2A CD3/422|03,150
+KW|Hav A Twp CD2/422|01,33
+KW|Hav A Twp CD2/474|02,20
+KW|Hav City CD1/474|02,368
+KW|Hav Twp CD1/474|02,101
+KW|Mull City CD3/422|01,125
+KW|Mull Twp CD3/422|01,129
+LB|A/001 Parsons 1W1P|05,553
+LB|A/002 Parsons 1W2P|06,303
+LB|A/003 Parsons 1W3P|07,334
+LB|B/004 Parsons 2W1P|08,224
+LB|B/005 Parsons 2W2P|01,398
+LB|B/006 Parsons 2W3P|02,625
+LB|C/007 Parsons 3W1P|09,321
+LB|C/008 Parsons 3W2P/503|10,456
+LB|C/008 Parsons 3W2P/506|17,194
+LB|C/009 Parsons 3W3P/503|03,380
+LB|C/009 Parsons 3W3P/506|15,60
+LB|C/010 Parsons 3W4P/503|04,643
+LB|C/010 Parsons 3W4P/506|16,81
+LB|D/011 Parsons 4W1P|11,301
+LB|D/012 Parsons 4W2P|12,485
+LB|D/013 Parsons 4W3P|13,407
+LB|D/014 Parsons 4W4P/503|14,87
+LB|D/014 Parsons 4W4P/506|18,402
+LB|E/015 Chetopa 1W|01,222
+"LB|E/016 Chetopa 2W, 1-4|02",120
+"LB|E/016 Chetopa 2W, 2-5|04",113
+LB|E/017 Chetopa 3W|03,274
+LB|F/018 Oswego 1W|01,438
+LB|F/019 Oswego 2W|02,386
+LB|F/020 Oswego 3W|03,280
+LB|G/021 Canada Twp|01,154
+LB|G/022 Edna City/Elm Grove Twp|01,285
+LB|G/022 Elm Grove Twp|02,281
+LB|G/023 Fairview Twp/505|01,4
+LB|G/023 Fairview Twp/506|02,129
+LB|G/024 Bartlett/Hackberry Twp|01,70
+LB|G/024 Hackberry Twp|02,187
+LB|G/025 Howard Twp|01,254
+LB|G/026 Labette Twp|01,289
+LB|G/027 LabetteCity/Liberty Twp|02,36
+LB|G/027 Liberty Twp/504|01,1
+LB|G/027 Liberty Twp/506|03,255
+LB|G/028 Montana Twp|01,110
+LB|G/029 Mound Valley City|02,236
+LB|G/029 Mound Valley Twp/447|01,3
+LB|G/029 Mound Valley Twp/506|03,268
+LB|G/030 Altamont/MtPleasant Twp|01,770
+LB|G/030 Mt Pleasant Twp|02,185
+LB|G/031 Neosho Twp/503|02,107
+LB|G/031 Neosho Twp/504|03,9
+LB|G/032 North Twp/503|01,436
+LB|G/032 North Twp/506|02,66
+LB|G/033 Osage Twp|01,513
+LB|G/034 Oswego Twp/504|01,130
+LB|G/034 Oswego Twp/505|02,82
+LB|G/035 Richland Twp 44/1-4|01,18
+LB|G/035 Richland Twp 44/2-5|02,94
+LB|G/035 Richland Twp Cen/46/2-5|01,48
+LB|G/035 Richland Twp SE/45/1-4|01,34
+LB|G/036 Walton Twp/503|01,4
+LB|G/036 Walton Twp/506|02,532
+LC|Barnard-Salt Creek|02,8
+LC|Barnard-Scott|01,42
+LC|Battle Creek 298|01,18
+LC|Battle Creek 299 02|02,3
+LC|Beaver 298|01,42
+LC|Beverly|01,70
+LC|Cedron 299 01|02,1
+LC|Cedron 299 02|01,24
+LC|Colorado 298|01,86
+LC|Elkhorn 298|01,109
+LC|Franklin 298|01,64
+LC|Golden Belt 112|02,12
+LC|Golden Belt 299 02|01,21
+LC|Grant 298|01,6
+LC|Grant 299 02|02,49
+LC|Hanover 299 01|03,10
+LC|Hanover 299 02|01,21
+LC|Highland 112|02,3
+LC|Highland 299 02|01,40
+LC|Indiana 298|01,59
+LC|Lincoln I Com 1|01,226
+LC|Lincoln I Com 2|09,108
+LC|Lincoln I Com 3|02,40
+LC|Lincoln II Com 1|11,262
+LC|Lincoln II Com 2|12,141
+LC|Logan 239|01,6
+LC|Logan 298|02,41
+LC|Madison 298|01,83
+LC|Marion 298|01,37
+LC|Orange 298|01,22
+LC|Orange 299 02|02,21
+LC|Pleasant 299 02|01,83
+LC|Salt Creek 239|01,3
+LC|Salt Creek 298|02,21
+LC|Scott 298|01,25
+LC|Sylvan Grove|01,193
+LC|Valley 298|01,32
+LC|Vesper 299 02|01,67
+LE|Alamota Twp|01,37
+LE|Cheyenne Twp / IM|02,113
+LE|Cheyenne Twp|01,58
+LE|Dighton City / 1C|01,259
+LE|Dighton City / 2C|02,328
+LE|Dighton City / 3C|03,113
+LE|Dighton Twp / 1C / 482|01,56
+LE|Dighton Twp / 2C / 466|03,1
+LE|Dighton Twp / 2C / 482|04,64
+LE|Dighton Twp / 3C / 482|05,39
+LE|White Rock Twp|01,10
+LE|Wilson Twp / 482|02,47
+LG|Augustine Twp. #467|01,16
+LG|Elkader Twp. #274|01,6
+LG|Lees Twp. #274|01,7
+LG|Lees Twp. #466|02,2
+LG|Logansport Twp. #274|01,1
+LG|Logansport Twp. #275|02,2
+LG|McAllaster Twp. #275|01,25
+LG|Monument Twp. #274|01,86
+LG|Monument Twp. #275|02,12
+LG|Oakley City/ C1|01,768
+LG|Oakley City/C2|02,546
+LG|Oakley Twp. CC1 #274|01,106
+LG|Oakley Twp. CC2 #274|02,34
+LG|Paxton Twp. #275|01,10
+LG|Paxton Twp. #466|02,10
+LG|Paxton Twp. #467|03,1
+LG|Russell Springs City|01,18
+LG|Russell Springs Twp. #275|01,25
+LG|Western Twp. #241|01,14
+LG|Western Twp. #275|02,9
+LG|Winona City|01,139
+LG|Winona Twp. #275|01,50
+LN|Blue Mound City|03,178
+LN|Blue Mound Twp Bm00001.1|01,51
+LN|Blue Mound Twp Bm00001.2|02,115
+LN|Centerville Twp Ce00002.1|01,155
+LN|Centerville Twp Ce00002.2|02,152
+LN|Centerville Twp Ce00002.3|03,38
+LN|Liberty Twp Lb00003.1|01,155
+LN|Liberty Twp Lb00003.2|02,409
+LN|Linn Valley City|04,995
+LN|Mound City City/346.2|02,361
+LN|Mound City City/346.5|06,138
+LN|Mound City Twp Mc00006.1|01,6
+LN|Mound City Twp Mc00006.3|03,441
+LN|Mound City Twp Mc00006.4|04,54
+LN|Mound City Twp Mc00006.5|05,84
+LN|N La Cygne City/Scott TWP|03,3
+LN|N La Cygne City|03,518
+LN|N Lincoln Twp Ln00004.1|01,63
+LN|N Lincoln Twp Ln00004.2|02,171
+LN|N Pleasanton City|02,458
+LN|N Potosi Twp Po00008.1|01,296
+LN|Paris Twp Pa00007.1|01,47
+LN|Paris Twp Pa00007.2|02,145
+LN|Paris Twp Pa00007.3|03,257
+LN|Paris Twp Pa00007.4|04,10
+LN|Parker City|04,151
+LN|Prescott City|02,162
+LN|S La Cygne City/362.1|02,52
+LN|S La Cygne City/362.6|03,184
+LN|S Lincoln Twp Ln00005.1|01,179
+LN|S Pleasanton City|02,422
+LN|S Potosi Twp Po00009.1|01,162
+LN|S Potosi Twp Po00009.4|04,88
+LN|S Potosi Twp Po00009.5|05,20
+LN|Scott Twp Sc00010.1|01,46
+LN|Scott Twp Sc00010.2|02,81
+LN|Scott Twp Sc00010.4|04,117
+LN|Scott Twp Sc00010.5|05,401
+LN|Sheridan Twp Sh00011.3|03,10
+LN|Sheridan Twp Sh00011.4|04,192
+LN|Stanton Twp St00012.1|01,32
+LN|Stanton Twp St00012.2|02,109
+LN|Valley Twp Va00013.1|01,53
+LN|Valley Twp Va00013.2|02,39
+LV|1 Pct 1 Ward|01,904
+LV|1 Pct 2 Ward|01,817
+LV|1 Pct 3 Ward|01,1050
+LV|1 Pct 4 Ward|01,658
+LV|1 Pct 5 Ward|01,927
+LV|1 Pct 6 Ward|01,1009
+LV|1 Pct 7 Ward|01,495
+LV|2 Pct 2 Ward H40|02,478
+LV|2 Pct 2 Ward H41|01,146
+LV|2 Pct 5 Ward|01,689
+LV|2 Pct 6 Ward H38|01,352
+LV|2 Pct 6 Ward H40|01,476
+LV|2 Pct 7 Wd 453|01,2061
+LV|2 Pct 7 Wd 469|02,511
+LV|3 Pct 2 Ward|01,996
+LV|3 Pct 5 Ward|01,1273
+LV|3 Pct 6 Ward|01,821
+LV|3 Pct 7 Ward 453 H38|01,1330
+LV|3 Pct 7 Ward 453 H40|03,1437
+LV|3 Pct 7 Ward 469 H38|02,27
+LV|3 Pct 7 Ward 469 H40|04,479
+LV|4 Pct 5 Ward|01,803
+LV|4 Pct 6 Ward H38|01,442
+LV|4 Pct 6 Ward H41|01,1022
+LV|5 Pct 6 Ward|01,1326
+LV|AL / SP 339|01,6
+LV|AL / SP 342-1|02,244
+LV|AL / SP 449-2|03,168
+LV|AL / SP 464-2|04,264
+LV|BC  No/ F 458-2|02,6
+LV|BC No/ F 458-1|01,3332
+LV|BC So/F  458-2|01,2766
+LV|BSPG City 458-2|01,5
+LV|BT / F 458-1|01,845
+LV|BT / F 458-2|02,343
+LV|BT / F 469|03,396
+LV|Del 1 453|01,4
+LV|Del 1 469|02,913
+LV|Easton 449-1|01,672
+LV|Easton 449-2|02,54
+LV|EC / E 449-1|01,130
+LV|Ft Leav|01,1710
+LV|GL / F 458-2 S5|01,472
+LV|GL / F 458-2 S9|01,685
+LV|GL / F 458-3 S9|02,986
+LV|HP / BO 449-2 H38|01,51
+LV|HP / BO 449-2 H41|05,234
+LV|HP / BO 449-2 H42|06,55
+LV|HP / BO 453 H38|02,77
+LV|HP / BO 453 H41|08,54
+LV|HP / BO 464-2 H38|03,445
+LV|HP / BO 464-2 H42|07,21
+LV|HP / BO 469 H38|04,512
+LV|HP / BO 469 H40|07,382
+LV|Kickapoo 449-2 H41|01,286
+LV|Kickapoo 449-2 H42|05,75
+LV|Kickapoo 449-3 H41|04,1094
+LV|Kickapoo 449-3 H42|04,14
+LV|Kickapoo 453 H41|03,69
+LV|Lansing Ward 1|01,1625
+LV|Lansing Ward 2|01,2080
+LV|Lansing Ward 3|01,1795
+LV|Lansing Ward 4|01,1860
+LV|Linwood City 458-3|01,283
+LV|Reno 458-3|01,180
+LV|Reno 464-3|02,580
+LV|Reno 491|03,140
+LV|Reno 497|04,360
+LV|Sherman 204 H38|01,172
+LV|Sherman 458-3 H38|02,1650
+LV|Sherman 458-3 H42|05,172
+LV|Sherman 464-3 H38|05,30
+LV|Sherman 464-3 H42|04,36
+LV|ST / ST 458-1 H38|01,371
+LV|ST / ST 458-2 H38|02,193
+LV|ST / ST 464-2 H38|03,237
+LV|ST / ST 464-2 H42|04,528
+LV|T / TN 464-1|01,629
+LV|T / TN 464-2|02,1386
+LV|T / TN 464-3|03,923
+LV|T / TR 342-1|01,220
+LV|T / TR 342-3|04,99
+LV|T / TR 464-2|02,861
+LV|T / TR 464-3|03,1027
+LV|T / TS 464-1|01,1247
+LV|T / TS 464-3|02,136
+LV|WA / ST 458-2 H38|01,159
+LV|WA / ST 458-3 H38|03,212
+LV|WA / ST 464-3 H38|02,241
+LV|WA / ST 464-3 H42|04,424
+LY|01.1|01,725
+LY|02.1|01,625
+LY|03.1|01,844
+LY|04.1|01,993
+LY|05.1|01,884
+LY|06.1|01,897
+LY|07.1|01,354
+LY|08.1|01,872
+LY|09.1|01,641
+LY|10.1|01,659
+LY|11.1|01,611
+LY|12.1|01,532
+LY|13.1|01,807
+LY|14.1|01,789
+LY|15.1|01,383
+LY|16.1|01,684
+LY|17.1|01,700
+LY|18.1|01,569
+LY|19.1|01,1021
+LY|20.1|01,791
+LY|21.1|01,140
+LY|21.2|02,22
+LY|21.3|03,183
+LY|21.4|04,4
+LY|22.1|01,78
+LY|22.2|02,99
+LY|23.1|01,144
+LY|23.2|02,39
+LY|24.1|01,535
+LY|24.2|02,220
+LY|24.3|03,42
+LY|24.4|04,1
+LY|24.5|05,7
+LY|24.6|06,189
+LY|25.1|01,327
+LY|25.2|02,32
+LY|25.3|03,333
+LY|26.1|01,6
+LY|26.2|02,176
+LY|26.3|03,130
+LY|27.1|01,27
+LY|27.2|02,119
+LY|28.1|01,57
+LY|28.2|02,406
+LY|29.1|01,106
+LY|29.2|02,10
+LY|29D.1|01,3
+LY|30.1|01,4
+LY|30.2|02,44
+LY|30.3|03,320
+LY|30.4|04,174
+LY|30.5|05,54
+LY|30.6|06,34
+LY|30.7|07,10
+LY|30.8|08,92
+LY|31.1|01,362
+LY|31.2|02,23
+LY|31.3|03,42
+LY|32.1|01,251
+LY|32.2|02,90
+LY|32.3|03,161
+LY|32.4|04,20
+LY|33.1|01,93
+LY|33.2|02,368
+LY|33.3|03,6
+LY|34.1|01,1
+LY|34.2|02,14
+LY|35.1|01,93
+LY|35.2|02,4
+LY|36.1|01,7
+LY|36.2|02,436
+LY|36.3|03,2
+LY|37.1|01,60
+LY|4A.1|01,4
+LY|4B.1|01,10
+LY|4C.1|01,7
+LY|6A.1|01,2
+MC|1Beloit 2-5|02,432
+MC|1Beloit 3-6|01,719
+MC|2Beloit 1-4|03,971
+MC|2Beloit 2-5 -2|01,305
+MC|2Beloit 3-6 - 3|02,6
+MC|Asherville Township|01,69
+"MC|Beloit Township/1st Comm, 1-4|01",2
+"MC|Beloit Township/1st Comm, 2-5|03",19
+"MC|Beloit Township/1st Comm, 3-6|04",53
+"MC|Beloit Township/2nd Comm, 1-4|02",42
+"MC|Beloit Township/2nd Comm, 3-6|05",34
+MC|Bloomfield Township|01,63
+MC|Blue Hill Township/273|01,6
+MC|Blue Hill Township/299|02,18
+MC|Carr Creek Township/2-5|01,5
+MC|Carr Creek Township/3-6|02,11
+MC|Cawker City|02,317
+MC|Cawker Township|01,38
+MC|Center Township|01,20
+MC|Custer Township/272|01,11
+MC|Custer Township/299|02,22
+MC|Enclave A - North Independence|01,2
+MC|Eureka Township/273|01,11
+MC|Eureka Township/298|02,1
+MC|Glen Elder City|03,273
+MC|Glen Elder Township/2-5|01,62
+MC|Glen Elder Township/3-6|02,8
+MC|Hayes Township|01,20
+MC|Hunter City|03,35
+MC|Logan Township|01,24
+MC|Lulu Township|01,34
+MC|Pittsburg Township|01,62
+MC|Plum Creek Township|01,104
+MC|Round Springs Township/273|01,8
+MC|Round Springs Township/298|02,8
+MC|Salt Creek Township/273|01,13
+MC|Salt Creek Township/298|02,3
+MC|Scottsville City|02,23
+MC|Simpson City|02,46
+MC|Solomon Rapids Township/272|01,10
+MC|Solomon Rapids Township/273|02,45
+MC|Tipton City|03,142
+MC|Turkey Creek Township/272|01,7
+MC|Turkey Creek Township/273|02,69
+MC|Walnut Creek Township|01,34
+ME|CC/225/F|03,39
+ME|CC/225/M|01,9
+ME|CC/226/M|02,16
+ME|CT/226/M|01,18
+ME|CT/483/M|02,52
+ME|Fowler/225/F|01,408
+ME|FT/225/F|01,99
+ME|LT/225/F|01,27
+ME|LT/226/F|02,57
+ME|MC/226-1/M|01,2
+ME|MC/226-2/M|02,1
+ME|MC/226-3/M|03,240
+ME|Meade/226-1/M|01,764
+ME|Meade/226-2/M|02,554
+ME|MT/226-3/M|02,24
+ME|MT/371/M|03,7
+ME|MT/476/M|04,20
+ME|MT/483/M|05,27
+ME|OD/226-3/M|01,26
+ME|Plains/483/M|01,768
+ME|SC/220/M|01,8
+ME|SC/226/F|02,15
+ME|SC/226/M|03,4
+ME|WP/226-3/M|01,8
+ME|WP/483-4/M|02,68
+ME|WP/483-5/M|03,28
+MG|CaC W1 ExA|01,2
+MG|CaC W1 ExC|01,2
+MG|CaC W1|01,290
+MG|CaC W2|01,283
+MG|CaC W3|01,338
+MG|CaC W4 ExA|01,1
+MG|CaC W4|01,345
+MG|ChC W1|01,732
+MG|ChC W2|01,551
+MG|CoC P1 DD1|02,15
+MG|CoC P1 ExF|01,8
+MG|CoC P1|01,939
+MG|CoC P2 DD1|02,7
+MG|CoC P2|01,763
+MG|CoC P3|01,821
+MG|CoC P4|01,841
+MG|CoC P5|01,969
+MG|CoC P6|01,686
+MG|InC W1|01,857
+MG|InC W2 P1|01,244
+MG|InC W2 P2|01,227
+MG|InC W3 P1 ExA|01,1
+MG|InC W3 P1|01,735
+MG|InC W3 P2|01,33
+MG|InC W4 P1|01,924
+MG|InC W5|01,963
+MG|InC W6 P1|01,1031
+MG|InC W6 P2|01,518
+MG|InC W6 P3|01,234
+MG|Twp Caney P1 Havana City|02,72
+MG|Twp Caney P1|01,374
+MG|Twp Caney P2 Tyro City|02,88
+MG|Twp Caney P2|01,423
+MG|Twp Cherokee P1 DD2|02,40
+MG|Twp Cherokee P1|01,157
+MG|Twp Cherokee P2 DD2|02,17
+MG|Twp Cherokee P2 DD3|03,3
+MG|Twp Cherokee P2|01,80
+MG|Twp Cherry 447|02,374
+MG|Twp Cherry 461|01,10
+MG|Twp Cherry EnB|01,1
+MG|Twp Drum Creek P1 446|01,58
+MG|Twp Drum Creek P1 447|03,16
+MG|Twp Drum Creek P2 446|02,121
+MG|Twp Drum Creek P2 447|01,189
+MG|Twp Fawn Creek P1 436|02,201
+MG|Twp Fawn Creek P1 445|03,38
+MG|Twp Fawn Creek P1 446|04,50
+MG|Twp Fawn Creek P1 Tyro City|01,66
+MG|Twp Fawn Creek P2 Dearing City|02,224
+MG|Twp Fawn Creek P2|03,512
+MG|Twp Fawn Creek P3 Dearing City|01,37
+MG|Twp Fawn Creek P3|02,348
+MG|Twp Independence P1 445|02,59
+MG|Twp Independence P1 446|01,1167
+MG|Twp Independence P2 436|02,61
+MG|Twp Independence P2 446|01,132
+MG|Twp Independence P3|01,243
+MG|Twp Independence P4|01,75
+MG|Twp Liberty P1 445 CCC|07,18
+MG|Twp Liberty P1 446 ICC|03,69
+MG|Twp Liberty P1 447 CCC|02,2
+MG|Twp Liberty P1 447 ICC|01,6
+MG|Twp Liberty P2 445 CCC DD3|07,7
+MG|Twp Liberty P2 445 CCC|06,101
+MG|Twp Liberty P2 447 CCC DD3|02,9
+MG|Twp Liberty P2 447 CCC|01,69
+MG|Twp Liberty P2 447 ICC|03,20
+MG|Twp Liberty P2 Liberty City|05,74
+MG|Twp Louisburg P1 283|04,62
+MG|Twp Louisburg P1 446|03,92
+MG|Twp Louisburg P1 484|02,21
+MG|Twp Louisburg P1 Elk City|01,169
+MG|Twp Louisburg P2 283|03,28
+MG|Twp Louisburg P2 446|02,16
+MG|Twp Louisburg P2 484|01,1
+MG|Twp Parker P1|01,211
+MG|Twp Parker P2 DD2|02,3
+MG|Twp Parker P2 DD3|03,1
+MG|Twp Parker P2 EnC|01,3
+MG|Twp Parker P2|01,616
+MG|Twp Parker P3|01,10
+MG|Twp Rutland P1 436|03,120
+MG|Twp Rutland P1 446|02,123
+MG|Twp Rutland P2|01,17
+MG|Twp Sycamore 283|01,40
+MG|Twp Sycamore 446|03,520
+MG|Twp Sycamore 461|02,77
+MG|Twp West Cherry 446|03,113
+MG|Twp West Cherry 447|02,60
+MG|Twp West Cherry 461|01,56
+MI|EMC 416-3|01,131
+MI|EMC 416-4|02,820
+MI|EV H6 368 2-5|01,318
+MI|EV H9 A 368 2-5|01,17
+MI|EV H9 B 362-2|01,1
+MI|FC 362-2|01,123
+MI|LC 01 416-2|01,94
+MI|LC 01 416-5|03,64
+MI|LC 01 416-6|02,669
+MI|LC 02 416-5|01,594
+MI|LC 02 416-6|02,350
+MI|LC 03 416-3|02,746
+MI|LC 03 416-5|01,257
+MI|LC 04 416-2|01,832
+MI|LC 04 416-4 MC|01,57
+MI|MI H6 368 2-5|01,76
+MI|MI H6 416-4|02,113
+MI|MI H9 362-2|01,57
+MI|MI H9 362-4|03,122
+MI|MI H9 368 2-5|02,89
+MI|MND H5 367 3-6|01,140
+MI|MND H9 362 -5|02,135
+MI|MND H9 367 3-6|01,268
+MI|N Paola E Prt 1 368 2-5|01,12
+MI|N Paola E Prt 2 368 2-5|01,75
+MI|N Paola W 368 1-4|01,257
+MI|N Paola W 368 2-5|03,28
+MI|N Paola W 368 3-6|02,104
+MI|NMV ENC H26 S23 230 3-6|01,6
+MI|NMV ENC H5 S23 230 3-6|01,8
+MI|NMV H5 S23 230 3-6|01,132
+MI|NMV H5 S37 230 3-6|02,336
+MI|NMV H5 S37 368 1-4|01,3
+MI|NMV H6 Prt B 203 3-6|02,1
+MI|NMV H6 S23 230 3-6|01,151
+MI|NMV H6 S23 368 1-4|02,4
+MI|NMV H6 S37 230 3-6|02,170
+MI|NMV H6 S37 368 1-4|01,91
+MI|NW 229 3-6 (WD1)|01,48
+MI|NW 416-1 (WD1)|03,124
+MI|NW 416-1|02,270
+MI|NW 416-3|04,99
+MI|OC 01 H6 367 1-4|01,511
+MI|OC 01 H6 367 3-6|02,17
+MI|OC 02 H5 367 1-4|01,637
+MI|OC 03 H5 367 2-5|01,686
+MI|OC 03 H5 EXC B 367 3-6|01,5
+MI|OC 04 H5 367 2-5|01,40
+MI|OC 04 H6 367 2-5|01,568
+MI|OSA H5 367 3-6|01,473
+MI|OSA H6 Part A 367 3-6|01,1
+MI|OSA H9 367 3-6|01,96
+MI|Osage 362-2|01,299
+MI|Osage 367 3-6|02,22
+MI|PC 01 368 1-4|01,187
+MI|PC 01 368 3-6|02,814
+MI|PC 02 368 2-5|01,338
+MI|PC 02 368 3-6|02,619
+MI|PC 03 368 2-5|01,781
+MI|PC 03 368 3-6|02,97
+MI|PC 04 368 2-5|01,190
+MI|PC 04 368 3-6|02,1102
+MI|RICH H5 231 1-4|01,342
+MI|RICH H5 289 2-5|02,136
+MI|RICH H5 289 3-6|03,293
+MI|RICH H5 368 1-4|04,821
+MI|RICH H6 368 1-4|01,111
+MI|S Paola E Part 2 368 2-5|01,151
+MI|S Paola W 368 1-4|02,96
+MI|S Paola W 368 2-5|03,155
+MI|SC H6 416-4|01,246
+MI|SC H9 362-4|02,94
+MI|SC H9 416-4|01,109
+MI|SHC 230 3-6 (EXC B)|01,178
+MI|SHC H226 230 3-6|02,1392
+MI|SHC H26 230 2-5|01,874
+MI|SMV 368 1-4|01,985
+MI|SMV 368 2-5|01,146
+MI|STAN H5 D3 367 3-6|01,195
+MI|STAN H5 D5 368 1-4|01,447
+MI|STAN H6 367 3-6|02,18
+MI|STAN H6 368 1-4|01,37
+MI|SW 416-1|01,158
+MI|SW 416-2|02,272
+MI|SW 416-3|03,383
+MI|SW 416-5|04,309
+MI|SW 416-6|05,75
+MI|SW ENC A 416-5|01,27
+MI|TM 230 3-6|01,225
+MI|TM 368 1-4|02,221
+MI|TM 368 2-5|01,27
+MI|TM 416-1|03,712
+MI|TM 416-2|02,61
+MI|WMC 368 2-5|01,461
+MI|WMC 416-2|01,25
+MI|WMC 416-4|02,132
+MI|WV EXC 367 3-6|01,172
+MI|WV EXC 368 2-5|03,121
+MI|WV6 367 3-6 (23 De-Annex)|05,38
+MI|WV6 367 3-6 (HWY 169)|04,217
+MI|WV6 367 3-6|01,3
+MI|WV6 368 1-4|03,64
+MI|WV6 368 2-5|02,125
+MI|WV9 367-3-6|01,43
+MN|Blaine USD 397|01,29
+MN|Blaine USD 410|02,4
+MN|Blaine USD 481|03,4
+MN|Burns|01,140
+MN|Catlin USD408/Hospital Dist|03,24
+MN|Catlin/Hospital Dist|02,54
+MN|Catlin/Peabody City East|01,2
+MN|Catlin/Peabody City West|01,6
+MN|Catlin|01,38
+MN|Centre USD 397-6|02,4
+"MN|Centre USD 408-1,4/CVD|04",4
+"MN|Centre USD 408-1,4|05",11
+"MN|Centre USD 408-2,5/CVD|03",1
+"MN|Centre USD 408-2,5|01",105
+"MN|Centre USD 408-3,6/CVD|07",1
+"MN|Centre USD 408-3,6/Imp#2|06",210
+"MN|Centre USD 408-3,6|08",46
+MN|Clark USD 397-6/Imp#3|01,12
+MN|Clark USD 397-6|02,57
+"MN|Clark USD 408-1,4|03",19
+"MN|Clark USD 410,1-4|04",3
+MN|Clear Creek USD  397-6|03,60
+MN|Clear Creek USD 397-6/Imp #3|02,28
+"MN|Clear Creek USD 408-2,5|04",7
+MN|Clear Creek USD397-5|01,112
+MN|Colfax|01,60
+MN|Doyle USD 284|01,2
+"MN|Doyle USD 408-3,6|02",41
+MN|Durham City|01,55
+MN|Durham Park USD 397-1|01,7
+"MN|Durham Park USD 410-1,4|02",66
+MN|East Branch USD 373/HV Fire1|01,6
+MN|East Branch USD 398|02,40
+"MN|East Branch USD 410-1,4|03",17
+"MN|East Branch USD 411-3,6|04",58
+"MN|East Branch USD411-3,6/HVFire1|05",9
+MN|Fairplay USD 398|01,2
+"MN|Fairplay USD 408-3,6|02",83
+MN|Florence 1st|01,129
+MN|Florence 2nd|01,148
+"MN|Gale USD 408-1,4|03",41
+"MN|Gale USD 408-2,5/CVD|04",2
+"MN|Gale USD 408-2,5|05",49
+"MN|Gale USD 410-1,4|01",27
+"MN|Gale USD408-1,4/Imp#1|02",71
+"MN|Goessel USD 411-2,5|01",183
+"MN|Goessel USD 411-3,6|02",194
+MN|Grant USD 397-5|02,15
+"MN|Grant USD 408-2,5|01",71
+"MN|Hillsboro 1st/USD410-2,5|01",826
+"MN|Hillsboro 2nd/USD410-2,5|02",78
+"MN|Hillsboro 2nd/USD410-3,6|01",818
+MN|Lehigh City|01,97
+"MN|Lehigh USD410-1,4|01",105
+"MN|Lehigh USD411-1,4|02",1
+"MN|Lehigh USD411-2,5|03",10
+"MN|Liberty USD410-1,4|01",225
+"MN|Liberty USD411-2,5|02",19
+MN|Lincolnville|01,120
+MN|Logan|01,31
+MN|Lost Springs City|01,31
+MN|Lost Springs Township|01,82
+MN|Marion North/CVD|01,131
+MN|Marion North|02,584
+MN|Marion South/CVD|01,113
+MN|Marion South|02,545
+"MN|Menno USD410-1,4|01",32
+"MN|Menno USD411-1,4|02",25
+"MN|Menno USD411-2,5|03",190
+MN|Milton USD398|02,59
+MN|Moore|01,40
+MN|Peabody City East|01,260
+MN|Peabody City West|01,373
+MN|Peabody Township East|01,65
+MN|Peabody Township West|02,78
+MN|Peabody Twp West/USD 206|01,9
+MN|Ramona|01,67
+MN|Risley|01,172
+MN|Summit|01,54
+MN|Tampa|01,75
+"MN|West Branch USD411-1,4|01",121
+"MN|West Branch USD411-2,5|02",10
+"MN|West Branch USD411-3,6/HVFire1|05",3
+"MN|West Branch USD411-3,6|03",177
+MN|West Branch USD460|04,2
+"MN|Wilson USD 408-3,6/Hospital|04",80
+"MN|Wilson USD408-2,5/CVD|03",3
+"MN|Wilson USD408-2,5/Hospital|06",27
+"MN|Wilson USD408-3,6|01",4
+"MN|Wilson USD410-1,4/Hospital|05",3
+"MN|Wilson USD410-1,4|02",28
+MP|Battle Hill - USD 400|400,10
+MP|Battle Hill - USD 419|419,75
+MP|Bonaville - USD 306|306,5
+MP|Bonaville - USD 400|400,56
+MP|Canton C - USD 419|419,402
+MP|Canton T-  419 (1-4)|1-4,35
+MP|Canton T-  419 (3-6)|3-6,108
+MP|Castle - USD 444|444,50
+MP|Delmore - USD 418|418,30
+MP|Delmore - USD 419|419,79
+MP|Delmore  - USD 400|400,7
+MP|Empire-USD 419 (2-5)|2-5,69
+MP|Empire-USD 419 (3-6)|3-6,108
+MP|Empire - USD 418|418,43
+MP|Galva  - USD 419|419,551
+MP|Groveland - USD 418|418,22
+MP|Groveland - USD 448|448,99
+MP|Gypsum Crk-USD 400|400,123
+MP|Harper-USD 400 (1-4)|1-4,15
+MP|Harper-USD 400 (2-5)|2-5,55
+MP|Harper - USD 418|418,44
+MP|Hayes - USD 444|444,84
+MP|Hayes - USD 448|448,81
+MP|Inman - USD 448|448,922
+MP|Jackson - USD 418|418,136
+MP|King City - USD 418|418,287
+MP|King City - USD 423|423,76
+MP|King City - USD 448|448,9
+MP|Lindsborg 1-USD 400|400,579
+MP|Lindsborg 2-USD 400|400,598
+MP|Lindsborg 3-USD 400.1|401,16
+MP|Lindsborg 3-USD 400|400,584
+MP|Lindsborg 4-USD 400.2|402,263
+MP|Lindsborg 4-USD 400|400,348
+MP|Little Valley-USD 444|444,9
+MP|Little Valley-USD 448|448,291
+MP|Lone Tree - USD 418|418,33
+MP|Lone Tree - USD 423|423,135
+MP|Marquette - USD 400|400,529
+MP|Meridian - USD 411|411,57
+MP|Meridian - USD 423|423,100
+MP|Meridian - USD 460|460,21
+MP|Mound - USD 423|423,265
+MP|Moundridge-USD 423|423,1167
+MP|MP City W1-USD 418|418,4489
+MP|MP City W2-USD 418|418,1417
+MP|MP City W3-USD 418|418,947
+MP|MP City W4-USD 418|418,2055
+MP|MP Twp - USD 418|418,425
+MP|N Gottland -USD 400|400,143
+MP|N Gottland -USD 418|418,275
+MP|S Sharps Creek - 400|400,50
+MP|S Sharps Creek - 444|444,14
+MP|Smoky Hill - USD 306|306,1
+MP|Smoky Hill - USD 400 (1-4)|1-4,41
+MP|Smoky Hill - USD 400 (2-5)|2-5,192
+MP|Spr Valley - USD 411|411,50
+MP|Spr Valley - USD 419|419,120
+MP|Spr Valley - USD 423|423,7
+MP|Superior - USD 448|448,229
+MP|Turkey Crk-USD 423|423,115
+MP|Turkey Crk-USD 448|448,94
+MP|Union-USD 400 (1-4)|1-4,66
+MP|Union USD 400 (2-5)|2-5,77
+MP|Windom - USD 444|444,77
+"MR|CG-Ward 1 - 417, Bd 1|01",435
+"MR|CG-Ward 2 - 417, Bd 1|01",389
+"MR|CG-Ward 3 - 417, Bd 1|01",659
+"MR|HI - 481, Bd 1|03",71
+"MR|OV - 481, Bd 1|03",57
+"MR|OV - 481, Bd 2|01",3
+MR|OV - 487 At Lrg|02,2
+"MR|Twp 1 Pct 2 - 417, Bd 1|02",124
+"MR|Twp 1, Pct 1 - 284, Bd 2|02",1
+"MR|Twp 1, Pct 1 - 417, Bd 1|01",233
+"MR|Twp 1, Pct 2-Dunlap-417,Bd 1|01",22
+"MR|Twp 1, Pct 2 - 284, Bd 2|03",11
+"MR|Twp 2  - 417, Bd 2 - City Lake|02",123
+"MR|Twp 2  - 417, Bd 2|01",401
+"MR|Twp 2  417, Bd 2 - Impvmt Dist|03",15
+"MR|Twp 3 - 417, Bd 2|02",124
+"MR|Twp 3 - Dwight City  417, Bd 2|01",170
+"MR|Twp 4 - 417, Bd 2|03",56
+"MR|Twp 4 - 481, Bd 1|06",62
+"MR|Twp 4 - Parkerville-417, Bd 2|01",6
+"MR|Twp 4 - Parkerville-481, Bd 1|05",25
+"MR|Twp 5 - 481, Bd 1|01",120
+"MR|Twp 5 - White City - 481, Bd 1|04",308
+"MR|Twp 6 - 481, Bd 1|01",14
+MR|Twp 6 - 487  At Large|03,47
+"MR|Twp 6 - Latimer - 481, Bd 1|04",19
+"MR|Twp 7 - 397, Bd 1|01",15
+"MR|Twp 7 - 417, Bd 2|02",75
+MR|Twp 7 - 487  At Large|03,78
+"MR|Twp 8 - 397, Bd 1|02",123
+"MR|Twp 8 - 417, Bd 2|03",8
+"MR|Twp 9 - 417, Bd 2|02",120
+"MR|Twp 9 - Wilsey - 417, Bd 2|01",124
+MS|Bald USD 113-b|02,15
+MS|Bald USD 364|01,45
+MS|Big USD 380|01,18
+MS|Big USD 384|02,2
+MS|Big USD 498|03,4
+MS|BR City USD 364|01,4
+MS|BR City USD 498.2|02,71
+MS|BR City USD 498/B.1|01,446
+MS|BR City USD 498/B.2|02,173
+MS|BR USD 498|01,62
+MS|Center USD 364|01,74
+MS|Center USD 380|03,32
+MS|CF USD 322|01,2
+MS|CF USD 380.2|02,17
+MS|CF USD 380|03,15
+MS|CH USD 498|02,99
+MS|Cleve USD 380|02,61
+MS|EC USD 364|03,109
+MS|EC USD 498|02,10
+MS|Frank USD 364-1|01,222
+MS|Guit USD 113-g-1|02,8
+MS|Guit USD 364-b-1|01,136
+MS|Guit USD 364-g-1|03,90
+MS|Herk USD 364|01,160
+MS|Linc USD 113-l|03,49
+MS|Linc USD 115-l|02,11
+MS|Linc USD 380|01,57
+MS|Log USD 223|01,1
+MS|Log USD 364|03,197
+MS|Mary USD 364|01,216
+MS|Murray USD 113-A6|01,316
+MS|Murray USD 113-m|02,156
+MS|Murray USD 115-m|01,1
+MS|Noble USD 380.2|02,76
+MS|Noble USD 380/V|01,84
+MS|Oketo USD 364/O|01,48
+MS|Oketo USD 364|01,104
+MS|Rich USD 113-1|02,45
+MS|Rich USD 113-rs|01,54
+MS|Rich USD 364|01,24
+MS|Rock USD 113-r|04,2
+MS|Rock USD 364|01,20
+MS|Rock USD 380.2|02,4
+MS|Rock USD 380|03,64
+MS|SB USD 113-s1|01,32
+MS|SB USD 113-s2|02,39
+MS|SB USD 113-s3|01,57
+MS|Verm-E USD 380.1|01,62
+MS|Verm-E USD 380.2|02,14
+MS|Verm-E USD 380/F|01,261
+MS|Verm-W USD 380.1|01,34
+MS|Verm-W USD 380.2|02,32
+MS|Verm-W USD 380/F|01,264
+MS|Walnut USD 223|01,2
+MS|Walnut USD 364|04,37
+MS|Walnut USD 498|03,41
+MS|Ward 1|01,671
+MS|Ward 2|01,605
+MS|Ward 3|01,478
+MS|Ward 4|01,601
+MS|Water USD 498/W|01,471
+MS|Water USD 498|02,95
+MS|Wells USD 380.4|04,44
+MS|Wells USD 380|02,30
+MS|Wells USD 498|03,22
+MT|01.1 Cimarron Twp/C-1/218|01,46
+MT|02.1 Elkhart/W-2/C-2|01,205
+MT|02.2 Elkhart/W-2/C-3|02,95
+MT|02.3 Elkhart/W-3/C-2|03,234
+MT|02.4 Elkhart/W-3/C-3|04,188
+MT|02.5 Elkhart/W-1/C-2|05,45
+MT|02.6 Elkhart/W-2/C-1|06,154
+MT|02.7 Elkhart/W-1/C-3|07,385
+MT|02.8 Elkhart/W-1/C-1|08,95
+MT|03.1 Jones/C-2/218|01,8
+MT|04.1 Richfield/C-2/217|01,31
+MT|05.1 Richfield East/C-2/217|01,50
+MT|06.1 Richfield West/C-2/218|01,16
+MT|06.2 Richfield West/C-2/217|02,35
+MT|07.1 Rolla Twp/C-1/217|01,86
+MT|08.1 Rolla City/C-1/217|01,252
+MT|09.1 Taloga Twp/C-1/218|01,63
+MT|09.2 Taloga Twp/C-2/218|02,23
+MT|10.1 Westola Twp/C-2/218|01,47
+NM|Adams Twp - USD 113|02,13
+NM|Adams Twp - USD 115|03,122
+NM|Bern City|01,127
+NM|Berwick Twp - USD 113|01,284
+NM|Capioma Twp - USD 113|02,118
+NM|Center Twp - USD 115|01,80
+NM|Center Twp - USD 380|02,55
+NM|Centralia-Home 380 2-5|02,143
+NM|Centralia-Home 380 3-6|01,132
+NM|Centralia-Illinois|01,49
+NM|Clear Creek - USD 113|03,12
+NM|Clear Creek - USD 115|02,62
+NM|Corning City|01,154
+NM|Gilman Twp - USD 113|03,30
+NM|Gilman Twp - USD 115|02,90
+NM|Goff City|01,70
+NM|Granada Twp - USD 113|01,30
+NM|Granada Twp - USD 335|02,42
+NM|Harrison-Goff - USD 115|04,2
+NM|Harrison-Goff - USD 380|02,47
+NM|Harrison-Kelly - USD 115|02,79
+NM|Harrison Goff - USD 335|03,6
+NM|Home Twp - USD 380 Mbr 2-5|01,96
+NM|Home Twp - USD 380 Mbr 3-6|02,8
+NM|Illinois Twp - USD 115|03,46
+NM|Illinois Twp - USD 380 Mbr 3-6|02,121
+NM|Marion Twp - Bailley Imp Dist|06,124
+NM|Marion Twp - USD 115|02,149
+NM|Mitchell Twp - USD 115|03,247
+NM|Mitchell Twp - USD 380 3-6|02,15
+NM|Nemaha Twp - USD 113 Mbr 5|01,72
+NM|Nemaha Twp - USD 115|02,29
+NM|Neuchatel Twp - USD 322|02,22
+NM|Neuchatel Twp - USD 380|03,61
+NM|Oneida City|01,33
+NM|Red Vermillion Twp - USD 322|02,19
+NM|Red Vermillion Twp - USD 380|03,66
+NM|Reilly Twp - USD 335|02,37
+NM|Reilly Twp - USD 380|03,42
+NM|Richmond Twp - USD 115|01,424
+NM|Rock Creek Twp - USD 113 Mbr 4|01,145
+NM|Rock Creek Twp - USD 113 Mbr 5|02,182
+NM|Sabetha City - Ward 1 (113/3)|01,384
+NM|Sabetha City - Ward 1 (113/4)|02,70
+NM|Sabetha City - Ward 2 (113/3)|01,296
+NM|Sabetha City - Ward 2 (113/4)|02,200
+NM|Sabetha City - Ward 2 (113/5)|03,8
+NM|Sabetha City - Ward 3 (113/2)|01,300
+NM|Sabetha City - Ward 3 (113/5)|02,139
+NM|Sabetha City - Ward 4 (113/2)|01,324
+NM|Sabetha City - Ward 4 (113/5)|02,2
+NM|Seneca City - Ward 1 (115/2)|01,186
+NM|Seneca City - Ward 1 (115/3)|02,166
+NM|Seneca City - Ward 2 (115/1)|01,302
+NM|Seneca City - Ward 2 (115/2)|02,242
+NM|Seneca City - Ward 2 (115/3)|03,10
+NM|Seneca City - Ward 3 (115/1)|01,360
+NM|Seneca City - Ward 3 (115/2)|02,10
+NM|Seneca City - Ward 3 (115/3)|03,262
+NM|Washington Twp 113|01,189
+NM|Wetmore City|01,196
+NM|Wetmore Twp - USD 335 Mbr 2|02,92
+NM|Wetmore Twp - USD 335 Mbr 4|01,6
+NO|Big Creek (101/3)|01,175
+NO|Big Creek (413)|02,194
+NO|Canville H2 (413)|02,141
+NO|Canville Part A H7 (101/1)|01,5
+NO|Canville Part A H7 (413)|03,247
+NO|Canville Part B H7 (413)|01,5
+NO|Centerville (101/1)|01,206
+NO|Centerville (101/2)|02,76
+NO|Chanute  P1 Ward 3 (413)|01,1226
+NO|Chanute  P2 Ward 2 (413)|01,596
+NO|Chanute  P3 Ward 3 H2 (413)|01,178
+NO|Chanute P1 Ward 2 (413)|01,590
+NO|Chanute P1 Ward 3 EX (413)|01,1
+NO|Chanute P1 Ward 4 (413)|01,678
+NO|Chanute P2 Ward 3 (413)|01,518
+NO|Chanute P2 Ward 4 A H2 (413)|01,7
+NO|Chanute P2 Ward 4 B H2 (413)|01,1
+NO|Chanute P2 Ward 4 H7 (413)|01,454
+NO|Chanute P3 Ward 3 EX (413)|01,4
+NO|Chanute P3 Ward 3 H7 (413)|01,899
+NO|Chanute P3 Ward 4  H2 (413)|01,46
+NO|Chanute P3 Ward 4 EX C (413)|01,5
+NO|Chanute P3 Ward 4 H7 (413)|01,448
+NO|Chanute Ward 1 (413)|01,189
+NO|Chetopa H13 (447)|02,136
+NO|Chetopa H2 (101/1)|01,1
+NO|Chetopa H9 (101/1)|01,109
+NO|Chetopa H9 (413)|02,3
+NO|Chetopa H9 (447)|03,29
+NO|Earlton City (413)|02,38
+NO|East Erie City  (101/2)|06,2
+NO|East Erie City  (101/3)|05,1
+NO|East Erie City (101/2)|03,252
+NO|East Erie City (101/3)|04,172
+NO|East Erie TWP (101/3)|02,2
+NO|Galesburg City (101/1)|03,95
+NO|Grant (101/3)|01,218
+NO|Ladore (101/1)|01,256
+NO|Ladore (101/2)|02,22
+NO|Lincoln (101/2)|01,109
+NO|Lincoln (247)|02,23
+NO|Lincoln (505/3)|03,58
+NO|Mission (101/2)|01,10
+NO|Mission (505)|02,193
+NO|North Tioga (413)|01,344
+NO|S Tioga W Enclave H2 (413)|01,16
+NO|S Tioga W Part A H2 (413)|01,20
+NO|S Tioga West Enclave B (413)|01,10
+NO|S Tioga West Enclave C (413)|01,1
+NO|S Tioga West Enclave H7 (413)|01,2
+NO|S Tioga West H7 (413)|01,83
+NO|Shiloh (101/1)|01,109
+NO|Shiloh (447)|02,103
+NO|South Tioga East (413)|01,199
+NO|St Paul City (505)|04,406
+NO|Stark City (101/3)|02,49
+NO|Thayer City (447)|03,337
+NO|Walnut Grove  (101/2)|01,30
+NO|Walnut Grove (101/3)|02,128
+NO|Walnut Grove (248)|03,47
+NO|Walnut Grove (505)|04,58
+NO|West Erie City  (101/2)|05,332
+NO|West Erie TWP (101/1)|01,8
+NO|West Erie TWP (101/2)|02,85
+NO|West Erie TWP (101/3)|03,49
+NO|West Erie TWP (413)|04,28
+NS|Bazine City H2/106/1|10,173
+NS|Bazine Twp H1/106/1|01,18
+NS|Bazine Twp H1/395/1|05,1
+NS|Bazine Twp H2/106/1|04,69
+NS|Eden H1/303/1|01,19
+NS|Eden H2/303/1|03,35
+NS|Forrester City H2/303/1|10,15
+NS|Forrester H1/106/2|02,11
+NS|Forrester H1/303/1|103,8
+NS|Forrester H2/303/1|03,33
+NS|Franklin H2/303/1|03,87
+NS|Highpoint H2/106/1|04,27
+NS|Johnson H2/303/1|03,39
+NS|N Center City H2/303/1|10,562
+NS|N Center Twp H2/303/1|03,18
+NS|Nevada City H1/106/2|10,204
+NS|Nevada Twp H1/106/2|02,80
+NS|Ohio City H1/106/2|10,92
+NS|Ohio H1/106/2|02,48
+NS|Ohio H1/303/1|01,12
+NS|S Center City H2/303/1|10,314
+NS|S Center Twp H2/303/1|03,5
+NS|Waring City H1/106/2|10,19
+NS|Waring H1/106/2|02,37
+NS|Waring H1/395/1|05,9
+NT|1.1 Ward One|01,627
+NT|10.1 Belle Plain Twp|01,20
+NT|10.2 Belle Plain Twp|02,6
+NT|10.3 Edmond City|03,32
+NT|10.4 SandCreek Twp|04,7
+NT|10.5 SandCreek Twp|05,8
+NT|10.6 SandCreek Twp|06,4
+NT|10.7 Solomon Twp|07,10
+NT|11.1 Lincoln Twp|01,12
+NT|11.2 West Union Twp|02,24
+NT|2.2 Ward Two|02,677
+NT|3.2 Ward Three|02,664
+NT|4.1 Almena City|01,242
+NT|4.10 Almena Twp (Har)|10,1
+NT|4.11 Almena Twp (Har)|11,7
+NT|4.2 Almena Twp|02,22
+NT|4.3 Almena Twp|03,50
+NT|4.5 Almena Twp|05,1
+NT|4.6 Grant Twp|06,27
+NT|4.7 Grant Twp|07,9
+NT|4.8 Grant Twp|08,1
+NT|5.1 Center Twp|01,50
+NT|5.2 Center Twp|02,123
+NT|5.3 Center Twp|03,129
+NT|5.4 Center Twp|04,61
+NT|5.5 Emmett Twp|05,52
+NT|5.6 Emmett Twp|06,30
+NT|6.1 Crystal Twp|01,13
+NT|6.2 Crystal Twp|02,5
+NT|6.3 Crystal Twp|03,4
+NT|6.4 Garfield Twp|04,41
+NT|6.5 Rockbranch Twp|05,12
+NT|6.6 Rockwell Twp|06,5
+NT|6.7 Rockwell Twp|07,7
+NT|6.8 Rockwell Twp|08,7
+NT|7.1 Almelo Twp|01,51
+NT|7.2 Lenora City|02,179
+NT|7.3 Highland Twp|03,17
+NT|7.4 Lenora Twp|04,21
+NT|7.5 Modell Twp|05,24
+NT|7.6 Modell Twp|06,5
+NT|8.1 Clayton City|01,38
+NT|8.2 Clayton Twp|02,10
+NT|8.3 Clayton Twp|03,20
+NT|8.4 Noble Twp|04,5
+NT|8.5 Noble Twp|05,8
+NT|9.1 Leota Twp|01,44
+NT|9.2 Orange Twp|02,38
+"OB|Alton City/392, 3|01",80
+"OB|Bethany Twp/272, 1-4|01",14
+"OB|Bethany Twp/392, 3|02",42
+"OB|Bloom Twp/272, 3-6|01",50
+"OB|Bloom Twp/392, 3|02",1
+"OB|Corinth Twp/272, 2-5|01",26
+"OB|Corinth Twp/272, 3-6|02",14
+"OB|Corinth Twp/392, 3|03",4
+OB|Covert Twp/299|03,2
+"OB|Covert Twp/392, 3|01",5
+OB|Covert Twp/399|02,1
+OB|Delhi Twp/299|01,18
+"OB|Delhi Twp/392, 3|02",1
+"OB|Downs City/272, 1-4|01",418
+"OB|Downs City/272, 2-5|02",185
+OB|Grant Twp/271|01,2
+"OB|Grant Twp/392, 3|02",23
+"OB|Hancock Twp/392, 3|01",15
+"OB|Hawkeye Twp/392, 3|01",21
+"OB|Independence Twp/392, 3|01",17
+OB|Jackson Twp/299|02,12
+"OB|Jackson Twp/392, 3|01",10
+"OB|Kill Creek Twp/392, 3|01",3
+"OB|Lawrence Twp/392, 3|01",19
+OB|Liberty Twp/399|01,15
+"OB|Mt. Ayr Twp/392, 3|01",14
+OB|Mt. Ayr Twp/399|02,9
+OB|Natoma City|01,216
+OB|Natoma Twp/399|01,14
+"OB|Osborne Ward 1/392, 1|01",321
+"OB|Osborne Ward 2/392, 2|01",380
+"OB|Osborne Ward 3/392, 1|01",151
+"OB|Osborne Ward 3/392, 2|02",69
+"OB|Penn Twp/392, 2|01",43
+"OB|Penn Twp/392, 3|02",47
+"OB|Portis City/392, 3|01",74
+"OB|Ross Twp/272, 1-4|01",52
+"OB|Ross Twp/272, 2-5|02",21
+OB|Round Mound Twp/399|01,24
+OB|Sumner Twp/271|01,11
+"OB|Sumner Twp/392, 3|02",28
+"OB|Tilden Twp/392, 3|01",51
+OB|Valley Twp/299|02,10
+OB|Valley Twp/399|01,12
+OB|Victor Twp/399|01,12
+"OB|Winfield Twp/392, 3|01",17
+OS|Agency 421 MD 2-4|02,2
+OS|Agency 421 MD 3-4|01,8
+OS|Agency 456 MD 147|05,5
+OS|Agency 456 MD 257|03,25
+OS|Agency 456 MD 367|04,73
+OS|Arvonia 243 MD 147|01,50
+OS|Arvonia 243 MD 257|02,7
+OS|Arvonia 251 MD__ RF1|03,30
+OS|Arvonia 420 MD 147|04,3
+OS|Barclay 251 MD 147_RF1|01,19
+OS|Barclay 420 MD 147|02,134
+OS|Bulingame SO 454 MD 367 WS|05,37
+OS|Burlingame NO 330 MD 257 WS|05,35
+OS|Burlingame NO 330 MD 257|01,102
+OS|Burlingame NO 434 MD 257|02,48
+OS|Burlingame NO 437 MD 257|03,41
+OS|Burlingame NO 454 MD 147 WS|06,188
+OS|Burlingame NO 454 MD 147|04,110
+OS|Burlingame SO 454 MD 257 WS|04,21
+OS|Burlingame SO 454 MD 257|02,15
+OS|Burlingame SO 454 MD 367|03,45
+OS|City of B'Game South MD257 WS|02,122
+OS|City of B'Game South MD367 WS|03,362
+OS|City of Burlingame North WS|01,192
+OS|City of Carbondale North|01,488
+OS|City of Carbondale South|01,486
+OS|City of Lyndon North 1-4|01,567
+OS|City of Lyndon North 2-4|02,7
+OS|City of Lyndon South 1-4|01,126
+OS|City of Lyndon South 2-4|02,93
+OS|City of Melvern|01,270
+OS|City of Olivet|01,56
+OS|City of Overbrook|02,738
+OS|City of Quenemo|01,223
+OS|City of Scranton|01,465
+OS|Dragoon 420 MD 147|01,27
+OS|Dragoon 434 MD 367|02,21
+OS|Dragoon 454 MD 257 WS|04,13
+OS|Dragoon 454 MD 257|03,106
+OS|Elk 434 MD 147|01,642
+OS|Elk 434 MD 367|02,20
+OS|Elk 450 MD 367|03,41
+OS|Fairfax  434 MD 367 H54|02,247
+OS|Fairfax 421 MD 2-4 H54|01,132
+OS|Fairfax 421 MD 2-4|01,27
+OS|Fairfax 421 MD 3-4|02,82
+OS|Fairfax 434 MD 367|03,2
+OS|Grant H54|01,32
+OS|Grant H76|01,203
+OS|Lincoln 287 MD 367|01,35
+OS|Lincoln 456 MD 147|03,86
+OS|Lincoln 456 MD 257|02,3
+OS|Melvern 421 MD 2-4|01,8
+OS|Melvern 456 MD 147|03,161
+OS|Melvern 456 MD 257|02,101
+OS|Michigan Valley 287 MD 147 H54|01,7
+OS|Michigan Valley 287 MD 147|01,218
+OS|Michigan Valley 287 MD 257|02,21
+OS|Michigan Valley 434 MD 147 H54|02,70
+OS|Michigan Valley 434 MD 147|03,82
+OS|Olivet 420 MD 147|02,46
+OS|Olivet 421 MD 2-4|03,43
+OS|Olivet 456 MD 147|04,66
+"OS|Osage City Ward 1 (420, 147)|01",322
+"OS|Osage City Ward 1 (420, 257)|02",240
+"OS|Osage City Ward 1 (420, 367)|03",22
+"OS|Osage City Ward 2 (420, 367)|01",448
+"OS|Osage City Ward 3 (420, 257)|02",25
+"OS|Osage City Ward 3 (420, 367)|01",563
+"OS|Osage City Ward 4 (420, 257)|01",465
+OS|Ridgeway NO 434 MD 257|02,157
+OS|Ridgeway NO 434 MD 367|01,272
+OS|Ridgeway NO 450 MD 367|03,6
+OS|Ridgeway SO 434 MD 257|02,29
+OS|Ridgeway SO 434 MD 367|01,395
+OS|Scranton 434 MD 257|01,181
+OS|Scranton 434 MD 367|02,121
+OS|Scranton 454 MD 257|03,62
+OS|Superior 420 MD 147|01,108
+OS|Superior 420 MD 147H54|01,28
+OS|Superior 420 MD 367|04,42
+OS|Superior 421 MD 2-4|02,20
+OS|Valley Brook NO 420 MD 147|01,9
+OS|Valley Brook NO 421 MD 2-4|02,210
+OS|Valley Brook NO 421 MD 3-4|03,59
+OS|Valley Brook SO 421 MD 2-4|01,133
+OS|Valley Brook SO 456 MD 3-6|02,4
+OS|Vassar 287 MD 147|01,13
+OS|Vassar 287 MD 257|02,7
+OS|Vassar 421 MD 3-4|03,573
+OT|Bennington City|01,396
+OT|Bennington Twp 239|01,2
+OT|Bennington Twp 240/2-5|02,419
+OT|Bennington Twp 240/3-6|03,41
+OT|Blaine Twp 239/2-5|01,52
+OT|Blaine Twp 239/3-6|02,42
+OT|Buckeye Twp 240|01,67
+OT|Buckeye Twp 393|02,9
+OT|Center Twp 239|01,64
+OT|Chapman Twp 239|01,29
+OT|Chapman Twp 379|03,7
+OT|Concord Twp 239|01,97
+OT|Concord Twp 240|02,97
+OT|Culver City|01,75
+OT|Culver Twp 239|01,4
+OT|Culver Twp 240/1-4|03,64
+OT|Culver Twp 240/2-5|02,12
+OT|Delphos City|01,210
+OT|Durham Twp 239|01,5
+OT|Durham Twp 379|02,7
+OT|Fountain Twp 239|01,85
+OT|Garfield Twp 239/1-4|01,45
+OT|Garfield Twp 239/2-5|02,22
+OT|Grant Twp 239|01,69
+OT|Henry Twp 239|01,3
+OT|Henry Twp 240|02,12
+OT|Lincoln Twp 240|01,9
+OT|Lincoln Twp 393|02,89
+OT|Logan Twp 239/2-5|01,28
+OT|Logan Twp 239/3-6|02,32
+OT|Minneapolis City I|01,412
+OT|Minneapolis City II|01,313
+OT|Minneapolis City III-2|02,30
+OT|Minneapolis City III|01,465
+OT|Morton Twp 240|01,93
+OT|Ottawa Twp 239|01,7
+OT|Ottawa Twp 240|02,11
+OT|Ottawa Twp 393|03,7
+OT|Richland Twp 239|01,50
+OT|Richland Twp 240|02,103
+OT|Sheridan Twp 239/1-4|01,16
+OT|Sheridan Twp 239/2-5|02,61
+OT|Sherman Twp 239|01,36
+OT|Stanton Twp 239|01,34
+OT|Stanton Twp 273|03,1
+OT|Tescott City|01,170
+PL|Agra City 110/1/FD3A|01,180
+PL|Arcade Twp 110/1/FD1|03,3
+PL|Arcade Twp 110/1/FD3A|04,16
+PL|Arcade Twp 325/1/FD1|01,18
+PL|Arcade Twp 325/2/FD1|02,25
+PL|Beaver Twp 326/6/FD2|01,36
+PL|Beaver Twp 326/6/FD4|02,2
+PL|Belmont Twp 325/3/FD1|01,17
+PL|Belmont Twp 325/3/FD4|03,2
+PL|Belmont Twp 326/6/FD4|02,12
+PL|Bow Creek Twp 110/1/FD3B|01,14
+PL|Bow Creek Twp 325/1/FD3B|02,11
+PL|Crystal Twp 110/1/FD3A|01,37
+PL|Dayton Twp 212/2/FD2|01,13
+PL|Dayton Twp 325/2/FD1|03,15
+PL|Dayton Twp 325/2/FD2|02,1
+PL|Deer Creek Twp 110/1/FD3B|01,9
+PL|Deer Creek Twp 325/1/FD1|03,57
+PL|Freedom Twp 212/2/FD1|01,3
+PL|Freedom Twp 325/2/FD1|02,58
+PL|Glade City 325/1/FD1|01,8
+PL|Glade City 325/3/FD1|02,44
+PL|Glenwood Twp 110/1/FD1|01,22
+PL|Glenwood Twp 325/2/FD1|02,13
+PL|Granite Twp 212/2/FD2|01,21
+PL|Greenwood Twp 110/1/FD1|03,6
+PL|Greenwood Twp 110/1/FD3A|01,4
+PL|Greenwood Twp 325/2/FD1|02,18
+PL|Kirwin City 110/1/FD3B|01,112
+PL|Kirwin Twp 110/1/FD3B|02,38
+PL|Kirwin Twp 110/2/FD3B|01,5
+PL|Logan City 326/2/FD4|01,137
+PL|Logan City 326/3/FD4|03,101
+PL|Logan City 326/4/FD4|04,21
+PL|Logan City 326/5/FD4|02,132
+PL|Logan Twp 326/4/FD4|02,17
+PL|Logan Twp 326/6/FD4|03,24
+PL|Long Island City 212/2/FD2|01,119
+PL|Long Island Twp 212/2/FD2|01,68
+PL|Mound Twp 325/3/FD1|01,95
+PL|Mound Twp 326/6/FD1|02,5
+PL|Phillipsburg Twp 325/1/FD1|01,32
+PL|Phillipsburg Twp 325/2/FD1|02,93
+PL|Phillipsburg Twp 325/3/FD1|03,75
+PL|Plainview Twp 325/3/FD4|01,1
+PL|Plainview Twp 326/6/FD4|02,18
+PL|Plum Twp 110/1/FD3A|01,76
+PL|Prairie View City 326/1/FD2|01,97
+PL|Prairie View Twp 212/2/FD2|01,16
+PL|Prairie View Twp 326/1/FD2|02,34
+PL|Prairie View Twp 326/6/FD2|03,4
+PL|Rushville Twp 325/1/FD1|02,3
+PL|Rushville Twp 325/3/FD1|01,20
+PL|Solomon Twp 325/1/FD1|01,15
+PL|Solomon Twp 325/3/FD1|02,56
+PL|Speed City 325/3/FD1|01,29
+PL|Sumner Twp 110/1/FD3A|01,32
+PL|Towanda Twp 326/4/FD4|01,13
+PL|Towanda Twp 326/6/FD4|02,8
+PL|Valley Twp 110/1/FD3B|01,16
+PL|Walnut Twp 325/2/FD1|03,1
+PL|Walnut Twp 325/2|02,10
+PL|Ward 1  325/1/FD1|01,700
+PL|Ward 2  325/2/FD1|01,567
+PL|Ward 3  325/3/FD1|01,536
+PL|Ward 3 325/CD1/FD1|01,4
+PN|Ash Valley Twp / 495 / 3-6|01,36
+PN|Ash Valley Twp / 496 / 246|02,1
+PN|Br. Grove Twp|01,31
+PN|Burdett City|01,164
+PN|Conkling Twp / 495 / 3-6|01,4
+PN|Conkling Twp / 496 / 246|02,10
+PN|Garfield City|01,93
+PN|Garfield Twp|01,26
+PN|Grant Twp|01,30
+PN|Keysville Twp / 495 / 3-6|01,1
+PN|Keysville Twp / 496 / 246|02,24
+PN|Larned City Ward 1 C1 / 1-4|01,57
+PN|Larned City Ward 1 C1 / 2-5|02,402
+PN|Larned City Ward 1 C4 / 2-5|02,47
+PN|Larned City Ward 2 C1 / 1-4|01,596
+PN|Larned City Ward 2 C1 / 2-5|02,39
+PN|Larned City Ward 2 C4 / 1-4|01,61
+PN|Larned City Ward 3 / 1-4|01,697
+PN|Larned City Ward 4 C1 / 2-5|02,7
+PN|Larned City Ward 4 C4 / 1-4|01,86
+PN|Larned City Ward 4 C4 / 2-5|02,314
+PN|Larned Twp C1 / 1-4|01,32
+PN|Larned Twp C1 / 2-5|02,26
+PN|Larned Twp C1 / 3-6|03,60
+PN|Larned Twp C4 Part A / 2-5|02,36
+PN|Larned Twp C4 Part A / 3-6|03,12
+PN|Larned Twp C4 Part B / 1-4|01,23
+PN|Lincoln Twp|01,11
+PN|Logan Twp / 351 / 1-4-5|01,18
+PN|Logan Twp / 495 / 3-6|02,15
+PN|Morton Twp / 495 / 3-6|01,18
+PN|Morton Twp / 496 / 246|02,6
+PN|Orange Twp/Garfield City|02,1
+PN|Orange Twp|01,29
+PN|Pawnee Twp|01,58
+PN|Plt. Grove Twp / 1-4|01,23
+PN|Plt. Grove Twp / 2-5|02,9
+PN|Plt. Grove Twp / 3-6|03,90
+PN|Plt. Ridge Twp / 495 / 3-6|01,34
+PN|Plt. Ridge Twp / 496 / 246|02,2
+PN|Plt. Valley Twp / 351 1-4-5|01,3
+PN|Plt. Valley Twp / 495|02,53
+PN|River Twp / 351 / 1-4-5|01,5
+PN|River Twp / 495 / 3-6|02,40
+PN|Rozel City|01,84
+PN|Santa Fe Twp|01,124
+PN|Sawmill Twp|01,15
+PN|Shiley Twp|01,19
+PN|Valley Center Twp / 351/ 1-4-5|01,19
+PN|Valley Center Twp / 495 / 3-6|02,5
+PN|Walnut Twp|01,54
+PR|Byers USD 438  Comm 2|01,28
+PR|Coats-10 USD 438  Comm 3|01,61
+PR|Cullison USD 438  Comm 3|01,56
+PR|Iuka USD 382  Comm 2|01,99
+PR|Preston USD 382  Comm 2|01,65
+PR|Sawyer 11 USD 438  Comm 3|01,66
+PR|Twp 10 USD 438  Comm3|02,26
+"PR|Twp 10, USD 438,  Comm 3|01",10
+PR|Twp 11 USD 254 Comm 3|01,36
+PR|Twp 11 USD 332 Mem 3 Com 3|02,1
+PR|Twp 11 USD 382  Comm3|03,2
+PR|Twp 11 USD 438  Comm 3|04,56
+PR|Twp 11 USD 438 Comm 3|04,56
+PR|Twp 12 USD 254 Comm 3|03,8
+PR|Twp 12 USD 332 Mem 2 Comm 3|05,3
+PR|Twp 12 USD 332 Mem 3 Comm 3|06,5
+PR|Twp 12 USD 382  Comm 3|06,240
+PR|Twp 12 USD 382 Comm 2|01,37
+PR|Twp 12 USD 382 Comm 3|01,324
+PR|Twp 12 USD 382 Comm2|02,52
+PR|Twp 12 USD 438  Comm 3|07,20
+PR|Twp 12 USD 438 Comm 3|07,3
+PR|Twp 12 USD 438 Comm2|01,13
+PR|Twp 6 USD 310 Mem - Comm 2|01,7
+PR|Twp 6 USD 332 Mem 2 Comm 2|02,24
+PR|Twp 6 USD 349 Mem - Comm 2|03,2
+PR|Twp 6 USD 382  Comm 2|04,230
+PR|Twp 7 USD 382  Comm 2|01,18
+PR|Twp 7 USD 382 Comm2|01,42
+PR|Twp 7 USD 438  Comm 2|02,15
+PR|Twp 7 USD 438 Comm2|02,5
+PR|Twp 8 USD 351 Mem - Comm 2|01,10
+PR|Twp 8 USD 438  Comm 2|02,56
+PR|Twp 9 USD 382 Comm 2|01,17
+PR|Twp 9 USD 438  Comm 3|04,72
+PR|Twp 9 USD 438 Comm2|02,49
+PR|Twp 9 USD 474 Comm 3|07,1
+PR|Ward 1|01,808
+PR|Ward 2|01,507
+PR|Ward 3|01,1045
+PR|Ward 4-1 H114-1|01,395
+PR|Ward 4-2 H114-2|01,394
+PR|Ward 5 College H114|01,38
+PR|Ward 5 H116|01,712
+PT|Belvue City   320.5|10,138
+PT|Belvue Twp 320.5|23,105
+PT|Belvue Twp 321 1.4|21,19
+PT|Belvue Twp 321 3.6|22,6
+PT|Blue Twp H51 323.4|20,30
+PT|Blue Twp H51 383.7|10,3369
+PT|Blue Twp H61 323.3|21,59
+PT|Blue Twp H61 323.4|20,17
+PT|Blue Twp H61 378 3.6|22,153
+PT|Blue Twp H61 383.7|23,420
+PT|Blue Valley 384.2|20,48
+PT|Blue Valley 384.3|21,63
+PT|Center Twp (H) 320.5|21,20
+PT|Center Twp (H) 322.6|22,21
+PT|Center Twp 320.5|20,33
+PT|Clear Ck Twp (H) 322.5|20,25
+PT|Clear Ck Twp (H) 323.6|21,75
+PT|Emmett City (H) 321  1.4|10,106
+PT|Emmett Twp (H)321 1.4|20,178
+PT|Grant Twp (H) 322.1|20,91
+PT|Grant Twp (H) 322.6|21,3
+PT|Green Twp 323.3|20,6
+PT|Green Twp 323.6|21,35
+PT|Green Twp 378 3.6|22,19
+PT|Green Twp 384.3|23,100
+PT|Havensville (H) 322.1|10,80
+PT|Lincoln (H) 322.6|20,88
+PT|Lone Tree Twp (H) 322.3|21,13
+PT|Lone Tree Twp (H) 322.5|20,84
+PT|Louisville City 320.5|10,83
+PT|Louisville Twp 320.3|21,89
+PT|Louisville Twp 320.5|20,589
+PT|Louisville Twp 323.3|22,20
+PT|Louisville Twp 323:6|23,20
+PT|Manhattan City 383.7|10,6
+PT|Mill Creek Twp (H) 322.2|20,6
+PT|Mill Creek Twp (H) 322.3|21,206
+PT|Mill Creek Twp (H) 322.4|22,13
+PT|Olsburg City 384.3|11,167
+PT|Onaga City (H) 322.2|10,206
+PT|Onaga City (H) 322.4|11,264
+PT|Pottawatomie Twp 323.3|21,186
+PT|Pottawatomie Twp 323.6|20,204
+PT|Rock Creek Twp 322.5|20,2
+PT|Rock Creek Twp 323.5|22,38
+PT|Rock Creek Twp 323.6|21,92
+PT|Shannon Twp   323.6|20,107
+PT|Shannon Twp 384.3|21,95
+PT|Sherman Twp (H) 322.3|20,2
+PT|Sherman Twp (H) 322.5|21,61
+PT|Sherman Twp (H) 323.6|23,12
+PT|Sherman Twp 323.6|24,16
+PT|Spring Ck Twp 323.6|20,6
+PT|Spring Ck Twp 384.3|22,31
+PT|St Clere Twp (H) 321  1.4|20,32
+PT|St Clere Twp (H) 322.6|21,13
+PT|St George City H51 323.1|30,179
+PT|St George City H51 323.2|32,547
+PT|St George Twp H51 320.1|34,23
+PT|St George Twp H51 320.3|35,133
+PT|St George Twp H51 323.1|36,674
+PT|St George Twp H51 323.2|33,383
+PT|St George Twp H51 323.3|37,125
+PT|St George Twp H51 323.4|38,338
+PT|St George Twp H61 320.3|20,155
+PT|St George Twp H61 320.5|24,12
+PT|St George Twp H61 323.1|21,47
+PT|St George Twp H61 323.3|22,649
+PT|St George Twp H61 323.4|23,72
+PT|St Mary  Twp 321   1.4|20,639
+PT|St Marys City 321  1.4|11,340
+PT|St Marys City 321  3.6|10,1566
+PT|St Marys Twp 321  3.6|21,192
+PT|Union Twp 320.5|20,88
+PT|Union Twp 323.6|22,105
+PT|Vienna Twp (H) 322.3|20,21
+PT|Vienna Twp (H) 322.6|21,54
+PT|Wamego  City 320.2|10,863
+PT|Wamego City 320.1|12,336
+PT|Wamego City 320.3|16,458
+PT|Wamego City 320.4|11,900
+PT|Wamego City 320.6|15,893
+PT|Wamego Twp H51 320.1|32,55
+PT|Wamego Twp H51 320.2|33,1
+PT|Wamego Twp H51 320.3|34,355
+PT|Wamego Twp H51 320.4|35,23
+PT|Wamego Twp H61 320.3|26,172
+PT|Wamego Twp H61 320.5*****|28,66
+PT|Westy / PT City 323.5|10,151
+PT|Westy / RC City 323.5|10,317
+PT|Wheaton City (H) 322.5|10,80
+RA|AC 001E|01,204
+RA|AC 001N|02,89
+RA|AC 001W|03,111
+RA|AC 002|04,555
+RA|AH|01,29
+RA|AT|01,13
+RA|CTR East 105|01,85
+RA|CTR West 105|02,136
+RA|DR|01,62
+RA|HC|01,116
+RA|HE 001|01,87
+RA|HE 002|02,21
+RA|HE 003|03,18
+RA|JE 105|02,11
+RA|JE 316|01,12
+RA|LU|01,78
+RA|MC|01,113
+RA|MI 103|01,15
+RA|MI 105|02,7
+RA|MI 314|03,11
+RA|RO 103|01,150
+RA|RO 105|03,29
+RA|RO 314|02,6
+RA|UN|01,28
+RC|1.1 Atlanta Township|01,45
+RC|1.2 Atlanta Township|02,2
+RC|1.3 Atlanta Township|03,63
+RC|10.1 Odessa Township|01,37
+RC|11.1 Pioneer Township USD112-5|01,2
+RC|11.2 Pioneer Township|02,32
+RC|11.3 Pioneer Township|03,17
+RC|11.4 Pioneer Township USD112-6|04,5
+RC|12.1 City of Raymond - Raymond|01,47
+RC|12.2 Raymond Township|02,4
+RC|12.3 Raymond Township|03,58
+RC|13.1 Sterling Township|01,146
+RC|14.1 City of Little River -Un|01,346
+RC|14.2 Union|02,147
+RC|15.1 City of Alden -Valley Twp|01,93
+RC|15.2 Valley Township|02,79
+RC|16.1 City of Geneseo - Victori|01,169
+RC|16.2 Victoria Township|02,8
+RC|16.3 Victoria Township|03,3
+RC|16.4 Victoria Township|04,36
+RC|16.5 Victoria Township|05,11
+RC|16.6 Victoria Township|06,13
+RC|17.1 East Wash Twp|01,45
+RC|17.2 East Wash Twp|02,66
+RC|17.3 East Wash Twp|03,9
+RC|17.4 East Wash Twp|04,8
+RC|18.1 West Wash Twp|01,64
+RC|18.2 West Wash Twp|02,5
+RC|18.3 West Wash Twp|03,28
+RC|19.1 Wilson Township|01,34
+RC|19.3 Wilson Township|03,8
+RC|19.4 Wilson Township|04,28
+RC|19.5 Wilson Township|05,16
+RC|19.6 Wilson Township|06,14
+RC|2.1 Bell Township|01,4
+RC|2.2 Bell Township|02,3
+RC|20.1 Rockville Township|01,118
+RC|3.1 Center Township|01,6
+RC|3.3 Center Township|03,10
+RC|3.4 Center Township|04,57
+RC|36.1 Lyons 1st Ward|01,535
+RC|37.1 Lyons 2nd Ward|01,563
+RC|38.1 Lyons 3rd Ward|01,545
+RC|39.1 Lyons 4th Ward|01,600
+RC|4.1 City of Frederick USD112-6|01,6
+RC|4.2 Eureka Township USD112-6|02,16
+RC|4.4 Eureka Township USD112-6|04,9
+RC|44.1 Sterling East Ward|01,929
+RC|45.1 Sterling West Ward|01,590
+RC|5.1 City of Bushton - USD112-5|01,179
+RC|5.2 Farmer Township USD112-5|02,28
+RC|5.3 Farmer Township USD112-6|03,55
+RC|6.2 Galt Township|02,8
+RC|6.3 Galt Township|03,4
+RC|6.4 Galt Township|04,26
+RC|6.5 Galt Township|05,20
+RC|6.6 Galt Township|06,2
+RC|7.1 Harrison Township|01,116
+RC|8.1City of Chase Lincoln|01,267
+RC|8.2 Lincoln Township|2,59
+RC|9.1 Mitchell Township|01,49
+RC|9.2 Mitchell Township|02,3
+RC|9.3 Mitchell Township|03,1
+RC|9.4 Mitchell Township|04,36
+RH|Alexander-Belle Prairie Twsp.|01,2
+RH|Alexander-Belle Prairie Twsp.|02,37
+RH|Alexander City|01,31
+"RH|Banner Twsp. (395, 5)|01",8
+"RH|Banner Twsp. (403, 1-4)|02",54
+RH|Big Timber 489|02,1
+RH|Big Timber Twsp.|01,36
+RH|Bison City|01,128
+RH|Center Twsp.|01,55
+RH|Garfield Twsp.|01,92
+RH|Hampton-Fairview #489|03,1
+"RH|Hampton-Fairview Twsp (395, 1)|01",65
+"RH|Hampton-Fairview Twsp (395, 6)|02",6
+RH|Illinois 432|03,2
+RH|Illinois Twsp.|01,32
+RH|Illlinois #395-6|02,2
+RH|La Crosse City #1|01,518
+RH|La Crosse City #2|01,325
+"RH|LaCrosse-Brkd #1 Twsp (395, 4)|01",20
+"RH|LaCrosse-Brkd #1 Twsp (395, 6)|02",23
+"RH|LaCrosse-Brkd #2 Twsp (395, 1)|01",1
+"RH|LaCrosse-Brkd #2 Twsp (395, 2)|02",2
+"RH|LaCrosse-Brkd #2 Twsp (395, 3)|03",10
+"RH|LaCrosse-Brkd #2 Twsp (395, 6)|04",24
+RH|Liebenthal City|01,75
+RH|Lone Star Twsp.|01,56
+RH|McCracken City|01,113
+RH|Otis City|01,210
+RH|Pioneer Twsp.|01,39
+RH|Pleasantdale Twsp.|01,24
+RH|Rush Center City|01,106
+RH|Timken City|01,38
+"RH|Union Twsp. (395, 2)|01",15
+"RH|Union Twsp. (395, 5)|02",17
+RH|Union Twsp. (496)|03,8
+RL|Ashland Twp-1|1,114
+RL|Ashland Twp-2|2,13
+RL|Bala Twp-1|1,204
+RL|Bala Twp-3 Leonardville City|3,273
+RL|Center Twp|1,51
+RL|Fancy Crk Twp-1|1,41
+RL|Fancy Crk Twp-2|2,36
+RL|Fort Riley A Mad Twp P- A H68|1,602
+RL|Fort Riley A Madison Twp H64-2|2,789
+RL|Fort Riley B Madison Twp H64-1|1,242
+RL|Fort Riley B Madison Twp H68|1,258
+RL|Grant Twp-1|1,79
+RL|Grant Twp-2|2,269
+RL|Grant Twp-3 BRID Prop Owner|3,9
+RL|Grant Twp-3a Non Prop Owner|3a,3
+RL|Grant Twp-4|4,434
+RL|Jackson Twp-1|1,99
+RL|Jackson Twp-2|2,7
+RL|Jackson Twp-3 Randolph City|3,104
+RL|Jackson Twp-4Randolph City|4,2
+RL|Madison Twp B|1,24
+RL|Madison Twp H64-1|1,133
+RL|Madison Twp H64-Riley City-2|2,690
+RL|Manhattan Twp- 3 H67|1,134
+RL|Manhattan Twp-2|1,405
+RL|Manhattan Twp-3-Enclave A|3,2
+RL|Manhattan Twp -3 Enclave|6,7
+RL|Manhattan Twp 1-Enclave|2,4
+RL|Manhattan Twp 1-H64|1,394
+RL|Manhattan Twp 3-H68|1,6
+RL|Manhattan Twp 4- Enclave B|2,1
+RL|Manhattan Twp 4- Enclave C|3,6
+RL|Manhattan Twp 4- H51|1,7
+RL|Manhattan Twp 4- H61|1,256
+RL|Manhattan Twp 4-H64|1,359
+RL|Manhattan Twp 4-H66|1,1
+RL|May Day Twp|1,56
+RL|Ogden Twp-1|1,298
+RL|Ogden Twp-7|7,5
+RL|Ogden Twp-8|8,1
+RL|OgdenTwpFt Riley A -Ogden City|2,966
+RL|Sherman Twp-2|2,107
+RL|Sherman Twp-3|3,2
+RL|Sherman Twp-5|5,135
+RL|ShermanTwp-1BRID Prop Owner|1,38
+RL|ShermanTwp-6-BRID Prop Owner|6,5
+RL|ShermanTwp-6-Non Owner|6a,1
+RL|ShermanTwp-7-Non Owner|7a,70
+RL|ShermanTwp-7-UPID Prop Owner|7,101
+RL|ShermanTwp-Non Owner|1a,21
+RL|Swede Crk Twp-1|1,107
+RL|Swede Crk Twp-2|2,11
+RL|Ward 1 Prec 1|1,1289
+RL|Ward 10 Prec 01-1|1,300
+RL|Ward 10 Prec 01-3|3,6
+RL|Ward 10 Prec 01-4|4,13
+RL|Ward 10 Prec 01-5|5,4
+RL|Ward 10 Prec 01-6|6,12
+RL|Ward 10 Prec 01-7|7,16
+RL|Ward 10 Prec 01-9|9,16
+RL|Ward 11 Prec 01-2|2,902
+RL|Ward 11 Prec 01-B|1,546
+RL|Ward 11 Prec 03|1,225
+RL|Ward 12 Prec 1-2|2,60
+RL|Ward 12 Prec 1|1,18
+RL|Ward 13 Prec 1|1,3
+RL|Ward 2 Prec 1|1,1545
+RL|Ward 2 Prec 3|1,667
+RL|Ward 2 Prec 4|1,839
+RL|Ward 2 Prec 5|1,1379
+RL|Ward 2 Prec 6|1,305
+RL|Ward 2 Prec 7|1,18
+RL|Ward 2 Precinct 2|1,563
+RL|Ward 3 Prec 1|1,239
+RL|Ward 3 Prec 2|1,1054
+RL|Ward 3 Prec 3|1,1345
+RL|Ward 4 Prec 2|1,344
+RL|Ward 4 Prec 3|1,778
+RL|Ward 4 Prec 4|1,1817
+RL|Ward 4 Prec 5 Exclave-1|1,19
+RL|Ward 4 Prec 5|1,1085
+RL|Ward 4 Prec 6-2|2,32
+RL|Ward 4 Prec 6|1,910
+RL|Ward 4 Prec 7|1,94
+RL|Ward 5 Prec 10-2|2,66
+RL|Ward 5 Prec 10-3|3,6
+RL|Ward 5 Prec 10-4|4,14
+RL|Ward 5 Prec 10-5|5,7
+RL|Ward 5 Prec 10|1,2354
+RL|Ward 5 Prec 11|1,2025
+RL|Ward 5 Prec 2|1,1196
+RL|Ward 5 Prec 3|1,1407
+RL|Ward 5 Prec 5|1,738
+RL|Ward 5 Prec 6|1,1100
+RL|Ward 5 Prec 7|1,540
+RL|Ward 5 Prec 8|1,695
+RL|Ward 5 Prec 9-2|2,1
+RL|Ward 5 Prec 9-3|3,2
+RL|Ward 5 Prec 9-4|4,14
+RL|Ward 5 Prec 9|1,1887
+RL|Ward 6 Prec 01|1,106
+RL|Ward 8 Prec 01|1,569
+RL|Ward 8 Prec 02|1,5
+RL|Ward 8 Prec 03-2|2,482
+RL|Ward 8 Prec 03|1,930
+RL|Ward 9 Prec 01|1,192
+RL|Ward 9 Prec 02|1,129
+RL|Ward 9 Prec 03|1,75
+RL|Wildcat Twp H64|1,654
+RL|Wildcat Twp Part B H67|1,2
+RL|Zeandale Twp-1|1,94
+RL|Zeandale Twp-2|2,2
+RL|Zeandale Twp-3|3,181
+RN|Abbyville USD 310|01,55
+RN|Albion USD 311|01,136
+RN|Arlington City USD 310|01,280
+RN|Arlington Twp USD 310|01,81
+RN|Bell USD 310|01,42
+RN|Bell USD 311|02,2
+RN|Bell USD 331 1-4|03,1
+RN|Buhler USD 313 3-6|01,944
+RN|Castleton USD 311|01,175
+RN|Castleton USD 312 1-4|03,56
+RN|Center USD 310|01,5
+RN|Center USD 312 2-5|02,166
+RN|Clay North En USD 313 2-5|01,4
+RN|Clay North USD 313 1-4|01,242
+RN|Clay North USD 313 2-5|02,403
+RN|Clay North USD 313 3-6|03,94
+RN|Clay South H102-1 USD 313 2-5|01,142
+RN|Clay South H104 USD 313 2-5|01,328
+RN|Clay South H104 USD 313 3-6|03,152
+RN|Clay South H114 USD 312 3-6|01,132
+RN|Clay South H114 USD 313 2-5|02,62
+RN|Clay South H114 USD 313 3-6|03,6
+RN|Clay South USD 308 H102A|01,1
+RN|Clay South USD 312-3-6 H102A|02,5
+RN|Enterprise USD 309 2-5|01,26
+RN|Enterprise USD 310|02,71
+RN|Enterprise USD 376|03,2
+RN|Grant USD 309 2-5|01,446
+RN|Grant USD 309 3-6|04,130
+RN|Grant USD 313 1-4|02,87
+RN|Grant USD 313 3-6|03,42
+RN|Grove USD 310|01,41
+RN|Haven City USD 312 1-4|01,879
+RN|Haven H101 USD 312 1-4|01,215
+RN|Haven H101 USD 312 3-6|02,16
+RN|Haven H114 USD 312 1-4|01,80
+RN|Hayes USD 310|01,47
+RN|Hayes USD 376|02,2
+RN|Huntsville USD 309 2-5|01,2
+RN|Huntsville USD 310|02,91
+RN|Hutch 26Ex H102 USD 312 3-6|01,134
+RN|Hutchinson 1-H102 USD 308|01,566
+RN|Hutchinson 1 H102A USD 308|01,36
+RN|Hutchinson 10 USD 308|01,621
+RN|Hutchinson 10 USD 309 3-6|02,196
+RN|Hutchinson 10 USD 313 1-4|03,233
+RN|Hutchinson 11 USD 308|01,1020
+RN|Hutchinson 11 USD 313 1-4|02,28
+RN|Hutchinson 12 USD 308|01,695
+RN|Hutchinson 13 H102 USD 308|01,474
+RN|Hutchinson 13 H104 USD 308|01,327
+RN|Hutchinson 14 USD 308|01,756
+RN|Hutchinson 15 USD 308|01,693
+RN|Hutchinson 16 USD 308|01,1038
+RN|Hutchinson 17 USD 308|01,378
+RN|Hutchinson 17 USD 313 2-5|02,470
+RN|Hutchinson 18 USD 308|01,487
+RN|Hutchinson 19 USD 308|01,585
+RN|Hutchinson 2 USD 308|01,607
+RN|Hutchinson 20 USD 308|01,837
+RN|Hutchinson 21 USD 308|01,1611
+RN|Hutchinson 22- H104 USD 308|01,989
+RN|Hutchinson 22-H104 USD 313 2-5|02,87
+RN|Hutchinson 23 Ex USD 313 1-4|01,260
+RN|Hutchinson 23 H104 USD 308|01,1245
+RN|Hutchinson 23 H104 USD 313 1-4|02,56
+RN|Hutchinson 24 USD 308|01,635
+RN|Hutchinson 24 USD 313 1-4|02,229
+RN|Hutchinson 25 USD 308|01,892
+RN|Hutchinson 25 USD 313 2-5|02,3
+RN|Hutchinson 26 USD 308|01,393
+RN|Hutchinson 26 USD 312 3-6|02,26
+RN|Hutchinson 27 USD 313 2-5|02,614
+RN|Hutchinson 28 Ex USD 313 2-5|02,581
+RN|Hutchinson 28 USD 313 1-4|01,1148
+RN|Hutchinson 28 USD 313 2-5|02,157
+RN|Hutchinson 29 USD 308|01,168
+RN|Hutchinson 29 USD 309 3-6|02,444
+RN|Hutchinson 3 USD 308|01,371
+RN|Hutchinson 30 USD 308|01,374
+RN|Hutchinson 30 USD 309 3-6|02,88
+RN|Hutchinson 31 USD 308|01,408
+RN|Hutchinson 31 USD 313 1-4|02,315
+RN|Hutchinson 32 USD 313 1-4|01,207
+RN|Hutchinson 33 USD 313 1-4|01,256
+RN|Hutchinson 34 Ex  USD 312 3-6|01,1
+RN|Hutchinson 34 USD 313 2-5|01,133
+RN|Hutchinson 35 USD 308|01,348
+RN|Hutchinson 4 USD 308|01,1184
+RN|Hutchinson 5 USD 308|01,877
+RN|Hutchinson 6 USD 308|01,713
+RN|Hutchinson 7 USD 308|01,837
+RN|Hutchinson 8 USD 308|01,392
+RN|Hutchinson 9 USD 308|01,1024
+RN|Langdon City USD 310|01,37
+RN|Langdon USD 310|01,61
+RN|Lincoln USD 309 3-6|01,3
+RN|Lincoln USD 312 2-5|03,343
+RN|Little River USD 313 3-6|01,406
+RN|Loda USD 310|01,11
+RN|Loda USD 311|02,52
+RN|Loda USD 331 1-4|03,2
+RN|Loda USD 331 2-5|04,10
+RN|Medford USD 309 2-5|01,52
+RN|Medford USD 376|02,68
+RN|Medora USD 313 3-6|02,1291
+RN|Miami USD 310|01,49
+RN|Nickerson Ward 1 USD 309 2-5|01,281
+RN|Nickerson Ward 2 USD 309 2-5|01,164
+RN|Nickerson Ward 3 USD 309 2-5|01,204
+RN|Ninnescah USD 311|01,149
+RN|Ninnescah USD 312 1-4|02,25
+RN|Partridge City USD 312 2-5|01,148
+RN|Plevna City USD 310|01,64
+RN|Plevna USD 310|01,102
+RN|Pretty Prairie Ward 1 USD 311|01,460
+RN|Pretty Prairie Ward 2 USD 311|01,3
+RN|Reno North USD 308|03,2
+RN|Reno North USD 309 3-6|01,592
+RN|Reno North USD 313 1-4|02,568
+RN|Reno South USD 309 3-6|02,136
+RN|Reno South USD 312 2-5|03,64
+RN|Roscoe USD 311|01,81
+RN|Salt Creek USD 309 2-5|01,132
+RN|Salt Creek USD 309 3-6|03,54
+RN|Salt Creek USD 312 2-5|02,76
+RN|South Hutch 1 USD 309 1-4|01,548
+RN|South Hutch 2 USD 309 1-4|01,777
+RN|South Hutch 2 USD 309 3-6|02,8
+RN|South Hutch 3 USD 309 1-4|01,490
+RN|Sumner USD 267 1-4|01,325
+RN|Sumner USD 267 3-6|04,84
+RN|Sumner USD 312 1-4|02,55
+RN|Sumner USD 312 3-6|03,9
+RN|Sylvia City USD 310|01,136
+RN|Sylvia Township USD 310|01,49
+RN|The Highlands City USD 309 2-5|01,332
+RN|Troy USD 310|01,25
+RN|Troy USD 311|02,70
+RN|Turon City USD 310|01,219
+RN|Valley H101 USD 312 3-6|01,4
+RN|Valley H114 USD 312 3-6|01,271
+RN|Valley H114 USD 313 3-6|02,261
+RN|Valley H114 USD 369|03,62
+RN|Walnut USD 309 2-5|01,38
+RN|Walnut USD 310|02,5
+RN|Walnut USD 376|03,39
+RN|Westminster USD 310|01,79
+RN|Willowbrook USD 309 3-6|01,91
+RN|Yoder H114 USD 309 3-6|01,5
+RN|Yoder H114 USD 312 1-4|04,132
+RN|Yoder H114 USD 312 2-5|02,218
+RN|Yoder H114 USD 312 3-6|03,47
+RO|Twp #1  Woodston 271|04,55
+RO|Twp #1 270|02,4
+RO|Twp #1 271|01,64
+RO|Twp #10 269-3|02,15
+RO|Twp #10 269-6|03,29
+RO|Twp #10 270|01,13
+RO|Twp #10 Zurich 269-6|04,60
+RO|Twp #11-1 Plainville City West|02,211
+RO|Twp #11-1 Twp 270|01,166
+RO|Twp #11-2 Plainville City 270|01,1061
+RO|Twp #11-2 Twp 270|02,77
+RO|Twp #12 270|01,89
+RO|Twp #12 399-3|02,26
+RO|Twp #2 270|02,24
+RO|Twp #2 271|01,103
+RO|Twp #2 Sarver's Add 271|03,171
+RO|Twp #3-1 Twp 271|01,67
+RO|Twp #3-2 Stockton 271|01,783
+RO|Twp #3-2 Twp 271|02,28
+RO|Twp #4 271|01,26
+RO|Twp #5 271 Logan Fire|04,25
+RO|Twp #5 271|01,8
+RO|Twp #5 326 Logan Fire|03,12
+RO|Twp #5 326|02,5
+RO|Twp #6 269-6 Rush W/HD|04,2
+RO|Twp #6 271 Belmont Not HD|03,46
+RO|Twp #6 271 Rush W/HD|01,19
+RO|Twp #7 Damar 269-1|03,64
+RO|Twp #7 Damar 269-4|04,41
+RO|Twp #7 Richland 269-1|02,16
+RO|Twp #7 Richland 269-4|01,25
+RO|Twp #8 Northampton 269-2|02,24
+RO|Twp #8 Northampton 269-3|03,6
+RO|Twp #8 Northampton 269-4|04,23
+RO|Twp #8 Northampton 269-5|05,3
+RO|Twp #8 Palco 269-2|06,62
+RO|Twp #8 Palco 269-4|07,10
+RO|Twp #8 Palco 269-5|08,91
+RO|Twp #9 269-3|01,29
+RP|1st Ward - 109 2/5 C3|02,112
+RP|1st Ward - 109 3/6 C3|01,377
+RP|2nd Ward - 109 3/6 C3|01,521
+RP|3rd Ward - 109 1/4 C1|01,372
+RP|Agenda City EC - 109 2/5 C1|03,31
+RP|Albion - 108 C1 F3|01,3
+RP|Albion - 109 2/5 C1 F3|02,39
+RP|Beaver - 333 C2 F1CR|01,1
+RP|Beaver - 426 2 C2 F12|02,28
+RP|Beaver - 426 2 C2 F1CR|03,25
+RP|Belleville -109 1/4 C3 F7|01,75
+RP|Belleville -109 2/5 C3 F7|02,92
+RP|Big Bend - 109 1/4 C2 F1|02,6
+RP|Big Bend - 109 1/4 C2 F2|01,30
+RP|Big Bend - 109 1/4 C2 F9|04,11
+RP|Courtland - 426 1 C2 F12|01,40
+RP|Courtland - 426 2 C2 F12|02,40
+RP|Courtland City  CL - 426 1 C2|03,198
+RP|Cuba City RI - 109 2/5 C1 F4|03,106
+RP|Elk Creek - 109 2/5 C1 F5|02,51
+RP|Elk Creek -224 C1 F5|01,2
+RP|Fairview - 109 2/5 C1 F3|01,52
+RP|Fairview - 109 2/5 C1 F4|02,2
+RP|Fairview - 109 2/5 C1 F7|04,6
+RP|Farmington - 108 C1 F3|01,5
+RP|Farmington - 109 2/5 C1 F3|02,30
+RP|Farmington - 109 2/5 C1 F4|04,6
+RP|Freedom - 109 1/4 C1 F7|01,112
+RP|Freedom - 109 2/5 C1 F7|02,11
+RP|Grant - 109 2/5 C1 F5|01,19
+RP|Grant - 109 2/5 C1 F6|02,36
+RP|Jefferson - 109 2/5 C1 F4|01,51
+RP|Jefferson - 109 2/5 C1 F7|02,37
+RP|Liberty - 109 1/4 C2 F1|03,3
+RP|Liberty - 109 1/4 C2 F8|01,18
+RP|Liberty - 109 2/5 C2 F3|05,4
+RP|Liberty - 109 2/5 C2 F8|02,13
+RP|Lincoln - 109 1/4 C3 F11|04,16
+RP|Lincoln - 109 2/5 C3 F6|02,36
+RP|Lincoln - 333 C3 F11|01,7
+RP|Lincoln - 426 2 C3 F11|03,10
+RP|Munden City FR - 109 2/5 C1 F3|03,30
+RP|Munden City RC - 109 2/5 C1 F3|03,34
+RP|Narka City AL - 109 2/5 C1 F3|03,59
+RP|Norway - 426 2 C2 F11|01,100
+RP|Norway - 426 2 C2 F1CR|02,5
+RP|Republic City BB - 109 1/4 C2|03,73
+RP|Republic City WA - 109 1/4 C2|03,8
+RP|Richland - 109 2/5 C1 F4|01,50
+RP|Rose Creek - 109 2/5 C1 F3|01,33
+RP|Rose Creek - 109 2/5 C1 F8|02,15
+RP|Scandia - 109 1/4 C2 F7|02,5
+RP|Scandia - 426 2 C2 F10|01,36
+RP|Scandia - 426 2 C2 F7|05,2
+RP|Scandia - 426 3 C2 F10|04,14
+RP|Scandia City SC - 426 3 C2|03,255
+RP|Union - 109 1/4 C2 F10|05,4
+RP|Union - 109 1/4 C2 F7|04,5
+RP|Union - 109 1/4 C2 F9|01,9
+RP|Union - 426 2 C2 F10|02,3
+RP|Washington - 109 1/4 C2 F1|01,40
+RP|Washington - 109 1/4 C2 F9|02,1
+RP|White Rock - 109 1/4 C2 F9|02,15
+RP|White Rock - 426 1 C2 F12|01,36
+RP|White Rock - 426 1 C2 F2|04,4
+RP|White Rock - 426 2 C2 F10|07,8
+RP|White Rock - 426 2 C2 F12|03,11
+RS|01.1 Bunker Hill City CC5 407|01,88
+RS|02.1 Dorrance City CC5 112|01,106
+RS|03.1 Gorham City CC4 407|01,244
+RS|04.1 Lucas City CC3 299|01,221
+RS|05.1 Luray City CC2 299|01,114
+RS|06.1 Paradise City CC2 399|01,25
+RS|08.1 Waldo City CC2 399|01,29
+RS|11.1 Russell City Ward I CC3|01,450
+RS|11.5.1 Russell City Ward 1 CC5|01,240
+RS|12.1 Russell City Ward 2 CC2|01,642
+RS|12.4.1 Russell City Ward 2 CC4|01,114
+RS|13.1 Russell City Ward 3  CC3|01,164
+RS|13.4.1 Russell City Ward 3 CC4|01,424
+RS|13.5.1 Russell City Ward 3 CC5|01,135
+RS|14.1 Russell City Ward 4 CC1|01,502
+RS|14.5.1 Russell City Ward 4 CC5|01,180
+RS|51.1 Big Creek Twp CC1 407|01,66
+RS|51.4.1 Big Creek Twp CC4 407|01,50
+RS|52.1 Center Twp CC5 407|01,116
+RS|53.1 Fairfield Twp CC1 407|01,26
+RS|54.1 Fairview Twp CC3 299|01,60
+RS|55.1 Grant Twp CC1 407|01,148
+RS|56.1 Lincoln Twp CC1 407|01,85
+RS|57.1 Luray Twp CC3 299|01,6
+RS|57.2.1 Luray Twp CC2 299|01,37
+RS|58.1 Paradise Twp CC2 399|01,72
+RS|58.2 Paradise Twp CC2 407|02,3
+RS|58.4 Paradise Twp CC2 407 1215|04,7
+RS|59.1 Plymouth Twp CC5 112|01,78
+RS|60.1 Russell Twp CC2 407|01,25
+RS|60.3.1 Russsell Twp CC3 407|01,12
+RS|60.4.1 Russell Twp CC4 407|01,20
+RS|60.5.1 Russell Twp CC5 407|01,25
+RS|61.2.1 Waldo Twp CC2 399|01,27
+RS|61.2.2 Waldo Twp CC2 299|02,5
+RS|61.3 Waldo Twp CC3 407|03,11
+RS|62.1 Winterset Twp CC1 407|01,41
+SA|01|01,4
+SA|02|01,1569
+SA|03|01,4
+SA|04|01,1468
+SA|05|01,1759
+SA|06|01,980
+SA|07|01,1941
+SA|08|01,669
+SA|09|01,2644
+SA|10|01,1691
+SA|11|01,985
+SA|12|01,100
+SA|13|01,298
+SA|14|01,985
+SA|15|01,1492
+SA|16|01,1388
+SA|17|01,2483
+SA|18|01,226
+SA|19|01,1364
+SA|20|01,1803
+SA|21|01,373
+SA|22|01,507
+SA|23 (305)|01,1350
+SA|23 (306-36)|02,2
+SA|24|01,1893
+SA|25|01,1278
+SA|26|01,412
+SA|27|01,169
+SA|28|01,19
+SA|29|01,203
+SA|30 (305)|01,1661
+SA|31|01,34
+SA|CA - NC City H71 (393-25)|04,83
+SA|CA H71 (240-36)|01,26
+SA|CA H71 (305)|02,136
+SA|CA H71 (393-25)|03,72
+SA|DA - SO City H71 (393-25)|02,1
+SA|DA H71 (393-25)|01,92
+SA|EC H107 (305)|01,302
+SA|EC H107 (307-36)|02,155
+SA|EC H71 (305)|03,307
+SA|EU - GY City H69 (306-25)|03,276
+SA|EU H69 (306-25)|01,136
+SA|EU H69 (306-36)|02,58
+SA|FA H69 (400-01)|01,192
+SA|GL H107 (240-14)|01,74
+SA|GR H71 (305)|01,340
+SA|GR H71 (306-36)|02,270
+SA|GR H71 (393-25)|03,1
+SA|GR2 H71 (305)|01,17
+SA|GR3 H71 (305)|01,5
+SA|GR4 H71 (305)|01,4
+SA|GY H69 (306-25)|01,131
+SA|LI H69 (306-14)|01,49
+SA|LI H69 (306-25)|02,82
+SA|OH H107 (307-14)|01,46
+SA|OH H107 (307-25)|02,126
+SA|OH H107 (307-36)|03,50
+SA|OH H69 (305)|04,2
+SA|OH H69 (307-25)|02,65
+SA|PV H107 (240-25)|01,22
+SA|PV H107 (307-14)|03,34
+SA|PV H107 (307-36)|04,215
+SA|SC - BK City H69 (307-14)|01,164
+SA|SC H107 (307-14)|01,75
+SA|SC H69 (307-14)|02,39
+SA|SH H107 (305)|01,83
+SA|SH H107 (307-25)|02,47
+SA|SH H107 (307-36)|03,19
+SA|SH H69 (305)|01,27
+SA|SH H69 (307-25)|02,9
+SA|SH H69 Enclave (305)|01,2
+SA|SH H69 Enclave B (305)|04,2
+SA|SH H71 Exclave (305)|04,4
+SA|SM - SM City H69 (400-01)|01,144
+SA|SM H69 (306-14)|03,189
+SA|SM H69 (306-36)|06,13
+SA|SM H69 (307-25)|04,114
+SA|SM H69 (400-01)|05,102
+SA|SO H71 (306-36)|01,233
+SA|SO H71 (393-25)|02,29
+SA|SV- AS City H69 (306-14)|01,334
+SA|SV H69 (306-14)|02,219
+SA|SV H69 (400-01)|03,116
+SA|WL H69 (305)|01,16
+SA|WL H69 (306-14)|02,17
+SA|WL H69 (306-25)|03,121
+SA|WL H69 (306-36)|04,274
+SA|WS H107 (307-14)|01,5
+SA|WS H69 (307-14)|01,4
+SA|WS H69 (307-25)|02,78
+SA|WS H69 (400-01)|01,27
+SC|Beaver Twp|01,156
+SC|Isbel Twp|01,62
+SC|Keystone Twp|01,75
+SC|Lake Twp|01,53
+SC|Michigan Twp|01,60
+SC|Scott City Ward 1|01,507
+SC|Scott City Ward 2|01,737
+SC|Scott City Ward 3|01,639
+SC|Scott City Ward 4|01,860
+SC|Scott Twp|01,201
+SC|Valley Twp|01,134
+SD|Adell/1/412|03,11
+SD|Blm/3/316|01,23
+SD|Blm/3/412|02,9
+SD|BOW/1/412|01,25
+SD|E Hoxie City 1|01,496
+SD|Es/1/293-1|01,32
+SD|Es/1/412|02,5
+SD|Ke/1/412|01,67
+SD|Ke/2/412|01,70
+SD|Lo/3/316|01,17
+SD|Lo/3/412|02,57
+SD|Pa/2/316|01,3
+SD|Pa/2/412|02,79
+SD|Pd/3/294-4|01,3
+SD|Pd/3/316|02,41
+SD|Selden/3/316|01,143
+SD|Sh/3/316|01,27
+SD|Sh/3/412|02,31
+SD|SO/3/274|03,4
+SD|SO/3/291|01,92
+SD|SO/3/412|02,29
+SD|SP/2/291|01,1
+SD|SP/2/292|02,16
+SD|SP/2/412|03,49
+SD|UN/2/412|01,22
+SD|VA/1/412|01,81
+SD|W Hoxie City/2|01,370
+SD|WS/1/292|01,26
+SD|WS/1/412|02,20
+SF|Albano/350 Mem 3-6/H1/C3|01,15
+SF|Albano/351 Mem 2-3-6/H2/C3|03,6
+SF|Albano/438/H1/C3|06,11
+SF|Byron/350 Mem 1-4/H3/C2|01,33
+SF|Byron/355/H3/C2|02,12
+SF|Cleveland/350 Mem 1-4/H1/C2|01,41
+SF|Cleveland/351/Mem 1-4-5/H1/C2|02,2
+SF|Clr Crk/351 Mem 2-3-6/H2/C3|01,19
+SF|Douglas/350 Mem 1-4/H1/C2|01,17
+SF|Douglas/351 Mem 1-4-5/H1/C2|02,59
+SF|E Cooper/349/H4/C1|01,34
+SF|E Cooper/349/H4/C1|02,1
+SF|E SJ City/350 Mem 2-5/H1/C3|01,141
+SF|E SJ City/350 Mem 3-6/H1/C3|04,154
+SF|E SJ Rural/350 Mem 1-4/H1/C3|02,29
+SF|Fairview/349/H4/C1|01,52
+SF|Farmington/351 Mem 1-4-5/H2/C2|01,15
+SF|Farmington/351 Mem 2-3-6/H2/C2|04,25
+SF|Hayes/350 Mem 1-4/H3/C2|01,54
+SF|Hud City/350 Mem 1-4/H3/C2|02,65
+SF|Lincoln/351 Mem 1-4-5/No H/C2|01,58
+SF|MX City/351 Mem 1-4-5/H2/C2|02,69
+SF|MX City/351 Mem 2-3-6/H2/C2|03,161
+SF|N Seward/350 Mem 1-4/No H/C2|01,13
+SF|N Seward/351 Mem 1-4-5/No H/C2|02,9
+SF|N Seward/428/No H/C2|04,47
+SF|N SF City/349/H4/C1|01,310
+SF|N SF Rural/349/H4/C1|02,37
+SF|Ohio/349/H1/C3|01,8
+SF|Ohio/350 Mem 3-6/H1/C3|02,54
+SF|Putnam N/355/H3/C2|02,12
+SF|Putnam S/350 Mem 1-4/H3/C2|01,6
+SF|Rad City D/351 M 1-4-5/No H/C2|04,14
+SF|Rad City L/351 M1-4-5/No H/C2|02,7
+SF|Richland/350 Mem 3-6/H1/C2|01,16
+SF|Richland/351 Mem 1-4-5/H2/C2|02,11
+SF|Richland/351 Mem 2-3-6/H2/C2|03,4
+SF|Rose Valley/349/H1/C3|01,2
+SF|Rose Valley/350 Mem 3-6/H1/C3|02,34
+SF|S Seward/350 Mem 1-4/H1/C2|01,34
+SF|S Seward/351 Mem 1-4-5/H1/C2|02,7
+SF|S SF City/349/H4/C1|01,280
+SF|S SF Rural/349/H4/C1|03,51
+SF|S SJ City/350 Mem 3-6/H1/C3|01,184
+SF|Sew City/351 Mem 1-4-5/No H/C2|05,41
+SF|Union/349/H4/C1|01,16
+SF|W Cooper/349/H4/C1|01,47
+SF|W Cooper/350 Mem 1-4/H4/C1|03,4
+SF|W SJ City/350 Mem 2-5/H1/C3|01,198
+SF|W SJ City/350 Mem 3-6/H1/C3|03,83
+SF|W SJ Rural/350 Mem 1-4/H1/C3|02,19
+SF|York/310/H4/C1|01,9
+SF|York/349/H4/C1|02,20
+SG|101 in USD 259-2|01,17
+SG|102|01,1267
+SG|103|01,289
+SG|104|01,135
+SG|105 in USD 259-3|01,821
+SG|105 in USD 259-6|02,290
+SG|106 in USD 259-3|01,2172
+SG|106 in USD 259-6|02,311
+SG|107|01,2036
+SG|108|01,1383
+SG|109|01,1580
+SG|110|01,1895
+SG|111 in USD 259-1|01,476
+SG|112|01,1803
+SG|113|01,1735
+SG|114 in USD 259-1|01,1270
+SG|114 in USD 259-6|02,406
+SG|116|01,2164
+SG|117|01,1774
+SG|118|01,2012
+SG|119|01,1668
+SG|120|01,1666
+SG|121|01,1271
+SG|122|01,2824
+SG|123|01,400
+SG|126|01,374
+SG|127  in USD 259-1|01,41
+SG|128|01,1438
+SG|129|01,571
+SG|130 in USD 259-3|01,961
+SG|130 in USD 259-4|02,158
+SG|133|01,57
+SG|135|01,436
+SG|136 in USD 259-1|01,913
+SG|137|01,1562
+SG|138|01,1961
+SG|205|01,873
+SG|206|01,636
+SG|207 in USD 259-2|01,2184
+SG|207 in USD 259-3|02,968
+SG|208|01,623
+SG|209|01,1770
+SG|210|01,2293
+SG|211|01,903
+SG|214|01,1867
+SG|215|01,3003
+SG|216|01,1553
+SG|217 in USD 259-2|01,1397
+SG|217 in USD 375-1|02,522
+SG|218 in USD 259-1|01,2742
+SG|218 in USD 259-2|03,423
+SG|218 in USD 375-1|02,273
+SG|221 in USD 259-2|01,1149
+SG|222 in USD 259-2|01,461
+SG|222 in USD 375-1|03,886
+SG|223 in USD 259-2|01,1039
+SG|223 in USD 385-2|02,742
+SG|224 in USD 259-2|01,2937
+SG|224 in USD 259-3|02,478
+SG|225|01,3831
+SG|226|01,2316
+SG|227 in USD 259-2|01,367
+SG|227 in USD 385-2|02,1144
+SG|228|01,2643
+SG|230|01,157
+SG|233|01,894
+SG|235|01,572
+SG|236|01,1127
+SG|238|01,334
+SG|239|01,99
+SG|240 in USD 259-2|01,143
+SG|240 in USD 385-2|02,239
+SG|241 in USD 385-2|01,182
+SG|242 in USD 385-2|01,337
+SG|243|01,79
+SG|246 in USD 260|01,296
+SG|247|01,525
+SG|248 in USD 259-3|01,50
+SG|249 in USD 259-2|01,1603
+SG|250 in USD 385-2|01,730
+SG|251|01,690
+SG|252|01,850
+SG|257|01,1
+SG|301|01,994
+SG|302|01,2090
+SG|303|01,1071
+SG|304|01,857
+SG|305|01,469
+SG|306|01,2307
+SG|307|01,1589
+SG|308|01,1832
+SG|309|01,168
+SG|310 in USD 259-3|01,1997
+SG|310 in USD 260|02,20
+SG|312|01,919
+SG|313 in USD 259-4|02,2430
+SG|314 in USD 259-3|02,1437
+SG|314 in USD 259-4|01,667
+SG|315 in USD 259-3|01,1821
+SG|316 in 259-4 in RD District|01,485
+SG|316 in 261 in RD District|02,544
+SG|316 in 261 outside RD District|03,193
+SG|317|01,22
+SG|318|01,254
+SG|319|01,566
+SG|320|01,661
+SG|321|01,98
+SG|324|01,920
+SG|325|01,1172
+SG|326 in USD 259 in RD District|02,1
+SG|326 in USD 261 in RD District|01,182
+SG|328 in USD 260|01,146
+SG|330|01,1594
+SG|331|01,386
+SG|332|01,872
+SG|333|01,1236
+SG|334 in USD 259|01,823
+SG|335 in 259-3 in RD District|02,3
+SG|335 in 259-4 in RD District|01,646
+SG|336|01,264
+SG|339 in USD 259-3|01,917
+SG|339 in USD 259-4|02,1035
+SG|401|01,1108
+SG|402|01,834
+SG|403|01,1025
+SG|404 in USD 259-5|01,1879
+SG|404 in USD 259-6|02,795
+SG|405|01,1601
+SG|406|01,1740
+SG|407|01,201
+SG|408|01,1729
+SG|409|01,957
+SG|410|01,2293
+SG|411|01,1
+SG|412 in USD 259-5|01,23
+SG|412 in USD 261|03,74
+SG|412 in USD 265|02,3663
+SG|413|01,2438
+SG|414|01,1125
+SG|416 in 259-5|02,1
+SG|416 in 261|01,1193
+SG|417 in 259-4|02,784
+SG|417 in 259-5|01,535
+SG|418 in Riverside Drainage Dist|01,757
+SG|418 out RD Drainage Dist 259-4|02,700
+SG|418 out RD Drainage Dist 259-5|03,379
+SG|419 in Riverside Drainage Dist|01,694
+SG|419 outside RD Drainage Dist|02,590
+SG|420 in Riverside Drainage Dist|01,724
+SG|420 outside RD Drainage Dist|02,942
+SG|422|01,1204
+SG|423|01,1688
+SG|424|01,873
+SG|425 in 259-4 & Riverside Dist|02,11
+SG|425 in 259-4 outside RD Dist|01,735
+SG|425 in 261 & RD Dist|03,705
+SG|425 in 261 outside RD Dist|04,1194
+SG|426|01,220
+SG|429 in USD 259-4|01,254
+SG|429 in USD 259-5|02,744
+SG|431|01,147
+SG|433|01,763
+SG|434|01,2
+SG|437|01,1058
+SG|444|01,148
+SG|445|01,732
+SG|446 in USD 259-5|02,1
+SG|446 in USD 261|01,286
+SG|447 outside RD Drainage Dist|02,318
+SG|448 outside RD Drainage Dist|02,124
+SG|449 in USD 265|01,691
+SG|503|01,2398
+SG|504|01,1627
+SG|506|01,2063
+SG|507|01,1890
+SG|508 in USD 259-5|01,1658
+SG|509 in USD 266-1|02,1627
+SG|510|01,1954
+SG|512|01,4189
+SG|513|01,1891
+SG|514|01,2421
+SG|515|01,2005
+SG|516|01,1261
+SG|517|01,1294
+SG|518|01,1564
+SG|519|01,1805
+SG|522|01,1571
+SG|523|01,1500
+SG|524|01,2352
+SG|525 in USD 266-1|01,1836
+SG|526 in USD 266-1|01,2063
+SG|526 in USD 266-3|02,2
+SG|527 in USD 266-3|01,2052
+SG|528 in USD 267-2|01,2
+SG|530 in USD 265|01,617
+SG|530 in USD 266-1|02,1353
+SG|531|01,2842
+SG|534|01,241
+SG|539 in USD 265|03,42
+SG|539 in USD 266-1|02,1687
+SG|539 in USD 267-2|01,284
+SG|541|01,3
+SG|544|01,257
+SG|545|01,959
+SG|549|01,23
+SG|550 in USD 267-2|01,71
+SG|551 in USD 266-2|01,10
+SG|601 in USD 259-6|01,2732
+SG|602 in USD 259-5|02,1415
+SG|602 in USD 259-6|01,995
+SG|603 in USD 266-2|01,668
+SG|604|01,2223
+SG|605|01,836
+SG|606|01,741
+SG|607|01,2044
+SG|608|01,1891
+SG|609|01,2573
+SG|610|01,1727
+SG|611|01,1232
+SG|612|01,2224
+SG|613|01,1801
+SG|614|01,1231
+SG|615|01,3181
+SG|616|01,1422
+SG|617|01,1058
+SG|618|01,715
+SG|619|01,1824
+SG|621|01,666
+SG|622 in USD 259-6|02,1292
+SG|622 in USD 262|01,840
+SG|623 in USD 259-6|01,768
+SG|623 in USD 262|02,1554
+SG|624|01,218
+SG|626|01,20
+SG|627|01,129
+SG|629|01,146
+SG|630 in USD 259-6|01,5
+SG|632 in USD 266-2|01,843
+SG|633|01,819
+SG|634|01,311
+SG|Afton in 265 & LW Imp Dist|02,180
+SG|Afton in USD 264|01,1
+SG|Afton in USD 265|03,535
+SG|Afton in USD 267-3|04,491
+SG|Afton in USD 268|05,1
+SG|Andale 267-1|01,624
+SG|Attica 1 in USD 265|01,25
+SG|Attica 12 in USD 265|01,65
+SG|Attica 13 in USD 265|01,4
+SG|Attica 16 in USD 265|01,2
+SG|Attica 2|01,108
+SG|Attica 22 in USD 265|01,143
+SG|Attica 3 in 267-2 & SM Imp D|02,29
+SG|Attica 3 in USD 265|05,238
+SG|Attica 3 in USD 267-1|01,64
+SG|Attica 3 in USD 267-2|03,428
+SG|Attica 3 in USD 267-3|04,35
+SG|Attica 4 in USD 265|01,3
+SG|Attica 5 in USD 265|01,47
+SG|Attica 5 in USD 266-1|02,28
+SG|Attica 5 in USD 266-3|03,43
+SG|Attica 5 in USD 267-2|04,179
+SG|Attica 6|01,115
+SG|Attica 7 in USD 267-2|01,5
+SG|Attica 8 in RR Imp Dist|02,59
+SG|Attica 8|01,29
+SG|Bel Aire 1|01,2320
+SG|Bel Aire 2|01,1806
+SG|Bel Aire 3 in 259-1|01,2672
+SG|Bel Aire 3 in 375-1|02,462
+SG|Bel Aire 4|01,4
+SG|City of Bentley|01,377
+SG|City of Cheney 01|01,1475
+SG|City of Colwich in 267-2|01,971
+SG|City of Eastborough|01,654
+SG|Delano 10|01,5
+SG|Delano 3|01,1
+SG|Delano 4|01,2
+SG|Derby 101|01,1306
+SG|Derby 102|01,2
+SG|Derby 103|01,1085
+SG|Derby 104|01,1330
+SG|Derby 106|01,6
+SG|Derby 107|01,1
+SG|Derby 109|01,451
+SG|Derby 201|01,965
+SG|Derby 202|01,2060
+SG|Derby 203|01,1672
+SG|Derby 301|01,37
+SG|Derby 302|01,145
+SG|Derby 303|01,1072
+SG|Derby 304|01,197
+SG|Derby 305|01,13
+SG|Derby 306|01,275
+SG|Derby 307|01,463
+SG|Derby 308|01,1273
+SG|Derby 309|01,88
+SG|Derby 310|01,983
+SG|Derby 312 in USD 263-1|01,2
+SG|Derby 401|01,57
+SG|Derby 402|01,861
+SG|Derby 403 in USD 260|01,1540
+SG|Derby 404|01,774
+SG|Derby 405|01,8
+SG|Derby 406|01,118
+SG|Derby 407|01,31
+SG|Derby 408 in USD 260|01,1177
+SG|Derby 408 in USD 263-1|02,237
+SG|Eagle in 266-2 & BG Drain D|05,5
+SG|Eagle in 267-1 & BG Drain|03,9
+SG|Eagle in USD 262|06,4
+SG|Eagle in USD 266-2|07,3
+SG|Eagle in USD 267-1|04,31
+SG|Eagle in USD 440-3|02,415
+SG|Eagle in USD369|01,5
+SG|Erie in USD 268|01,60
+SG|Erie in USD 331-5|02,19
+SG|GA in USD 267-3 in G Plain|04,690
+SG|GA in USD 267-3 out G Plain|03,578
+SG|Garden Plain in USD 265|01,88
+SG|Garden Plain in USD 267-1|02,227
+SG|Goddard 1|01,59
+SG|Goddard 11|01,1
+SG|Goddard 2|01,141
+SG|Goddard 4|01,176
+SG|Goddard 5|01,1742
+SG|Goddard 6|01,2101
+SG|Goddard 8|01,4
+SG|Grand River in USD 267-3|02,338
+SG|Grand River in USD 268|03,196
+SG|Grant 1 in USD 262 & Kechi|03,289
+SG|Grant 1 in USD 262|01,840
+SG|Grant 1 in USD 439-3|02,3
+SG|Grant 10 in USD 262|01,2
+SG|Grant 13 in USD 262|01,2
+SG|Grant 9 in USD 262|01,2
+SG|Greeley 267-1 & Big Ark Drain2|05,14
+SG|Greeley 267-1 2|06,29
+SG|Greeley 312-3 & Big Ark Drain2|03,1
+SG|Greeley 312-3 not in MH 2|02,77
+SG|Greeley 369 2|01,27
+SG|Gypsum 1 in USD 259-2|02,251
+SG|Gypsum 1 in USD 260|03,841
+SG|Gypsum 1 in USD 394|04,1119
+SG|Gypsum 2|01,318
+SG|Gypsum 3|01,69
+SG|Gypsum 4|01,108
+SG|Gypsum 7 in 259-2 & SS Imp D|01,92
+SG|Gypsum 7 in 260|03,3
+SG|Gypsum 7 in USD 259-2|02,150
+SG|Gypsum 8 in USD 260|01,109
+SG|Haysville 11|01,1306
+SG|Haysville 15|01,3
+SG|Haysville 17|01,460
+SG|Haysville 21|01,1226
+SG|Haysville 24|01,92
+SG|Haysville 25|01,38
+SG|Haysville 27|01,466
+SG|Haysville 31|01,1428
+SG|Haysville 33|01,125
+SG|Haysville 35|01,164
+SG|Haysville 41|01,1178
+SG|Haysville 42|01,564
+SG|Illinois 1 in 264 & K42 ID|03,192
+SG|Illinois 1 in USD 264|01,427
+SG|Illinois 1 in USD 265|02,924
+SG|Kechi 1|01,2
+SG|Kechi 10|01,6
+SG|Kechi 17 in USD 262|01,1
+SG|Kechi 19 in USD 259-1|01,9
+SG|Kechi 2 in USD 259-1|02,12
+SG|Kechi 21 in USD 262|01,17
+SG|Kechi 26 in USD 259-1|01,7
+SG|Kechi 3 in USD 259-1 & Kechi|02,1184
+SG|Kechi 3 in USD 259-1|01,35
+SG|Kechi 3 in USD 262 & Kechi|03,10
+SG|Kechi 3 in USD 262|04,53
+SG|Kechi 4|01,53
+SG|Kechi 7 in USD 262|01,16
+SG|Kechi 8 in USD 259-1|01,5
+SG|Lincoln in 206 & FL Improv|01,313
+SG|Lincoln in USD 262|03,93
+SG|Lincoln in USD 375-2|04,4
+SG|Minneha 1 in 385-2 & CV Imp D|03,1580
+SG|Minneha 1 in USD 259-2|01,1
+SG|Minneha 1 in USD 385-2|04,8
+SG|Minneha 12|01,2
+SG|Minneha 14 in SD Imp Dist|02,149
+SG|Minneha 18|01,3
+SG|Minneha 20|01,3
+SG|Minneha 22|01,2
+SG|Minneha 26|01,23
+SG|Minneha 3|03,4
+SG|Minneha 5|01,2
+SG|Minneha 7|01,35
+SG|Minneha 8|01,36
+SG|Minneha 9 in SS Imp Dist|01,334
+SG|Minneha 9|02,2
+SG|Morton 3 in USD 268|01,4
+SG|Morton in USD 267-3|01,49
+SG|Morton in USD 268|03,435
+SG|Mount Hope 01 312-3|01,544
+SG|Mount Hope 02 312-3|01,6
+SG|Mount Hope 04 312-3|01,2
+SG|Mulvane 1 in USD 263-1|01,947
+SG|Mulvane 14|01,1
+SG|Mulvane 2 in USD 263-1|03,376
+SG|Mulvane 2 in USD 263-2|01,2049
+SG|Mulvane 2 in USD 263-3|02,265
+SG|Mulvane 5|01,3
+SG|Mulvane 6|01,148
+SG|Mulvane 7|01,1
+SG|Ninnescah - Rural|02,185
+SG|Ninnescah 1 - Rural|01,380
+SG|Ninnescah in Clearwater|01,1802
+SG|Ohio 1 in 263-1 & PE Imp Dist|02,28
+SG|Ohio 1 in USD 261|01,69
+SG|Ohio 1 in USD 263-1|03,3
+SG|Ohio 1 in USD 264|04,921
+SG|Park 1 in USD 262|01,209
+SG|Park 10 in USD 266-2|01,2
+SG|Park 11 in USD 266-2|01,2
+SG|Park 12|01,2
+SG|Park 14 in USD 266-2 in Maize|03,49
+SG|Park 14 in USD 266-3 in Maize|01,2051
+SG|Park 14 in USD 266-3 out Maize|02,4
+SG|Park 15 in USD 266-2 & Maize|01,351
+SG|Park 15 in USD 266-2|02,74
+SG|Park 16 in USD 266-2|01,19
+SG|Park 17 in 266-2 & Maize|01,1
+SG|Park 2 in USD 266-2|01,270
+SG|Park 5 in USD 262|03,68
+SG|Park 5 in USD 266-2 & Maize|01,983
+SG|Park 5 in USD 266-2 out Maize|04,80
+SG|Park 5 in USD 266-3 & Maize|02,1068
+SG|Park 6 in USD 266-3 & Maize|01,90
+SG|Park 9 in USD 266-2|01,5
+SG|Park City 11|01,215
+SG|Park City 13|01,530
+SG|Park City 16|01,2
+SG|Park City 17|01,1
+SG|Park City 18|01,467
+SG|Park City 19 in USD 259-6|01,182
+SG|Park City 21|01,1162
+SG|Park City 23 in USD 262|01,375
+SG|Park City 31 in USD 259-6|01,807
+SG|Park City 31 in USD 262|02,325
+SG|Park City 32 in USD 262|01,280
+SG|Park City 41 in USD 259-6|01,680
+SG|Park City 41 in USD 262|02,3
+SG|Park City 43 in USD 259-1|02,490
+SG|Park City 43 in USD 259-6|01,9
+SG|Park City 44|01,100
+SG|Park City 45 in USD 259-1|01,305
+SG|Payne 1 in 259-1 & Kechi|05,368
+SG|Payne 1 in USD 259-1|04,41
+SG|Payne 1 in USD 375-1|01,333
+SG|Payne 1 in USD 375-2|02,186
+SG|Payne 1 in USD 385-1|03,235
+SG|Riverside 1 in 261|01,37
+SG|Riverside 13 in USD 260|01,9
+SG|Riverside 14 in 261|01,43
+SG|Riverside 15 in 260 & SV ID|02,137
+SG|Riverside 15 in OL Imp Dist|01,365
+SG|Riverside 3 in OL Imp Dist|01,276
+SG|Riverside 3 outside OL Imp D|02,104
+SG|Riverside 6 outside OL Imp D|01,172
+SG|Riverside 7 in 260 & OL ID|01,740
+SG|Riverside 7 in 260 & SV ID|02,209
+SG|Rockford 1 in USD 260|01,376
+SG|Rockford 1 in USD 263-2|02,41
+SG|Rockford 1 in USD 394|03,260
+SG|Rockford 2 in USD 263-1|01,22
+SG|Rockford 3 in USD 263-1|01,50
+SG|Rockford 3 in USD 263-2|02,182
+SG|Rockford 3 in USD 263-3|03,223
+SG|Rockford 4 in USD 260|01,16
+SG|Salem 1 in 263-1 & PE Imp Dist|03,7
+SG|Salem 1 in USD 260|01,72
+SG|Salem 1 in USD 261|02,812
+SG|Salem 1 in USD 263-1|04,678
+SG|Salem 2|01,777
+SG|Salem 3 in USD 261|01,56
+SG|Salem 4 in USD 261|01,35
+SG|Salem 5|01,387
+SG|SE in 439-1|01,5
+SG|SE in 439-3|03,111
+SG|SE02 in 439-2|01,5
+SG|Sherman - Rural 267-1|01,833
+SG|Union 1 in 267-2 & SM Imp Dist|03,10
+SG|Union 1 in USD 266-2|08,20
+SG|Union 1 in USD 266-3|01,190
+SG|Union 1 in USD 267-1|02,118
+SG|Union 1 in USD 267-2|04,478
+SG|Union 2 in 266-3 & Maize|01,558
+SG|VA in 439-3 outside SE|03,157
+SG|VA in USD 262|01,560
+SG|VA in USD 266-2|02,8
+SG|VA in USD 440-3|04,102
+SG|Valley Center 11|01,1210
+SG|Valley Center 21|01,1156
+SG|Valley Center 31|02,1171
+SG|Valley Center 32 in USD 259-6|02,7
+SG|Valley Center 32 in USD 262|01,75
+SG|Valley Center 33 in 262|01,9
+SG|Valley Center 41|01,1230
+SG|Valley Center 42|01,337
+SG|Valley Center 44|01,11
+SG|Viola in 356-1 & City|05,95
+SG|Viola in USD 264|01,97
+SG|Viola in USD 267-3|02,55
+SG|Viola in USD 268|03,6
+SG|Viola in USD 356-1|04,124
+SG|Waco 1 in USD 261|01,34
+SG|Waco 1 in USD 264|02,42
+SG|Waco 1 in USD 265|03,13
+SG|Waco 10 in USD 261|01,41
+SG|Waco 11 in USD 265|01,2
+SG|Waco 13 in USD 261|01,4
+SG|Waco 2 in USD 261|01,261
+SG|Waco 2 in USD 265|05,104
+SG|Waco 3 in USD 265|01,13
+SG|Waco 5 in USD 261|01,1
+SG|Waco 8 in USD 261|01,2
+SG|Waco 9 in USD 265|01,3
+SH|11.1 Ward  1|01,783
+SH|12.1 Ward  2|01,545
+SH|13.1 Ward 3|01,513
+SH|14.1 Ward 4  Comm Dist #1|01,414
+SH|14.2 Ward 4  Comm Dist #2|02,413
+SH|25.1 Kanorado City|01,90
+SH|51.1 Grant Twp|01,44
+SH|52.1 Iowa Twp  USD 314|01,1
+SH|52.2 Iowa Twp  USD 352|02,19
+SH|53.1 Itasca Twp|01,212
+SH|54.1 Lincoln Twp|01,62
+SH|55.1 Llanos Twp  USD 314|01,26
+SH|55.2 Llanos Twp USD 352|02,4
+SH|56.1 Logan Twp|01,165
+SH|57.1 McPherson Twp|01,21
+SH|58.1 Shermanville Twp|01,24
+SH|59.1 Smoky Twp|01,45
+SH|60.1 Stateline Twp|01,42
+SH|61.1 Union Twp  USD 314|01,33
+SH|61.2 Union Twp  USD 352|02,9
+SH|62.1 Voltaire Twp|01,141
+SH|63.1 Washington Twp|01,57
+SM|Athol City|01,29
+SM|Banner Township|01,50
+SM|Beaver Township|01,34
+SM|Blaine Township|01,34
+SM|Cedar City|01,22
+SM|Cedar Township|01,61
+SM|Center I-Smith Center City|01,457
+SM|Center II-Smith Center City|01,503
+SM|Center III-Smith Center City|01,266
+SM|Center III Township|01,51
+SM|Center IV Township|01,82
+SM|Cora Township|01,23
+SM|Crystal Plains Township|01,19
+SM|Dor 110 Township|01,19
+SM|Dor 237 Township|01,2
+SM|Dor 392 Township|01,3
+SM|Garfield 237 Township|01,7
+SM|Garfield 392 Township|01,24
+SM|Gaylord City|01,69
+SM|German Township|01,23
+SM|Harlan Township|01,59
+SM|Harvey 110 Township|01,7
+SM|Harvey 237 Township|01,54
+SM|Houston 237 Township|01,33
+SM|Kensington City|01,339
+SM|Lane 110 Township|01,25
+SM|Lane 237 Township|01,30
+SM|Lebanon City|01,153
+SM|Lincoln 237 Township|01,2
+SM|Lincoln 272 Township|01,40
+SM|Logan Township|01,23
+SM|Martin 110 Township|01,9
+SM|Martin 237 Township|01,10
+SM|Oak Township|01,55
+SM|Pawnee Township|01,29
+SM|Pleasant 110 Township|01,8
+SM|Pleasant 237 Township|01,19
+SM|Swan Township|01,22
+SM|Valley 110 Township (Old 324)|01,2
+SM|Valley 110 Township|01,42
+SM|Valley 237 Township|01,2
+SM|Washington Township|01,38
+SM|Webster Township|01,39
+SM|White Rock Township|01,25
+SN|1 East Rossville 321-1|01,14
+SN|1 East Rossville 321-2-R|03,409
+SN|1 East Rossville 321-2|02,276
+SN|1/1 501-2|01,466
+SN|1/2 345-A|01,115
+SN|1/2 501-2|04,393
+SN|1/3 345-B|01,426
+SN|1/4 345-B|02,416
+SN|1/4 501-2|03,172
+SN|1/5 345-A|02,851
+SN|1/5 501-2|04,30
+SN|1/6 345-A|01,216
+SN|1/6 345-B|02,409
+SN|1/6 345-C|03,344
+SN|1/7 345-B|02,3
+SN|1/9 345-A|01,1
+SN|10 West Silver Lake 321-2|01,5
+SN|10 West Silver Lake 372-S|03,401
+SN|10 West Silver Lake 372|02,153
+SN|10/1 501-3|02,551
+SN|10/10 437-A|01,6
+SN|10/10 501-3|03,558
+SN|10/11 437-A|02,279
+SN|10/11 501-3|03,513
+SN|10/13 437-A|01,60
+SN|10/14 437-A|02,354
+SN|10/14 501-3|03,202
+SN|10/2 437-A|01,2
+SN|10/2 501-3|03,395
+SN|10/3 501-3|02,835
+SN|10/4 501-3|03,538
+SN|10/5 501-3|02,487
+SN|10/6 501-3|01,433
+SN|10/7 501-3|01,526
+SN|10/8 501-3|01,490
+SN|10/9 501-3|01,353
+SN|11/1 501-3|01,392
+SN|11/10 501-3|01,354
+SN|11/2 501-3|01,500
+SN|11/3 501-3|01,418
+SN|11/4 501-3|01,644
+SN|11/5 501-3|01,540
+SN|11/6 501-3|01,519
+SN|11/7 501-3|01,541
+SN|11/8 501-3|02,553
+SN|11/9 501-3|01,555
+SN|12 Grove 321-1|01,2
+SN|12 Grove 321-2|02,38
+SN|12 Grove 372|03,520
+SN|12/1 437-A|01,515
+SN|12/1 501-3|02,68
+SN|12/11 437-C|01,749
+SN|12/11 501-3|02,103
+SN|12/13 437-A|01,606
+SN|12/14 437-A|02,531
+SN|12/15 437-A|02,917
+SN|12/16 437-C|01,392
+SN|12/16 501-3|03,637
+SN|12/17 437-C|01,8
+SN|12/19 437-A|01,112
+SN|12/2 437-A|02,557
+SN|12/20 437-A|01,715
+SN|12/3 437-A|01,321
+SN|12/3 501-3|02,218
+SN|12/31 437-A|01,451
+SN|12/4 501-3|02,600
+SN|12/5 437-A|01,510
+SN|12/6 501-3|02,697
+SN|12/7 437-C|02,88
+SN|12/7 501-3|04,657
+SN|12/8 501-3|02,601
+SN|12/9 501-3|02,979
+SN|13/1 437-C|01,2
+SN|13/12 437-C|02,1019
+SN|13/2 437-A|02,289
+SN|13/21 437-A|02,151
+SN|13/22 437-A|01,138
+SN|13/30 437-A|01,351
+SN|13/5 437-A|01,70
+SN|13/6 437-C|02,203
+SN|13/8 437-A|01,9
+SN|13/9 437-A|01,173
+SN|14 Kiro 345-A|01,389
+SN|14 Kiro 372|02,342
+SN|14/01 437-B|01,659
+SN|14/01 501-3|02,276
+SN|14/02 437-B|01,835
+SN|14/03 437-B|01,475
+SN|14/04 437-C|01,1091
+SN|14/05 437-C|01,499
+SN|15 Messhoss Creek 345-A|01,326
+SN|15 Messhoss Creek 372|02,254
+SN|15/01 450-C|01,850
+SN|15/02 450-C|01,534
+SN|15/03 450-C|01,87
+SN|2 West Rossville 321-1|01,79
+SN|2 West Rossville 321-2-R|03,284
+SN|2 West Rossville 321-2|02,198
+SN|2/1 501-1|03,532
+SN|2/10 501-1|01,523
+SN|2/11 501-1|01,414
+SN|2/2 501-1|01,437
+SN|2/3 501-1|01,461
+SN|2/4 501-1|02,414
+SN|2/5 501-1|01,380
+SN|2/6 501-1|02,499
+SN|2/7 501-1|01,340
+SN|2/8 501-1|02,381
+SN|2/9 501-1|01,530
+SN|21 Urban Hills 345-A|01,17
+SN|22 Ltl Muddy Crk 345-C|01,451
+SN|24 Sac 345-C|02,816
+SN|25 Sherman 345-B|02,38
+SN|25 Sherman 345-C|01,672
+SN|26 Iroquois 345-A|01,970
+SN|28 West Wichita 345-A|01,581
+SN|29 Indianola 345-A|01,304
+SN|29 Indianola 345-B|02,437
+SN|3/1 501-2|01,512
+SN|3/10 501-1|01,56
+SN|3/2 501-2|01,394
+SN|3/3 501-2|01,467
+SN|3/4 501-2|01,468
+SN|3/5 501-2|01,336
+SN|3/6 501-1|01,55
+SN|3/6 501-2|02,309
+SN|3/7 501-2|01,522
+SN|3/8 501-2|01,413
+SN|3/9 501-1|01,408
+SN|3/9 501-2|02,194
+SN|30 Apache 345-A|01,722
+SN|31 East Wichita 345-A|01,1076
+SN|32 Fox 340-2|01,127
+SN|32 Fox 345-C|02,701
+SN|33 Elmont 345-B|02,1101
+SN|34 Kilmer 340-2|01,81
+SN|34 Kilmer 345-C|02,135
+SN|35 Rochester 345-B|01,709
+SN|36 East Soldier 345-C|01,796
+SN|37 Whitfield 345-A|01,58
+SN|37 Whitfield 345-B|02,541
+SN|38 Sioux 345-C|01,625
+SN|39 Pottawatomie 345-B|01,818
+SN|4/1 450-A|01,431
+SN|4/1 501-1|02,42
+SN|4/10 501-1|02,516
+SN|4/11 501-2|01,143
+SN|4/14 501-1|01,52
+SN|4/15 501-2|01,339
+SN|4/2 501-1|01,699
+SN|4/3 501-1|01,392
+SN|4/4 501-1|01,651
+SN|4/6 501-2|01,590
+SN|4/7 501-1|01,355
+SN|4/8 501-1|01,527
+SN|4/9 501-1|01,497
+SN|40 Stinson Creek 450-A|01,257
+SN|41 North Tecumseh 450-A|01,646
+SN|42 South Tecumseh 450-B|01,575
+SN|43 Pawnee 450-B|01,771
+SN|44 Kaw 450-A|01,732
+SN|45 Peck 450-A|01,442
+SN|46 East Peck 450-A|01,445
+SN|47 Kiowa 450-B|01,978
+SN|48 Cheyenne 450-A|01,751
+SN|49 Ponca 450-B|01,429
+SN|5/1 501-1|04,433
+SN|5/10 450-B|02,711
+SN|5/11 450-A|01,663
+SN|5/14 450-A|02,447
+SN|5/15 450-B|02,195
+SN|5/2 501-1|01,482
+SN|5/3 501-1|01,444
+SN|5/4 501-1|01,449
+SN|5/5 501-1|01,538
+SN|5/6 501-1|01,435
+SN|5/7 501-1|01,413
+SN|5/8 450-B|02,106
+SN|5/8 501-1|05,270
+SN|5/9 450-B|01,438
+SN|5/9 501-1|03,262
+SN|5/91 450-B|01,222
+SN|52 Deer Creek 450-A|01,14
+SN|52 Deer Creek 450-B|02,21
+SN|53 Pauline 450-C|02,266
+SN|54 West Potter 437-B|01,96
+SN|55 Central Pauline 437-B|01,153
+SN|56 Northwest Monmouth 450-C|01,527
+SN|57 Northeast Monmouth 450-C|01,776
+SN|58 South Monmouth 434-1|01,1
+SN|58 South Monmouth 450-C|02,953
+SN|59 N Central Monmouth 450-C|01,376
+SN|6/1 501-1|01,469
+SN|6/2 501-1|01,580
+SN|6/3 501-2|01,502
+SN|6/4 501-2|01,639
+SN|6/5 501-2|01,511
+SN|6/6 501-2|01,425
+SN|6/7 437-B|02,23
+SN|6/7 501-2|03,379
+SN|6/8 501-1|02,718
+SN|6/9 437-B|01,510
+SN|6/9 450-C|02,963
+SN|62 Forbes 450-C|01,99
+SN|63 Montara 437-B|01,682
+SN|63 Montara 450-C|02,11
+SN|64 Cullen 437-B|01,766
+SN|65 Wakarusa 437-B|01,592
+SN|65 Wakarusa 450-C|02,146
+SN|66 Kingston 450-C|01,195
+SN|7/1 501-2|01,483
+SN|7/10 501-3|02,434
+SN|7/11 501-2|01,370
+SN|7/11 501-3|02,248
+SN|7/2 501-2|01,515
+SN|7/3 501-2|02,574
+SN|7/4 501-3|01,536
+SN|7/5 501-2|01,332
+SN|7/5 501-3|02,89
+SN|7/6 501-2|01,404
+SN|7/7 501-2|01,423
+SN|7/9 501-3|01,345
+SN|72 City of Auburn 437-B|01,788
+SN|73 Meadowlark 437-B|01,920
+SN|74 Buffalo 330-1|01,33
+SN|74 Buffalo 330-2|02,132
+SN|74 Buffalo 437-B|03,527
+SN|8/1 501-2|01,466
+SN|8/10 501-3|01,393
+SN|8/11 501-3|01,566
+SN|8/2 501-2|01,476
+SN|8/3 501-2|01,541
+SN|8/4 501-2|01,534
+SN|8/5 501-3|03,740
+SN|8/6 501-3|01,384
+SN|8/7 501-2|01,503
+SN|8/8 501-2|01,430
+SN|8/9 501-3|03,529
+SN|80 Gaillardia 437-A|01,843
+SN|81 Dover 321-2|01,63
+SN|81 Dover 330-1|02,449
+SN|81 Dover 437-B|03,60
+SN|82 Willard 321-2-W|02,31
+SN|82 Willard 321-2|01,361
+SN|82 Willard 330-1|03,26
+SN|82 Willard 437-A|04,92
+SN|83 Ichabod Wsbn 437-C|02,13
+SN|84 Yucca 330-1|01,73
+SN|84 Yucca 437-B|02,183
+SN|85 Aldersgate 437-C|01,373
+SN|86 Sunflower 437-C|01,1162
+SN|87 Washburn 437-B|01,586
+SN|87 Washburn 437-C|02,276
+SN|89 North Mission 437-A|01,187
+SN|9 East Silver Lake 372-S|02,542
+SN|9 East Silver Lake 372|01,303
+SN|9/1 501-2|02,140
+SN|9/10 501-2|01,313
+SN|9/10 501-3|02,556
+SN|9/11 501-2|01,430
+SN|9/12 501-2|01,296
+SN|9/2 501-2|01,443
+SN|9/2 501-3|02,8
+SN|9/3 501-2|01,493
+SN|9/3 501-3|02,240
+SN|9/4 501-2|01,584
+SN|9/5 501-2|01,598
+SN|9/6 501-3|01,613
+SN|9/8 501-3|02,900
+SN|9/9 501-2|01,386
+SN|90 South Mission 437-B|01,454
+SN|90 South Mission 437-C|02,57
+SN|91 Central Mission 437-C|01,777
+SN|92 Sherwood 437-C|01,552
+SN|93 South Sherwood 437-C|01,569
+SN|94 Indian Hills 437-C|01,651
+SN|95 York 437-C|01,686
+SN|96 Vaquero 437-A|02,1
+SN|96 Vaquero 437-C|01,452
+SN|97 York Outer 437-C|01,73
+SN|99 Verbena 437-A|01,113
+"ST|Big Bow Twp, CC 3,  USD 452|01",124
+"ST|Johnson City CC 3, USD 452|03",160
+"ST|Johnson City, CC 1, USD 452|01",156
+"ST|Johnson City, CC 2, USD 452|02",338
+"ST|Manter City, CC 1, USD 452|01",85
+"ST|Manter Twp, CC 1, USD 452|02",58
+"ST|Stanton Twp, CC 1, USD 452|04",11
+"ST|Stanton Twp, CC 2, USD 452|05",56
+"ST|Stanton Twp, CC 3, USD 452|07",4
+"ST|Stanton Twsp, CC 2, USD 452|06",32
+SU|Argonia City 359/1|01,216
+SU|Argonia City 359/3|02,101
+SU|Avon Twnshp 353/3|01,196
+SU|Avon Twnshp 358/2|02,8
+SU|Avon Twnshp 358/3|03,28
+SU|Belle Plaine City 357/1|01,501
+SU|Belle Plaine City 357/2|02,70
+SU|Belle Plaine City 357/3|03,453
+SU|Belle Plaine Twnshp H 79 357/1|02,60
+SU|Belle Plaine Twnshp H 79 357/2|03,315
+SU|Belle Plaine Twnshp H 79 357/3|04,72
+SU|Bluff Twnshp 359/3|01,6
+SU|Bluff Twnshp 360|02,40
+SU|BP Twnshp H79 263/3 BP DD|06,4
+SU|BP Twnshp H79 263/3 Cowskin DD|05,349
+SU|BP Twnshp H79 263/3 Pt A|01,1
+SU|BP Twnshp H79 263/3|01,119
+SU|BP Twnshp H79 357/1 Cowskin DD|07,202
+SU|BP Twnshp H79 357/2 Cowskin DD|08,16
+SU|BP Twnshp H82 263/3 BP DD|01,9
+SU|BP Twnshp H82 263/3 Pt A|01,1
+SU|Caldwell Twnshp 360|01,101
+SU|Caldwell W1 360|01,238
+SU|Caldwell W2 360|01,447
+SU|Chikaskia Twnshp 359/3|01,18
+SU|Chikaskia Twnshp 360|02,24
+SU|Conway Sprns (ConwayTwsp)356/2|01,298
+SU|Conway Sprns (ConwayTwsp)356/3|02,222
+SU|Conway Twnshp H116 356/2|01,34
+SU|Conway Twnshp H116 356/3|02,30
+SU|Conway Twnshp H79 264|01,1
+SU|Conway Twnshp H79 356/1|02,140
+SU|Conway Twnshp H79 356/2|03,23
+SU|Conway Twnshp H79 356/3|04,14
+SU|ConwaySprngs Springdale 356/3|01,233
+SU|Creek Twnshp 356/3|01,77
+SU|Creek Twnshp 359/2|02,62
+SU|Dixon Twnshp 359/2|01,70
+SU|Dixon Twnshp 359/3|02,58
+SU|Downs Twnshp H79 353/3|01,79
+SU|Downs Twnshp H80 353/3|01,24
+SU|Downs Twnshp H80 360|02,17
+SU|Eden Twnshp H116 356/3|01,20
+SU|Eden Twnshp H116 359/2|02,7
+SU|Eden Twnshp H79 331/5|01,129
+SU|Eden Twnshp H79 331/6|02,133
+SU|Eden Twnshp H79 356/1|03,16
+SU|Eden Twnshp H79 356/3|04,12
+SU|Eden Twnshp H79 359/2|05,3
+SU|Falls Twnshp 360|01,119
+SU|Falls Twnshp 509|02,2
+SU|Geuda Springs City 358/3|01,79
+SU|Gore Twnshp H79 263/3|01,220
+SU|Gore Twnshp H79 358/2|02,14
+SU|Gore Twnshp H79 463/1|03,39
+SU|Gore Twnshp H79 463/2|04,64
+SU|Gore Twnshp H82-32 263/3|01,237
+SU|Gore Twnshp H82 263/3|01,168
+SU|Greene Twnshp 353/3|01,24
+SU|Greene Twnshp 358/3|02,24
+SU|Greene Twnshp 509|03,10
+SU|Guelph Twnshp 509|01,114
+SU|Harmon Twnshp 353/3|01,47
+SU|Harmon Twnshp 357/3|02,162
+SU|Hunnewell City 509|01,48
+SU|Illinois Twnshp 264|01,90
+SU|Illionis Twnshp 356/2|02,34
+SU|Jackson Twnshp H79 353/3|01,23
+SU|Jackson Twnshp H80 353/3|01,69
+SU|Jackson Twnshp H80 509|02,15
+SU|London Twnshp 264|02,130
+SU|London Twnshp 353/3|03,21
+SU|London Twnshp 357/2|04,291
+SU|London Twp 263/3 Peck Imp Dist|05,69
+SU|London Twshp 263/3|01,57
+SU|Mayfield City 353/3|01,70
+SU|Milan City 359/2|01,34
+SU|Morris Twnshp 359/3|01,20
+SU|Mulvane City 263/3|01,519
+SU|Mulvane Cy 263/3 H79 exclave B|02,2
+SU|Mulvane Cy 263/3H79 Cowskin DD|01,6
+SU|Mulvane Cy Exclave A 263/3 H82|01,2
+SU|Osborne Twnshp 353/3|01,116
+SU|Oxford 358/1|01,206
+SU|Oxford 358/2|02,509
+SU|Oxford Twnshp 358/1|01,39
+SU|Oxford Twnshp 358/2|02,75
+SU|Oxford Twnshp 358/3|03,45
+SU|Palestine Twnshp 357/3|02,30
+SU|Palestine Twnshp 358/2|03,42
+SU|Palestine Tws 357/1 Cowskin DD|04,35
+SU|Palestine Tws 357/3 Cowskin DD|05,24
+SU|Ryan Twnshp 356/2|01,1
+SU|Ryan Twnshp 356/3|02,7
+SU|Ryan Twnshp 359/2|03,13
+SU|Ryan Twnshp 359/3|04,40
+SU|Seventy-six Twnshp 353/3|01,172
+SU|Seventy-six Twnshp 357/3|02,36
+SU|South Haven City 509|01,218
+SU|South Haven Twnshp 360|01,3
+SU|South Haven Twnshp 509|02,120
+SU|Springdale Twnshp 356/2|01,51
+SU|Springdale Twnshp 356/3|02,209
+SU|Springdale Twnshp 359/2|03,2
+SU|Sumner Twnshp 353/3|01,27
+SU|Sumner Twnshp 356/2|02,52
+SU|Valverde Twnshp H80 358/3|01,84
+SU|Valverde Twnshp H80 509|02,2
+SU|Walton Twnshp 358/3|01,18
+SU|Walton Twnshp 470|02,52
+SU|Walton Twnshp 509|03,51
+SU|Wellington City H80 353/1 H80|01,257
+SU|Wellington City H80 353/1|01,1655
+SU|Wellington City H80 353/2 H80|02,2098
+SU|Wellington City H80 353/3 H80|03,690
+SU|Wellington City H80 353/3|02,180
+SU|Wellington Lake Exclave 353/3|01,3
+SU|Wellington Twnshp H79 353/3|01,163
+SU|Wellington Twnshp H80 353/3|01,83
+SU|Wellington Twnshp H80A 353/3|01,14
+SU|Wellington Twnsp H80 PtA 353/3|01,5
+SV|Banner|01,101
+SV|Center 1|01,38
+SV|Center 2|01,250
+SV|Harmony|01,64
+SV|Hugoton 1|01,513
+SV|Hugoton 2|02,830
+SV|Hugoton 3|03,901
+SV|Moscow City|01,144
+SV|Moscow Rural|03,207
+SV|Moscow USD210|02,18
+SV|Pioneer|02,47
+SV|Voorhees|01,121
+SV|West Center|01,104
+SW|Fargo Township 1|01,98
+SW|Fargo Township 2|01,66
+SW|Fargo Township 3|01,23
+SW|Fargo Township 4 (480)|01,16
+SW|Fargo Township 4 (483)|02,326
+SW|Kismet City|01,220
+SW|Liberal Township 1 (209)|01,2
+SW|Liberal Township 1 (480)|02,157
+SW|Liberal Township 2  (483)|03,1
+SW|Liberal Township 2 (209)|01,10
+SW|Liberal Township 2 (480)|02,59
+SW|Liberal Township 3 (480)|01,81
+SW|Liberal Township 4 (480)|01,64
+SW|Liberal Township 4 (483)|02,17
+SW|Liberal Township 5 (480)|01,54
+SW|Liberal Township 5 (483)|02,7
+SW|Seward Township 1 (209)|01,9
+SW|Seward Township 1 (483)|03,4
+SW|Seward Township 1 (507/2)|05,13
+SW|Seward Township 1 (507/3)|04,22
+SW|Seward Township 2 (374)|01,21
+SW|Seward Township 2 (483)|02,30
+SW|Seward Township 2 (507/2)|03,3
+SW|Seward Township 3 (483)|01,8
+SW|Seward Township 3 (483/2)|02,17
+SW|Ward 1 Precinct 1|01,1033
+SW|Ward 1 Precinct 2|01,1771
+SW|Ward 1 Precinct 3|01,1082
+SW|Ward 2|01,992
+SW|Ward 3|01,1092
+SW|Ward 4|01,606
+SW|Ward 5|01,593
+SW|Ward 6 Precicnt 1|01,1552
+SW|Ward 6 Precinct 2|01,1266
+TH|Barrett Twp-USD 314|02,61
+TH|Barrett Twp-USD 315|01,19
+TH|Brewster City-USD 314|01,207
+TH|East Hale Twp-USD 314|02,30
+TH|East Hale Twp-USD 315|01,57
+TH|East Morgan Twp-USD 315|01,206
+TH|Gem City-USD 315|01,83
+TH|Kingery Twp-USD 275|01,30
+TH|Kingery Twp-USD 314|03,27
+TH|Kingery Twp-USD 315|02,2
+TH|Lacey Twp-USD 315|02,29
+TH|Menlo City-USD 316|01,25
+TH|Menlo Twp-USD 274|03,2
+TH|Menlo Twp-USD 315|05,1
+TH|Menlo Twp-USD 316|02,23
+TH|North Randall Twp-USD 274|01,17
+TH|North Randall TWp-USD 315|02,36
+TH|Oakley City-USD 274|01,29
+TH|Precinct 2 Ward I|01,731
+TH|Precinct 2 Ward II|02,735
+TH|Precinct 2 Ward III|03,1104
+TH|Precinct 2 Ward IV|04,1033
+TH|Rexford City-USD 316|01,113
+TH|Rovohl Twp-USD 315|01,129
+TH|Smith Twp-USD 316|03,39
+TH|South Randall Twp-USD 274|02,138
+TH|South Randall Twp-USD 291|03,15
+TH|Summers Twp-USD 274|01,34
+TH|Summers Twp-USD 275|02,7
+TH|Summers Twp-USD 315|03,91
+TH|Wendell Twp-USD 315|01,15
+TH|Wendell Twp-USD 316|02,27
+TH|West Hale Twp-USD 314|02,49
+TH|West Morgan Twp-USD 315|01,304
+TR|Collyer City|01,64
+TR|Collyer Township|01,141
+TR|East Ogallah Twp USD 208|01,17
+TR|East Ogallah Twp USD 388|02,34
+TR|Ogallah Township USD 208|01,93
+TR|Ogallah Township USD 388|02,27
+TR|South Collyer Twp USD 106|02,9
+TR|South Collyer Twp USD 208|01,10
+TR|South Ogallah Twp USD 106|03,9
+TR|South Ogallah Twp USD 208|01,31
+TR|South Ogallah Twp USD 388|02,27
+TR|South Ogallah Twp USD 395|04,1
+TR|South WaKeeney Twp USD 106|02,10
+TR|South WaKeeney Twp USD 208|01,44
+TR|WaKeeney City Central|01,407
+TR|WaKeeney City East|01,432
+TR|WaKeeney City West|01,443
+TR|WaKeeney Township|01,250
+WA|000010-Harrison Twp (241)|01,47
+WA|000020-Sharon Springs P1 (241)|01,253
+WA|000020-SS Twp P3 (241)|01,34
+WA|000030-Sharon Springs P2 (241)|01,327
+WA|000030-SS Twp P4 (241)|01,117
+WA|000030-SS Twp P4 (242)|02,2
+WA|000040-Wallace City (241)|01,38
+WA|000040-Wallace Twp (241)|01,75
+WA|000040-Wallace Twp (275)|02,13
+WA|000050-Weskan Twp (241)|01,20
+WA|000050-Weskan Twp (242)|02,234
+WB|Alma City 329-2|01,217
+WB|Alma City 329-4|02,68
+WB|Alma City 329-5|03,321
+WB|Alma Twp 329-2|01,86
+WB|Alma Twp 329-4|02,154
+WB|Alma Twp 329-5|03,62
+WB|Alta Vista 417|01,289
+WB|Chalk 329-4|03,2
+WB|Chalk 330-3 & 6|01,14
+WB|Chalk 417|02,20
+WB|Esk 330-3 & 6|01,323
+WB|Farmer 329-4|01,72
+WB|Farmer 417|02,4
+WB|Garfield 329-4|01,30
+WB|Garfield 417|02,80
+WB|Hessdale  329-1|01,15
+WB|Hessdale  329-4|02,31
+WB|Hessdale 330-3&6|03,21
+WB|HV 330-2 & 5|01,142
+WB|Kaw 320|01,69
+WB|Kaw 321|02,121
+WB|Kaw 329-2|03,15
+WB|Keene  329-1|01,11
+WB|Keene  330-2 & 5|03,63
+WB|Keene  330-3 & 6|04,26
+WB|Keene 330-1 & 4|02,346
+WB|LWID  330-3&6|04,117
+WB|Maple Hill 321|01,45
+WB|Maple Hill 329-1|02,104
+WB|Maple Hill 329-3|03,33
+WB|Maple Hill 329-6|04,108
+WB|McFarland  329-1|01,16
+WB|McFarland  329-2|02,39
+WB|McFarland 329-5|05,3
+WB|MF City 329-1|01,184
+WB|MF City 329-5|05,18
+WB|MH City 329-3|01,456
+WB|MH City 329-6|06,3
+WB|MH Twp 330-1 & 4|05,131
+WB|Paxico  320|01,3
+WB|Paxico  329-2|03,103
+WB|Paxico  329-6|04,163
+WB|Paxico 329-1|02,84
+WB|Paxico FVID 329-1|05,58
+WB|Plumb 330-2 & 5|02,277
+WB|PX City 329-6|01,145
+WB|Wab Twp 320|01,301
+WB|Wab Twp 320x|04,32
+WB|Wab Twp 329-2|02,50
+WB|Wab Twp 329-4|03,76
+WB|Washington - 329-4|01,68
+WB|Wilm Twp 330-2&5|02,23
+WB|Wilm Twp 330-3&6|03,99
+WH|NE USD 466|00,1
+WH|PREC 1 CITY|01,357
+WH|PREC 1 COUNTY|02,70
+WH|PREC 2 CITY|01,451
+WH|PREC 2 COUNTY|01,95
+WH|PREC 3-467-1|01,99
+WH|PREC 3-467-2|02,169
+WH|SE USD 466|00,4
+WL|USD 387-114|01,257
+WL|USD 387-114|02,61
+WL|USD 387-225|01,264
+WL|USD 387-225|03,28
+WL|USD 387-336|01,135
+WL|USD 387-336|02,259
+WL|USD 447|01,69
+WL|USD 461-114|01,554
+WL|USD 461-225|01,229
+WL|USD 461-225W4|01,505
+WL|USD 461-336|01,410
+WL|USD 461-336|02,114
+WL|USD 484-114|01,574
+WL|USD 484-114|02,17
+WL|USD 484-225 W1|01,313
+WL|USD 484-225 W2|01,111
+WL|USD 484-225 W3|01,142
+WL|USD 484-225 W4|02,280
+WL|USD 484-225|01,37
+WL|USD 484-225|02,86
+WL|USD 484-336-2|03,43
+WL|USD 484-336|01,427
+WL|USD 484-336|02,50
+WL|USD 484-336|03,73
+WL|USD 484-3362|03,25
+WO|2T/Toronto City|01,183
+WO|3Y/YC Ward #1 (366 ALG)|01,215
+WO|3Y/YC Ward #1 366 ALG|02,284
+WO|3Y/YC Ward #2 366 ALG|01,407
+WO|Center Twp/366 ALG /1|03,29
+WO|Center Twp/366 ALG /3|04,147
+WO|Center Twp/366 ALG/1|01,169
+WO|Center Twp/366 ALG/3|02,118
+WO|Center Twp/387/6 7/ 1|05,1
+WO|Liberty Twp/245/2 7/3|01,5
+WO|Liberty Twp/366 ALG /3|04,77
+WO|Liberty Twp/366 ALG/1|03,27
+WO|Neosho Falls City|01,79
+WO|Neosho Falls/245/2 7/1|01,3
+WO|Neosho Falls/366 ALG/1|03,26
+WO|NF/Piqua/258/1 7/1|01,23
+WO|NF/Piqua/366 ALG/1|02,144
+WO|North Twp/245/4 7/3|01,7
+WO|North Twp/245/6 7/3|02,6
+WO|North Twp/366 ALG /3|04,27
+WO|North Twp/366 ALG/3|03,1
+WO|Perry Twp/258/1 7/1|01,13
+WO|Perry Twp/366 ALG/1|02,60
+WO|Perry Twp/387/6 7/1|03,1
+WO|Toronto/366 ALG/3|01,69
+WO|Toronto/386/257/3|02,2
+WO|Toronto/389/3 7/3|03,124
+WO|Toronto/484/367/3|04,5
+"WS|Barnes City, 223.3|01",84
+"WS|Barnes Township, 223.3|01",8
+"WS|Barnes Township, 223.4|02",19
+"WS|Barnes Township, 498.3-6|03",9
+"WS|Brantford Township, 109.2-5|04",8
+"WS|Brantford Township, 223.1|01",2
+"WS|Brantford Township, 224.3|02",53
+"WS|Char Twp, 223.4, Hanover Hosp|05",21
+"WS|Char Twp, 223.6, Hanover Hosp|06",5
+"WS|Charleston Township, 108.2-5|01",12
+"WS|Charleston Township, 223.4|02",6
+"WS|Charleston Township, 223.6|03",4
+"WS|Clifton City, 224.1|02",22
+"WS|Clifton City, 224.2|01",166
+"WS|Clifton Township, 224.3|02",53
+"WS|Clifton Township, 224.6|03",14
+"WS|Coleman Township, 108.1-4|01",34
+"WS|Coleman Township, 223.1|02",7
+"WS|Farmington Twp, 108.1-4|01",44
+"WS|Farmington Twp, 108.2-5|02",71
+"WS|Frank Twp, 223.6, Hanover Hosp|03",17
+"WS|Franklin Township, 108.1-4|01",17
+"WS|Franklin Township, 223.6|02",25
+"WS|Grant Township, 108.1-4|01",27
+"WS|Grant Township, 224-3|02",2
+"WS|Greenleaf City, 108.3-6|01",158
+"WS|Greenleaf Township, 108.3-6|01",22
+"WS|Greenleaf Township, 223.3|03",36
+"WS|Haddam City, 108.1-4|01",59
+"WS|Haddam Township, 108.1-4|01",40
+"WS|Hanover City, 223.4|01",106
+"WS|Hanover City, 223.5|02",236
+"WS|Hanover City, 223.6|03",82
+"WS|Hanover Township, 223.4|01",85
+"WS|Hanover Township, 223.6|02",80
+"WS|Highland Township, 108.1-4|01",17
+"WS|Hollenberg City, 223.6|01",9
+"WS|Indep Twp, 223.6, Hanover Hosp|02",70
+"WS|Independence Twp, 223.6|01",9
+"WS|Kimeo Township, 223.3|01",31
+"WS|Lincoln Township, 223.3|01",20
+"WS|Lincoln Township, 498.3-6|02",9
+"WS|Linn City, 223.1|01",96
+"WS|Linn City, 223.2|02",87
+"WS|Linn Township, 223.1|01",65
+"WS|Linn Township, 223.2|02",38
+"WS|Little Blue Township, 223.4|02",47
+"WS|Logan Township, 108-2-5|01",14
+"WS|Logan Township, 108.3-6|02",69
+"WS|Lowe Township, 108.1-4|01",47
+"WS|Mahaska City, 108.1-4|01",38
+"WS|Mill Creek Township, 108.1-4|01",58
+"WS|Morrowville City, 108.1-4|01",79
+"WS|Palmer City, 223.2|01",92
+WS|Sheridan Township 223.3|03,9
+"WS|Sheridan Township, 223.2|01",28
+"WS|Sheridan Township, 224.3|02",31
+"WS|Sherman Township, 223.2|01",19
+"WS|Sherman Township, 223.3|02",83
+"WS|Sherman Township, 224.3|03",5
+"WS|Strawberry Twp, 108.1-4|01",2
+"WS|Strawberry Twp, 223.1|03",63
+"WS|Strawberry Twp, 224.3|04",2
+WS|Strawberry Twp. 223.2|02,16
+"WS|Union Township, 108.1-4|01",15
+"WS|Vining City, 224.1|01",4
+"WS|Washington City, 108.2-5|01",442
+"WS|Washington City, 108.3-6|02",220
+"WS|Washington Twp, 108.1-4|01",17
+"WS|Washington Twp, 108.2-5|02",37
+"WS|Washington Twp, 108.3-6|03",80
+"WS|Washington Twp, 223.1|04",8
+WY|BS01-01.204|4,1234
+WY|BS02-01.204|4,1225
+WY|BS03-01.204|4,1401
+WY|BS04-01.204|4,1412
+WY|DW01-01.204|4,39
+WY|ED01-01.204|4,2704
+WY|ED02-01.204|4,403
+WY|ED02-02.500|5,9
+WY|KC01-01.500-FF|5-2,1
+WY|KC01-01.500|5,287
+WY|KC01-02.500|5,368
+WY|KC01-03.500-KV|5-1,10
+WY|KC01-03.500|5,227
+WY|KC01-05.500-KV|5,35
+WY|KC02-01.500-FF|5-2,1
+WY|KC02-01.500|5,490
+WY|KC02-02.500|5,330
+WY|KC02-03.500|5,89
+WY|KC02-04.500|5,487
+WY|KC02-05.500|5,641
+WY|KC02-06.500|5,25
+WY|KC03-01.500|5,931
+WY|KC03-02.500|5,950
+WY|KC03-03.500|5,174
+WY|KC03-04.500|5,655
+WY|KC03-05.500|5,53
+WY|KC04-01.500|5,844
+WY|KC04-02.500|5,383
+WY|KC04-03.500|5,602
+WY|KC04-04.500|5,1017
+WY|KC05-01.500|5,991
+WY|KC05-02.500|5,482
+WY|KC05-03.500|5,464
+WY|KC05-04.500|5,543
+WY|KC05-05.500|5,522
+WY|KC06-01.500-KV|5-1,626
+WY|KC06-02.500-KV|5-1,265
+WY|KC06-02.500|5,1
+WY|KC07-01.500|5,563
+WY|KC07-02.500|5,461
+WY|KC07-03.500-KV|5-1,170
+WY|KC07-03.500|5,429
+WY|KC07-04.202-KV|2-1,1
+WY|KC07-04.202|2,944
+WY|KC07-04.500-KV|5-1,8
+WY|KC07-05.500-KV|5-1,169
+WY|KC07-05.500|5,43
+WY|KC07-06.202|2,96
+WY|KC07-06.500|5,1033
+WY|KC07-07.202|2,32
+WY|KC07-07.500|5,461
+WY|KC07-08.500-KV|5-1,255
+WY|KC07-08.500|5,700
+WY|KC07-09.202|2,1206
+WY|KC07-10.202|2,501
+WY|KC07-10.500|5,111
+WY|KC07-11.500-KV|5,1
+WY|KC07-11.500|5-1,14
+WY|KC08-01.500|5,913
+WY|KC08-02.500|5,850
+WY|KC08-03.500|5,1182
+WY|KC08-04.500|5,1122
+WY|KC09-01.500|5,174
+WY|KC09-02.500|5,881
+WY|KC09-03.500|5,1712
+WY|KC09-04.500|5,203
+WY|KC09-05.202|2,86
+WY|KC09-06.202|2,678
+WY|KC09-06.500|5,357
+WY|KC09-07.202-KV|2-1,67
+WY|KC09-07.202|2,838
+WY|KC09-08.202|2,27
+WY|KC09-08.500|5,452
+WY|KC09-09.500|5,358
+WY|KC09-10.500|5,861
+WY|KC09-11.500|5,136
+WY|KC09-12.204|4,106
+WY|KC09-12.500|5,842
+WY|KC09-13.500|5,662
+WY|KC09-14.204|4,237
+WY|KC09-14.500|5,589
+WY|KC09-15.500|5,4
+WY|KC09-16.203|3,925
+WY|KC09-16.204|4,1405
+WY|KC09-16.500|5,1
+WY|KC09-17.204|4,9
+WY|KC09-18.500|5,182
+WY|KC09-19.500|5,39
+WY|KC09-21.202|2,65
+WY|KC09-22.500|5,134
+WY|KC09-23.500|5,77
+WY|KC09-24.500|5,40
+WY|KC09-25.500|5,1097
+WY|KC10-01.500|5,889
+WY|KC10-02.500|5,862
+WY|KC10-03.500|5,66
+WY|KC10-04.500|5,613
+WY|KC10-05.500|5,1003
+WY|KC10-06.500|5,345
+WY|KC10-07.500|5,239
+WY|KC11-01.500|5,937
+WY|KC11-02.500|5,869
+WY|KC11-03.500|5,1050
+WY|KC11-04.500|5,976
+WY|KC11-05.500|5,1143
+WY|KC11-06.500|5,758
+WY|KC11-07.202|2,44
+WY|KC11-07.500|5,580
+WY|KC11-08.500|5,1016
+WY|KC11-09.500|5,490
+WY|KC11-10.500|5,700
+WY|KC11-11.500|5,858
+WY|KC11-12.500|5,279
+WY|KC11-13.500|5,162
+WY|KC11-14.500|5,233
+WY|KC11-15.500|5,329
+WY|KC11-16.500|5,98
+WY|KC11-17.500|5,17
+WY|KC12-01.500|5,923
+WY|KC12-02.500|5,707
+WY|KC12-03.500|5,1009
+WY|KC12-04.202|2,965
+WY|KC12-04.500|5,44
+WY|KC12-05.202|2,499
+WY|KC12-06.202|2,924
+WY|KC12-07.202|2,946
+WY|KC12-08.202|2,610
+WY|KC12-09.202|2,127
+WY|KC12-10.202|2,185
+WY|KC12-11.202|2,368
+WY|KC12-12.202|2,397
+WY|KC12-13.202|2,685
+WY|KC12-14.202|2,317
+WY|KC12-15.202|2,80
+WY|KC12-16.202|2,320
+WY|KC13-01.500|5,1053
+WY|KC13-02.500|5,858
+WY|KC13-03.500|5,464
+WY|KC13-04.500|5,446
+WY|KC13-05.500|5,144
+WY|KC13-06.500|5,207
+WY|KC13-07.500|5,542
+WY|KC13-08.500|5,658
+WY|KC13-09.500|5,882
+WY|KC13-10.500|5,86
+WY|KC13-11.500|5,672
+WY|KC13-12.500|5,619
+WY|KC13-13.500|5,275
+WY|KC14-01.500|5,922
+WY|KC14-02.500|5,459
+WY|KC14-03.500|5,414
+WY|KC14-04.500|5,796
+WY|KC14-05.500|5,755
+WY|KC14-06.500|5,958
+WY|KC14-07.500|5,1174
+WY|KC14-08.203|3,45
+WY|KC14-08.500|5,844
+WY|KC14-09.203|3,524
+WY|KC14-10.203|3,1841
+WY|KC14-11.203|3,864
+WY|KC14-11.500|5,34
+WY|KC14-12.203|3,1877
+WY|KC14-13.203|3,1268
+WY|KC14-14.203|3,2030
+WY|KC14-15.203|3,888
+WY|KC14-16.500|5,472
+WY|KC14-17.203|3,918
+WY|QC01-01.202|2,32
