@@ -131,6 +131,8 @@ Show <- function(data, caption="", bigMark="",
 
 # Voter file summaries
 
+Voter file summaries over same time span as online SoS Dashboard Summary Files
+
 ```{r}
 voterFileSummary <- 
   read_xlsx("../Stats-from-Voter-Files/Kansas-Voter-Counts-2021-09-02-thru-2026-05-04.xlsx") |>

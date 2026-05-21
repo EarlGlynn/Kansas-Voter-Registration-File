@@ -1,0 +1,238 @@
+---
+title: "Kansas Inactive Voter Percentages from Voter Files -- All Years"
+author: "Earl F Glynn<br><small>watchdoglab.substack.com/</small>"
+date: "<small>`r Sys.Date()`</small>"
+output:
+  html_document:
+    code_download: true
+    theme: cerulean
+    toc: yes
+    toc_depth:  3
+    toc_float:
+      collapsed:  yes
+      smooth_scroll: yes
+    number_sections: yes
+    code_folding:  show
+---
+
+```{r setup, echo = FALSE}
+# http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHtmlTemplate
+require(Hmisc)    # provides knitrSet and other functions
+knitrSet(lang = 'markdown',   # If using blogdown: knitrSet(lang='blogdown')
+         fig.align = 'left',
+         w = 6.5,
+         h = 4.5,
+         cache = FALSE)
+```
+
+`r hidingTOC(buttonLabel = "Outline")`
+
+```{r startYourEngines, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  comment = NA)
+
+time.1 <- Sys.time()
+```
+
+# Setup {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Constants
+
+```{r Constants}
+FILE_PREFIX   <- "x"    # no spaces
+```
+
+```{r}
+EXCEL_LIMIT <- 2^20
+```
+
+## Packages
+
+```{r Packages}
+library(tidyverse)
+library(lubridate)
+```
+
+Display formatting
+
+```{r Display}
+library(kableExtra)  # kable_styling
+#library(IRdisplay)   # display_html (needed in Jupyter notebooks)
+```
+
+I/O
+
+```{r IO}
+library(readxl)      # read_xlsx
+library(readr)       # write_csv
+library(writexl)     # write_xlsx
+```
+
+ Graphics
+
+```{r Graphics}
+library(RColorBrewer) # brewer.pal
+library(scales)       # comma, comma_format
+library(gplots)       # heatmap.2
+```
+
+Utilities
+
+```{r Utilities}
+library(downloader)  # download
+library(tools)       # md5sum
+```
+
+## ggplot theme
+
+[ggplot Themes Gallery](https://www.datanovia.com/en/blog/ggplot-themes-gallery/)
+
+```{r ggplotTheme}
+theme_set(theme_minimal() +
+
+          theme(axis.text             = element_text(size = 12),
+                axis.title            = element_text(size = 14),
+
+                legend.position       = "bottom",
+
+                plot.caption          = element_text(hjust = c(0.0,1.0),
+                                                     size = 10),
+                plot.caption.position = "plot",
+
+                plot.title.position   = "plot",
+
+                strip.background      = element_rect(fill = "aliceblue"),
+                strip.text            = element_text(size = 14),
+
+                title                 = element_text(size = 14)))
+
+COLOR_BAR     <- "skyblue"
+COLOR_OUTLINE <- "grey80"
+```
+
+## Helper functions
+
+```{r Helpers}
+Show <- function(data, caption="", bigMark="",
+                 height = NULL, width = NULL, ...)
+{
+  data                                       |>
+  kable("html", caption=caption,
+        format.args=list(big.mark=bigMark))  |>
+  kable_styling(bootstrap_options=c("striped", "bordered", "condensed"),
+                position="left",
+                full_width=FALSE, ...)       |>
+  scroll_box(height = height, width = width)
+}
+```
+
+# Kansas inactive rates based on voter files
+
+Historical data that precedes online SoS Dashboard Summary Files
+
+File from `C:\Data\Kansas\RawData\Voter-Election-Codes-2-Lookup-Voter-Name-Raw-Data\Names\Kansas`
+
+```{r}
+voterFiles <- 
+  read_xlsx("Kansas-Voters-Source-File-Summary-Edited.xlsx") |>
+  select(Source, InactivePercent = `%Inactive`)              |>
+  mutate(
+          Date = ymd(Source),
+          InactivePercent = 100 * InactivePercent
+        )
+
+glimpse(voterFiles)
+```
+
+```{r}
+c(min(voterFiles$Date), max(voterFiles$Date))
+```
+
+```{r}
+cycles <- seq( from = ymd("2005-01-01"), to = ymd("2027-01-01"), by = "2 years")
+cycles
+```
+
+```{r}
+cycleLabels <- seq( from = ymd("2008-01-01"), to = ymd("2026-01-01"), by = "2 years")
+cycleLabels
+```
+
+```{r}
+plotCaptionLeft  <- "Source: Kansas Secretary of State Voter Files [2006 - 2026]"
+plotCaptionRight <- paste("efg ", format(Sys.time(), "%Y-%m-%d"))
+stateColor   <- "royalblue"  
+```     
+
+```{r Kansas-Inactive-Voters-Historical, fig.width = 10, fig.height = 6}    
+ ggplot() +
+     geom_point(data = voterFiles,
+               aes(x = Date,
+                   y = InactivePercent),
+               color = stateColor, 
+               fill= stateColor,
+               size = 3,
+               shape = 25)                              +
+   scale_y_continuous(
+                       limits = c(4, 15),
+                       breaks = c( 0,  5, 10, 15, 20, 
+                                  25, 30, 35, 40),
+                       labels = c( "0%",  "5%", "10%", "15%", "20%", 
+                                   "25%", "30%", "35%", "40%")  
+                     )                                  +
+   
+  geom_vline(xintercept = cycles,
+              color     = "black",
+              linewidth = 1,
+              linetype  = "solid"
+             )                                          +
+  
+  annotate("text", x = cycleLabels,
+                   y = Inf, 
+                   label = paste0(str_sub(cycleLabels, 1, 4), "\nCycle"),
+            color = "black", hjust = 0.5, 
+            vjust = 1, size = 4)                        +
+  
+  scale_x_date(limits = c(ymd("2006-05-01"), ymd("2026-06-01")),
+                 date_breaks = "1 year",
+                 date_labels = "%Y",
+                 expand = c(0,0))                       +
+  labs(title    = "Percent Inactive Voters in Kansas over Twenty Years (May 2006 - May 2026)",
+       subtitle = "Based on Kansas voter files",
+       x = "Date",
+       y = "Inactive Voters [%]",
+       caption = c(plotCaptionLeft, plotCaptionRight))  +
+ theme(plot.title         = element_text(size = 14, color = stateColor, face = "bold"),
+         plot.subtitle      = element_text(size = 14, color = "grey"),
+         axis.ticks.x       = element_line(),
+         panel.grid.minor.x = element_blank(),
+         panel.grid.major.x = element_line(linewidth = 0.5, color = "grey"),
+        # panel.grid.minor.y = element_blank(),
+         panel.grid.major.y = element_line(linewidth = 0.5, color = "grey"))        
+```
+
+# Epilog {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Session Info
+
+```{r devtoolsSessionInfo}
+devtools::session_info()
+```
+
+</div>
+
+```{r epilogDeltaTime, echo=FALSE}
+time.2 <- Sys.time()
+processingTime <- paste("Processing time:", sprintf("%.1f",
+                        as.numeric(difftime(time.2,
+                                            time.1, units="secs"))), "secs\n")
+```
+
+`r processingTime`
+`r format(time.2, "%Y-%m-%d %H%M")`
+

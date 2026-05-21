@@ -1,0 +1,250 @@
+---
+title: "Combine County Summaries Across Voter Files"
+author: "Earl F Glynn<br><small>watchdoglab.substack.com/</small>"
+date: "<small>`r Sys.Date()`</small>"
+output:
+  html_document:
+    code_download: true
+    theme: cerulean
+    toc: yes
+    toc_depth:  3
+    toc_float:
+      collapsed:  yes
+      smooth_scroll: yes
+    number_sections: yes
+    code_folding:  show
+---
+
+```{r setup, echo = FALSE}
+# http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHtmlTemplate
+require(Hmisc)    # provides knitrSet and other functions
+knitrSet(lang = 'markdown',   # If using blogdown: knitrSet(lang='blogdown')
+         fig.align = 'left',
+         w = 6.5,
+         h = 4.5,
+         cache = FALSE)
+```
+
+`r hidingTOC(buttonLabel = "Outline")`
+
+```{r startYourEngines, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  comment = NA)
+
+time.1 <- Sys.time()
+```
+
+# Setup {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Constants
+
+```{r}
+EXCEL_LIMIT <- 2^20
+```
+
+## Packages
+
+```{r Packages}
+library(tidyverse)
+library(lubridate)
+```
+
+Display formatting
+
+```{r Display}
+library(kableExtra)  # kable_styling
+```
+
+I/O
+
+```{r IO}
+library(readxl)      # read_xlsx
+library(readr)       # write_csv
+library(writexl)     # write_xlsx
+```
+
+## Helper functions
+
+```{r Helpers}
+Show <- function(data, caption="", bigMark="",
+                 height = NULL, width = NULL, ...)
+{
+  data                                       |>
+  kable("html", caption=caption,
+        format.args=list(big.mark=bigMark))  |>
+  kable_styling(bootstrap_options=c("striped", "bordered", "condensed"),
+                position="left",
+                full_width=FALSE, ...)       |>
+  scroll_box(height = height, width = width)
+}
+```
+
+# List of summary files
+
+Voter files considered here are over the same time span as the online SoS dashboard files.
+
+Use these voter file summaries as supplementary data since many months of data are missing online.
+
+Sadly, deal with differences by file using brute force here.
+
+```{r Names}
+summaryFile <-
+  read_lines("File-List-First-Look-Voter-Files.txt") |>
+  word(1)
+
+summaryFile
+```
+
+```{r}
+length(summaryFile)
+```
+
+```{r}
+fileDate <- str_sub(summaryFile, 35, 44)
+fileDate
+```
+
+# Helper function
+
+A variety of formats
+
+```{r readFile}
+readFile <- function(index)
+{
+   Date <- ymd(fileDate[index])
+   cat(index, Date, "\n")
+
+  raw <-
+    read_xlsx(summaryFile[index]) |>
+    head(105)                       # Remove state summary in files 2023-02-13 and 2024-01-03
+
+  if ( ( Date >= ymd("2021-09-02") ) && ( Date <= ymd("2023-08-25") ) )
+  {
+    d <- raw |> select(County,
+                       Voters = Total, Active = A, Inactive = I,
+                       Democratic, Libertarian, Republican, Unaffiliated)
+  }
+
+  if (Date == ymd("2024-01-03"))
+  {
+    d <- raw |> select(County,
+                       Voters, Active, Inactive,
+                       Democratic, Libertarian, Republican, Unaffiliated = Unaffilated)
+  }
+
+  if  ( Date == ymd("2024-05-02") )
+  {
+    d <- raw |> select(County,
+                       Voters, Active, Inactive,
+                       Democratic, Libertarian, Republican, NoLabels, Unaffiliated = Unaffilated)
+  }
+
+  if  ( Date >= ymd("2024-06-24") )
+  {
+    d <- raw |> select(County,
+                       Voters, Active, Inactive,
+                       Democratic, Libertarian, Republican, NoLabels, UnitedKansas,
+                       Unaffiliated = Unaffilated)
+  }
+
+  # Create state totals as "KANSAS" County
+  d <-
+    bind_rows(
+               d,
+               tibble(
+                       County       = "KANSAS",
+                       Voters       = sum(d$Voters),
+                       Active       = sum(d$Active),
+                       Inactive     = sum(d$Inactive),
+                       Democratic   = sum(d$Democratic,   na.rm = TRUE),
+                       Republican   = sum(d$Republican,   na.rm = TRUE),
+                       Libertarian  = sum(d$Libertarian,  na.rm = TRUE),
+                       NoLabels     = sum(d$NoLabels,     na.rm = TRUE),
+                       UnitedKansas = sum(d$UnitedKansas, na.rm = TRUE),
+                       Unaffiliated = sum(d$Unaffiliated, na.rm = TRUE),
+                     )
+              )
+
+  # Compute additional values
+  d <-
+    d                                                       |>
+    mutate(
+            Date   = Date,
+     #       Active = Voters - Inactive,
+            InactivePercent = round(100* Inactive / Voters, 2)
+           )                                                |>
+    relocate(Date,            .after = "County")            |>
+    relocate(Active,          .after = "Voters")            |>
+    relocate(InactivePercent, .after = "Inactive")
+
+  return(d)
+}
+```
+
+# Read all files
+
+```{r}
+countySummary <-
+  1:length(fileDate) |>
+  purrr::map_dfr(readFile)
+
+glimpse(countySummary)
+```
+
+```{r}
+tail(countySummary, 3) |> Show()
+```
+
+```{r}
+countySummary |> filter(County == "Sumner")  |> Show(bigMark = ",")
+```
+
+```{r}
+countySummary |> filter(County == "Kansas")  |> Show(bigMark = ",")
+```
+
+```{r}
+countySummary <-
+  countySummary |>
+  rename(Name = County)  |>
+  mutate(
+          Geography = if_else(Name == "KANSAS", "State", "County")
+        )                |>
+  relocate(Geography, Name) |>
+  arrange(Geography, Name, Date)
+```
+
+```{r}
+write_xlsx(countySummary,
+           paste0("Kansas-Voter-Counts-",
+                  head(fileDate,1),
+                  "-thru-",
+                  tail(fileDate,1),
+                  ".xlsx"))
+```
+
+# Epilog {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Session Info
+
+```{r devtoolsSessionInfo}
+devtools::session_info()
+```
+
+</div>
+
+```{r epilogDeltaTime, echo=FALSE}
+time.2 <- Sys.time()
+processingTime <- paste("Processing time:", sprintf("%.1f",
+                        as.numeric(difftime(time.2,
+                                            time.1, units="secs"))), "secs\n")
+```
+
+`r processingTime`
+`r format(time.2, "%Y-%m-%d %H%M")`
+
