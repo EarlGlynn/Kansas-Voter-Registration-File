@@ -1,0 +1,193 @@
+---
+title: "Download Monthly County Inactive Lists from SoS"
+author: "Earl F Glynn<br><small>watchdoglab.substack.com/</small>"
+date: "<small>`r Sys.Date()`</small>"
+output:
+  html_document:
+    code_download: true
+    theme: cerulean
+    toc: yes
+    toc_depth:  3
+    toc_float:
+      collapsed:  yes
+      smooth_scroll: yes
+    number_sections: yes
+    code_folding:  show
+---
+
+```{r setup, echo = FALSE}
+# http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHtmlTemplate
+require(Hmisc)    # provides knitrSet and other functions
+knitrSet(lang = 'markdown',   # If using blogdown: knitrSet(lang='blogdown')
+         fig.align = 'left',
+         w = 6.5,
+         h = 4.5,
+         cache = FALSE)
+```
+
+`r hidingTOC(buttonLabel = "Outline")`
+
+```{r startYourEngines, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  comment = NA)
+
+time.1 <- Sys.time()
+```
+
+# Setup {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Constants
+
+```{r Constants}
+FILE_PREFIX   <- "x"    # no spaces
+```
+
+```{r}
+EXCEL_LIMIT <- 2^20
+```
+
+```{r}
+plotCaptionLeft  <- "IRS 527"
+plotCaptionRight <- paste("watchdoglab.substack.com", format(Sys.time(), "%Y-%m-%d"))
+```
+
+## Packages
+
+```{r Packages}
+library(tidyverse)
+library(lubridate)
+```
+
+Display formatting
+
+```{r Display}
+library(kableExtra)  # kable_styling
+#library(IRdisplay)   # display_html (needed in Jupyter notebooks)
+```
+
+I/O
+
+```{r IO}
+library(readxl)      # read_xlsx
+library(readr)       # write_csv
+library(writexl)     # write_xlsx
+```
+
+ Graphics
+
+```{r Graphics}
+library(scales)      # comma, comma_format
+```
+
+Utilities
+
+```{r Utilities}
+library(downloader)  # download
+library(tools)       # md5sum
+```
+
+## Helper functions
+
+```{r Helpers}
+Show <- function(data, caption="", bigMark="",
+                 height = NULL, width = NULL, ...)
+{
+  data                                       |>
+  kable("html", caption=caption,
+        format.args=list(big.mark=bigMark))  |>
+  kable_styling(bootstrap_options=c("striped", "bordered", "condensed"),
+                position="left",
+                full_width=FALSE, ...)       |>
+  scroll_box(height = height, width = width)
+}
+```
+
+# Kansas Voter Registration Statistics
+
+[Download from here](https://www.sos.ks.gov/elections/voter-registration-statistics.html)
+
+# Data Directory
+
+```{r StartHere}
+dirData <- "Data"
+if (!dir.exists(dirData))
+{
+  dir.create(dirData)
+}  
+```
+
+```{r}
+downloadMonths <- function(dataYear, months, dataDate = "01")
+{
+  baseURL <- paste0("https://www.sos.ks.gov/elections/vr-statistics/", dataYear, "/Inactive-Voters/")
+  
+  for (dataMonth in months)
+  {
+    monthLeading0 <- sprintf("%2.2d", dataMonth)
+    filename <- paste0(dataYear,          "-", 
+                       monthLeading0, "-",
+                       dataDate, "-Percentage-of-Inactive-Voters-by-County.xlsx")
+    
+    URL <- paste0(baseURL, filename)
+    download(URL, paste0(dirData, "/", filename), mode="wb", quiet=TRUE)
+    
+    cat(dataYear, monthLeading0, dataDate, "\n")
+  }
+  
+  invisible()
+}
+```
+
+Downloads by Year
+
+```{r}
+downloadMonths(2021, c(6:9, 11:12))
+```
+
+```{r}
+downloadMonths(2022, c(1, 8))
+downloadMonths(2022, 10, dataDate = "20")    # Only file not on the first of the month
+```
+
+```{r}
+downloadMonths(2023, 11:12)
+```
+
+```{r}
+downloadMonths(2024, c(1:4, 6))
+```
+
+```{r}
+downloadMonths(2025, c(1, 2, 4, 6, 7, 9:12))
+```
+
+```{r}
+downloadMonths(2026, 1:5)
+```
+
+
+# Epilog {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Session Info
+
+```{r devtoolsSessionInfo}
+devtools::session_info()
+```
+
+</div>
+
+```{r epilogDeltaTime, echo=FALSE}
+time.2 <- Sys.time()
+processingTime <- paste("Processing time:", sprintf("%.1f",
+                        as.numeric(difftime(time.2,
+                                            time.1, units="secs"))), "secs\n")
+```
+
+`r processingTime`
+`r format(time.2, "%Y-%m-%d %H%M")`
+

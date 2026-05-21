@@ -1,0 +1,701 @@
+---
+title: "Load and Plot Kansas Inactive Voter Percentages by County"
+author: "Earl F Glynn<br><small>watchdoglab.substack.com/</small>"
+date: "<small>`r Sys.Date()`</small>"
+output:
+  html_document:
+    code_download: true
+    theme: cerulean
+    toc: yes
+    toc_depth:  3
+    toc_float:
+      collapsed:  yes
+      smooth_scroll: yes
+    number_sections: yes
+    code_folding:  show
+---
+
+```{r setup, echo = FALSE}
+# http://biostat.mc.vanderbilt.edu/wiki/Main/KnitrHtmlTemplate
+require(Hmisc)    # provides knitrSet and other functions
+knitrSet(lang = 'markdown',   # If using blogdown: knitrSet(lang='blogdown')
+         fig.align = 'left',
+         w = 6.5,
+         h = 4.5,
+         cache = FALSE)
+```
+
+`r hidingTOC(buttonLabel = "Outline")`
+
+```{r startYourEngines, include=FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  comment = NA)
+
+time.1 <- Sys.time()
+```
+
+# Setup {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Constants
+
+```{r Constants}
+FILE_PREFIX   <- "x"    # no spaces
+```
+
+```{r}
+EXCEL_LIMIT <- 2^20
+```
+
+## Packages
+
+```{r Packages}
+library(tidyverse)
+library(lubridate)
+```
+
+Display formatting
+
+```{r Display}
+library(kableExtra)  # kable_styling
+#library(IRdisplay)   # display_html (needed in Jupyter notebooks)
+```
+
+I/O
+
+```{r IO}
+library(readxl)      # read_xlsx
+library(readr)       # write_csv
+library(writexl)     # write_xlsx
+```
+
+ Graphics
+
+```{r Graphics}
+library(RColorBrewer) # brewer.pal
+library(scales)       # comma, comma_format
+library(gplots)       # heatmap.2
+```
+
+Utilities
+
+```{r Utilities}
+library(downloader)  # download
+library(tools)       # md5sum
+```
+
+## ggplot theme
+
+[ggplot Themes Gallery](https://www.datanovia.com/en/blog/ggplot-themes-gallery/)
+
+```{r ggplotTheme}
+theme_set(theme_minimal() +
+
+          theme(axis.text             = element_text(size = 12),
+                axis.title            = element_text(size = 14),
+
+                legend.position       = "bottom",
+
+                plot.caption          = element_text(hjust = c(0.0,1.0),
+                                                     size = 10),
+                plot.caption.position = "plot",
+
+                plot.title.position   = "plot",
+
+                strip.background      = element_rect(fill = "aliceblue"),
+                strip.text            = element_text(size = 14),
+
+                title                 = element_text(size = 14)))
+
+COLOR_BAR     <- "skyblue"
+COLOR_OUTLINE <- "grey80"
+```
+
+## Helper functions
+
+```{r Helpers}
+Show <- function(data, caption="", bigMark="",
+                 height = NULL, width = NULL, ...)
+{
+  data                                       |>
+  kable("html", caption=caption,
+        format.args=list(big.mark=bigMark))  |>
+  kable_styling(bootstrap_options=c("striped", "bordered", "condensed"),
+                position="left",
+                full_width=FALSE, ...)       |>
+  scroll_box(height = height, width = width)
+}
+```
+
+# Voter file summaries
+
+```{r}
+voterFileSummary <- 
+  read_xlsx("../Stats-from-Voter-Files/Kansas-Voter-Counts-2021-09-02-thru-2026-05-04.xlsx") |>
+  select(Geography, Name, Date, InactivePercent) |>
+  mutate(Date = ymd(Date))
+
+glimpse(voterFileSummary)
+```
+
+```{r}
+c(min(voterFileSummary$Date), max(voterFileSummary$Date))
+```
+
+# SoS Summary File Background
+
+Assumes completion of `1-Download-Monthly-County-Inactive-Lists.html` to download files.
+
+From KS SoS Voter Registration Statistics Dashboard
+https://www.sos.ks.gov/elections/voter-registration-statistics.html
+
+Inspection of files across months and years shows inconsistencies among files.
+
+# List of SoS files
+
+```{r}
+file <- 
+  tibble(
+          Filename = 
+            list.files( 
+                        path = "Data",
+                        pattern = glob2rx("*-Percentage-of-Inactive-Voters-by-County.xlsx")
+                      )
+        ) |>
+  mutate(
+          Date   = ymd(str_sub(Filename, 1, 10)),
+          Rows   = NA_integer_,
+          Cols   = NA_integer_,
+          header = NA_character_,
+          types  = NA_character_
+        )
+ 
+dim(file)
+```
+
+# First Look
+
+How many rows and columns
+
+```{r}
+for (i in 1:nrow(file))
+{
+  cat(i, as.character(file$Date[i]), "\n")
+  set <- read_xlsx(paste0("Data/", file$Filename[i])) 
+  file$Rows[i]   <- nrow(set)
+  file$Cols[i]   <- ncol(set)
+  file$header[i] <- str_flatten(names(set), collapse = "|")
+  file$types     <- str_flatten(sapply(set, typeof), collapse = "|")
+}
+```
+Introuction of new name "...1" caused by missing County name in "Old" format files
+
+```{r}
+file |> Show()
+```
+
+# Deal with variety of formats
+
+Arbitrary changes made over time to the same data.
+
+Introduce consistency among the files. Standardize on names used starting in March 2026.
+
+The number of Rows and Cols identifies file format.
+
+```{r}
+readSoSFile <- function(index, file, DataPath = "Data/")
+{
+  Filename <- paste0(DataPath, file$Filename[index])
+  DataDate <- file$Date[index]
+  
+  cat(index, as.character(DataDate), "\n")
+ 
+  set <- read_xlsx(Filename)    
+  
+  # "Old" format:  2021-06-01 through 2025-12-01
+  if ( (nrow(set) == 108) && (ncol(set) == 4) )
+  {
+    # Assign "standard" names
+    names(set) <- c("County", "Total", "Inactive", "InactivePercent")
+    
+    set$County[nrow(set)] <- "KANSAS"    # label for stat row is missing in original
+  }
+  
+  # "New" format 1:  2026-01-01 only known case
+  if ( (nrow(set) == 107) && (ncol(set) == 5) )
+  {
+    # Assign "standard" names
+    names(set) <- c("Date", "County", "Total", "Inactive", "InactivePercent")
+    
+    set <- set |> select(-Date)  # Remove since file datestamp added below for all
+    
+    set$County[nrow(set)] <- "KANSAS"    # label for stat row is missing in original
+  }
+  
+  # "New" format 2:  2026-02-01 only known case
+  if ( (nrow(set) == 106) && (ncol(set) == 6) )
+  {
+    # Assign "standard" names
+    names(set) <- c("Date", "County", "Active", "Inactive", "Total", "InactivePercent")
+    set <- set |> select(-Date)  # Remove since file datestamp added below for all
+    set$County[nrow(set)] <- "KANSAS"    # Replace "Grand Total"
+  }
+  
+  # "New" format 3:  2026-03-01 and later
+  if ( (nrow(set) == 106) && (ncol(set) == 5) )
+  {
+    # Assign "standard" names
+    names(set) <- c("County", "Active", "Inactive", "Total", "InactivePercent")
+    set$County[nrow(set)] <- "KANSAS"    # Replace "Grand Total"
+    
+    # This is needed for 2026-05-01 data; unclear why character numbers in that file
+    set <- 
+      set |>
+      mutate(
+              Active   = as.numeric(Active),
+              Inactive = as.numeric(Inactive)
+            )
+    
+  }
+  
+  # Add DataDate to this batch
+  set <-
+    set                     |>
+    filter(!is.na(County))  |>  # get rid of blank lines
+    mutate(Date = DataDate) |>
+    relocate(Date)
+  
+  set$County[nrow(set)] <- "KANSAS"    # label for stat row is missing in "old";
+                                       # "Grand Total" in "new"
+ 
+  invisible(set) 
+}
+```
+
+# Explore 
+
+```{r}
+index <- nrow(file)
+index <- 29
+Filename <- paste0("Data/", file$Filename[index])
+DataDate <- file$Date[index]
+c(Filename, as.character(DataDate))
+```
+
+```{r}
+inactive <- readSoSFile(index, file)
+```
+
+```{r}
+glimpse(inactive)
+```
+
+```{r}
+inactive |> head() |> Show()
+```
+
+```{r}
+inactive |> tail() |> Show()
+```
+
+# Long format
+
+## Combine all files
+
+Long Format shows all data in original files 
+
+```{r}
+KansasInactive <- 
+  1:nrow(file)                      |>
+  purrr::map_dfr(readSoSFile, file) |>
+  arrange(County, Date)             |>
+  mutate(InactivePercent = 100 * InactivePercent)  |>
+  select(Date, County, Total, Active, Inactive, InactivePercent)
+
+dim(KansasInactive)
+```
+
+Change "County" to "Name" and add Geography column with values County or State
+
+```{r}
+KansasInactive <-
+  KansasInactive         |>
+  rename(Name = County)  |>
+  mutate(
+          Geography = if_else(Name == "KANSAS", "State", "County")
+        )                |>
+  relocate(Geography, Name) |>
+  arrange(Geography, Name, Date)
+```
+
+```{r}
+glimpse(KansasInactive)
+```
+
+```{r}
+write_xlsx(KansasInactive, "Kansas-SoS-Inactive-Voter-Rate-Long-Format.xlsx")
+```
+
+```{r}
+c(min(KansasInactive$Date), max(KansasInactive$Date))
+```
+
+
+Make sure all counties and state data present in all files
+
+```{r}
+table(KansasInactive$Name)
+```
+
+## High inactive rates 
+
+```{r}
+fivenum(KansasInactive$InactivePercent)
+```
+
+```{r}
+boxplot(KansasInactive$InactivePercent)
+```
+
+
+```{r}
+KansasInactive |>
+  filter(InactivePercent > 20) |>
+  Show()
+```
+
+# Wide format
+
+Wide format will show only `InactivePercent`.  (Could make wide format for other quantities if needed.)
+
+Wide format can be used for heatmap analysis showing which counties have similar patterns, and to create sparklines for all counties in Excel.
+
+```{r}
+KansasInactiveWide <-
+  KansasInactive |>
+  select(Geography, Name, Date, Date, InactivePercent) |>
+  pivot_wider(names_from  = Date,
+              values_from = InactivePercent)
+
+dim(KansasInactiveWide)
+```
+
+```{r}
+write_xlsx(KansasInactiveWide, "Kansas-SoS-Inactive-Voter-Rate-Wide-Format.xlsx")
+```
+
+## Heatmap
+
+```{r}
+inactiveMatrix <- 
+  KansasInactiveWide        |>
+  select(-Geography, -Name) |>
+  as.matrix()
+
+dim(inactiveMatrix)
+```
+
+```{r}
+dimnames(inactiveMatrix) <-
+  list(
+         KansasInactiveWide$Name,
+         names(KansasInactiveWide)[c(-1, -2)] |> str_sub(3, 7)
+      )
+```
+
+```{r}
+inactiveMatrix[1:5, 1:5]
+```
+
+```{r}
+colorBreaks <- c(0, 2, 4, 6, 8, 10, 12, 14, 16, 20, 30, 40, 50, 64) 
+colorBreaks
+```
+
+
+```{r}
+colorPalette <-
+  c(
+     colorRampPalette(c("red",   "white"))(6)[1:5],    # skip last
+     colorRampPalette(c("white", "skyblue"))(7)[2:5],  # skip first
+     "grey80", "grey64", "grey32", "grey0"
+   )                                        
+
+colorPalette
+```
+
+
+```{r}
+# layout matrix 1 = heatmap, 2 = row dendrogram, 3 = column dendrogram, 4 = key
+# 0 = leaves space
+lmat <- rbind( c(0, 3, 3),  # layout matrix
+               c(2, 1, 1),
+               c(0, 0, 4))
+
+# Layout relative widths
+lwid <- c(1, 4, 6)    # entry for each column in layout matrix 3-4-4
+                      
+# Layout relative heights
+# relative height of the rows. must have length = nrow(lmat)
+lhei <- c(0.15, 5, 0.3)    # entry for each row in layout matrix
+```
+
+```{r Inactive-Heatmap, fig.width = 16, fig.height = 20}
+oldPar <- par(mar = c(5, 0, 2, 0))
+
+heatmap.2(
+           inactiveMatrix,
+           scale      = "none",
+           dendrogram = "row",
+           Colv       = NA,         # suppress reordering of columns
+
+           trace  = "none",         # turns off trace lines inside the heat map
+           col    = colorPalette,
+           breaks = colorBreaks,
+
+           margins = c(4, 10),      # column and row names
+
+           cexRow = 1.50,
+           cexCol = 1.75,
+
+           key.title = NA,           # suppress title
+           key.xlab  = "Kansas Inactive Voter Percentage, June 2021 - May 2026 ", ,
+           keysize   = 3,
+           density.info = "none",    # turns off density plot inside color legend
+
+           lmat = lmat, lwid = lwid, lhei = lhei
+         )
+
+title(main     = "Inactive Voter Percentage",
+      cex.main = 3,
+      sub      = "Voter File Date (yy-mm)",
+      cex.sub  = 1.5)
+
+par(oldPar)
+```
+
+# Separate State and County Plots
+
+```{r}
+stateStats   <- KansasInactive   |> filter(Geography == "State")  
+stateVoters  <- voterFileSummary |> filter(Geography == "State")
+stateColor   <- "royalblue"
+
+c(min(stateStats$InactivePercent),  max(stateStats$InactivePercent))
+c(min(stateVoters$InactivePercent), max(stateVoters$InactivePercent))
+```
+
+```{r}
+stateStats |> 
+  filter(
+          InactivePercent == min(stateStats$InactivePercent) 
+        )  |>
+  Show()
+```
+
+```{r}
+stateVoters |> 
+  filter(
+          InactivePercent == max(stateVoters$InactivePercent) 
+        )  |>
+  Show()
+```
+
+
+```{r}
+plotCaptionLeft  <- "Source: Kansas Secretary of State Online Voter Registration Statistics Dashboard (circles); Voter Files (triangles)"
+plotCaptionRight <- paste("efg ", format(Sys.time(), "%Y-%m-%d"))
+```     
+
+```{r}
+countyStats  <- KansasInactive   |> filter(Geography == "County")  
+countyVoters <- voterFileSummary |> filter(Geography == "County")
+countyColor  <- "grey"
+```
+
+```{r KansasWithCountyLines, fig.width = 10, fig.height = 6}       
+allCountiesPlot <-
+  ggplot() +
+    geom_line(data = countyStats,
+              aes(x = Date,
+                  y = InactivePercent,
+                  group = Name),
+              color = countyColor,
+              linewidth = 1      )           +
+  
+#    geom_line(data = stateStats,
+#              aes(x = Date,
+#                  y = InactivePercent),
+#              color = stateColor,
+#              linewidth = 1)                 +
+  
+    geom_point(data = stateStats,
+               aes(x = Date,
+                   y = InactivePercent),
+               color = stateColor,
+               size = 3)                     +
+
+    geom_point(data = stateVoters,
+               aes(x = Date,
+                   y = InactivePercent),
+               color = stateColor, 
+               fill= stateColor,
+               size = 3,
+               shape = 25)                   +
+    
+   scale_y_continuous(
+                       limits = c(0, 25),
+                       breaks = c( 0,  5, 10, 15, 20, 
+                                  25, 30, 35, 40),
+                       labels = c( "0%",  "5%", "10%", "15%", "20%", 
+                                   "25%", "30%", "35%", "40%")  
+                     )                                             +
+  
+   geom_vline(xintercept = c(
+                              ymd("2023-01-01"),
+                              ymd("2025-01-01")
+                            ),
+              color     = "black",
+              linewidth = 1,
+              linetype  = "solid"
+             )                                                     +
+  
+   annotate("text", x = c(
+                           -Inf, 
+                           ymd("2024-01-01"),
+                           Inf
+                         ),
+                    y = Inf, 
+                    label = c(
+                               "2021-2022 Election Cycle",
+                               "2023-2024 Election Cycle",
+                               "2025-2026 Election Cycle"
+                             ),
+            color = "black", hjust = c(0.0, 0.5, 1.0), 
+            vjust = 1, size = 4)                                   +
+
+   scale_x_date(limits = c(ymd("2021-04-20"), ymd("2026-05-10")),
+                 date_breaks       = "3 months",
+                 date_minor_breaks = "1 month",
+                 date_labels = "%Y\n%b",
+                 expand = c(0,0))                                  +
+    
+   labs(title    = "Percent Inactive Voters in Kansas (July 2021 - May 2026)",
+        subtitle = "Grey lines show inactive voter rate profiles for each of the 105 Kansas counties",
+        x = "Date",
+        y = "Inactive Voters [%]",
+        caption = c(plotCaptionLeft, plotCaptionRight))  +
+   theme(plot.title         = element_text(size = 14, color = stateColor, face = "bold"),
+         plot.subtitle      = element_text(size = 14, color = "grey"),
+         axis.ticks.x       = element_line(),
+         panel.grid.major.x = element_line(linewidth = 0.5, color = "grey"),
+         panel.grid.minor.y = element_blank(),
+         panel.grid.major.y = element_line(linewidth = 0.5, color = "grey"))        
+
+print(allCountiesPlot)
+```
+
+# State only inactive rate based on voter files
+
+```{r}
+voterFiles <- 
+  read_xlsx("Kansas-Voters-Source-File-Summary-Edited.xlsx") |>
+  select(Source, InactivePercent = `%Inactive`)              |>
+  mutate(
+          Date = ymd(Source),
+          InactivePercent = 100 * InactivePercent
+        )
+
+glimpse(voterFiles)
+```
+
+```{r}
+c(min(voterFiles$Date), max(voterFiles$Date))
+```
+
+```{r}
+cycles <- seq( from = ymd("2005-01-01"), to = ymd("2027-01-01"), by = "2 years")
+cycles
+```
+
+```{r}
+cycleLabels <- seq( from = ymd("2008-01-01"), to = ymd("2026-01-01"), by = "2 years")
+cycleLabels
+```
+
+
+```{r}
+plotCaptionLeft  <- "Source: Kansas Secretary of State Voter Files [2006 - 2026]"
+```     
+
+```{r KansasHistorical, fig.width = 10, fig.height = 6}    
+ ggplot() +
+     geom_point(data = voterFiles,
+               aes(x = Date,
+                   y = InactivePercent),
+               color = stateColor, 
+               fill= stateColor,
+               size = 3,
+               shape = 25)                              +
+   scale_y_continuous(
+                       limits = c(4, 15),
+                       breaks = c( 0,  5, 10, 15, 20, 
+                                  25, 30, 35, 40),
+                       labels = c( "0%",  "5%", "10%", "15%", "20%", 
+                                   "25%", "30%", "35%", "40%")  
+                     )                                  +
+   
+  geom_vline(xintercept = cycles,
+              color     = "black",
+              linewidth = 1,
+              linetype  = "solid"
+             )                                          +
+  
+  annotate("text", x = cycleLabels,
+                   y = Inf, 
+                   label = paste0(str_sub(cycleLabels, 1, 4), "\nCycle"),
+            color = "black", hjust = 0.5, 
+            vjust = 1, size = 4)                        +
+  
+  scale_x_date(limits = c(ymd("2006-05-01"), ymd("2026-06-01")),
+                 date_breaks = "1 year",
+                 date_labels = "%Y",
+                 expand = c(0,0))                       +
+  labs(title    = "Percent Inactive Voters in Kansas over Twenty Years (May 2006 - May 2026)",
+       subtitle = "Based on Kansas voter files",
+       x = "Date",
+       y = "Inactive Voters [%]",
+       caption = c(plotCaptionLeft, plotCaptionRight))  +
+ theme(plot.title         = element_text(size = 14, color = stateColor, face = "bold"),
+         plot.subtitle      = element_text(size = 14, color = "grey"),
+         axis.ticks.x       = element_line(),
+         panel.grid.minor.x = element_blank(),
+         panel.grid.major.x = element_line(linewidth = 0.5, color = "grey"),
+        # panel.grid.minor.y = element_blank(),
+         panel.grid.major.y = element_line(linewidth = 0.5, color = "grey"))        
+```
+
+# Epilog {.tabset .tabset-fade .tabset-pills}
+
+## {.active}
+
+## Session Info
+
+```{r devtoolsSessionInfo}
+devtools::session_info()
+```
+
+</div>
+
+```{r epilogDeltaTime, echo=FALSE}
+time.2 <- Sys.time()
+processingTime <- paste("Processing time:", sprintf("%.1f",
+                        as.numeric(difftime(time.2,
+                                            time.1, units="secs"))), "secs\n")
+```
+
+`r processingTime`
+`r format(time.2, "%Y-%m-%d %H%M")`
+
